@@ -1,4 +1,4 @@
-![](img/media/image20.png)
+![](img/image20.png)
 ========================================================================
 
 **Primero CPIMS User Guide**
@@ -12,7 +12,7 @@ November 2015
 
 ***Prepared for:***
 
-![](img/media/image55.png) {#section-1}
+![](img/image55.png) {#section-1}
 ======================================================================================
 
 3 United Nations Plaza
@@ -23,7 +23,7 @@ New York, NY 10017
 
 > ***Prepared by:***
 
-![](img/media/image25.png){#section-1}
+![](img/image25.png){#section-1}
 ======================================================================================
 
 <span style="font-variant:small-caps;">Quoin</span>, Inc.
@@ -52,7 +52,7 @@ Logging into Primero and you’ll see a Username and Password boxes. Click
 in the Username box and type in your unique user name provided to you.
 Then enter your password in the field below.
 
-![](img/media/image64.png)
+![](img/image64.png)
 
 Navigating Primero
 ==================
@@ -66,7 +66,7 @@ Requests, and Reports. It also has a quick search field that can help
 you find a specific case quickly. Your current page will be highlighted.
 See below:
 
-![](img/media/image71.png)
+![](img/image71.png)
 
 Dashboard
 ---------
@@ -104,7 +104,7 @@ lists out cases by high, medium, and low assessment levels, and, once
 again, dividing these between total and “new.” The final section gives
 the total number of referrals along with new referrals.
 
-![](img/media/image72.png)
+![](img/image72.png)
 
 #### Manager Dashboard
 
@@ -120,7 +120,7 @@ if you see the Manager Dashboard, you will not see the standard Cases
 Dashboard. A single user can only have one of the case dashboards
 display on their Dashboard Page.
 
-![](img/media/image73.png)
+![](img/image73.png)
 
 Once again, flagged cases will be on the right hand side of the screen
 if you have the Manager Dashboard. However, this time, there will be
@@ -148,7 +148,7 @@ Flags are, once again, on the right. Like the Manager Dashboard, and for
 similar reasons, the Admin Dashboard only lists those cases which you
 have flagged.
 
-![](img/media/image58.png)
+![](img/image58.png)
 
 ### Flagged Case Lists
 
@@ -163,7 +163,7 @@ and Admin Dashboards. (Since managers often do not even have the ability
 to make cases, it makes no sense for them to have a list of flagged
 cases which they own.)
 
-![](img/media/image22.png)
+![](img/image22.png)
 
 ### GBV Incident Dashboard
 
@@ -176,7 +176,7 @@ page, and each incident will feature an icon indicating the number of
 flags it has, provided it has at least one. To the right of the GBV
 Incident Dashboard will be a list of incidents flagged by the user.
 
-![](img/media/image48.png)
+![](img/image48.png)
 
 List View
 ---------
@@ -186,7 +186,7 @@ navigation, you can see all cases or tracing requests that belong to you
 when you click on CASES. Once there, you see a list of the possible
 matching records, that you are able to filter and/or sort. See below:
 
-![](img/media/image53.png)
+![](img/image53.png)
 
 Edit and View a record
 ----------------------
@@ -226,7 +226,7 @@ your permissions, are:
 
 -   Un-mark for mobile
 
-![](img/media/image67.png)
+![](img/image67.png)
 
 This bar, along with the Header Navigation bar, are part of what is
 called the **Anchored Header**, meaning, they never leave the screen
@@ -254,7 +254,7 @@ date range.
 The Filter panel is on visible on search results page or when you click
 **CASES** tab in the header. See below:
 
-![](img/media/image63.png)
+![](img/image63.png)
 
 In the image, there is the normal checkbox filter selection, in which
 you click using your mouse, but also date range and drop down fields.
@@ -297,18 +297,18 @@ XLS, CSV, etc.
   UNHCR        CSV file specifically formatted to be compatible with UNHCR’s data import.                                                   All fields to which the user’s role has access.
   Custom       Excel file containing all the fields specified by the user. Can be imported back into Primero.                               All fields specified by the user, to which the user’s role has access.
 
-![](img/media/image57.png)
+![](img/image57.png)
 
 Once you’ve selected your format, the export modal window will appear,
 allowing you to set your own password for the file, and name the file
 accordingly.
 
-![](img/media/image52.png)
+![](img/image52.png)
 
 To export a list of cases, while in the case list view, you can select
 as many as you’d like to export via the check boxes:
 
-![](img/media/image60.png){width="1.0520833333333333in" height="1.75in"}
+![](img/image60.png){width="1.0520833333333333in" height="1.75in"}
 
 To export all cases, you can leave all unchecked and it will export all
 cases you have access to.
@@ -324,7 +324,7 @@ When creating a new case, the process is fairly simple. In the Actions
 Buttons area of the header there is a “New Case” button that will open
 up the forms to enter information. See the “New Case”button below:
 
-![](img/media/image69.png)
+![](img/image69.png)
 
 Once in the forms, you can navigate to different forms as we describe in
 the “Navigating Primero Forms”section
@@ -338,7 +338,7 @@ your forms. The initial titles you see are called **Form Groups** and
 are set up by your site administrator. The current form you are on will
 be highlighted - see below:
 
-![](img/media/image44.png)
+![](img/image44.png)
 
 If a Form Group has only one form, you can simply click on it and it
 will populate the form. If it has more than one, you can click on the
@@ -439,14 +439,14 @@ To transfer a record from either the individual record page or the list
 view, use the ACTIONS button in the Action Header to initiate the drop
 down of options. Within the options, select “Transfer Case.”
 
-![](img/media/image21.png)
+![](img/image21.png)
 
 The following modal form will appear and allow you to select options for
 your transfer. Consent of the individual (or a consent override) is
 generally needed for transfers, although not for those which take place
 within the same Primero instance.
 
-![](img/media/image46.png)
+![](img/image46.png)
 
 If you are transferring within your Primero instance, select the
 “Existing User”--a user within your deployment of Primero. If the
@@ -458,7 +458,7 @@ you transferring to a remote system?” tickbox, and more options will
 appear for this “remote” transfer. A remote transfer creates a transfer
 export that is password protected to be shared outside the system.
 
-![](img/media/image43.png)
+![](img/image43.png)
 
 If you are transferring to a user outside your system who is using
 another Primero instance, you simply select “Primero” in the drop down
@@ -489,13 +489,13 @@ To refer a record from either the individual record page or the list
 view, use the ACTIONS button in the Action Header to initiate the drop
 down of options. Within the options, select “Refer Case.”
 
-![](img/media/image56.png)
+![](img/image56.png)
 
 The following modal form will appear and allow you to select options for
 your referral. As with transfers, consent (or a consent override) of the
 individual is generally required for a referral.
 
-![](img/media/image50.png)
+![](img/image50.png)
 
 If you are making a referral within your Primero instance, select the
 “Existing User”--a user within your deployment of Primero. If the
@@ -508,7 +508,7 @@ If you are not making a referral within the Primero instance, check the
 appear for this “remote” referral. A remote referral creates a referral
 export that is password protected to be shared outside the system.
 
-![](img/media/image68.png)
+![](img/image68.png)
 
 If you are making a referral to a user outside your system who is using
 another Primero instance, you simply select “Primero” in the drop down
@@ -535,7 +535,7 @@ You will see that there are already a number of pre-built reports which
 you can view at any time. To start your own, click the **Create Report**
 button at the top of the screen.
 
-![](img/media/image23.png)
+![](img/image23.png)
 
 When you have reached the new report form, be sure to enter a name and
 description for your report. You must then specify the module from which
@@ -543,7 +543,7 @@ to draw the records for your report, as well as the type of records you
 want to be drawing upon. Here, we have chosen the Child Protection
 module, and the Case record type.
 
-![](img/media/image54.png)
+![](img/image54.png)
 
 Next comes choosing the row and column attributes by which you want your
 data to be grouped. The first item you choose in each field will be the
@@ -554,11 +554,11 @@ sub-divided by permanent district/chiefdom, since these are the first
 and second “Group by column” attributes, respectively. We can see that
 the rows of the report follow the same pattern.
 
-![](img/media/image59.png)
+![](img/image59.png)
 
-![](img/media/image65.png)
+![](img/image65.png)
 
-![](img/media/image51.png)
+![](img/image51.png)
 
 The columns of your report will be augmented by a final “Total” column,
 which shows the aggregate for each row. It is important to note that the
@@ -569,7 +569,7 @@ the “child has been abandoned” protection concern were never assigned a
 sex, resulting in a report with one female, no males, and four total
 cases.
 
-![](img/media/image24.png)
+![](img/image24.png)
 
 Furthermore, any reports based on fields within certain nested forms
 will automatically count a field for each saved record, even if a nested
@@ -591,7 +591,7 @@ poverty.” But the total number of protection concerns for this district
 is three, meaning that one case was registered with a protection concern
 form where the protection concern type was never filled in.
 
-![](img/media/image61.png)
+![](img/image61.png)
 
 After you have defined the row and column attributes for your report,
 you will choose the fields from which you will receive an aggregate
@@ -603,7 +603,7 @@ whose family has three children, one born in 2001 whose family has six
 children, and another born in 2001 whose family also has six children.
 Here is what the report would normally look like:
 
-![](img/media/image49.png)
+![](img/image49.png)
 
 As you can see, the 2001 column has the number “2” in the “7” row, since
 there are two cases born in 2001 whose families have seven children. We
@@ -611,7 +611,7 @@ see this same number in the “Total” column for the “7” row for the same
 reasons. If we choose to have aggregate counts on the “Number of
 children” field, however, the report would look like this:
 
-![](img/media/image06.png)
+![](img/image06.png)
 
 Now, instead of seeing that there are two cases that meet the criteria
 for being born in 2001 and having a family with seven children, we
@@ -626,11 +626,11 @@ images below exemplify the usefulness of this feature. The first shows
 part of a sprawling report without age ranges enabled. The second shows
 the same report with age ranges.
 
-![](img/media/image62.png)
+![](img/image62.png)
 
-![](img/media/image45.png)
+![](img/image45.png)
 
-![](img/media/image66.png)
+![](img/image66.png)
 
 ### Date Ranges
 
@@ -664,10 +664,10 @@ The second, which will only appear if you specified that your report
 should generate a graph, will be marked “Graph” and will show you just
 that.
 
-![](img/media/image70.png)
+![](img/image70.png)
 
 You can also use the **Export** button above the tabs to export either
 the data (in CSV form) or the graph (as a .png image file). Below is an
 example of a graph generated and then exported from a report.
 
-![](img/media/image47.png)
+![](img/image47.png)
