@@ -1,4 +1,4 @@
-sIntroduction
+Introduction
 ============
 
 The CPIMS+ Module is a data entry, reporting, and case management tool
