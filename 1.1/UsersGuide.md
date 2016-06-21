@@ -1,13 +1,65 @@
 Introduction
 ============
 
-The CPIMS+ Module is a data entry, reporting, and case management tool
-to help you assess and react to information on child protection issues
-and concerns. There is a standard set of forms set forth by the Steering
-Committee(s) that we recommend using, however your Site Administrator
-may have configured these forms specific to your location and needs. For
-any questions about the forms and information you have or need, please
-reach out to your Site Administrator.
+
+![](img/intro1.png)
+The *Information Management and Innovation to Protect Children in Emergencies* project has developed a
+software application that will help partners securely collect, store,
+manage, and share data for protection-related incident monitoring and
+case management. The new platform is called *Primero*
+(Protection-related Information Management). 
+*Primero* supports multiple modules, including the “next generation” of the field-tested,
+inter-agency CPIMS and GBVIMS systems, which are currently in
+use in 20+ countries. These new iterations, called the CPIMS+ and
+GBVIMS+, along with the newly developed MRMIMS+, can operate
+separately or be deployed as integrated modules on the *Primero*
+platform. The inter-agency Steering Committees that govern the use of
+each of these modules will continue to support the new system.
+
+![](img/intro2.png)*Primero* is flexible and adaptable to
+accommodate a broad range of protection concerns including GBV,
+unaccompanied and separated children, and monitoring grave violations
+of children’s rights in situations of armed conflict. To meet
+operational challenges, the application was designed to function both
+on- and off-line, with limited or no connectivity, and in multiple
+deployment configurations. A strong emphasis has been placed on
+security and confidentiality, with intuitive workflows designed to
+simplify processes while promoting good practice. Role-based access
+and granular security ensures that only those who need to see data
+will have access to it. All system transactions are time stamped,
+password protected and encrypted. *Primero* has a user-friendly
+interface and intuitive tools, facilitating the work of field
+personnel while decreasing security risks and duplication. The
+application can leverage mobile data gathering tools such as RapidFTR
+on smart phones and tablets. In order to optimize results, *Primero*
+was designed to be able to exchange data internally between modules,
+as well as externally with other IM systems. In addition to imports
+and exports, Primero has a highly secure application program interface
+(JSON API).
+
+*Primero* functions as a distributed database, meaning that
+implementing partners can retain ownership of data while contributing
+and sharing information on shared programmes. In child protection
+interventions, referrals and case transfers are critical to effective
+service provision. Sharing sensitive information is a part of good
+programming. Data exchanges between organizations should be governed
+by endorsed information sharing protocols adapted to local contexts.
+*Primero* design is based on the “need to know” principle; it does not
+impose data sharing, but facilitates the process when consent is
+provided, and when it is deemed appropriate and safe by partners.
+
+![](img/intro44.png)Good information management practice
+emphasizes the importance of making data actionable. *Primero* has
+built-in customizable reports that can facilitate periodic reporting
+processes, and be used to analyze data for programmatic insights. A
+document and photo repository allows end users to organize relevant
+resources in one convenient place
+
+> _A note for end users. Although there are a standard set of forms set forth by the Steering
+>  Committee(s) that we recommend using, your Site Administrator
+>  may have configured these forms specific to your location and needs. For
+>  any questions about the forms and information you have or need, please
+>  reach out to this person_
 
 Logging In
 ----------
@@ -44,13 +96,13 @@ whose role has access to cases will see one of the three cases
 dashboards, and any user whose role has access to incidents through the
 GBV module will see the GBV Incident Dashboard.
 
-Note that there are a few scenarios in which the user will not see any
+_Note that there are a few scenarios in which the user will not see any
 dashboards: first, if a user is assigned to a module that has access to
 neither cases nor incidents; or second, if a user is assigned to a
 module that has access to incidents, but which is not part of the GBV
 module. Since both of these scenarios involve the use of modules which
 are not in the seed data, administrators should take note of this
-possibility when they are creating their own modules.
+possibility when they are creating their own modules._
 
 ### Case Dashboards
 
@@ -251,16 +303,15 @@ of ways. This action can be found in the **ACTIONS** header button which
 will display a drop down to select what format you want to export - PDF,
 XLS, CSV, etc.
 
-  **Format**   **Description**                                                                                                              **Fields Included**
-  ------------ ---------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------
-  CSV          Stands for “Comma-Separated Values.” Readable in excel, and can be imported back into any Primero instance.                  All fields to which the user’s role has access.
-  Excel        Exports to a standard .xls file, which can be re-imported back into Primero.                                                 All fields to which the user’s role has access.
-  JSON         Easiest format to be read by Primero, and the preferred format for importing.                                                All fields to which the user’s role has access.
-  Photo Wall   Exports a PDF file with the photo of each selected case along with the case’s ID. Cannot be re-imported into Primero.        Photo, ID.
-  PDF          PDF file containing a profile on each case, including the fields from the forms specified by the user. Cannot be imported.   All fields specified by the user, to which the user’s role has access.
-  UNHCR        CSV file specifically formatted to be compatible with UNHCR’s data import.                                                   All fields to which the user’s role has access.
-  Custom       Excel file containing all the fields specified by the user. Can be imported back into Primero.                               All fields specified by the user, to which the user’s role has access.
-
+| **Format**     | **Description**                                                                                                                | **Fields Included**                                                        |
+|------------|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|     CSV    | Stands for “Comma-Separated Values.” Readable in excel, and can be imported back into any Primero instance.                | All fields to which the user’s role has access.                        |
+|    Excel   | Exports to a standard .xls file, which can be re-imported back into Primero.                                               | All fields to which the user’s role has access.                        |
+|    JSON    | Easiest format to be read by Primero, and the preferred format for importing.                                              | All fields to which the user’s role has access.                        |
+| Photo Wall | Exports a PDF file with the photo of each selected case along with the case’s ID. Cannot be re-imported into Primero.      | Photo, ID.                                                             |
+|     PDF    | PDF file containing a profile on each case, including the fields from the forms specified by the user. Cannot be imported. | All fields specified by the user, to which the user’s role has access. |
+|    UNHCR   | CSV file specifically formatted to be compatible with UNHCR’s data import.                                                 | All fields to which the user’s role has access.                        |
+|   Custom   | Excel file containing all the fields specified by the user. Can be imported back into Primero.                             | All fields specified by the user, to which the user’s role has access. |
 ![](img/image57.png)
 
 Once you’ve selected your format, the export modal window will appear,
@@ -272,7 +323,7 @@ accordingly.
 To export a list of cases, while in the case list view, you can select
 as many as you’d like to export via the check boxes:
 
-![](img/image60.png){width="1.0520833333333333in" height="1.75in"}
+![](img/image60.png)
 
 To export all cases, you can leave all unchecked and it will export all
 cases you have access to.
@@ -335,36 +386,27 @@ differently.
 
 -   **Text** - Type normally using your keypad or keyboard.
 
--   **Text Area** - Similar to the Text field. Type normally, the field
-    > expands for more information as you continue to enter information.
+-   **Text Area** - Similar to the Text field. Type normally, the field expands for more information as you continue to enter information.
 
 -   **Date** - Multiple ways to edit
 
     -   You can type in a numerical date in the format of dd-mm-yyyy
 
-    -   You can type in the first three letters of the month in the
-        > format of 01-Jan-2014
+    -   You can type in the first three letters of the month in the format of 01-Jan-2014
 
-    -   You can use the calendar widget to go to the correct day and
-        > select it directly
+    -   You can use the calendar widget to go to the correct day and select it directly
 
--   **Check Boxes** - You may click one or many of the options using
-    > the mouse.
+-   **Check Boxes** - You may click one or many of the options using the mouse.
 
 -   **Tick Box** - You may click on the box using the mouse.
 
--   **Select Drop Down** - Click any option to select it.**Multi-Select
-    > Drop Down** - Begin typing and either hit ‘enter’ or click to
-    > select multiple options.
+-   **Select Drop Down** - Click any option to select it.**Multi-Select Drop Down** - Begin typing and either hit ‘enter’ or click to select multiple options.
 
--   **Radio Button** - Similar to Tick Box, click on the correct answer
-    > using the mouse
+-   **Radio Button** - Similar to Tick Box, click on the correct answer using the mouse
 
 -   **Numeric Field** - Key the number into the field.
 
--   **Tally Field** - Key in the number you need for each tally. The
-    > total automatically calculates based on the tally fields and is
-    > not editable in itself.
+-   **Tally Field** - Key in the number you need for each tally. The total automatically calculates based on the tally fields and is not editable in itself.
 
 When you attempt to save, there is always the possibility that one or
 more of the fields you entered will be formatted incorrectly. For
@@ -430,14 +472,13 @@ marked “What type of export do you want.” In this case, the file Primero
 exports will be a JSON file which can be imported into the remote
 Primero system.
 
-> *Note:*
->
+> _Note:
 > When transferring any such password-protected export/import file, the
 > means of sending the file, filename, and the password that opens it,
 > will be determined by the Information Sharing Protocol (ISP) decided
 > by the appropriate local steering committee. When determining this
 > policy, on-the-ground security considerations will be at play, as well
-> as the ease and speed of physical transport within the country.
+> as the ease and speed of physical transport within the country._
 
 Referrals
 ---------
