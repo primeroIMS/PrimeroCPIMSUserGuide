@@ -1,7 +1,7 @@
 {
     "title" : "Users Guide",
     "github" : false,
-    "plugins" : [ "-mathjax", "-mixpanel", "fancybox"],
+    "plugins" : [ "-mathjax", "-mixpanel", "fancybox", "-search"],
     "links" : {
       "about" : false,
       "issues" : false,

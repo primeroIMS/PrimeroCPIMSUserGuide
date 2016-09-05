@@ -1,69 +1,69 @@
 # Summary
 
 
-*  [*Introduction to the User Guide*](1.1/UsersGuide.md#introduction)
+*  [*Introduction to the User Guide*](UsersGuide.md#introduction)
 
-    *  [*Logging In*](1.1/UsersGuide.md#logging-in)
+    *  [*Logging In*](UsersGuide.md#logging-in)
 
-*  [*Navigating Primero*](1.1/UsersGuide.md#navigating-primero)
+*  [*Navigating Primero*](UsersGuide.md#navigating-primero)
 
-    * [*Header Navigation Bar*](1.1/UsersGuide.md#header-navigation-bar)
+    * [*Header Navigation Bar*](UsersGuide.md#header-navigation-bar)
 
-    * [*Dashboard*](1.1/UsersGuide.md#dashboard)
+    * [*Dashboard*](UsersGuide.md#dashboard)
 
-    * [*Case Dashboards*](1.1/UsersGuide.md#case-dashboards)
+    * [*Case Dashboards*](UsersGuide.md#case-dashboards)
 
-        * [*Manager Dashboard*](1.1/UsersGuide.md#manager-dashboard)
+        * [*Manager Dashboard*](UsersGuide.md#manager-dashboard)
 
-        * [*Admin Dashboards*](1.1/UsersGuide.md#admin-dashboard)
+        * [*Admin Dashboards*](UsersGuide.md#admin-dashboard)
 
-    * [*Flagged Case Lists*](1.1/UsersGuide.md#flagged-case-lists)
+    * [*Flagged Case Lists*](UsersGuide.md#flagged-case-lists)
 
-    * [*GBV Incident Dashboard*](1.1/UsersGuide.md#gbv-incident-dashboard)
+    * [*GBV Incident Dashboard*](UsersGuide.md#gbv-incident-dashboard)
 
-    * [*List View*](1.1/UsersGuide.md#list-view)
+    * [*List View*](UsersGuide.md#list-view)
 
-    * [*Edit and View a record*](1.1/UsersGuide.md#edit-and-view-a-record)
+    * [*Edit and View a record*](UsersGuide.md#edit-and-view-a-record)
 
-    * [*Action Buttons*](1.1/UsersGuide.md#action-buttons)
+    * [*Action Buttons*](UsersGuide.md#action-buttons)
 
-    * [*My Account and Contact & Help links*](1.1/UsersGuide.md#my-account-and-contact-help-links)
+    * [*My Account and Contact & Help links*](UsersGuide.md#my-account-and-contact-help-links)
 
-*  [*Filtering*](1.1/UsersGuide.md#filtering)
+*  [*Filtering*](UsersGuide.md#filtering)
 
-*  [*Search and Advanced Search*](1.1/UsersGuide.md#search-and-advanced-search)
+*  [*Search and Advanced Search*](UsersGuide.md#search-and-advanced-search)
 
-    * [*Quick Search*](1.1/UsersGuide.md#quick-search)
+    * [*Quick Search*](UsersGuide.md#quick-search)
 
-*  [*Exporting Information on Records*](1.1/UsersGuide.md#exporting-information-on-records) 
+*  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 
 
-*  [*Creating a New Case*](1.1/UsersGuide.md#creating-a-new-case)
+*  [*Creating a New Case*](UsersGuide.md#creating-a-new-case)
 
-*  [*Navigating Primero Forms*](1.1/UsersGuide.md#navigating-primero-forms)
+*  [*Navigating Primero Forms*](UsersGuide.md#navigating-primero-forms)
 
-    * [*Navigating Sub-Forms*](1.1/UsersGuide.md#navigating-sub-forms)
+    * [*Navigating Sub-Forms*](UsersGuide.md#navigating-sub-forms)
 
-*  [*Creating, Updating, or Editing a Case*](1.1/UsersGuide.md#creating-updating-or-editing-a-case)
+*  [*Creating, Updating, or Editing a Case*](UsersGuide.md#creating-updating-or-editing-a-case)
 
-*  [*Generating Automatic Follow Ups*](1.1/UsersGuide.md#generating-automatic-follow-ups)
+*  [*Generating Automatic Follow Ups*](UsersGuide.md#generating-automatic-follow-ups)
 
-*  [*Transfers and Referrals*](1.1/UsersGuide.md#transfers-and-referrals)
+*  [*Transfers and Referrals*](UsersGuide.md#transfers-and-referrals)
 
-    *  [*Transfers*](1.1/UsersGuide.md#transfers)
+    *  [*Transfers*](UsersGuide.md#transfers)
 
-    *  [*Referrals*](1.1/UsersGuide.md#referrals)
+    *  [*Referrals*](UsersGuide.md#referrals)
 
-*  [*Reports*](1.1/UsersGuide.md#reports)
+*  [*Reports*](UsersGuide.md#reports)
 
-    *  [*Creating a Report*](1.1/UsersGuide.md#creating-a-report)
+    *  [*Creating a Report*](UsersGuide.md#creating-a-report)
 
-    *  [*Age Range*](1.1/UsersGuide.md#age-range)
+    *  [*Age Range*](UsersGuide.md#age-range)
 
-    *  [*Date Ranges*](1.1/UsersGuide.md#date-ranges)
+    *  [*Date Ranges*](UsersGuide.md#date-ranges)
 
-    *  [*Filters*](1.1/UsersGuide.md#filters)
+    *  [*Filters*](UsersGuide.md#filters)
 
-    *  [*Viewing your reports*](1.1/UsersGuide.md#viewing-your-reports)
+    *  [*Viewing your reports*](UsersGuide.md#viewing-your-reports)
 
 
 
