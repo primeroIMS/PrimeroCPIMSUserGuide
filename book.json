@@ -1,14 +1,15 @@
 {
-    "title" : "Users Guide",
+    "title" : "Primero Users Guide",
     "github" : false,
-    "plugins" : [ "-mathjax", "-mixpanel", "fancybox", "-search"],
+    "plugins" : [ "-mathjax", "-mixpanel", "fancybox"],
     "links" : {
-      "about" : false,
-      "issues" : false,
+      "sidebar": {
+            "Documentation Home Page": "https://ianlawrence.github.io/PrimeroGuides/"
+        },
       "sharing" : {
-        "google" : false,
-        "twitter" : false,
-        "facebook" : false
+        "google" : null,
+        "twitter" : null,
+        "facebook" : null
       }
     }
 }
