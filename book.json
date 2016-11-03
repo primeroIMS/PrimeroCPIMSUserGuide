@@ -4,7 +4,7 @@
     "plugins" : [ "-mathjax", "-mixpanel", "fancybox"],
     "links" : {
       "sidebar": {
-            "Documentation Home Page": "https://ianlawrence.github.io/PrimeroGuides/"
+            "Documentation Home Page": "http://primeroims.github.io/primero/docs/"
         },
       "sharing" : {
         "google" : null,
