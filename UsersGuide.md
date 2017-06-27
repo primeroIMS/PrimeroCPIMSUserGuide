@@ -404,7 +404,7 @@ cases you have access to. The bulk export will generate in the background.
 You can continue to use the app while it is generating. To access it,
 click on the tab with the download icon. 
 
-![](/assets/Screen Shot 2017-06-27 at 3.06.12 PM.png)
+![](/img/image80.png)
 
 To export a single case, you can either check only that case in the case  
 list, or enter into the case to view it, then use the ACTIONS button to  
@@ -501,7 +501,7 @@ up every two weeks. To do this, click on the “Protection Concerns” Form
 Section, under the “Identification / Registration” Form Group and check  
 the “Generate follow up reminders?” tick box. If you click save, Primero  
 will automatically create a flag \(to be discussed later\) on the case for  
-you, once every two weeks, which will remind you to perform a follow up.
+you, once every two weeks, which will remind you to perform a follow up. This feature may or may not be turned on.
 
 # Transfers and Referrals
 
