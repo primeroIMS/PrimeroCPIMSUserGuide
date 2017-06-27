@@ -142,6 +142,18 @@ by you. This is because managers often do not have their own cases and
 will thus only be concerned with cases which they themselves have  
 flagged, and which belong to one of their team members.
 
+Alternatively, the manager dashboard can have also have a different
+appearance based on the possible actions in the system. The first section
+tells the number of total and new cases you have, as well as the number
+of cases that have been transferred to you and are waiting for approval
+or rejection. The next section lists the total and new cases that each of
+your managed users has. The next section shows you cases with BIA, Care
+Plan, or Closure forms you have approved or are waiting for your approval.
+Below that is a list of the total and new referrals for each of your
+managed. 
+
+![](/img/image75.png)
+
 #### Admin Dashboard
 
 Finally, you will see the Admin Dashboard upon login if your user’s role  
@@ -165,16 +177,14 @@ have flagged.
 
 ### Flagged Case Lists
 
-If you see any of the case dashboards, the right of your screen will  
-show one or two two lists of flagged cases. These lists will keep you  
-reminded of what work you need to do on which cases. The first list,  
-shown above, consists of the cases which you have flagged most recently,  
-and will display regardless of whether you have the Case, Manager, or  
-Admin Dashboard. The second list, shown below, is a list of cases owned  
-by you which someone else has flagged, and only displays for the Cases  
-and Admin Dashboards. \(Since managers often do not even have the ability  
-to make cases, it makes no sense for them to have a list of flagged  
-cases which they own.\)
+If you see any of the case dashboards, the right of your screen will
+show one or two lists of flagged cases. These lists will keep you  
+reminded of pending flags. The first list, shown above, consists of
+the cases which you have flagged most recently. The second list, shown
+below, is a list of your cases which someone else has flagged, and only
+displays for the Casesand Admin Dashboards. \(Since managers often do not
+even have the ability to make cases, it makes no sense for them to have a
+list of flagged cases which they own.\)
 
 ![](img/image22.png)
 
@@ -222,11 +232,17 @@ your permissions, are:
 
 * Export
 
+* Custom Exports
+
 * Import \(List View\)
 
 * Transfer
 
 * Refer
+
+* Assign
+
+* Disable
 
 * Save \(edit view only\)
 
@@ -235,6 +251,16 @@ your permissions, are:
 * Mark for mobile
 
 * Un-mark for mobile
+
+* Request Approvals
+
+* Approvals
+
+Please note that when using these actions you must work according to the CP
+SoPs that are in place. Also, the system does not replace the communication
+that you need to have in a child protection case management program, through
+case conferences, emails or other to ensure that people are aware of
+transfers and referrals and to follow up on referred and transferred cases. 
 
 ![](img/image67.png)
 
@@ -247,7 +273,8 @@ or number of cases at any time.
 
 Above the Header Navigation bar, there are small links that bring you to  
 pages that help you manage your account and contact information, as well  
-as find out who is your site administrator.
+as find out who is your site administrator. Clicking on the Primero icon
+from any page will take you back to the dashboard from anywhere.
 
 # Filtering
 
@@ -271,6 +298,64 @@ actions. You can set the range for one day as well. For the drop down
 field, this is clickable with the mouse and you can only select one  
 value.
 
+# Flagging
+
+Flagging a case is a way to alert either yourself or a manager that a
+case needs additional work or attention. To flag a case:
+
+ 1. Once you have opened the case, click on Flags
+ 2. Enter the flag reason and if applicable the Date by which this flag
+    needs to be addressed
+ 3. Click flags to complete
+
+Note that only the person who flagged the case can unflag the case. To
+do so:
+
+ 1. Click on the (+) button next to the flag, under the Unflag Case heading.
+ 2. Enter a reason for unflagging the case.
+
+A history of the flags and unflags for the case is stored. To see the history,
+click on the View History tab, you can view the details of the flags and
+unflags.
+
+![](/img/image76.png)
+
+# Assign Users
+
+Managers have ability to assign a case to a different user. If you select the
+Assign option from the Actions dropdown menu, a modal will appear that allows
+you to select from existing users. Assigning the case will change the record
+owner to the selected user, that record will no longer be available to the
+previous case worker.
+
+![](/img/image77.png)
+
+# Reopen
+
+Users have the ability to reopen closed cases. Reopen displays in the Action
+menu on the case view page below Disable; it does not display on the case list
+view . Clicking Reopen brings up a confirmation dialog saying that clicking ok
+will change the status of the case to open. When the user clicks OK, the “Case
+Reopened?” field in the Basic Identity form is checked, the case status is set
+to Open, and the case’s state is set to Valid. This also creates an entry on the
+Record Information form.
+
+![](/img/image78.png)
+
+# Approvals
+
+## Caseworker
+
+Case worker roles have the ability to request approval for the Care Plan from the
+manager. This is done by selecting the request approval option under the actions
+dropdown. This will produce a modal to submit the request. Once the approval
+request is made, it will show up as pending under the approvals section on the
+caseworker dashboard. It will also appear on the manager’s dashboard as a pending
+approval. Once the manager approves or rejects the form for the case, the status
+will change on both the case worker and manager dashboards.
+
+![](/img/image79.png)
+
 # Search and Advanced Search
 
 ## Quick Search
@@ -279,7 +364,7 @@ Quick Search refers to the search field in the header navigation bar.
 From here you can type in your search and return a list of possible  
 matches. If you are searching from the cases page you can enter your  
 case’s value for one of the following fields to find a match: “Long ID,”  
-“Case ID,” “Name,” “Nickname,” “Other Name,” “Ration Card Number,” “ICRC  
+“Case ID,” “proGres ID,” “Name,” “Nickname,” “Other Name,” “Ration Card Number,” “ICRC  
 Ref No.,” “RC ID No.,” “UNHCR ID,” “UN Number,” and “Other Agency ID.”  
 When looking for a tracing request, you can search these fields: “Long  
 ID,” “Inquirer ID,” “Name of inquirer,” and “Nickname of inquirer.”  
@@ -296,7 +381,7 @@ XLS, CSV, etc.
 | --- | --- | --- |
 | CSV | Stands for “Comma-Separated Values.” Readable in excel, and can be imported back into any Primero instance. | All fields to which the user’s role has access. |
 | Excel | Exports to a standard .xls file, which can be re-imported back into Primero. | All fields to which the user’s role has access. |
-| JSON | Easiest format to be read by Primero, and the preferred format for importing. | All fields to which the user’s role has access. |
+| JSON | Easiest format to be read \(only\) by Primero, and the preferred format for importing. | All fields to which the user’s role has access. |
 | Photo Wall | Exports a PDF file with the photo of each selected case along with the case’s ID. Cannot be re-imported into Primero. | Photo, ID. |
 | PDF | PDF file containing a profile on each case, including the fields from the forms specified by the user. Cannot be imported. | All fields specified by the user, to which the user’s role has access. |
 | UNHCR | CSV file specifically formatted to be compatible with UNHCR’s data import. | All fields to which the user’s role has access. |
@@ -304,9 +389,8 @@ XLS, CSV, etc.
 
 ![](img/image57.png)
 
-Once you’ve selected your format, the export modal window will appear,  
-allowing you to set your own password for the file, and name the file  
-accordingly.
+Once you’ve selected your format, the export window will appear, allowing
+you to set your own password for the file, and create your own file name.
 
 ![](img/image52.png)
 
@@ -316,7 +400,11 @@ as many as you’d like to export via the check boxes:
 ![](img/image60.png)
 
 To export all cases, you can leave all unchecked and it will export all  
-cases you have access to.
+cases you have access to. The bulk export will generate in the background.
+You can continue to use the app while it is generating. To access it,
+click on the tab with the download icon. 
+
+![](/assets/Screen Shot 2017-06-27 at 3.06.12 PM.png)
 
 To export a single case, you can either check only that case in the case  
 list, or enter into the case to view it, then use the ACTIONS button to  
