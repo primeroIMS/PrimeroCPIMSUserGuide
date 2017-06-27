@@ -555,7 +555,7 @@ Primero system.
 
 Based on the deployment, you may have the ability to accept or reject a case that has been transferred to you. You will be able to see if any cases have been transferred to on your dashboard. If you click on the Referrals and Transfers form for the case that has been transferred to you, you will see that the status is in progress and that there are buttons to either accept or reject the transfer. If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “other assigned user”. The record information is updated with this change. If you click Reject, it brings up a dialog box with an OK button and a textbox to enter the Rejection Reason. When you click OK, the rejection reason is saved to the nested subform. The status is changed to 'rejected, and you are removed from 'other assigned users' and no longer have access to the record.
 
-
+![](img/image81.png)
 
 ## Referrals
 
@@ -570,7 +570,7 @@ To refer a record from either the individual record page or the list
 view, use the ACTIONS button in the Action Header to initiate the drop  
 down of options. Within the options, select “Refer Case.”
 
-![](img/image56.png)
+![](img/image21.png)
 
 The following modal form will appear and allow you to select options for  
 your referral. As with transfers, consent \(or a consent override\) of the  
