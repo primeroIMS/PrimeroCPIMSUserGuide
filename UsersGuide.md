@@ -90,12 +90,12 @@ case worker dashboard will be different, from the managers and from the
 administrator.
 
 
-### Case Dashboards
+## Case Dashboards
 
 If your user has access to cases through either the CP or GBV module,  
 you will see one--and only one--of the following three case dashboards.
 
-#### Cases Dashboard
+### Cases Dashboard
 
 The first example below is the basic Cases Dashboard. If you have any  
 access to cases, but you are not a manager or an administrator, you will  
@@ -119,7 +119,7 @@ gives the total number of referrals, as well as new referrals.
 
 ![](/img/image74.png)
 
-#### Manager Dashboard
+### Manager Dashboard
 
 The Manager Dashboard, meanwhile, appears if you have managerial tasks in
 your organization. This dashboard does basically the same thing that the
@@ -153,7 +153,7 @@ managed.
 
 ![](/img/image75.png)
 
-#### Admin Dashboard
+### Admin Dashboard
 
 Finally, you will see the Admin Dashboard upon login if your user’s role  
 has access to all records in the system \(thus giving you an  
@@ -174,7 +174,7 @@ have flagged.
 
 ![](img/image58.png)
 
-### Flagged Case Lists
+## Flagged Case Lists
 
 If you see any of the case dashboards, the right of your screen will
 show one or two lists of flagged cases. These lists will keep you  
@@ -187,7 +187,7 @@ list of flagged cases which they own.\)
 
 ![](img/image22.png)
 
-### GBV Incident Dashboard
+## GBV Incident Dashboard
 
 The GBV Incident Dashboard will appear below whichever case dashboard  
 you have if your user’s role has access to incidents through the GBV  
@@ -438,7 +438,7 @@ any of the form names to enter into the chosen form. For example, in the
 image above, the user has selected the “Assessment” form group and the  
 “Care Assessments” form.
 
-### Navigating Sub-Forms
+## Navigating Sub-Forms
 
 In certain data sets and forms, we find that information pertaining to  
 an event or entity is nearly identical. For example, information on  

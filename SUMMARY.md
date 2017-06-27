@@ -13,9 +13,11 @@
 
     * [*Case Dashboards*](UsersGuide.md#case-dashboards)
 
+        * [*Cases Dashboard*](UsersGuide.md#cases-dashboard)
+
         * [*Manager Dashboard*](UsersGuide.md#manager-dashboard)
 
-        * [*Admin Dashboards*](UsersGuide.md#admin-dashboard)
+        * [*Admin Dashboard*](UsersGuide.md#admin-dashboard)
 
     * [*Flagged Case Lists*](UsersGuide.md#flagged-case-lists)
 
@@ -30,6 +32,16 @@
     * [*My Account and Contact & Help links*](UsersGuide.md#my-account-and-contact-help-links)
 
 *  [*Filtering*](UsersGuide.md#filtering)
+
+*  [*Flagging*](UsersGuide.md#flagging)
+
+*  [*Assign Users*](UsersGuide.md#assign-users)
+
+*  [*Reopen*](UsersGuide.md#reopen)
+
+*  [*Approvals*](UsersGuide.md#approvals)
+
+    *  [*Caseworker*](UsersGuide.md#caseworker)
 
 *  [*Search and Advanced Search*](UsersGuide.md#search-and-advanced-search)
 
@@ -51,17 +63,21 @@
 
     *  [*Transfers*](UsersGuide.md#transfers)
 
+    *  [*Accepting or Rejecting Transfers*](UsersGuide.md#accepting-or-rejecting-transfers)
+
     *  [*Referrals*](UsersGuide.md#referrals)
+
+    *  [*Relinquishing Referral*](UsersGuide.md#relinquishing-referral)
 
 *  [*Reports*](UsersGuide.md#reports)
 
     *  [*Creating a Report*](UsersGuide.md#creating-a-report)
 
-    *  [*Age Range*](UsersGuide.md#age-range)
+        *  [*Age Range*](UsersGuide.md#age-range)
 
-    *  [*Date Ranges*](UsersGuide.md#date-ranges)
+        *  [*Date Ranges*](UsersGuide.md#date-ranges)
 
-    *  [*Filters*](UsersGuide.md#filters)
+        *  [*Filters*](UsersGuide.md#filters)
 
     *  [*Viewing your reports*](UsersGuide.md#viewing-your-reports)
 
