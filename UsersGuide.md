@@ -597,6 +597,12 @@ marked “What type of export do you want.” In this case, the file Primero
 exports will be a JSON file which can be imported into the remote  
 Primero system.
 
+## Relinquishing Referral
+
+Based on the deployment, you may have the ability to relinquish a case that has been referred to you. You can see if any cases have been referred to you on your dashboard. When you click on the Referrals and Transfers form for the case that has been referred to you, you will see a DONE button next to the referral that has been made to you. If you are done reviewing the case, you can click the done button. Once clicked, it will be removed from your case list and you will no longer have access to it.
+
+![](img/image82.png)
+
 # Reports
 
 Reports allow users to see a high-level, aggregate view of data, helping  
@@ -609,7 +615,7 @@ edit, and export reports.
 
 ## Creating a Report
 
-To create a report, first click the **Reports** link in the top toolbar.  
+To create a report, first click the **Reports** icon in the top toolbar.  
 You will see that there are already a number of pre-built reports which  
 you can view at any time. To start your own, click the **Create Report**  
 button at the top of the screen.
