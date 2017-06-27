@@ -9,7 +9,7 @@ case management. The new platform is called _Primero_
 _Primero_ supports multiple modules, including the “next generation” of the field-tested,  
 inter-agency CPIMS and GBVIMS systems, which are currently in  
 use in 20+ countries. These new iterations, called the CPIMS+ and  
-GBVIMS+, along with the newly developed MRMIMS+, can operate  
+GBVIMS+, can operate  
 separately or be deployed as integrated modules on the _Primero_  
 platform. The inter-agency Steering Committees that govern the use of  
 each of these modules will continue to support the new system.
