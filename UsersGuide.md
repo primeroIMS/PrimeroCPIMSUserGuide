@@ -46,12 +46,11 @@ _Primero_ design is based on the “need to know” principle; it does not
 impose data sharing, but facilitates the process when consent is  
 provided, and when it is deemed appropriate and safe by partners.
 
-![](img/intro44.png)Good information management practice  
-emphasizes the importance of making data actionable. _Primero_ has  
-built-in customizable reports that can facilitate periodic reporting  
-processes, and be used to analyze data for programmatic insights. A  
-document and photo repository allows end users to organize relevant  
-resources in one convenient place
+Good information management practice emphasizes the importance of
+making data actionable. _Primero_ has built-in customizable reports
+that can facilitate periodic reporting processes, and be used to
+analyze data for programmatic insights. A document and photo repository
+allows end users to organize relevant resources in one convenient place.
 
 >  _A note for end users. Although there are a standard set of forms configured
 >  in the CPIMS+ based on the CPWG standard forms that we recommend using, your
@@ -551,6 +550,12 @@ Primero system.
 > by the appropriate local steering committee. When determining this  
 > policy, on-the-ground security considerations will be at play, as well  
 > as the ease and speed of physical transport within the country._
+
+## Accepting or Rejecting Transfers
+
+Based on the deployment, you may have the ability to accept or reject a case that has been transferred to you. You will be able to see if any cases have been transferred to on your dashboard. If you click on the Referrals and Transfers form for the case that has been transferred to you, you will see that the status is in progress and that there are buttons to either accept or reject the transfer. If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “other assigned user”. The record information is updated with this change. If you click Reject, it brings up a dialog box with an OK button and a textbox to enter the Rejection Reason. When you click OK, the rejection reason is saved to the nested subform. The status is changed to 'rejected, and you are removed from 'other assigned users' and no longer have access to the record.
+
+
 
 ## Referrals
 
