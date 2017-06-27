@@ -5,7 +5,7 @@ The _Information Management and Innovation to Protect Children in Emergencies_ p
 software application that will help partners securely collect, store,  
 manage, and share data for protection-related incident monitoring and  
 case management. The new platform is called _Primero_  
-\(Protection-related Information Management\).   
+\(Protection-related Information Management\).  
 _Primero_ supports multiple modules, including the “next generation” of the field-tested,  
 inter-agency CPIMS and GBVIMS systems, which are currently in  
 use in 20+ countries. These new iterations, called the CPIMS+ and  
@@ -53,18 +53,18 @@ processes, and be used to analyze data for programmatic insights. A
 document and photo repository allows end users to organize relevant  
 resources in one convenient place
 
-> _A note for end users. Although there are a standard set of forms configured_
->
-> _in the CPIMS+ based on the CPWG standard forms that we recommend using, your Site Administrator  
->  may have configured these forms specific to your location and needs. For  
->  any questions about the forms and information you have or need, please  
->  reach out to this person_
+>  _A note for end users. Although there are a standard set of forms configured
+>  in the CPIMS+ based on the CPWG standard forms that we recommend using, your
+>  System Administrator may have configured these forms specific to your location  
+>  and needs. For any questions about the forms and information you have or need,  
+>  please reach out to this person_
 
 ## Logging In
 
-Logging into Primero and you’ll see a Username and Password boxes. Click  
-in the Username box and type in your unique user name provided to you.  
-Then enter your password in the field below.
+When logging into Primero, you’ll see Username and Password boxes.
+Click in the Username box and type in your unique user name provided
+to you by your System Administrator. Then enter your password in the
+field below and click on 'LOG IN'.
 
 ![](img/image64.png)
 
@@ -74,30 +74,22 @@ Then enter your password in the field below.
 
 The header navigation is the dark bar across the top of the screen in  
 which you navigate to your home page \(or dashboard\), Cases, Tracing  
-Requests, and Reports. It also has a quick search field that can help  
-you find a specific case quickly. Your current page will be highlighted.  
-See below:
+Requests, Reports, and bulk export downloads. It also has a quick
+search field that can help you find a specific case quickly. Your current
+page will be highlighted. See below:
 
-![](img/image71.png)
+![](/img/image71.png)
 
 ## Dashboard
 
-The Dashboard, or Home Page, is where you can find most of the relevant  
-and significant information for your cases and tracing requests. It  
-contains a number of different features, including caseload summaries,  
-recently flagged cases, etc. The items you see on your Dashboard Page,  
-however, will vary depending on your user account and its role. Any user  
-whose role has access to cases will see one of the three cases  
-dashboards, and any user whose role has access to incidents through the  
-GBV module will see the GBV Incident Dashboard.
+The Dashboard, or Home Page, is where you can quickly find information
+for your cases. Depending on the work you do in your organization,
+it contains a number of different types of information, which can include
+caseload summaries, recently flagged cases, cases for which approval has
+been requested or cases that are pending approval, referred cases, etc. The
+case worker dashboard will be different, from the managers and from the
+administrator.
 
-_Note that there are a few scenarios in which the user will not see any  
-dashboards: first, if a user is assigned to a module that has access to  
-neither cases nor incidents; or second, if a user is assigned to a  
-module that has access to incidents, but which is not part of the GBV  
-module. Since both of these scenarios involve the use of modules which  
-are not in the seed data, administrators should take note of this  
-possibility when they are creating their own modules._
 
 ### Case Dashboards
 
@@ -106,8 +98,8 @@ you will see one--and only one--of the following three case dashboards.
 
 #### Cases Dashboard
 
-The most basic view you can see is the Cases Dashboard. If you have any  
-access to cases, but no status as a manager or administrator, you will  
+The first example below is the basic Cases Dashboard. If you have any  
+access to cases, but you are not a manager or an administrator, you will  
 see this dashboard. Here, three sections appear. The first lists your  
 total cases, as well as the number of _new_ cases. \(In this case, “new”  
 means anything which has not been edited since its creation.\) The second  
@@ -117,19 +109,29 @@ the total number of referrals along with new referrals.
 
 ![](img/image72.png)
 
+Based on possible actions in the system, the cases dashboard may have a
+different appearance, see below for a screenshot. In this case, the first
+section tells you three things: the number of total cases and new cases
+you have; the number of transfers you have been made that are pending or
+rejected; and the number of transfers you have that are waiting for your
+approval or rejection. The next section shows your cases with pending,
+rejected, or approved BIA, Care Plan, and Closure forms. The final section
+gives the total number of referrals, as well as new referrals.
+
+![](/img/image74.png)
+
 #### Manager Dashboard
 
-The Manager Dashboard, meanwhile, appears if your user has been  
-designated as a manager. This dashboard does basically the same thing  
-that the Cases Dashboard does, but for the cases owned by people in your  
-user group\(s\). The first section tells the number of total and new cases  
-you have. The next section lists the total and new cases that each of  
-your managed users has. Below that is a list of the total and new  
-referrals for each of your managed users. The final section breaks down  
-the number of cases you have by assessment level. As mentioned before,  
-if you see the Manager Dashboard, you will not see the standard Cases  
-Dashboard. A single user can only have one of the case dashboards  
-display on their Dashboard Page.
+The Manager Dashboard, meanwhile, appears if you have managerial tasks in
+your organization. This dashboard does basically the same thing that the
+Cases Dashboard does, but also sees the cases of the team you manage. The
+first section tells the number of total and new cases you have. The next
+section lists the total and new cases that each team member has. Below
+that is a list of the total and new referrals for each of your managed
+users. The final section breaks down the number of cases you have by
+assessment level. As mentioned before, if you see the Manager Dashboard,
+you will not see the standard Cases Dashboard. A single user can only have
+one of the case dashboards display on their Dashboard Page.
 
 ![](img/image73.png)
 
@@ -138,7 +140,7 @@ if you have the Manager Dashboard. However, this time, there will be
 only one list of flagged cases, and the cases there will all be flagged  
 by you. This is because managers often do not have their own cases and  
 will thus only be concerned with cases which they themselves have  
-flagged, and which belong to other users.
+flagged, and which belong to one of their team members.
 
 #### Admin Dashboard
 
