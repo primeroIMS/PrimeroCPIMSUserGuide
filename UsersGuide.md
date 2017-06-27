@@ -1,6 +1,6 @@
 # Introduction
 
-![](img/intro1.png)  
+![](img/intro4.png)  
 The _Information Management and Innovation to Protect Children in Emergencies_ project has developed a  
 software application that will help partners securely collect, store,  
 manage, and share data for protection-related incident monitoring and  
