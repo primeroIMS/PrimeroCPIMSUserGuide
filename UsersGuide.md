@@ -1,18 +1,18 @@
 # Introduction
 
 ![](img/intro4.png)  
-The _Information Management and Innovation to Protect Children in Emergencies_ project has developed a  
-software application that will help partners securely collect, store,  
-manage, and share data for protection-related incident monitoring and  
-case management. The new platform is called _Primero_  
-\(Protection-related Information Management\).  
-_Primero_ supports multiple modules, including the “next generation” of the field-tested,  
-inter-agency CPIMS and GBVIMS systems, which are currently in  
-use in 20+ countries. These new iterations, called the CPIMS+ and  
-GBVIMS+, can operate  
-separately or be deployed as integrated modules on the _Primero_  
-platform. The inter-agency Steering Committees that govern the use of  
-each of these modules will continue to support the new system.
+The _Information Management and Innovation to Protect Children in
+Emergencies_ project has developed a software application that will
+help partners securely collect, store, manage, and share data for
+protection-related incident monitoring and case management. The new
+platform is called _Primero_ \(Protection-related Information
+Management\). _Primero_ supports multiple modules, including the “next
+generation” of the field-tested, inter-agency CPIMS and GBVIMS systems,
+which are currently in use in 20+ countries. These new iterations,
+called the CPIMS+ and GBVIMS+, can operate separately or be deployed
+as integrated modules on the _Primero_ platform. The inter-agency
+Steering Committees that govern the use of each of these modules will
+continue to support the new system.
 
 ![](img/intro2.png)_Primero_ is flexible and adaptable to  
 accommodate a broad range of protection concerns including GBV,  
