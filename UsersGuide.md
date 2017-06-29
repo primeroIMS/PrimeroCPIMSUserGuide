@@ -124,8 +124,6 @@ in order of priority.
 
 ### Manager Dashboard
 
-TODO: Update with Josh's stuff.
-
 The Manager Dashboard, meanwhile, appears if you have managerial tasks in
 your organization. This dashboard does basically the same thing that the
 Cases Dashboard does, but also sees the cases of the team you manage. The
@@ -376,7 +374,7 @@ clicking on "Request Approval," and then clicking on the type of approval you
 would like to request. This will produce a modal to submit the request.
 
 If you request a case plan approval, the below modal will appear. Select a case
-plan type \(the options will correspond with different response types\) and then
+plan type \(the options will correspond with the various response types\) and then
 click "OK."
 
 ![](/img/image79.png)
@@ -446,8 +444,8 @@ After searching, you can filter results further.
 Depending on your configuration, some users may have the ability to
 search for records owned by other users. In this case, the records are
 only be visible in the list view. Clicking on a record in this view does
-not take the user to the view/edit page for that record. Instead, the
-user can perform actions on the record from the list review.
+not take the user to the view page for that record. Instead, the user can
+perform actions on the record from the list review.
 
 ![](/img/image88.png)
 
@@ -543,7 +541,7 @@ alert badge next to the incident subform. This helps users keep track
 of updates to a given case's situation and immediately undertake any
 necessary responses.
 
-![]() TODO: Add in picture of new badge.
+![](/img/image95.png)
 
 # Creating, Updating, or Editing a Case
 
@@ -553,12 +551,12 @@ To create a case from the case list view, click on the "NEW CASE" button.
 You will see a modal like the one pictured below. Here, you have two
 options. The first option is to simply create a case by clicking the
 "CREATE CASE" button. However, you can also check to see if a case
-already exists for a child by running a search. \(Note that which fields
-are searchable or un-searchable will depend on your configuration\). To
-run a search, simply type your search query into the search box and click
-the "SEARCH" button. This will take you to a search results page. If no
-search results appear, you can just create a case by clicking on the "NEW
-CASE" button again on the search screen.
+already exists for a child by running a search. \(For a list of fields
+that are searchable, read the "Quick Search" section.\) To run a search,
+simply type your search query into the search box and click the "SEARCH"
+button. This will take you to a search results page. If no search results
+appear, you can just create a case by clicking on the "NEW CASE" button
+again on the search screen.
 
 ![](/img/image92.png)
 
