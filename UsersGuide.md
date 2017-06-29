@@ -1,37 +1,36 @@
 # Introduction
 
 ![](img/intro4.png)  
-The _Information Management and Innovation to Protect Children in Emergencies_ project has developed a  
-software application that will help partners securely collect, store,  
-manage, and share data for protection-related incident monitoring and  
-case management. The new platform is called _Primero_  
-\(Protection-related Information Management\).  
-_Primero_ supports multiple modules, including the “next generation” of the field-tested,  
-inter-agency CPIMS and GBVIMS systems, which are currently in  
-use in 20+ countries. These new iterations, called the CPIMS+ and  
-GBVIMS+, can operate  
-separately or be deployed as integrated modules on the _Primero_  
-platform. The inter-agency Steering Committees that govern the use of  
-each of these modules will continue to support the new system.
+The _Information Management and Innovation to Protect Children in
+Emergencies_ project has developed a software application that will
+help partners securely collect, store, manage, and share data for
+protection-related incident monitoring and case management. The new
+platform is called _Primero_ \(Protection-related Information
+Management\). _Primero_ supports multiple modules, including the “next
+generation” of the field-tested, inter-agency CPIMS and GBVIMS systems,
+which are currently in use in 20+ countries. These new iterations,
+called the CPIMS+ and GBVIMS+, can operate separately or be deployed
+as integrated modules on the _Primero_ platform. The inter-agency
+Steering Committees that govern the use of each of these modules will
+continue to support the new system.
 
-![](img/intro2.png)_Primero_ is flexible and adaptable to  
-accommodate a broad range of protection concerns including GBV,  
-unaccompanied and separated children, and monitoring grave violations  
-of children’s rights in situations of armed conflict. To meet  
-operational challenges, the application was designed to function both  
-on- and off-line, with limited or no connectivity, and in multiple  
-deployment configurations. A strong emphasis has been placed on  
-security and confidentiality, with intuitive workflows designed to  
-simplify processes while promoting good practice. Role-based access  
-and granular security ensures that only those who need to see data  
-will have access to it. All system transactions are time stamped,  
-password protected and encrypted. _Primero_ has a user-friendly  
-interface and intuitive tools, facilitating the work of field  
-personnel while decreasing security risks and duplication. The  
-application can leverage mobile data gathering tools such as RapidFTR  
-on smart phones and tablets. In order to optimize results, _Primero_  
-was designed to be able to exchange data internally between modules,  
-as well as externally with other IM systems. In addition to imports  
+![](img/intro2.png)
+_Primero_ is flexible and adaptable to accommodate a broad range of
+protection concerns including GBV, unaccompanied and separated
+children, and monitoring grave violations of children’s rights in situations
+of armed conflict. To meet operational challenges, the application was
+designed to function both on- and off-line, with limited or no connectivity,
+and in multiple deployment configurations. A strong emphasis has been
+placed on security and confidentiality, with intuitive workflows designed to  
+simplify processes while promoting good practice. Role-based access and
+granular security ensures that only those who need to see data will have
+access to it. All system transactions are time stamped, password protected
+and encrypted. _Primero_ has a user-friendly interface and intuitive tools,
+facilitating the work of field personnel while decreasing security risks and
+duplication. The application can leverage mobile data gathering tools such
+as RapidFTR on smart phones and tablets. In order to optimize results,
+_Primero_ was designed to be able to exchange data internally between
+modules, as well as externally with other IM systems. In addition to imports  
 and exports, Primero has a highly secure application program interface  
 \(JSON API\).
 
