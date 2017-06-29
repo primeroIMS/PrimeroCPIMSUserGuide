@@ -43,19 +43,27 @@
 
     *  [*Caseworker*](UsersGuide.md#caseworker)
 
+    *  [*Managers*](UsersGuide.md#managers)
+
 *  [*Search and Advanced Search*](UsersGuide.md#search-and-advanced-search)
 
     * [*Quick Search*](UsersGuide.md#quick-search)
 
-*  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 
+    * [*Searching for Records Owned By Other Users*](UsersGuide.md#searching-for-records-owned-by-other-users)
 
-*  [*Creating a New Case*](UsersGuide.md#creating-a-new-case)
+    * [*Adding Incident to Case from List View*](UsersGuide.md#adding-incident-to-case-from-list-view)
+
+*  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 
 
 *  [*Navigating Primero Forms*](UsersGuide.md#navigating-primero-forms)
 
-    * [*Navigating Sub-Forms*](UsersGuide.md#navigating-sub-forms)
+    *  [*Navigating Sub-Forms*](UsersGuide.md#navigating-sub-forms)
+
+    *  [*Alerts*](UsersGuide.md#alerts)
 
 *  [*Creating, Updating, or Editing a Case*](UsersGuide.md#creating-updating-or-editing-a-case)
+
+    *  [*Creating a Case*](UsersGuide.md#creating-a-case)
 
 *  [*Generating Automatic Follow Ups*](UsersGuide.md#generating-automatic-follow-ups)
 

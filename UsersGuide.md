@@ -98,27 +98,33 @@ you will see one--and only one--of the following three case dashboards.
 
 The first example below is the basic Cases Dashboard. If you have any  
 access to cases, but you are not a manager or an administrator, you will  
-see this dashboard. Here, three sections appear. The first lists your  
-total cases, as well as the number of _new_ cases. \(In this case, “new”  
-means anything which has not been edited since its creation.\) The second  
-lists out cases by high, medium, and low assessment levels, and, once  
-again, dividing these between total and “new.” The final section gives  
-the total number of referrals along with new referrals.
+see this dashboard. The dashboard is divided into two main sections: one
+for cases, one for responses. The first section (first picture below)
+begins with a few key metrics: total cases, total new cases, transfers
+awaiting acceptance, new incidents, services implemented, total referrals,
+new referrals, pending transfers, and rejected transfers. \(In these
+metrics, “new” means anything which has not been edited since its
+creation.\) Below these key metrics lie two columns. The first shows
+the number of total and new cases, subdivided by assessment level. The
+second column shows all the number of pending, rejected, and new approvals,
+subdivided by the type of approval.
 
-![](img/image72.png)
+![](/img/image90.png)
 
-Based on possible actions in the system, the cases dashboard may have a
-different appearance, see below for a screenshot. In this case, the first
-section tells you three things: the number of total cases and new cases
-you have; the number of transfers you have been made that are pending or
-rejected; and the number of transfers you have that are waiting for your
-approval or rejection. The next section shows your cases with pending,
-rejected, or approved BIA, Care Plan, and Closure forms. The final section
-gives the total number of referrals, as well as new referrals.
+The second portion of the cases dashboard outlines all responses for the
+user's cases, with a column for each response type. Within each column,
+responses are broken down by priority level, at which point numbers are
+given for total responses as well as those nearing or past their deadlines
+\(as determined by the timeframe specified for a given response\). Clicking
+any of these numbers will take the user to a list of the cases in question.
+This allows users to easily manage the most urgent tasks for their cases,
+in order of priority.
 
-![](/img/image74.png)
+![](/img/image91.png)
 
 ### Manager Dashboard
+
+TODO: Update with Josh's stuff.
 
 The Manager Dashboard, meanwhile, appears if you have managerial tasks in
 your organization. This dashboard does basically the same thing that the
@@ -220,6 +226,26 @@ but cannot edit. You must click the Edit button in the Action Buttons
 section of the header to change any information that is currently  
 represented.
 
+## Case Status Bar
+
+On the view and edit pages for a case, the user will see the case status
+bar, which lets the user know the current case management stage of the
+record.
+
+![](img/image85.png)
+
+When the case is first opened, before any services are added, the status
+bar will highlight the "New" status. Once a service has been added,
+however, the case status will correspond with the most recently-added
+response type. So, for instance, after a case is opened, if a case worker
+refers the case to a service provider for a service with a response type
+of "Immediate Response", the case status will also be "Immediate
+Response." When the case is closed, with manager approval, the case
+status will become "Closed." Keeping track of the case status helps the
+case worker keep track of the case's needs. Please note that the case
+status bar may or may not appear, depending on a given implementation's
+configuration.
+
 ## Action Buttons
 
 Our Action Buttons are the buttons just below our Header Navigation,  
@@ -262,10 +288,10 @@ transfers and referrals and to follow up on referred and transferred cases.
 
 ![](img/image67.png)
 
-This bar, along with the Header Navigation bar, are part of what is  
-called the **Anchored Header**, meaning, they never leave the screen  
-when scrolling. This allows a user to easily navigate or act on a case  
-or number of cases at any time.
+This bar, along with the Header Navigation bar and the case status bar,
+are part of what is called the **Anchored Header**, meaning, they never
+leave the screen when scrolling. This allows a user to easily navigate or
+act on a case or number of cases at any time.
 
 ## My Account and Contact & Help links
 
@@ -344,15 +370,62 @@ Record Information form.
 
 ## Caseworker
 
-Case worker roles have the ability to request approval for the Care Plan from the
-manager. This is done by selecting the request approval option under the actions
-dropdown. This will produce a modal to submit the request. Once the approval
-request is made, it will show up as pending under the approvals section on the
-caseworker dashboard. It will also appear on the manager’s dashboard as a pending
-approval. Once the manager approves or rejects the form for the case, the status
-will change on both the case worker and manager dashboards.
+Case worker roles have the ability to request approval for a case plan, BIA, or
+closure from the manager. This is done by going into the ACTIONS button dropdown,
+clicking on "Request Approval," and then clicking on the type of approval you
+would like to request. This will produce a modal to submit the request.
+
+If you request a case plan approval, the below modal will appear. Select a case
+plan type \(the options will correspond with different response types\) and then
+click "OK."
 
 ![](/img/image79.png)
+
+The modal for requesting closure approval will be similar, except that it wil not
+have a dropdown for case plan type. Here, simply click "OK" to request approval.
+
+Once the approval request is made, it will show up as pending under the approvals
+section on the caseworker dashboard. It will also appear on the manager’s dashboard
+as a pending approval. Once the manager approves or rejects the form for the case,
+the status will change on both the case worker and manager dashboards.
+
+All approvals for a case will also appear in the Approvals form section on the case
+edit and view pages. Here, you will see the type of approval (case plan or closure),
+the approval's status, the date of the approval request, and, if the approval is for
+a case plan, the type of case plan.
+
+![](/img/image86.png)
+
+## Managers
+
+Managers may have the ability to approve a case's case plan and/or closure, depending
+on configuration. To check to see if any approvals have been requested for a case, a
+manager can go to the Approvals form on the case view page (pictured above). As you
+can see, an entry for an approval in the forms will tell you what type of approval it
+is (BIA, Case Plan or Closure).
+
+To perform an approval, go into the ACTIONS button dropdown, click "Approvals," and
+then click either "Approve Case Plan," "Approve Closure," or "Approve BIA," depending
+on the type of approval. You will see a modal like the one pictured below. To
+complete the approval, simply click the "Yes" check box, add in any necessary comments,
+then click "SUBMIT."
+
+![](/img/image93.png)
+
+![](/img/image94.png)
+
+# Create Incident from Case
+
+When viewing a GBV case, a case worker can create an incident directly from the case
+by clicking the "CREATE INCIDENT" button, located next to the ACTIONS button in the
+**Anchored Header**. Doing so will re-direct the user to the create incident form,
+with case information automatically loaded into the Survivor Information form.
+
+![](/img/image87.png)
+
+Alternatively, a user--depending on configuration--can create an incident from any
+case from the case list or search results views. To learn more about this
+capability, read the section labeled "Adding Incident to Case from List View".
 
 # Search and Advanced Search
 
@@ -367,6 +440,32 @@ Ref No.,” “RC ID No.,” “UNHCR ID,” “UN Number,” and “Other Agenc
 When looking for a tracing request, you can search these fields: “Long  
 ID,” “Inquirer ID,” “Name of inquirer,” and “Nickname of inquirer.”  
 After searching, you can filter results further.
+
+## Searching for Records Owned By Others
+
+Depending on your configuration, some users may have the ability to
+search for records owned by other users. In this case, the records are
+only be visible in the list view. Clicking on a record in this view does
+not take the user to the view/edit page for that record. Instead, the
+user can perform actions on the record from the list review.
+
+![](/img/image88.png)
+
+To do this, go to the record list page, and search for your record using
+an id or other searchable field. Once your search results appear, select
+the check box for the record on which you wish to perform an action. Now,
+select the action you wish to perform in the action button dropdown.
+
+## Adding Incident to Case from List View
+
+Depending on configuration, a user may be able to add an incident to a case
+from the list view or when searching cases. To add an incident to a case,
+select your case's check box on the search results page, then, under the
+action button dropdown, select "Add Incident." You will see the following
+modal. Here, enter information on the incident you are adding, and then
+save.
+
+![](/img/image89.png)
 
 # Exporting Information on Records
 
@@ -408,20 +507,9 @@ To export a single case, you can either check only that case in the case
 list, or enter into the case to view it, then use the ACTIONS button to  
 export.
 
-# Creating a New Case
-
-When creating a new case, the process is fairly simple. In the Actions  
-Buttons area of the header there is a “New Case” button that will open  
-up the forms to enter information. See the “New Case”button below:
-
-![](img/image69.png)
-
-Once in the forms, you can navigate to different forms as we describe in  
-the “Navigating Primero Forms”section
-
 # Navigating Primero Forms
 
-Once you are creating or editing a form, you will see a navigation list  
+Once you are creating or editing a record, you will see a navigation list  
 in the left panel. This list is an organized way to navigate through  
 your forms. The initial titles you see are called **Form Groups** and  
 are set up by your site administrator. The current form you are on will  
@@ -434,8 +522,8 @@ will populate the form. If it has more than one, you can click on the
 Form Group name or the expand icon to the right of the name to expand it  
 and see all the forms in the group. Once expanded you can then click on  
 any of the form names to enter into the chosen form. For example, in the  
-image above, the user has selected the “Assessment” form group and the  
-“Care Assessments” form.
+image above, the user has selected the “Identification / Registration”
+form group and the “Case Information” form.
 
 ## Navigating Sub-Forms
 
@@ -448,9 +536,39 @@ forms to add information on family members, individual follow ups, etc.
 To navigate those, there is an expand/collapse function, and an  
 add/remove function.
 
+## Alerts
+
+When an incident has been added to your case, you will see a small
+alert badge next to the incident subform. This helps users keep track
+of updates to a given case's situation and immediately undertake any
+necessary responses.
+
+![]() TODO: Add in picture of new badge.
+
 # Creating, Updating, or Editing a Case
 
-Once you’ve entered into the case you would like to update, you must  
+## Creating a Case
+
+To create a case from the case list view, click on the "NEW CASE" button.
+You will see a modal like the one pictured below. Here, you have two
+options. The first option is to simply create a case by clicking the
+"CREATE CASE" button. However, you can also check to see if a case
+already exists for a child by running a search. \(Note that which fields
+are searchable or un-searchable will depend on your configuration\). To
+run a search, simply type your search query into the search box and click
+the "SEARCH" button. This will take you to a search results page. If no
+search results appear, you can just create a case by clicking on the "NEW
+CASE" button again on the search screen.
+
+![](/img/image92.png)
+
+Once you have reached the new case page, you can navigate to different
+forms as we describe in the “Navigating Primero Forms” section.
+
+## Editing a Case
+
+To edit a case, simply located it in the case list view and then click on
+it. Once you’ve entered into the case you would like to update, you must  
 click the **EDIT** button in the actions header. The page will then  
 refresh and allow you edit individual form fields.
 
@@ -608,6 +726,19 @@ another Primero instance, you simply select “Primero” in the drop down
 marked “What type of export do you want.” In this case, the file Primero  
 exports will be a JSON file which can be imported into the remote  
 Primero system.
+
+To specify which service a referral is for, go to the services form and
+click on the "refer" button on the header for any service you have saved.
+
+![](img/image83.png)
+
+Once you have clicked "refer" you will see the below modal. Once again,
+make sure you have consent \(or a consent override\), and select a user who
+will receive the referral. The service type should already be selected for
+you, based on what you entered in the Services form.
+
+![](img/image84.png)
+
 
 ## Relinquishing Referral
 
