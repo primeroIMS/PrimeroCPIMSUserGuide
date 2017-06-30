@@ -750,6 +750,62 @@ list and you will no longer have access to it.
 
 ![](img/image82.png)
 
+# Responses
+
+A core part of the case management process is responding to the needs of a
+case. Primero manages these through the "Response Overview" form and through
+the provision of services.
+
+## Response Overview Form
+
+To add a response to a case, simply go into the Response Overview form on the
+case edit page, and click the "add" button. You will see a subform like the one
+in the picture below. Here, you can enter information on the response.
+
+![](img/image96.png)
+
+When selecting a Response Type, remember that this will help determine the
+workflow status of your case. So, for instance, if you select "Immediate
+Response," your case status will also be "Immediate Response" so long as you do
+not add any other responses or close the case.
+
+![](img/image97.png)
+
+Another important field to fill in is the type of service that will be rendered
+for this particular response, whether it be medical, legal, or whatever other
+options have been specified in your implementation's configuration. This field
+will help service providers properly take care of your case.
+
+![](img/image98.png)
+
+Choosing a timeframe for the response will help generate reminders in you or
+your manager's dashboard when the response is coming due or overdue. For more
+information on these reminders, check out the Dashboards section.
+
+![](img/image101.png)
+
+Selecting a service provider in this form will allow you to refer your case to
+the service provider directly from the form. Make sure you fill in this field,
+or no "REFER" button will appear for this particular response. In the situation
+below, we have selected a medical specialist to perform a medical service for
+our case.
+
+![](img/image99.png)
+
+## Referring from Response Overview Form
+
+Once you have saved the case with this new response, and have been redirected
+back to the view page, go to the Response Overview form and the response you
+just added. At the top of the response's subform, you should see a "REFER"
+button. Click on this button, and you will see a modal like the one pictured 
+below. Here, you can enter information on your referral just like you normally
+would. However, if you have already filled out a service provider and a
+service type for your response, these fields will be pre-entered for you.
+Remember to ensure that your case has provided consent, or that you choose the
+override consent option before referring.
+
+![](img/image100.png)
+
 # Reports
 
 Reports allow users to see a high-level, aggregate view of data, helping  

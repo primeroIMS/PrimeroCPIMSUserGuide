@@ -77,6 +77,12 @@
 
     *  [*Relinquishing Referral*](UsersGuide.md#relinquishing-referral)
 
+*  [*Responses*](UsersGuide.md#responses)
+
+    *  [*Response Overview Form*](UsersGuide.md#response-overview-form)
+
+    *  [*Referring from Response Overview Form*](UsersGuide.md#referring-from-response-overview-form)
+
 *  [*Reports*](UsersGuide.md#reports)
 
     *  [*Creating a Report*](UsersGuide.md#creating-a-report)
