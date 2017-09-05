@@ -37,9 +37,11 @@ If your user has access to cases through either the CP or GBV module, you will s
 
 ### Cases Dashboard
 
-The first example below is the basic Cases Dashboard. If you have any access to cases, but you are not a manager or an administrator, you will see this dashboard. The dashboard is divided into two main sections: one for cases, one for responses. The first section (first picture below) begins with a few key metrics: total cases, total new cases, transfers awaiting acceptance, new incidents, services implemented, total referrals, new referrals, pending transfers, and rejected transfers. \(In these metrics, “new” means anything which has not been edited since its creation.\) Below these key metrics lie two columns. The first shows the number of total and new cases, subdivided by assessment level. The second column shows all the number of pending, rejected, and new approvals, subdivided by the type of approval.
+The first example below is the basic Cases Dashboard. If you have any access to cases, but you are not a manager or an administrator, you will see this dashboard. The dashboard is divided into two main sections: one for cases, one for responses. The first section (first picture below) begins with a few key metrics: total cases, total new cases, transfers awaiting acceptance, new incidents, services implemented, total referrals, new referrals, pending transfers, and rejected transfers. \(In these metrics, “new” means anything which has not been edited since its creation, or since it was assigned to the current user, while "updated" means anything that has been changed since the user last saved the case. This latter situation may arise, for instance, if another user adds an incident to the case.\) Below these key metrics lie two columns. The first shows the number of total and new cases, subdivided by assessment level. The second column shows all the number of pending, rejected, and new approvals, subdivided by the type of approval.
 
 ![](/img/image90.png)
+
+For any of the numbers shown in this dashboard, clicking on the number will take you to a list of cases which meet the criteria represented by that number. So, for instance, if you click on the number "6" shown for "New & Updated" cases, you will be redirected to a list of all six cases which count as new and/or updated.
 
 The second portion of the cases dashboard outlines all responses for the user's cases, with a column for each response type. Within each column, responses are broken down by priority level, at which point numbers are given for total responses as well as those nearing or past their deadlines \(as determined by the timeframe specified for a given response\). Clicking any of these numbers will take the user to a list of the cases in question. This allows users to easily manage the most urgent tasks for their cases, in order of priority.
 
@@ -47,13 +49,17 @@ The second portion of the cases dashboard outlines all responses for the user's 
 
 ### Manager Dashboard
 
-The Manager Dashboard, meanwhile, appears if you have managerial tasks in your organization. This dashboard is similar to the cases dashboard, but includes the cases of the team you manage, and involves some tasks that managers have to perform. The first section, labeled "Cases," tells the manager how many of the team's cases are open or closed. Beneath that, a second section tells the manager how many cases need to be assigned, broken down by assessment level as well as due date. Next comes the third section, composed of two columns. In the first of these, figures are given for the number of cases with each assessment level, and for each of these classifications, how many of the cases are new. The second column, meanwhile, shows gives the number of pending approvals, broken down by approval type (in this case, case plan approval and closure approval).
+The Manager Dashboard, meanwhile, appears if you have managerial tasks in your organization. This dashboard is similar to the cases dashboard, but includes the cases of the team you manage, and involves some tasks that managers have to perform. The first section, labeled "Cases," tells the manager how many of the team's cases are open or closed, as well as the number of cases have pending transfer requests, or whose transfer requests have been approved or rejected. Beneath that, a second section tells the manager how many unassigned cases have each priority level. These cases are then further broken down by due date. 
+
+Next comes the third section, composed of two columns. In the first of these, figures are given for the number of cases with each priority level, and for each of these classifications, how many of the cases are new. The second column, meanwhile, gives the number of pending approvals, broken down by approval type (in this case, case plan approval and closure approval).
 
 ![](img/image73.png)
 
+Once again, clicking on any of the numbers shown in the dashboard will take you to a list of cases which meet the criteria represented by that number.
+
 ### Admin Dashboard
 
-Finally, you will see the Admin Dashboard upon login if your user’s role has access to all records in the system \(thus giving you an administrator’s functionality\). On this dashboard, you will see is a table of cases by district, with each row broken down into total open cases, cases created last week, cases created this week, cases closed last week, and cases closed this week. \(Here, a week is measured from midnight Monday morning to 11:59 Sunday night. This means that for a case to have been created this week, it must have been created during or since the immediately preceding Monday morning.\) As stated previously, if you see the Admin Dashboard, you will not see the Cases Dashboard or the Manager Dashboard, since one user can only have one of the case dashboards display on their Dashboard Page.
+Finally, you will see the Admin Dashboard upon login if your user’s role has access to all records in the system \(thus giving you an administrator’s functionality\). On this dashboard, you will see a table of cases by district, with each row broken down into total open cases, cases created last week, cases created this week, cases closed last week, and cases closed this week. \(Here, a week is measured from midnight Monday morning to 11:59 Sunday night. This means that for a case to have been created this week, it must have been created during or since the immediately preceding Monday morning.\) As stated previously, if you see the Admin Dashboard, you will not see the Cases Dashboard or the Manager Dashboard, since one user can only have one of the case dashboards display on their Dashboard Page.
 
 Flags are, once again, on the right. Like the Manager Dashboard, and for similar reasons, the Admin Dashboard only lists those cases which you have flagged.
 
@@ -217,7 +223,7 @@ Quick Search refers to the search field in the header navigation bar. From here 
 
 ## Searching for Records Owned By Others
 
-Depending on your configuration, some users may have the ability to search for records owned by other users. In this case, the records are only be visible in the list view. Clicking on a record in this view does not take the user to the view page for that record. Instead, the user can perform actions on the record from the list review.
+Depending on your configuration, some users may have the ability to search for records owned by other users. In this case, the records are only visible in the list view. Clicking on a record in this view does not take the user to the view page for that record. Instead, the user can perform actions on the record from the list review.
 
 ![](/img/image88.png)
 
@@ -225,9 +231,15 @@ To do this, go to the record list page, and search for your record using an id o
 
 ## Adding Incident to Case from List View
 
-Depending on configuration, a user may be able to add an incident to a case from the list view or when searching cases. To add an incident to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Incident." You will see the following modal. Here, enter information on the incident you are adding, and then save.
+Depending on your configuration, a user may be able to add an incident to a case from the list view or when searching cases. To add an incident to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Incident." You will see the following modal. Here, enter information on the incident you are adding, and then save.
 
 ![](/img/image89.png)
+
+## Adding Service Provision to Case from List View
+
+Depending on your configuration, a user may be able to add a service provision to a case from the list view or when searching cases. To add a service to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Service Provision." You will see the following modal. Here, enter information on the service you are adding, and then save.
+
+![](/img/image102.png)
 
 # Exporting Information on Records
 
@@ -273,9 +285,21 @@ In certain data sets and forms, we find that information pertaining to an event 
 
 ## Alerts
 
-When an incident has been added to your case, you will see a small alert badge next to the incident subform. This helps users keep track of updates to a given case's situation and immediately undertake any necessary responses.
+Alerts appear in the case forms when an important change has been made to your case. One example of such a change is when an incident has been added to your case. In this situation, you will see a small alert badge next to the incident subform. This helps users keep track of updates to a given case's situation and immediately undertake any necessary responses.
 
 ![](/img/image95.png)
+
+There are two other situations which would cause an alert to appear: the addition of a service provision to your case, and an approval request being made on a case. In the first situation, if another user adds a service provision to your case, an alert will appear next to the Services form tab in the forms side bar. (Depending on your configuration, this form may also be called "Response Overview.")
+
+![](/img/image103.png)
+
+You may also see a message at the top of the form informing you of the reason for the alert.
+
+![](/img/image104.png)
+
+An alert may also appear on a case form if a request was recently requested for case plan, closure, or best-interest assessment approval. Whenever an approval is requested for one of these situations, an alert will appear next to the appropriate form tab: Services (also called Response Overview in some implementations) for case plan approval, Closure for closure approval, and BIA for best interest assessment approval.
+
+![](/img/image105.png)
 
 # Creating, Updating, or Editing a Case
 
@@ -389,6 +413,20 @@ Once you have clicked "refer" you will see the below modal. Once again, make sur
 Based on the deployment, you may have the ability to relinquish a case that has been referred to you. You can see if any cases have been referred to you on your dashboard. When you click on the Referrals and Transfers form for the case that has been referred to you, you will see a DONE button next to the referral that has been made to you. If you are done reviewing the case, you can click the done button. Once clicked, it will be removed from your case list and you will no longer have access to it.
 
 ![](img/image82.png)
+
+# Workflow Status
+
+Primero provides a flexible way of keeping track of a case's place in the child protection workflow. As it stands, a case can have one of a few standard statuses: "New," "Service Implemented," "Closed," and then a status associated with each of the various types of services (also called "responses" or "interventions," depending on your implementation). The workflow status is represented in the Workflow Status Bar. In the image below, there are five statuses, since a service can be classified as either an "Immediate Intervention" or a "Comprehensive Intervention."
+
+![](img/image82.png)
+
+In this situation, the case has a status of "Comprehensive Intervention." All cases start off as "New." Once a service is added, the case assumes a status associated with the most recent service's type. Clearly then, for this case, the most recent intervention was a "Comprehensive Intervention."
+
+![](img/image82.png)
+
+Once all services have been implemented, the case's status will switch to "Service Implemented." Finally, if a case is closed (using the "Case Status" input), the status of the case will change to "Closed."
+
+Once again, this case status, as represented in the Workflow Status Bar, helps keep track of the case's place in the Child Protection workflow. That being said, this cannot replace the robust human processes needed to ensure that cases are properly assessed and cared for. Please closely follow your particular program's Child Protection SoP's to ensure that best practices are followed in the handling of all cases.
 
 # Responses
 
