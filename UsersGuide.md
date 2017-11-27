@@ -351,7 +351,11 @@ In addition, it may be possible that, when you try to save, you will have forgot
 
 ![](/img/image104.png)
 
-For more information on how you can set which fields are required, please see the Primero Administration and Configuration Guide.
+When a required field is located on a nested subform, a user must either fill out the required field or remove the subform entry with the un-filled field. The red number next to the name of each form section representing the number of un-filled fields in a form section will reflect the total number of required fields across all subform instances in that form section. So, for instance, if there are two required fields on the Family Details subform, and the user has created subform entries for each of three family members without filling out any of the required fields, the number '6' will appear next to "Family Details" form section name in the forms list (2 × 3 = 6).
+
+![](/img/image105.png)
+
+Once again, if you wanted to avoid filling out the fields on one of these subform entries, you could just click the "Remove" button to remove that subform entry. For more information on how you can set which fields are required, please see the Primero Administration and Configuration Guide.
 
 
 # Generating Automatic Follow Ups
