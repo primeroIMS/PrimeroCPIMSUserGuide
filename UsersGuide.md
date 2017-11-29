@@ -461,11 +461,13 @@ Another important field to fill in is the type of service that will be rendered 
 
 ![](img/image98.png)
 
-Choosing a timeframe for the response will help generate reminders in you or your manager's dashboard when the response is coming due or overdue. For more information on these reminders, check out the Dashboards section.
+Choosing a timeframe for the response will help generate reminders in you or your manager's dashboard when the response is coming due or overdue. This timeframe, depending on your configuration, will take one of two forms: the time period after which the response will be due (e.g. three hours, one day); or the actual due date for the response (e.g. November 30, 2017). Both these forms are displayed in the pictures below. For more information on these reminders, check out the Dashboards section.
 
 ![](img/image101.png)
 
-Selecting a service provider in this form will allow you to refer your case to the service provider directly from the form. Make sure you fill in this field, or no "REFER" button will appear for this particular response. In the situation below, we have selected a medical specialist to perform a medical service for our case.
+![](img/image106.png)
+
+Selecting a service provider in this form will allow you to refer your case to the service provider directly from the form. Make sure you fill in the "Service Provider Name" field, or no "REFER" button will appear for this particular response. In the situation below, we have selected a medical specialist to perform a medical service for our case.
 
 ![](img/image99.png)
 
