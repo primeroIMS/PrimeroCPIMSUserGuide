@@ -77,6 +77,40 @@ The GBV Incident Dashboard will appear below whichever case dashboard you have i
 
 ![](img/image48.png)
 
+## Tasks View
+
+Next to the "Home" icon in the navigation bar, you may see a calendar icon (depending on your configuration). Clicking on this icon will take you to the **Tasks View**.
+
+![](img/image112.png)
+
+Here, you will see all of the pending, incomplete tasks present for all of your cases. These "tasks" can include assessments, case plans, follow ups, and services. As you can see, tasks that are upcoming have their due dates in black font, while those which are overdue have their due dates in red font and have small alert symbols next to their case links. Clicking on any of the case links will take you to the case which needs the task to be performed.
+
+It is important to understand where the due dates for these tasks come from, as well as which tasks are considered "incomplete."
+
+### Assessments
+
+Assessments become due based on the "Date Assessment Due" field (or any field with the id "assessment_due_date") on the Basic Identity form. This field is not visible by default in Primero, meaning that, unless your system is configured to use the field, you will not see Assessments as tasks in the Tasks view. Furthermore, an assessment is considered incomplete if the "Assessment requested on" field (or any field with the id "assessment_requested_on") on the Assessment form has not been filled out.
+
+![](img/image113.png)
+
+### Case Plans
+
+Case plans become due based on the "Date Case Plan Due" field (or any field with the id "case_plan_due_date") on the Assessment form. Like the "Date Asssessment Due" field, this is also hidden by default, so unless your implementation makes the field visible, you will not see case plans in the Tasks view. A case plan is considered complete once the field "Date Case Plan Inititated" on the Case Plan form has been filled out.
+
+![](img/image114.png)
+
+### Services
+
+Services become due based on the "Appointment Date" field (or any field with the id "service_appointment_date") on the Services subform. A service is considered complete once the "Service Implemented On" field (or any field with the id "service_implemented_day_time") on the Services subform is filled out.
+
+![](img/image115.png)
+
+### Follow Ups
+
+Follow ups become due based on the "Follow up needed by" field (or any other field with the id "followup_needed_by_date") on the nested Follow Up form. A follow up is then considered complete when the "Follow Up Date" field (or any field with the id "followup_date") on the nested Follow Up form is filled out.
+
+![](img/image116.png)
+
 ## List View
 
 When selecting the record type or page you want to visit via the header navigation, you can see all cases or tracing requests that belong to you when you click on CASES. Once there, you see a list of the possible matching records, that you are able to filter and/or sort. See below:
