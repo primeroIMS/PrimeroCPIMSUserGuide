@@ -550,9 +550,29 @@ Finally, the "Closed" status applies when a case's case status has been set to "
 Please see the Primero Administration and Configuration Guide for more details on how to change which workflow statuses appear for your implementation.
 
 
+# Notification Emails
+
+Users may receive notification emails that either welcome them to the application, or alert them to changes to their cases. Only user accounts which have been designated to receive notification emails will receive anything, and only if the system as a whole has been set to send notification and welcome emails. The following users will receive emails in the following circumstances:
+
+* Managers whose case workers have requested approval for case plans, closures, etc.
+
+* Case workers whose managers have responded to approval requests for case plans, closures, etc.
+
+* Users who have received a case transfer
+
+* Users who have received a case assignment
+
+* Users who have received a case referral
+
+Welcome emails will look something like the below message. If the new user clicks the "Primero" link in the message, they will be sent to the system login screen. Once again, users will only receive welcome emails if the system has been configured to send them, and if the user in question has been set up to receive them.
+
+![](img/image117.png)
+
+For more information on how turn welcome and notification emails on or off in the system's configuration, please see the Primero Administration and Configuration Guide.
+
 # Reports
 
-Reports allow users to see a high-level, aggregate view of data, helping them to understand trends and coming challenges in their work. Only   certain roles--and thus certain users--will have the ability to create or view reports. Some users will be able to navigate to the **Reports** section of the application and view existing reports but not edit them or create new ones, while others will have the ability to view, create, edit, and export reports.
+Reports allow users to see a high-level, aggregate view of data, helping them to understand trends and coming challenges in their work. Only certain roles--and thus certain users--will have the ability to create or view reports. Some users will be able to navigate to the **Reports** section of the application and view existing reports but not edit them or create new ones, while others will have the ability to view, create, edit, and export reports.
 
 ## Creating a Report
 
