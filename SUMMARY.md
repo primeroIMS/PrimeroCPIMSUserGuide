@@ -83,6 +83,8 @@
 
     *  [*Referring from Response Overview Form*](UsersGuide.md#referring-from-response-overview-form)
 
+*  [*Notification Emails*](UsersGuide.md#notification-emails)
+
 *  [*Reports*](UsersGuide.md#reports)
 
     *  [*Creating a Report*](UsersGuide.md#creating-a-report)
