@@ -23,6 +23,8 @@
 
     * [*GBV Incident Dashboard*](UsersGuide.md#gbv-incident-dashboard)
 
+    * [*Tasks View*](UsersGuide.md#tasks-view)
+
     * [*List View*](UsersGuide.md#list-view)
 
     * [*Edit and View a record*](UsersGuide.md#edit-and-view-a-record)
