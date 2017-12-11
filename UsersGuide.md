@@ -101,11 +101,11 @@ Case plans become due based on the "Date Case Plan Due" field (or any field with
 
 ### Services
 
-By default, services become due based on the "Appointment Date" field (or any field with the id "service_appointment_date") on the Services subform. A service is considered complete once the "Service Implemented On" field (or any field with the id "service_implemented_day_time") on the Services subform is filled out.
+By default, services become due based on the "Implementation Timeframe" field (or any field with the id "service_response_timeframe") on the Services subform. A service is considered complete once the "Service Implemented On" field (or any field with the id "service_implemented_day_time") on the Services subform is filled out.
 
-![](img/image115.png)
+![](img/image118.png)
 
-There is also an option to make services become due based on a timeframe rather than an "Appointment Date" type field. For more information on how to set this option, please see the Primero Administration and Configuration Guide.
+There is also an option to make services become due based on the "Appointment Date" field rather than the timeframe field. For more information on how to set this option, please see the Primero Administration and Configuration Guide.
 
 ### Follow Ups
 
