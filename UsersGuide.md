@@ -101,7 +101,7 @@ Case plans become due based on the "Date Case Plan Due" field (or any field with
 
 ### Services
 
-By default, services become due based on the "Implementation Timeframe" field (or any field with the id "service_response_timeframe") on the Services subform. A service is considered complete once the "Service Implemented On" field (or any field with the id "service_implemented_day_time") on the Services subform is filled out.
+By default, services become due based on the "Implementation Timeframe" field (or any field with the id "service_response_timeframe") on the Services subform. For example, if a service is created on June 2, and the timeframe is set for "Three Days," the service will be considered due on June 5. A service is considered complete once the "Service Implemented On" field (or any field with the id "service_implemented_day_time") on the Services subform is filled out.
 
 ![](img/image118.png)
 
