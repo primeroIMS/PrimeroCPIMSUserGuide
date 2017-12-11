@@ -105,7 +105,7 @@ By default, services become due based on the "Implementation Timeframe" field (o
 
 ![](img/image118.png)
 
-There is also an option to make services become due based on the "Appointment Date" field rather than the timeframe field. For more information on how to set this option, please see the Primero Administration and Configuration Guide.
+There is also an option to make services become due based on the "Appointment Date" field rather than the timeframe field. For more information on how to set this option, please see the **Primero Administration and Configuration Guide**.
 
 ### Follow Ups
 
@@ -405,7 +405,7 @@ When a required field is located on a nested subform, a user must either fill ou
 
 ![](/img/image105.png)
 
-Once again, if you wanted to avoid filling out the fields on one of these subform entries, you could just click the "Remove" button to remove that subform entry. For more information on how you can set which fields are required, please see the Primero Administration and Configuration Guide.
+Once again, if you wanted to avoid filling out the fields on one of these subform entries, you could just click the "Remove" button to remove that subform entry. For more information on how you can set which fields are required, please see the **Primero Administration and Configuration Guide**.
 
 
 # Generating Automatic Follow Ups
@@ -531,7 +531,7 @@ Once you have saved the case with this new response, and have been redirected ba
 
 ## The Workflow Status Bar
 
-The **Workflow Status** allows the user to quickly understand where in the case management process the current case stands. This value can be seen at the top of the case forms, in the **Workflow Status Bar**. By default, Primero is not set to display this bar, but the system can be configured to change this. (See the Primero Administration and Configuration Guide.)
+The **Workflow Status** allows the user to quickly understand where in the case management process the current case stands. This value can be seen at the top of the case forms, in the **Workflow Status Bar**. By default, Primero is not set to display this bar, but the system can be configured to change this. (See the **Primero Administration and Configuration Guide**.)
 
 ![](img/image107.png)
 
@@ -549,7 +549,7 @@ The next status, "Service provision," is deprecated, and should be left out of a
 
 Finally, the "Closed" status applies when a case's case status has been set to "Closed."
 
-Please see the Primero Administration and Configuration Guide for more details on how to change which workflow statuses appear for your implementation.
+Please see the **Primero Administration and Configuration Guide** for more details on how to change which workflow statuses appear for your implementation.
 
 
 # Notification Emails
@@ -570,7 +570,7 @@ Welcome emails will look something like the below message. If the new user click
 
 ![](img/image117.png)
 
-For more information on how turn welcome and notification emails on or off in the system's configuration, please see the Primero Administration and Configuration Guide.
+For more information on how turn welcome and notification emails on or off in the system's configuration, please see the **Primero Administration and Configuration Guide**.
 
 # Reports
 
