@@ -502,7 +502,7 @@ Another important field to fill in is the type of service that will be rendered 
 
 Choosing a timeframe for the service will help generate reminders in you or your manager's dashboard when the service is coming due or overdue. This timeframe, depending on your configuration, will take one of two forms: the time period after which the service will be due (e.g. three hours, one day); or the actual due date for the service (e.g. November 30, 2017). Both these forms are displayed in the pictures below. For more information on these reminders, check out the Dashboards section.
 
-[Lebanon: Please note that the Lebanon configuration uses the second option, a due date (labeled "By When").]
+[Lebanon: Please note that the Lebanon configuration uses the second option, a due date (labeled "By When"). The date saved in this field will be used as the due date for the Dashboard and the Tasks view.]
 
 ![](img/image101.png)
 
