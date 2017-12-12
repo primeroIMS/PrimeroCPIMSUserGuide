@@ -37,13 +37,11 @@ If your user has access to cases through either the CP or GBV module, you will s
 
 ### Cases Dashboard
 
-The first example below is the basic Cases Dashboard. If you have any access to cases, but you are not a manager or an administrator, you will see this dashboard. The dashboard is divided into two main sections: one for cases, one for responses. The first section (first picture below) begins with a few key metrics: total cases, total new cases, transfers awaiting acceptance, new incidents, services implemented, total referrals, new referrals, pending transfers, and rejected transfers. \(In these metrics, “new” means anything which has not been edited since its creation, or since it was assigned to the current user, while "updated" means anything that has been changed since the user last saved the case. This latter situation may arise, for instance, if another user adds an incident to the case.\) Below these key metrics lie two columns. The first shows the number of total and new cases, subdivided by assessment level. The second column shows all the number of pending, rejected, and new approvals, subdivided by the type of approval.
+The first example below is the basic Cases Dashboard. If you have any access to cases, but you are not a manager or an administrator, you will see this dashboard. The dashboard is divided into two main sections: one for cases, one for services. The first section (first picture below) begins with a few key metrics: total cases, total new cases, transfers awaiting acceptance, new incidents, services implemented, total referrals, new referrals, pending transfers, and rejected transfers. \(In these metrics, “new” means anything which has not been edited since its creation.\) Below these key metrics lie two columns. The first shows the number of total and new cases, subdivided by assessment level. The second column shows all the number of pending, rejected, and new approvals, subdivided by the type of approval.
 
 ![](/img/image90.png)
 
-For any of the numbers shown in this dashboard, clicking on the number will take you to a list of cases which meet the criteria represented by that number. So, for instance, if you click on the number "6" shown for "New & Updated" cases, you will be redirected to a list of all six cases which count as new and/or updated.
-
-The second portion of the cases dashboard outlines all responses for the user's cases, with a column for each response type. Within each column, responses are broken down by priority level, at which point numbers are given for total responses as well as those nearing or past their deadlines \(as determined by the timeframe specified for a given response\). Clicking any of these numbers will take the user to a list of the cases in question. This allows users to easily manage the most urgent tasks for their cases, in order of priority.
+The second portion of the cases dashboard outlines all services for the user's cases, with a column for each response type. Within each column, services are broken down by priority level, at which point numbers are given for total services as well as those nearing or past their deadlines \(as determined by the timeframe specified for a given service\). Clicking any of these numbers will take the user to a list of the cases in question. This allows users to easily manage the most urgent tasks for their cases, in order of priority.
 
 ![](/img/image91.png)
 
@@ -131,7 +129,7 @@ On the view and edit pages for a case, the user will see the case status bar, wh
 
 ![](img/image85.png)
 
-When the case is first opened, before any services are added, the status bar will highlight the "New" status. Once a service has been added, however, the case status will correspond with the most recently-added response type. So, for instance, after a case is opened, if a case worker refers the case to a service provider for a service with a response type of "Immediate Response", the case status will also be "Immediate Response." When the case is closed, with manager approval, the case status will become "Closed." Keeping track of the case status helps the case worker keep track of the case's needs. Please note that the case status bar may or may not appear, depending on a given implementation's configuration.
+When the case is first opened, before any services are added, the status bar will highlight the "New" status. Once a service has been added, however, the case status will correspond with the most recently-added response type. So, for instance, after a case is opened, if a case worker refers the case to a service provider for a service with a response type of "Action Plan", the case status will also be "Action Plan." When the case is closed, with manager approval, the case status will become "Closed." Keeping track of the case status helps the case worker keep track of the case's needs. Please note that the case status bar may or may not appear, depending on a given implementation's configuration.
 
 ## Action Buttons
 
@@ -335,7 +333,7 @@ In certain data sets and forms, we find that information pertaining to an event 
 
 ## Alerts
 
-Alerts appear in the case forms when an important change has been made to your case. One example of such a change is when an incident has been added to your case. In this situation, you will see a small alert badge next to the incident subform. This helps users keep track of updates to a given case's situation and immediately undertake any necessary responses.
+When an incident has been added to your case, you will see a small alert badge next to the incident subform. This helps users keep track of updates to a given case's situation and immediately undertake any necessary services.
 
 ![](/img/image95.png)
 
@@ -479,31 +477,18 @@ Based on the deployment, you may have the ability to relinquish a case that has 
 
 ![](img/image82.png)
 
-# Workflow Status
+# Services
 
-Primero provides a flexible way of keeping track of a case's place in the child protection workflow. As it stands, a case can have one of a few standard statuses: "New," "Service Implemented," "Closed," and then a status associated with each of the various types of services (also called "responses" or "interventions," depending on your implementation). The workflow status is represented in the Workflow Status Bar. In the image below, there are five statuses, since a service can be classified as either an "Immediate Intervention" or a "Comprehensive Intervention."
+A core part of the case management process is responding to the needs of a case. Primero manages these through the "Services" form and through the provision of services (sometimes also referred to as "responses").
 
-![](img/image82.png)
 
-In this situation, the case has a status of "Comprehensive Intervention." All cases start off as "New." Once a service is added, the case assumes a status associated with the most recent service's type. Clearly then, for this case, the most recent intervention was a "Comprehensive Intervention."
+## Services Form
 
-![](img/image82.png)
-
-Once all services have been implemented, the case's status will switch to "Service Implemented." Finally, if a case is closed (using the "Case Status" input), the status of the case will change to "Closed."
-
-Once again, this case status, as represented in the Workflow Status Bar, helps keep track of the case's place in the Child Protection workflow. That being said, this cannot replace the robust human processes needed to ensure that cases are properly assessed and cared for. Please closely follow your particular program's Child Protection SoP's to ensure that best practices are followed in the handling of all cases.
-
-# Responses
-
-A core part of the case management process is responding to the needs of a case. Primero manages these through the "Response Overview" form and through the provision of services.
-
-## Response Overview Form
-
-To add a response to a case, simply go into the Response Overview form on the case edit page, and click the "add" button. You will see a subform like the one in the picture below. Here, you can enter information on the response.
+To add a service to a case, simply go into the Services form on the case edit page, and click the "add" button. You will see a subform like the one in the picture below. Here, you can enter information on the service.
 
 ![](img/image96.png)
 
-When selecting a Response Type, remember that this will help determine the workflow status of your case. So, for instance, if you select "Immediate Response," your case status will also be "Immediate Response" so long as you do not add any other responses or close the case.
+When selecting a "Type of Response", remember that this will help determine the workflow status of your case. So, for instance, if you select "Action Plan," your case status will also be "Action Plan" so long as you do not add any other services or close the case.
 
 ![](img/image97.png)
 
@@ -511,19 +496,19 @@ Another important field to fill in is the type of service that will be rendered 
 
 ![](img/image98.png)
 
-Choosing a timeframe for the response will help generate reminders in you or your manager's dashboard when the response is coming due or overdue. This timeframe, depending on your configuration, will take one of two forms: the time period after which the response will be due (e.g. three hours, one day); or the actual due date for the response (e.g. November 30, 2017). Both these forms are displayed in the pictures below. For more information on these reminders, check out the Dashboards section.
+Choosing a timeframe for the service will help generate reminders in you or your manager's dashboard when the service is coming due or overdue. This timeframe, depending on your configuration, will take one of two forms: the time period after which the service will be due (e.g. three hours, one day); or the actual due date for the service (e.g. November 30, 2017). Both these forms are displayed in the pictures below. For more information on these reminders, check out the Dashboards section.
 
 ![](img/image101.png)
 
 ![](img/image106.png)
 
-Selecting a service provider in this form will allow you to refer your case to the service provider directly from the form. Make sure you fill in the "Service Provider Name" field, or no "REFER" button will appear for this particular response. In the situation below, we have selected a medical specialist to perform a medical service for our case.
+Selecting a service provider in this form will allow you to refer your case to the service provider directly from the form. Make sure you fill in the "Service Provider Name" field, or no "REFER" button will appear for this particular service. In the situation below, we have selected a medical specialist to perform a medical service for our case.
 
 ![](img/image99.png)
 
-## Referring from Response Overview Form
+## Referring from Services Form
 
-Once you have saved the case with this new response, and have been redirected back to the view page, go to the Response Overview form and the response you just added. At the top of the response's subform, you should see a "REFER" button. Click on this button, and you will see a modal like the one pictured below. Here, you can enter information on your referral just like you normally would. However, if you have already filled out a service provider and a service type for your response, these fields will be pre-entered for you. Remember to ensure that your case has provided consent, or that you choose the override consent option before referring.
+Once you have saved the case with this new service, and have been redirected back to the view page, go to the Services form and the service you just added. At the top of the service's subform, you should see a "REFER" button. Click on this button, and you will see a modal like the one pictured below. Here, you can enter information on your referral just like you normally would. However, if you have already filled out a service provider and a service type for your service, these fields will be pre-entered for you. Remember to ensure that your case has provided consent, or that you choose the override consent option before referring.
 
 ![](img/image100.png)
 
