@@ -1,7 +1,7 @@
 {
     "title" : "Primero Users Guide",
     "github" : false,
-    "plugins" : [ "-mathjax", "-mixpanel", "edit-link", "downloadpdf"],
+    "plugins" : [ "-mathjax", "-mixpanel","-search", "edit-link", "downloadpdf"],
     "pluginsConfig": {
             "edit-link": {
                 "base": "https://github.com/primeroIMS/PrimeroCPIMSUserGuide/edit/master",
