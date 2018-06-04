@@ -21,6 +21,8 @@
 
     * [*Flagged Case Lists*](UsersGuide.md#flagged-case-lists)
 
+    * [*Audit Logs*](UsersGuide.md#audit-logs)
+
     * [*GBV Incident Dashboard*](UsersGuide.md#gbv-incident-dashboard)
 
     * [*Tasks View*](UsersGuide.md#tasks-view)

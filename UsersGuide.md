@@ -69,6 +69,17 @@ If you see any of the case dashboards, the right of your screen will show one or
 
 ![](img/image22.png)
 
+## Audit Logs
+
+Some administrative users and team managers may have access to the *Audit Log*. To see the audit log, first navigate to Settings by clicking on the settings icon at the top of the page. In the side panel, you will see a link labelled "Audit Logs."
+
+![](img/v1-6/image1.png)
+![](img/v1-6/image2.png)
+
+When you click on this link, you will see the table pictured below. This contains a list of all actions which users have committed in the system. Each row represents a different action, including the user name of the user, the type of action, the type (and some times the id) of the record on which the action was performed, and the date and time of the action. Using the filter inputs to the right of the list, you can filter which actions are displayed. You can filter by date and time or user name. To apply a set of filters, click "Apply," and to clear out all filters, click "Clear."
+
+![](img/v1-6/image3.png) 
+
 ## GBV Incident Dashboard
 
 The GBV Incident Dashboard will appear below whichever case dashboard you have if your user’s role has access to incidents through the GBV module. The table in this dashboard lists out each incident, with columns for “Incident \#ID,” “Date of Interview,” “Date of Incident,” and “Violence Type.” Each incident’s id will link to the incident’s page, and each incident will feature an icon indicating the number of flags it has, provided it has at least one. To the right of the GBV Incident Dashboard will be a list of incidents flagged by the user.
