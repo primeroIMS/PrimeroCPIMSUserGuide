@@ -297,7 +297,10 @@ To do this, go to the record list page, and search for your record using an id o
 Before performing an action, you may wish to see some information about the record you have selected, even if you do not have permission to see all of the record's information. Some users will have permission to see a limited set of attributes for other users' records, using what is known as the *View Details* modal. To see information on such a record, click on the "View" link at the right-hand side of the record's entry in the list. You will then see a modal containing information on the case.
 
 ![](/img/v1-6/image5.png)
+
 ![](/img/v1-6/image6.png)
+
+Depending on your user's role configuration, you may be able to see the case's photo in this modal. The permission to view this photo is different from the one which allows you to see the *View Details* modal. For more information on configuring user roles, please see the **Primero Administration Guide**.
 
 ## Adding Incident to Case from List View
 
@@ -490,7 +493,7 @@ Once you have sent the transfer request, the record owner - if their user accoun
 
 ![](/img/v1-6/image9.png)
 
-If the case owner clicks on the link in the email, they will be redirected to the Primero login page and then to the case record, where they will see a notification on the *Transfers and Referrals* form alerting them to the transfer request. Here, they will also see the note you included in your request.
+If the case owner clicks on the link in the email, they will be redirected to the Primero login page and then to the case record, where they will see a notification in the forms side bar and on the *Transfers and Referrals* form alerting them to the transfer request. Here, they will also see the note you included in your request.
 
 ![](/img/v1-6/image10.png)
 
