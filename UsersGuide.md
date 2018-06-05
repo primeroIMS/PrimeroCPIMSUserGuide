@@ -284,7 +284,7 @@ Quick Search refers to the search field in the header navigation bar. From here 
 
 ## Searching for Records Owned By Other Users
 
-Depending on your configuration, some users may have the ability to search for records owned by other users. In this case, the records are only visible in the list view. Clicking on a record in this view does not take the user to the view page for that record. Instead, the user can perform actions on the record from the list review.
+Depending on your configuration, some users may have the ability to search for records owned by other users. In this case, the records are only visible in the list view. Clicking on a record in this view does not take the user to the view page for that record. Instead, the user can perform actions on the record from the list view.
 
 ![](/img/image88.png)
 
@@ -299,35 +299,15 @@ Before performing an action, you may wish to see some information about the reco
 ![](/img/v1-6/image5.png)
 ![](/img/v1-6/image6.png)
 
-## Requesting a Record Transfer
-
-If you find a record owned by another user and need full access to it, you can ask the record owner to transfer the record to you. In Primero, this is known as a *Transfer Request*. Your ability to perform a *Transfer Request* will depend on your instance's configuration. To request a transfer, click the "View" link described in the section above. Scroll to the bottom of the *View Details* modal. Here, you will see a button marked "Request Transfer". Click it, and a modal will appear.
-
-![](/img/v1-6/image7.png)
-
-![](/img/v1-6/image8.png)
-
-Here, you will see information on the record owner and a text box where you can enter a note to the owner of the record. Click "Send Request" to submit.
-
-### Notifications for the Case Owner
-
-Once you have sent the transfer request, the record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer.
-
-![](/img/v1-6/image9.png)
-
-If the case owner clicks on the link in the email, they will be redirected to the Primero login page and then to the case record, where they will see a notification on the *Transfers and Referrals* form alerting them to the transfer request. Here, they will also see the note you included in your request.
-
-![](/img/v1-6/image10.png)
-
-![](/img/v1-6/image11.png)
-
-At this point, the record owner can choose whether or not to transfer the record to you.
-
 ## Adding Incident to Case from List View
 
 Depending on your configuration, a user may be able to add an incident to a case from the list view or when searching for a case. To add an incident to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Incident." You will see the following modal. Here, enter information on the incident you are adding, and then save.
 
 ![](/img/image89.png)
+
+Depending on your user's configuration, you may also see a second button, marked "Save and Add Service Provision." Clicking on this will save the incident details you have entered and then take you directly to the add service modal, where you can enter information on a service rendered for the child.
+
+![](/img/image119.png)
 
 ## Adding Service Provision to Case from List View
 
@@ -484,9 +464,39 @@ If you are transferring to a user outside your system who is using another Prime
 
 ## Accepting or Rejecting Transfers
 
-Based on the deployment, you may have the ability to accept or reject a case that has been transferred to you. You will be able to see if any cases have been transferred to on your dashboard. If you click on the **Referrals and Transfers** form for the case that has been transferred to you, you will see that the status is in progress and that there are buttons to either accept or reject the transfer. If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “other assigned user”. The record information is updated with this change. If you click Reject, it brings up a dialog box with an OK button and a textbox to enter the Rejection Reason. When you click OK, the rejection reason is saved to the nested subform. The status is changed to 'rejected, and you are removed from 'other assigned users' and no longer have access to the record.
+Based on your deployment's configuration, you may have the ability to accept or reject a case that has been transferred to you. You will be able to see if any cases have been transferred to on your dashboard. If you click on the Referrals and Transfers form for the case that has been transferred to you, you will see that the status is in progress and that there are buttons to either accept or reject the transfer. If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “other assigned user”. The record information is updated with this change. If you click Reject, it brings up a dialog box with an OK button and a textbox to enter the Rejection Reason. When you click OK, the rejection reason is saved to the nested subform. The status is changed to 'rejected, and you are removed from 'other assigned users' and no longer have access to the record.
 
 ![](img/image81.png)
+
+## Requesting a Record Transfer
+
+If you find a record owned by another user and need full access to it, you can ask the record owner to transfer the record to you. In Primero, this is known as a *Transfer Request*. Your ability to perform a *Transfer Request* will depend on your instance's configuration. To request a transfer, first search for your case from the case list view. When you identify the entry in the list for the case you are seeking, click the "View" link at the right of the case's row.
+
+![](/img/image88.png)
+
+![](/img/v1-6/image105.png)
+
+Scroll to the bottom of the *View Details* modal. Here, you will see a button marked "Request Transfer". Click it, and a modal will appear.
+
+![](/img/v1-6/image7.png)
+
+![](/img/v1-6/image8.png)
+
+Here, you will see information on the record owner and a text box where you can enter a note to the owner of the record. Click "Send Request" to submit.
+
+### Notifications for the Case Owner
+
+Once you have sent the transfer request, the record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer.
+
+![](/img/v1-6/image9.png)
+
+If the case owner clicks on the link in the email, they will be redirected to the Primero login page and then to the case record, where they will see a notification on the *Transfers and Referrals* form alerting them to the transfer request. Here, they will also see the note you included in your request.
+
+![](/img/v1-6/image10.png)
+
+![](/img/v1-6/image11.png)
+
+At this point, the record owner can choose whether or not to transfer the record to you.
 
 ## Referrals
 
