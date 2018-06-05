@@ -55,6 +55,12 @@
 
     * [*Searching for Records Owned By Other Users*](UsersGuide.md#searching-for-records-owned-by-other-users)
 
+    * [*Viewing Record Details*](UsersGuide.md#viewing-record-details)
+
+    * [*Requesting a Record Transfer*](UsersGuide.md#requesting-a-record-transfer)
+
+        * [*Notifications for the Case Owner*](UsersGuide.md#notifications-for-the-case-owner)
+
     * [*Adding Incident to Case from List View*](UsersGuide.md#adding-incident-to-case-from-list-view)
 
 *  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 

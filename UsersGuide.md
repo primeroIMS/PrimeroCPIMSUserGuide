@@ -282,7 +282,7 @@ Alternatively, a user--depending on configuration--can create an incident from a
 
 Quick Search refers to the search field in the header navigation bar. From here you can type in your search and return a list of possible matches. If you are searching from the cases page you can enter your case’s value for one of the following fields to find a match: “Long ID,” “Case ID,” “proGres ID,” “Name,” “Nickname,” “Other Name,” “Ration Card Number,” “ICRC Ref No.,” “RC ID No.,” “UNHCR ID,” “UN Number,” “National ID Number,” “Number of Other ID Document,” and “Other Agency ID.” When looking for a tracing request, you can search these fields: “Long ID,” “Inquirer ID,” “Name of inquirer,” and “Nickname of inquirer.” After searching, you can filter results further.
 
-## Searching for Records Owned By Others
+## Searching for Records Owned By Other Users
 
 Depending on your configuration, some users may have the ability to search for records owned by other users. In this case, the records are only visible in the list view. Clicking on a record in this view does not take the user to the view page for that record. Instead, the user can perform actions on the record from the list review.
 
@@ -290,9 +290,42 @@ Depending on your configuration, some users may have the ability to search for r
 
 To do this, go to the record list page, and search for your record using an id or other searchable field. Once your search results appear, select the check box for the record on which you wish to perform an action. Now, select the action you wish to perform in the action button dropdown.
 
+![](/img/v1-6/image4.png)
+
+## Viewing Record Details
+
+Before performing an action, you may wish to see some information about the record you have selected, even if you do not have permission to see all of the record's information. Some users will have permission to see a limited set of attributes for other users' records, using what is known as the *View Details* modal. To see information on such a record, click on the "View" link at the right-hand side of the record's entry in the list. You will then see a modal containing information on the case.
+
+![](/img/v1-6/image5.png)
+![](/img/v1-6/image6.png)
+
+## Requesting a Record Transfer
+
+If you find a record owned by another user and need full access to it, you can ask the record owner to transfer the record to you. In Primero, this is known as a *Transfer Request*. Your ability to perform a *Transfer Request* will depend on your instance's configuration. To request a transfer, click the "View" link described in the section above. Scroll to the bottom of the *View Details* modal. Here, you will see a button marked "Request Transfer". Click it, and a modal will appear.
+
+![](/img/v1-6/image7.png)
+
+![](/img/v1-6/image8.png)
+
+Here, you will see information on the record owner and a text box where you can enter a note to the owner of the record. Click "Send Request" to submit.
+
+### Notifications for the Case Owner
+
+Once you have sent the transfer request, the record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer.
+
+![](/img/v1-6/image9.png)
+
+If the case owner clicks on the link in the email, they will be redirected to the Primero login page and then to the case record, where they will see a notification on the *Transfers and Referrals* form alerting them to the transfer request. Here, they will also see the note you included in your request.
+
+![](/img/v1-6/image10.png)
+
+![](/img/v1-6/image11.png)
+
+At this point, the record owner can choose whether or not to transfer the record to you.
+
 ## Adding Incident to Case from List View
 
-Depending on your configuration, a user may be able to add an incident to a case from the list view or when searching cases. To add an incident to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Incident." You will see the following modal. Here, enter information on the incident you are adding, and then save.
+Depending on your configuration, a user may be able to add an incident to a case from the list view or when searching for a case. To add an incident to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Incident." You will see the following modal. Here, enter information on the incident you are adding, and then save.
 
 ![](/img/image89.png)
 
