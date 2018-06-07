@@ -23,6 +23,8 @@
 
     * [*GBV Incident Dashboard*](UsersGuide.md#gbv-incident-dashboard)
 
+    * [*Tasks View*](UsersGuide.md#tasks-view)
+
     * [*List View*](UsersGuide.md#list-view)
 
     * [*Edit and View a record*](UsersGuide.md#edit-and-view-a-record)
@@ -77,11 +79,13 @@
 
     *  [*Relinquishing Referral*](UsersGuide.md#relinquishing-referral)
 
-*  [*Responses*](UsersGuide.md#responses)
+*  [*Services*](UsersGuide.md#services)
 
-    *  [*Response Overview Form*](UsersGuide.md#response-overview-form)
+    *  [*Services Form*](UsersGuide.md#services-form)
 
-    *  [*Referring from Response Overview Form*](UsersGuide.md#referring-from-response-overview-form)
+    *  [*Referring from Services Form*](UsersGuide.md#referring-from-services-form)
+
+*  [*Notification Emails*](UsersGuide.md#notification-emails)
 
 *  [*Reports*](UsersGuide.md#reports)
 
