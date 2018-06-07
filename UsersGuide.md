@@ -87,7 +87,7 @@ It is important to understand where the due dates for these tasks come from, as 
 
 ### Assessments
 
-Assessments become due based on the "Date Assessment Due" field (or any field with the id "assessment_due_date") on the **Basic Identity** form. This field is not visible by default in Primero, meaning that, unless your system is configured to use the field, you will not see Assessments as tasks in the Tasks view. Furthermore, an assessment is considered incomplete if the "Assessment requested on" field (or any field with the id "assessment_requested_on") on the **Assessment** form has not been filled out.
+Assessments become due based on the "Date Assessment Due" field (or any field with the id "assessment_due_date") on the **Identification / Registration** form. This field is not visible by default in Primero, meaning that, unless your system is configured to use the field, you will not see Assessments as tasks in the Tasks view. [Lebanon: Please note that this field is visible in the Lebanon configuration.] Furthermore, an assessment is considered incomplete if the "Assessment requested on" field (or any field with the id "assessment_requested_on") on the **Assessment** form has not been filled out.
 
 ![](img/image113.png)
 
@@ -483,6 +483,8 @@ Based on the deployment, you may have the ability to relinquish a case that has 
 
 A core part of the case management process is responding to the needs of a case. Primero manages these through the **Services** form and through the provision of services (sometimes also referred to as "responses").
 
+[Lebanon: Please take note that this form in the Lebanon configuration is called "Intervention Services," though it serves the same purpose.]
+
 
 ## Services Form
 
@@ -490,7 +492,7 @@ To add a service to a case, simply go into the **Services** form on the case edi
 
 ![](img/image96.png)
 
-When selecting a "Type of Response", remember that this will help determine the workflow status of your case. So, for instance, if you select "Action Plan," your case status will also be "Action Plan" so long as you do not add any other services or close the case.
+When selecting a "Type of Response", remember that this will help determine the workflow status of your case. So, for instance, if you select "Intervention (Judicial)," your case status will also be "Intervention (Judicial)" so long as you do not add any other services or close the case.
 
 ![](img/image97.png)
 
@@ -499,6 +501,8 @@ Another important field to fill in is the type of service that will be rendered 
 ![](img/image98.png)
 
 Choosing a timeframe for the service will help generate reminders in you or your manager's dashboard when the service is coming due or overdue. This timeframe, depending on your configuration, will take one of two forms: the time period after which the service will be due (e.g. three hours, one day); or the actual due date for the service (e.g. November 30, 2017). Both these forms are displayed in the pictures below. For more information on these reminders, check out the Dashboards section.
+
+[Lebanon: Please note that the Lebanon configuration uses the second option, a due date (labeled "By When"). The date saved in this field will be used as the due date for the Dashboard and the Tasks view.]
 
 ![](img/image101.png)
 
@@ -518,21 +522,19 @@ Once you have saved the case with this new service, and have been redirected bac
 
 ## The Workflow Status Bar
 
-The **Workflow Status** allows the user to quickly understand where in the case management process the current case stands. This value can be seen at the top of the case forms, in the **Workflow Status Bar**. By default, Primero is not set to display this bar, but the system can be configured to change this. (See the **Primero Administration and Configuration Guide**.)
+The **Workflow Status** allows the user to quickly understand where in the case management process the current case stands. This value can be seen at the top of the case forms, in the **Workflow Status Bar**. By default, Primero is not set to display this bar, but the system can be configured to change this. (See the **Primero Administration and Configuration Guide**.) [Lebanon: Note that the **Workflow Status Bar** is set to display by default in the Lebanon configuration.]
 
 ![](img/image107.png)
 
-Above is the default **Workflow Status Bar**. Here you see the following statuses: "New," "Case Plan," "Care plan," "Action plan," "Service provision," "Service Implemented," and "Closed." The first of these statuses, "New," is applied when a case is first created. The second, "Case Plan," is applied after the "New" status, when the field "Date Case Plan Initiated" (or any other field with the id "date_case_plan") is filled out by the user.
+Above is the default **Workflow Status Bar** for Lebanon. Here you see the following statuses: "New," "Assessment," "Case Plan," "Intervention (Judicial)," "Intervention (Non-Judicial)," "Closed." The first of these statuses, "New," is applied when a case is first created. The second, "Assessment," is applied when the "Assessment requested on" field (or any other field with the id "assessment_requested_on") is filled out by the user. The next status, "Case Plan," is applied after the "New" and "Assessment" statuses, when the field "Date Case Plan Initiated" (or any other field with the id "date_case_plan") is filled out by the user.
 
-The next three statuses, "Care plan," "Action plan," and "Service provision," correspond to the three potential "Response Type" values for a service. A case is given one of these statuses if the case is still open, and still has non-implemented services planned for it. The "Response Type" value for the most-recently-added, non-implemented entry in the **Services** form will be the new workflow status.
+The next two statuses, "Intervention (Judicial)" and "Intervention (Non-Judicial)," correspond to the two potential "Response Type" values for a service. A case is given one of these statuses if the case is still open, and still has non-implemented services planned for it. The "Response Type" value for the most-recently-added, non-implemented entry in the **Services** form will be the new workflow status.
 
 ![](img/image108.png)
 
-For example, let's suppose I have a case with three services: one created on June 1 with a type of 'Action plan' which is *implemented*; one created on June 20 with a type of 'Care plan' which is *not implemented*; and one created on June 25 with a type of 'Service provision' which is *implemented*. In this situation, the case's workflow status would be 'Care plan', since this is the Response Type of the most-recently-added, non-implemented entry in the **Services** form.
+For example, let's suppose I have a case with three services: one created on June 1 with a response type of 'Intervention (Judicial)' which is *implemented*; one created on June 20 with a type of 'Intervention (Non-Judicial)' which is *not implemented*; and one created on June 25 with a type of 'Intervention (Judicial)' which is *implemented*. In this situation, the case's workflow status would be 'Intervention (Non-Judicial)', since this is the Response Type of the most-recently-added, non-implemented entry in the **Services** form.
 
-These statuses will vary depending on the options in your configuration for the "Response Type" lookup. So, for instance, if your "Response Type" options are "Remote Contact" and "In-Person," you will see these two as potential workflow statuses, rather than the three that we see here.
-
-The next status, "Service provision," is deprecated, and should be left out of any configuration. The "Service Implemented" status, meanwhile, applies when all of the entries in the **Services** form have been implemented. One of these services is considered implemented if the "Service Implemented" field (or any field with the id "service_implemented") on the service subform is set to "Implemented."
+These statuses will vary depending on the options in your configuration for the "Response Type" lookup. So, for instance, if your "Response Type" options are "Remote Contact" and "In-Person," you will see these two as potential workflow statuses, rather than the two that we see here.
 
 Finally, the "Closed" status applies when a case's case status has been set to "Closed."
 
