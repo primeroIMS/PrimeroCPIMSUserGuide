@@ -310,7 +310,7 @@ Depending on your configuration, a user may be able to add an incident to a case
 
 Depending on your user's configuration, you may also see a second button, marked "Save and Add Service Provision." Clicking on this will save the incident details you have entered and then take you directly to the add service modal, where you can enter information on a service rendered for the child.
 
-![](/img/image119.png)
+![](/img/v1-6/image12.png)
 
 ## Adding Service Provision to Case from List View
 
@@ -624,31 +624,31 @@ Using Primero's **Tracing** functionality, users can perform searches on behalf 
 
 **IMPORTANT NOTE**: Cases will only appear as potential matches for tracing request if they have provided consent for tracing. Users can record a case's consent to take part in tracing by filling out the tracing consent field in the "Data Confidentiality" form. This field is pictured below.
 
-![](/img/image120.png)
+![](/img/v1-6/image13.png)
 
 ## Tracing Requests
 
 If your user is configured for tracing activities, you should have access to **Tracing Requests**, and you should see the "Tracing Requests" link in the navigation bar at all times.
 
-![](/img/image121.png)
+![](/img/v1-6/image14.png)
 
 If you click on this link, you will see a list of all the tracing requests you have access to. Click "New Tracing Request" to begin tracing.
 
-![](/img/image122.png)
+![](/img/v1-6/image15.png)
 
 First, you will fill out the "Inquirer" form. This contains information on the parent or guardian who has initiated tracing. Primero will use much of the information in this form to search against information recorded about family members in each case's "Family Details" subform entries. So, for instance, if a child's father, named "Ibrahim," is the inquirer, Primero will search for cases with a family member whose relationship to the child is recorded as "Father", and whose name is "Ibrahim."
 
-![](/img/image123.png)
+![](/img/v1-6/image16.png)
 
 Next, you will fill out information on the child by filling out a subform entry in the "Tracing Request" form. Primero will use the information here to search for cases with similar attributes. So, for instance, if the father mentioned above is looking for a daughter named "Fatima," who is 15 years old, Primero will search for cases with the name "Fatima" and an age of 15.
 
-![](/img/image124.png)
+![](/img/v1-6/image17.png)
 
 ## Matches
 
 Once you have saved the tracing request, you will see a "Find Match" link at the top of your "Tracing Request" subform. If you click on this link, you arrive at a page which displays a number of cases which are potential matches for your tracing request. This list will contain the case's ID, the record owner's user name, the record owner's agency, the approximate likelihood of the case being the right match (either "Possible" or "Likely"), and (depending on your user's configured permissions) a link which displays the *View Details* modal (See "Viewing Record Details" section above).
 
-![](/img/image125.png)
+![](/img/v1-6/image18.png)
 
 ### Scoring
 
@@ -656,9 +656,9 @@ Primero gives potential matches a score based on how similar they are to the tra
 
 When looking at the potential matches for your tracing request, you can see which case attributes matched your tracing request by clicking on the score label. This will reveal a modal which compares a number of case attributes side-by-side with the attributes you gave your tracing request. Attributes which are the same get a '✔', attributes which are different get a 'X', and attributes which were left blank on both the case and the tracing request get a '-'.
 
-![](/img/image126.png)
+![](/img/v1-6/image19.png)
 
-![](/img/image127.png)
+![](/img/v1-6/image20.png)
 
 To see more details about the potential match, click the "View" link to the right of the case entry (this may or may not appear, depending on your configuration). You will then see the *View Details* modal, which will display a number of attributes of the case. (Please see the "Viewing Record Details") section above.
 
@@ -666,21 +666,21 @@ To see more details about the potential match, click the "View" link to the righ
 
 Once you have identified a match which you think is the correct one, you can link this case to your tracing request, provided your user is configured to be able to see the case record in its entirety. If so, you should be able to click on the case's ID, after which you will arrive at the case record page. At the top of the page, you should see a button that says "Match." 
 
-![](/img/image128.png)
+![](/img/v1-6/image21.png)
 
-![](/img/image129.png)
+![](/img/v1-6/image22.png)
 
 Click on this button to link the case to your tracing request. You should then see a notification at the top of the screen, indicating that your match succeeded.
 
-![](/img/image130.png)
+![](/img/v1-6/image23.png)
 
 Now, if you return to your tracing request's list of matches by hitting the back button, you will see that the entry for the case you just linked to your tracing request is in bold.
 
-![](/img/image131.png)
+![](/img/v1-6/image24.png)
 
 Similarly, when the user responsible for the case goes to the case's "Tracing and Separation Details" form, they will see a label marked "Matched tracing request," and to the right of this, a link to the tracing request which you created.
 
-![](/img/image132.png)
+![](/img/v1-6/image25.png)
 
 At this stage in the tracing process, the user who initiated the tracing request would manually contact the user and/or agency responsible for the case to initiate the verification and reunification process.
 
