@@ -21,6 +21,8 @@
 
     * [*Flagged Case Lists*](UsersGuide.md#flagged-case-lists)
 
+    * [*Audit Logs*](UsersGuide.md#audit-logs)
+
     * [*GBV Incident Dashboard*](UsersGuide.md#gbv-incident-dashboard)
 
     * [*Tasks View*](UsersGuide.md#tasks-view)
@@ -53,6 +55,8 @@
 
     * [*Searching for Records Owned By Other Users*](UsersGuide.md#searching-for-records-owned-by-other-users)
 
+    * [*Viewing Record Details*](UsersGuide.md#viewing-record-details)
+
     * [*Adding Incident to Case from List View*](UsersGuide.md#adding-incident-to-case-from-list-view)
 
 *  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 
@@ -75,6 +79,10 @@
 
     *  [*Accepting or Rejecting Transfers*](UsersGuide.md#accepting-or-rejecting-transfers)
 
+    *  [*Requesting a Record Transfer*](UsersGuide.md#requesting-a-record-transfer)
+
+        *  [*Notifications for the Case Owner*](UsersGuide.md#notifications-for-the-case-owner)
+
     *  [*Referrals*](UsersGuide.md#referrals)
 
     *  [*Relinquishing Referral*](UsersGuide.md#relinquishing-referral)
@@ -86,6 +94,18 @@
     *  [*Referring from Services Form*](UsersGuide.md#referring-from-services-form)
 
 *  [*Notification Emails*](UsersGuide.md#notification-emails)
+
+*  [*Tracing*](UsersGuide.md#tracing)
+
+    *  [*Consent for Tracing*](UsersGuide.md#consent-for-tracing)
+
+    *  [*Tracing Requests*](UsersGuide.md#tracing-requests)
+
+    *  [*Matches*](UsersGuide.md#matches)
+
+        *  [*Scoring*](UsersGuide.md#scoring)
+
+        *  [*Linking Tracing Requests with Cases*](UsersGuide.md#linking-tracing-requests-with-cases)
 
 *  [*Reports*](UsersGuide.md#reports)
 

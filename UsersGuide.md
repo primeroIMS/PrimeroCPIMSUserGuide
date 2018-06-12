@@ -69,6 +69,17 @@ If you see any of the case dashboards, the right of your screen will show one or
 
 ![](img/image22.png)
 
+## Audit Logs
+
+Some administrative users and team managers may have access to the *Audit Log*. To see the audit log, first navigate to Settings by clicking on the settings icon at the top of the page. In the side panel, you will see a link labelled "Audit Logs."
+
+![](img/v1-6/image1.png)
+![](img/v1-6/image2.png)
+
+When you click on this link, you will see the table pictured below. This contains a list of all actions which users have committed in the system. Each row represents a different action, including the user name of the user, the type of action, the type (and some times the id) of the record on which the action was performed, and the date and time of the action. Using the filter inputs to the right of the list, you can filter which actions are displayed. You can filter by date and time or user name. To apply a set of filters, click "Apply," and to clear out all filters, click "Clear."
+
+![](img/v1-6/image3.png) 
+
 ## GBV Incident Dashboard
 
 The GBV Incident Dashboard will appear below whichever case dashboard you have if your user’s role has access to incidents through the GBV module. The table in this dashboard lists out each incident, with columns for “Incident \#ID,” “Date of Interview,” “Date of Incident,” and “Violence Type.” Each incident’s id will link to the incident’s page, and each incident will feature an icon indicating the number of flags it has, provided it has at least one. To the right of the GBV Incident Dashboard will be a list of incidents flagged by the user.
@@ -271,19 +282,35 @@ Alternatively, a user--depending on configuration--can create an incident from a
 
 Quick Search refers to the search field in the header navigation bar. From here you can type in your search and return a list of possible matches. If you are searching from the cases page you can enter your case’s value for one of the following fields to find a match: “Long ID,” “Case ID,” “proGres ID,” “Name,” “Nickname,” “Other Name,” “Ration Card Number,” “ICRC Ref No.,” “RC ID No.,” “UNHCR ID,” “UN Number,” “National ID Number,” “Number of Other ID Document,” and “Other Agency ID.” When looking for a tracing request, you can search these fields: “Long ID,” “Inquirer ID,” “Name of inquirer,” and “Nickname of inquirer.” After searching, you can filter results further.
 
-## Searching for Records Owned By Others
+## Searching for Records Owned By Other Users
 
-Depending on your configuration, some users may have the ability to search for records owned by other users. In this case, the records are only visible in the list view. Clicking on a record in this view does not take the user to the view page for that record. Instead, the user can perform actions on the record from the list review.
+Depending on your configuration, some users may have the ability to search for records owned by other users. In this case, the records are only visible in the list view. Clicking on a record in this view does not take the user to the view page for that record. Instead, the user can perform actions on the record from the list view.
 
 ![](/img/image88.png)
 
 To do this, go to the record list page, and search for your record using an id or other searchable field. Once your search results appear, select the check box for the record on which you wish to perform an action. Now, select the action you wish to perform in the action button dropdown.
 
+![](/img/v1-6/image4.png)
+
+## Viewing Record Details
+
+Before performing an action, you may wish to see some information about the record you have selected, even if you do not have permission to see all of the record's information. Some users will have permission to see a limited set of attributes for other users' records, using what is known as the *View Details* modal. To see information on such a record, click on the "View" link at the right-hand side of the record's entry in the list. You will then see a modal containing information on the case.
+
+![](/img/v1-6/image5.png)
+
+![](/img/v1-6/image6.png)
+
+Depending on your user's role configuration, you may be able to see the case's photo in this modal. The permission to view this photo is different from the one which allows you to see the *View Details* modal. For more information on configuring user roles, please see the **Primero Administration Guide**.
+
 ## Adding Incident to Case from List View
 
-Depending on your configuration, a user may be able to add an incident to a case from the list view or when searching cases. To add an incident to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Incident." You will see the following modal. Here, enter information on the incident you are adding, and then save.
+Depending on your configuration, a user may be able to add an incident to a case from the list view or when searching for a case. To add an incident to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Incident." You will see the following modal. Here, enter information on the incident you are adding, and then save.
 
 ![](/img/image89.png)
+
+Depending on your user's configuration, you may also see a second button, marked "Save and Add Service Provision." Clicking on this will save the incident details you have entered and then take you directly to the add service modal, where you can enter information on a service rendered for the child.
+
+![](/img/v1-6/image12.png)
 
 ## Adding Service Provision to Case from List View
 
@@ -440,9 +467,39 @@ If you are transferring to a user outside your system who is using another Prime
 
 ## Accepting or Rejecting Transfers
 
-Based on the deployment, you may have the ability to accept or reject a case that has been transferred to you. You will be able to see if any cases have been transferred to on your dashboard. If you click on the **Referrals and Transfers** form for the case that has been transferred to you, you will see that the status is in progress and that there are buttons to either accept or reject the transfer. If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “other assigned user”. The record information is updated with this change. If you click Reject, it brings up a dialog box with an OK button and a textbox to enter the Rejection Reason. When you click OK, the rejection reason is saved to the nested subform. The status is changed to 'rejected, and you are removed from 'other assigned users' and no longer have access to the record.
+Based on your deployment's configuration, you may have the ability to accept or reject a case that has been transferred to you. You will be able to see if any cases have been transferred to on your dashboard. If you click on the Referrals and Transfers form for the case that has been transferred to you, you will see that the status is in progress and that there are buttons to either accept or reject the transfer. If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “other assigned user”. The record information is updated with this change. If you click Reject, it brings up a dialog box with an OK button and a textbox to enter the Rejection Reason. When you click OK, the rejection reason is saved to the nested subform. The status is changed to 'rejected, and you are removed from 'other assigned users' and no longer have access to the record.
 
 ![](img/image81.png)
+
+## Requesting a Record Transfer
+
+If you find a record owned by another user and need full access to it, you can ask the record owner to transfer the record to you. In Primero, this is known as a *Transfer Request*. Your ability to perform a *Transfer Request* will depend on your instance's configuration. To request a transfer, first search for your case from the case list view. When you identify the entry in the list for the case you are seeking, click the "View" link at the right of the case's row.
+
+![](/img/image88.png)
+
+![](/img/v1-6/image105.png)
+
+Scroll to the bottom of the *View Details* modal. Here, you will see a button marked "Request Transfer". Click it, and a modal will appear.
+
+![](/img/v1-6/image7.png)
+
+![](/img/v1-6/image8.png)
+
+Here, you will see information on the record owner and a text box where you can enter a note to the owner of the record. Click "Send Request" to submit.
+
+### Notifications for the Case Owner
+
+Once you have sent the transfer request, the record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer.
+
+![](/img/v1-6/image9.png)
+
+If the case owner clicks on the link in the email, they will be redirected to the Primero login page and then to the case record, where they will see a notification in the forms side bar and on the *Transfers and Referrals* form alerting them to the transfer request. Here, they will also see the note you included in your request.
+
+![](/img/v1-6/image10.png)
+
+![](/img/v1-6/image11.png)
+
+At this point, the record owner can choose whether or not to transfer the record to you.
 
 ## Referrals
 
@@ -558,6 +615,74 @@ Welcome emails will look something like the below message. If the new user click
 ![](img/image117.png)
 
 For more information on how turn welcome and notification emails on or off in the system's configuration, please see the **Primero Administration and Configuration Guide**.
+
+# Tracing
+
+Using Primero's **Tracing** functionality, users can perform searches on behalf of parents or guardians looking for unaccompanied or separated children.
+
+## Consent for Tracing
+
+**IMPORTANT NOTE**: Cases will only appear as potential matches for tracing request if they have provided consent for tracing. Users can record a case's consent to take part in tracing by filling out the tracing consent field in the "Data Confidentiality" form. This field is pictured below.
+
+![](/img/v1-6/image13.png)
+
+## Tracing Requests
+
+If your user is configured for tracing activities, you should have access to **Tracing Requests**, and you should see the "Tracing Requests" link in the navigation bar at all times.
+
+![](/img/v1-6/image14.png)
+
+If you click on this link, you will see a list of all the tracing requests you have access to. Click "New Tracing Request" to begin tracing.
+
+![](/img/v1-6/image15.png)
+
+First, you will fill out the "Inquirer" form. This contains information on the parent or guardian who has initiated tracing. Primero will use much of the information in this form to search against information recorded about family members in each case's "Family Details" subform entries. So, for instance, if a child's father, named "Ibrahim," is the inquirer, Primero will search for cases with a family member whose relationship to the child is recorded as "Father", and whose name is "Ibrahim."
+
+![](/img/v1-6/image16.png)
+
+Next, you will fill out information on the child by filling out a subform entry in the "Tracing Request" form. Primero will use the information here to search for cases with similar attributes. So, for instance, if the father mentioned above is looking for a daughter named "Fatima," who is 15 years old, Primero will search for cases with the name "Fatima" and an age of 15.
+
+![](/img/v1-6/image17.png)
+
+## Matches
+
+Once you have saved the tracing request, you will see a "Find Match" link at the top of your "Tracing Request" subform. If you click on this link, you arrive at a page which displays a number of cases which are potential matches for your tracing request. This list will contain the case's ID, the record owner's user name, the record owner's agency, the approximate likelihood of the case being the right match (either "Possible" or "Likely"), and (depending on your user's configured permissions) a link which displays the *View Details* modal (See "Viewing Record Details" section above).
+
+![](/img/v1-6/image18.png)
+
+### Scoring
+
+Primero gives potential matches a score based on how similar they are to the tracing request *compared to other potential matches Primero has found*. This means that, if scoring were done on a 1-10 scale, The lowest potential match in a list would get a score of 1, the highest would get a 10, and the median match would get a 5. To simplify things, Primero instead simply scores a potential match as "Likely" or "Possible."
+
+When looking at the potential matches for your tracing request, you can see which case attributes matched your tracing request by clicking on the score label. This will reveal a modal which compares a number of case attributes side-by-side with the attributes you gave your tracing request. Attributes which are the same get a '✔', attributes which are different get a 'X', and attributes which were left blank on both the case and the tracing request get a '-'.
+
+![](/img/v1-6/image19.png)
+
+![](/img/v1-6/image20.png)
+
+To see more details about the potential match, click the "View" link to the right of the case entry (this may or may not appear, depending on your configuration). You will then see the *View Details* modal, which will display a number of attributes of the case. (Please see the "Viewing Record Details") section above.
+
+### Linking Tracing Requests with Cases
+
+Once you have identified a match which you think is the correct one, you can link this case to your tracing request, provided your user is configured to be able to see the case record in its entirety. If so, you should be able to click on the case's ID, after which you will arrive at the case record page. At the top of the page, you should see a button that says "Match." 
+
+![](/img/v1-6/image21.png)
+
+![](/img/v1-6/image22.png)
+
+Click on this button to link the case to your tracing request. You should then see a notification at the top of the screen, indicating that your match succeeded.
+
+![](/img/v1-6/image23.png)
+
+Now, if you return to your tracing request's list of matches by hitting the back button, you will see that the entry for the case you just linked to your tracing request is in bold.
+
+![](/img/v1-6/image24.png)
+
+Similarly, when the user responsible for the case goes to the case's "Tracing and Separation Details" form, they will see a label marked "Matched tracing request," and to the right of this, a link to the tracing request which you created.
+
+![](/img/v1-6/image25.png)
+
+At this stage in the tracing process, the user who initiated the tracing request would manually contact the user and/or agency responsible for the case to initiate the verification and reunification process.
 
 # Reports
 
