@@ -27,6 +27,14 @@
 
     * [*Tasks View*](UsersGuide.md#tasks-view)
 
+        * [*Assessments*](UsersGuide.md#assessments)
+
+        * [*Case Plans*](UsersGuide.md#case-plans)
+
+        * [*Services*](UsersGuide.md#services)
+
+        * [*Follow Ups*](UsersGuide.md#follow-ups)
+
     * [*List View*](UsersGuide.md#list-view)
 
     * [*Edit and View a record*](UsersGuide.md#edit-and-view-a-record)
