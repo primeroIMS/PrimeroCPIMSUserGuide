@@ -27,14 +27,6 @@
 
     * [*Tasks View*](UsersGuide.md#tasks-view)
 
-        * [*Assessments*](UsersGuide.md#assessments)
-
-        * [*Case Plans*](UsersGuide.md#case-plans)
-
-        * [*Services*](UsersGuide.md#services)
-
-        * [*Follow Ups*](UsersGuide.md#follow-ups)
-
     * [*List View*](UsersGuide.md#list-view)
 
     * [*Edit and View a record*](UsersGuide.md#edit-and-view-a-record)
@@ -56,6 +48,8 @@
     *  [*Caseworker*](UsersGuide.md#caseworker)
 
     *  [*Managers*](UsersGuide.md#managers)
+
+*  [*Manager Notes*](UsersGuide.md#manager-notes)
 
 *  [*Search and Advanced Search*](UsersGuide.md#search-and-advanced-search)
 

@@ -268,6 +268,26 @@ To perform an approval, go into the ACTIONS button dropdown, click "Approvals," 
 
 ![](/img/image94.png)
 
+# Manager Notes
+
+Managers overseeing a team of case workers may want to add notes to a particular case so that they can give the case worker guidance on case management. When viewing a case, managers should see a button marked "Add Notes" at the top of the page.
+
+![](/img/image119.png)
+
+Click this button. A modal will appear. Here, you can write the subject of your note, as well as its full text. Click submit to add the note to the case.
+
+![](/img/image120.png)
+
+When the case worker logs in and views this case, a notification will appear on the form tab for the Notes or "Other Comments" form.
+
+![](/img/image121.png)
+
+If the case worker then clicks on the form, they will be able to see the manager's note, including the subject, full text, the manager's username, and the date the note was added.
+
+![](/img/image122.png)
+
+Case workers will also see a notification about the new note when viewing the case on mobile as well. For more information on this, please see the **RapidReg Users Guide**
+
 # Create Incident from Case
 
 When viewing a GBV case, a case worker can create an incident directly from the case by clicking the "CREATE INCIDENT" button, located next to the ACTIONS button in the **Anchored Header**. Doing so will re-direct the user to the create incident form, with case information automatically loaded into the **Survivor Information** form.
