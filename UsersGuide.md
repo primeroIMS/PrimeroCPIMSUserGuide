@@ -286,7 +286,7 @@ If the case worker then clicks on the form, they will be able to see the manager
 
 ![](/img/image122.png)
 
-Case workers will also see a notification about the new note when viewing the case on mobile as well. For more information on this, please see the **RapidReg Users Guide**
+Case workers will also see a notification about the new note when viewing the case on mobile as well. For more information on this, please see the **Primero RapidReg User Guide**
 
 # Create Incident from Case
 
