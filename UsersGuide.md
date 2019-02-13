@@ -316,6 +316,16 @@ To do this, go to the record list page, and search for your record using an id o
 
 ![](/img/v1-6/image4.png)
 
+## Searching for Duplicate Records
+
+After viewing potential matches, you can see an option in your toolbar named "Duplicates." Utalizing the same criteria that is used to match cases, this option will allow you to search for cases that are likely to be duplicates.
+
+![](/img/DuplicatesIntro.png)
+
+On the right side of the screen you will see a filtered list, this allows you to search for duplicates using specific criteria such as the last name "Smith." The duplicate search criteria includes name, nickname, othername, sex, age, nationality, last telephone, ethnicity, main cause of separation, name of relative, relation, nickname of relative, language of relative, religion of relative, ethnicity of relative, nationality of relative, relative's current address, and relative's telephone.
+
+![](/img/DuplicatesFilter.png)
+
 ## Viewing Record Details
 
 Before performing an action, you may wish to see some information about the record you have selected, even if you do not have permission to see all of the record's information. Some users will have permission to see a limited set of attributes for other users' records, using what is known as the *View Details* modal. To see information on such a record, click on the "View" link at the right-hand side of the record's entry in the list. You will then see a modal containing information on the case.

@@ -55,6 +55,8 @@
 
     * [*Searching for Records Owned By Other Users*](UsersGuide.md#searching-for-records-owned-by-other-users)
 
+    * [*Searching for Duplicate Records*](UsersGuide.md#searching-for-duplicate-records)
+
     * [*Viewing Record Details*](UsersGuide.md#viewing-record-details)
 
     * [*Adding Incident to Case from List View*](UsersGuide.md#adding-incident-to-case-from-list-view)
