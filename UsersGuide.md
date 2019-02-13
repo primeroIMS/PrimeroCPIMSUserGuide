@@ -192,6 +192,12 @@ Please note that when using these actions you must work according to the CP SoPs
 
 This bar, along with the Header Navigation bar and the workflow status bar, are part of what is called the **Anchored Header**, meaning, they never leave the screen when scrolling. This allows a user to easily navigate or act on a case or number of cases at any time.
 
+## Language Toggle 
+
+Above the Navigation Bar, there is a button named Language with a drop down arrow. In the drop down, relevant languages will be listed. When viewing a page, simply click one of the languages listed on your screen. The page will then became translated into this language. The Language Toggle will only translate the page in which you have clicked, the rest of the primero application will remain in the language assigned to the user.
+
+![](img/LanguageToggle.png)
+
 ## My Account and Contact & Help links
 
 Above the Header Navigation bar, there are small links that bring you to pages that help you manage your account and contact information, as well as find out who is your site administrator. Clicking on the Primero icon from any page will take you back to the dashboard from anywhere.

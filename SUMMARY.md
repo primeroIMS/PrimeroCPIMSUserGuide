@@ -33,6 +33,8 @@
 
     * [*Action Buttons*](UsersGuide.md#action-buttons)
 
+    * [*Language Toggle*](UsersGuide.md#language-toggle)
+
     * [*My Account and Contact & Help links*](UsersGuide.md#my-account-and-contact-help-links)
 
 *  [*Filtering*](UsersGuide.md#filtering)
