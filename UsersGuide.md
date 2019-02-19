@@ -463,22 +463,24 @@ While you are making changes to a case, you can make your job managing the case 
 
 ## Transfers
 
-Transferring a record is a basic form of reassignment. There are some processes surrounding this for a transfer to a non-Primero individual or a Primero user outside your instance. But those will be determined by your organization and the sharing protocol of the organization of the person you are transferring to.
+Transferring a record is a way of providing an other care provider with a record. There are some processes surrounding this for a transfer to a non-Primero individual or a Primero user outside your instance. However, those will be determined by your organization and the sharing protocol of the organization of the person you are transferring to.
 
 To transfer a record from either the individual record page or the list view, use the ACTIONS button in the Action Header to initiate the drop down of options. Within the options, select “Transfer Case.”
 
-![](img/image21.png)
+![](img/referassigntransfermenu)
 
 The following modal form will appear and allow you to select options for your transfer. Consent of the individual \(or a consent override\) is  
 generally needed for transfers, although not for those which take place within the same Primero instance.
 
-![](img/image46.png)
+You will also be asked if you are transferring to a remote system, that is a system outside of Primero. If you are transferring outside of Primero, click the select box "Are you transferring to a remote system?"
+
+![](img/transfercase)
+
+To select the user that you are transferring to, first select the agency and location associate with the user.
 
 If you are transferring within your Primero instance, select the “Existing User”--a user within your deployment of Primero. If the desired user is not in the drop down, it means this user does not have privileges to be transferred to.
 
 If you are not transferring within the Primero instance, check the “Are you transferring to a remote system?” tickbox, and more options will appear for this “remote” transfer. A remote transfer creates a transfer export that is password protected to be shared outside the system.
-
-![](img/image43.png)
 
 If you are transferring to a user outside your system who is using another Primero instance, you simply select “Primero” in the drop down marked “What type of export do you want.” In this case, the file Primero exports will be a JSON file which can be imported into the remote Primero system.
 
@@ -523,15 +525,21 @@ At this point, the record owner can choose whether or not to transfer the record
 
 ## Referrals
 
-Referring a record is a way of giving a user limited access to a record without transferring it completely. As with transfers, there are some processes surrounding this action when referring to a non-Primero individual or a user outside your instance. These processes, however, will be determined by your organization and the sharing protocol of the organization of the person you are referring to.
+Referring a record is a way of giving a user limited access to a record without transferring it completely. To refer a record from either the individual record page or the list view, use the ACTIONS button in the Action Header to initiate the drop down of options. Within the options, select “Refer Case.”
 
-To refer a record from either the individual record page or the list view, use the ACTIONS button in the Action Header to initiate the drop down of options. Within the options, select “Refer Case.”
+The below modal form will appear and allow you to select options for your referral. As with transfers, there are some processes surrounding consent for referral and referrals to remote systems, either a non-Primero individual or a user outside your instance. These processes will be determined by your organization and the sharing protocol of the organization of the person you are referring to. 
 
-![](img/image21.png)
+The following modal form will appear and allow you to select options for your referral. As with transfers, consent \(or a consent override\) of the individual is generally required for a referral. Consent for referral is found on the Data Confidentialty form under the Identification/Registration Form Group. If your case has not provided consent for referral, you will see a sentence at the top of the referral screen  If you are referring a case outside of your Primero instance, select the button "Are you referring to a remote system?" 
 
-The following modal form will appear and allow you to select options for your referral. As with transfers, consent \(or a consent override\) of the individual is generally required for a referral.
+![](img/refermenu)
 
-![](img/image50.png)
+If you are not referring to an external system and you have the consent to refer identified in your Data Confidentiality form, you will then focus on the five fields below:
+
+The Service field identifies what specific service you are requesting the other user perform or examine. The selection list is generalized and not specific to the case being referred. 
+
+The Agency field provides a selection of agencies associated with users and filtered by the selected service above. Select the agency of the user you wish to refer too.
+
+The location field provides a list of locations associated with the service selected and the agency selected. 
 
 If you are making a referral within your Primero instance, select the “Existing User”--a user within your deployment of Primero. If the desired user is not in the drop down, it means this user does not have privileges to be referred to. You must also select the type of service that will be rendered by the user to whom you are referring.
 
