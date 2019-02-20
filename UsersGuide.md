@@ -648,19 +648,27 @@ Next, you will fill out information on the child by filling out a subform entry 
 
 Once you have saved the tracing request, you will see a "Find Match" link at the top of your "Tracing Request" subform. If you click on this link, you arrive at a page which displays a number of cases which are potential matches for your tracing request. This list will contain the case's ID, the record owner's user name, the record owner's agency, the approximate likelihood of the case being the right match (either "Possible" or "Likely"), and (depending on your user's configured permissions) a link which displays the *View Details* modal (See "Viewing Record Details" section above).
 
+The records provided as potential matches are based a scoring system that weight many attributes as detailed in the scoring section below. 
+
 ![](/img/v1-6/image18.png)
 
 ### Scoring
 
-Primero gives potential matches a score based on how similar they are to the tracing request *compared to other potential matches Primero has found*. This means that, if scoring were done on a 1-10 scale, The lowest potential match in a list would get a score of 1, the highest would get a 10, and the median match would get a 5. To simplify things, Primero instead simply scores a potential match as "Likely" or "Possible."
+Primero gives potential matches a score based on how similar they are to the tracing request *compared to other potential matches Primero has found*. This means that, if scoring were done on a 1-10 scale, The lowest potential match in a list would get a score of 1, the highest would get a 10, and the median match would get a 5. A high scoring match Primero will record as "Likely" and a low scoring match, Primero will record as "Possible."
 
-When looking at the potential matches for your tracing request, you can see which case attributes matched your tracing request by clicking on the score label. This will reveal a modal which compares a number of case attributes side-by-side with the attributes you gave your tracing request. Attributes which are the same get a '✔', attributes which are different get a 'X', and attributes which were left blank on both the case and the tracing request get a '-'.
+When looking at the potential matches for your tracing request, you can see which case attributes matched your tracing request by clicking on the score label (Likely or Possible). This will reveal a modal which compares a number of case attributes side-by-side with the attributes you gave your tracing request. Attributes which are the same get a '✔', attributes which are different get a red 'X', and attributes which were left blank on both the case and the tracing request get a '-'. 
 
-![](/img/v1-6/image19.png)
+![](/img/TracingScore)
 
-![](/img/v1-6/image20.png)
+On the left side of the screen you will see a dynamic list of fields named "Matchable Case Fields." Each form containing matchable fields is represented by a select box named after the form. The basic identity field contains all attributes used for matching found on the Basic identity form.
 
-To see more details about the potential match, click the "View" link to the right of the case entry (this may or may not appear, depending on your configuration). You will then see the *View Details* modal, which will display a number of attributes of the case. (Please see the "Viewing Record Details") section above.
+![](/img/matchingcriteria)
+
+By selecting the dark grey 'X' on each attribute you can remove any attribute that you do not wish to use for matching cases with tracing requests. If you wish to add an atribute to the the searching criteria, simply begin to type the attribute into select box of the form the attribute is found on. If the attribute is available, you will have the option to select it. 
+
+![](/img/matchingcriteriaselection)
+
+After selecting your search criteria and performing a tracing request, to see more details about the potential match, click the "View" link to the right of the case entry (this may or may not appear, depending on your configuration). You will then see the *View Details* modal, which will display a number of attributes of the case. (Please see the "Viewing Record Details") section above.
 
 ### Linking Tracing Requests with Cases
 
