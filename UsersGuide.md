@@ -6,7 +6,7 @@ The _Information Management and Innovation to Protect Children in Emergencies_ p
 ![](img/intro2.png)
 _Primero_ is flexible and adaptable to accommodate a broad range of protection concerns including GBV, unaccompanied and separated children, and monitoring grave violations of children’s rights in situations of armed conflict. To meet operational challenges, the application was designed to function both on- and off-line, with limited or no connectivity, and in multiple deployment configurations. A strong emphasis has been placed on security and confidentiality, with intuitive workflows designed to simplify processes while promoting good practice. Role-based access and granular security ensures that only those who need to see data will have access to it. All system transactions are time stamped, password protected and encrypted. _Primero_ has a user-friendly interface and intuitive tools, facilitating the work of field personnel while decreasing security risks and duplication. The application can leverage mobile data gathering tools such as the Primero mobile app on smart phones and tablets. In order to optimize results, _Primero_ was designed to be able to exchange data internally between modules, as well as externally with other IM systems. In addition to imports and exports, Primero has a highly secure application program interface \(JSON API\).
 
-_Primero_ functions as a distributed database, meaning that implementing partners can retain ownership of data while contributing and sharing information on shared programmes. In child protection interventions, referrals and case transfers are critical to effective service provision. Sharing sensitive information is a part of good programming. Data exchanges between organizations should be governed by endorsed information sharing protocols adapted to local contexts. _Primero_ design is based on the “need to know” principle; it does not impose data sharing, but facilitates the process when consent is provided, and when it is deemed appropriate and safe by partners.
+_Primero_ functions as a distributed database, meaning that implementing partners can retain ownership of data while contributing and sharing information on shared programmes. In child protection interventions, referrals and case are critical to effective service provision. Sharing sensitive information is a part of good programming. Data exchanges between organizations should be governed by endorsed information sharing protocols adapted to local contexts. _Primero_ design is based on the “need to know” principle; it does not impose data sharing, but facilitates the process when consent is provided, and when it is deemed appropriate and safe by partners.
 
 Good information management practice emphasizes the importance of making data actionable. _Primero_ has built-in customizable reports that can facilitate periodic reporting processes, and be used to analyze data for programmatic insights. A document and photo repository allows end users to organize relevant resources in one convenient place.
 
@@ -463,24 +463,26 @@ While you are making changes to a case, you can make your job managing the case 
 
 ## Transfers
 
-Transferring a record is a way of providing an other care provider with a record. There are some processes surrounding this for a transfer to a non-Primero individual or a Primero user outside your instance. However, those will be determined by your organization and the sharing protocol of the organization of the person you are transferring to.
+Transferring a record is a way of providing another care provider with a record. There are some processes surrounding this for a transfer to a non-Primero individual or a Primero user outside your instance. However, those will be determined by your organization and the sharing protocol of the organization of the person you are transferring to.
 
 To transfer a record from either the individual record page or the list view, use the ACTIONS button in the Action Header to initiate the drop down of options. Within the options, select “Transfer Case.”
 
-![](img/referassigntransfermenu)
+![](img/referassigntransfermenu.png)
 
 The following modal form will appear and allow you to select options for your transfer. Consent of the individual \(or a consent override\) is  
 generally needed for transfers, although not for those which take place within the same Primero instance.
 
 You will also be asked if you are transferring to a remote system, that is a system outside of Primero. If you are transferring outside of Primero, click the select box "Are you transferring to a remote system?"
 
-![](img/transfercase)
+![](img/transfercase.png)
 
 To select the user that you are transferring to, first select the agency and location associate with the user.
 
-If you are transferring within your Primero instance, select the “Existing User”--a user within your deployment of Primero. If the desired user is not in the drop down, it means this user does not have privileges to be transferred to.
+If you are transferring within your Primero instance, select the “Existing User”--a user within your deployment of Primero. If the desired user is not in the drop down, it means this user does not have privileges to be transferred to or that the user does not meet the criteria selected in the Agency or Location fields.
 
-If you are not transferring within the Primero instance, check the “Are you transferring to a remote system?” tickbox, and more options will appear for this “remote” transfer. A remote transfer creates a transfer export that is password protected to be shared outside the system.
+If you are not transferring within the Primero instance, check the “Are you transferring to a remote system?” tickbox, and more options will appear for this “remote” transfer. For en external transfer, you must type in the name and agency of the user you are transfering to. You will then create a transfer export that is password protected to be shared outside the system.
+
+![](img/externaltransfer.png)
 
 If you are transferring to a user outside your system who is using another Primero instance, you simply select “Primero” in the drop down marked “What type of export do you want.” In this case, the file Primero exports will be a JSON file which can be imported into the remote Primero system.
 
@@ -527,25 +529,19 @@ At this point, the record owner can choose whether or not to transfer the record
 
 Referring a record is a way of giving a user limited access to a record without transferring it completely. To refer a record from either the individual record page or the list view, use the ACTIONS button in the Action Header to initiate the drop down of options. Within the options, select “Refer Case.”
 
-The below modal form will appear and allow you to select options for your referral. As with transfers, there are some processes surrounding consent for referral and referrals to remote systems, either a non-Primero individual or a user outside your instance. These processes will be determined by your organization and the sharing protocol of the organization of the person you are referring to. 
+The below modal form will appear and allow you to select options for your referral. As with transfers, there are some processes surrounding consent for referral and referrals to remote systems. These processes will be determined by your organization and the sharing protocol of the organization of the person you are referring to. 
 
-The following modal form will appear and allow you to select options for your referral. As with transfers, consent \(or a consent override\) of the individual is generally required for a referral. Consent for referral is found on the Data Confidentialty form under the Identification/Registration Form Group. If your case has not provided consent for referral, you will see a sentence at the top of the referral screen  If you are referring a case outside of your Primero instance, select the button "Are you referring to a remote system?" 
+The following modal form will appear and allow you to select options for your referral. As with transfers, consent \(or a consent override\) of the individual is generally required for a referral. Consent for referral is found on the Data Confidentialty form under the Identification/Registration Form Group. If your case has not provided consent for referral, you will see a sentence at the top of the referral screen "Do you wish to override this setting?" If consent has not been provided, but the referal is needed, select this box. If you are referring a case outside of your Primero instance, select the button "Are you referring to a remote system?" and you will be take to the external referal form. If you are making a referral within Primero, you will use the Primero referal form:
 
-![](img/refermenu)
+![](img/refermenu.png)
 
-If you are not referring to an external system and you have the consent to refer identified in your Data Confidentiality form, you will then focus on the five fields below:
+The Service field identifies what specific service you are requesting the other user perform or examine. Select the service you wish to refer. The Agency field provides a selection of agencies associated users. Select the agency of the user you wish to refer to. The location field provides a list of locations associated with the country of origin.
 
-The Service field identifies what specific service you are requesting the other user perform or examine. The selection list is generalized and not specific to the case being referred. 
-
-The Agency field provides a selection of agencies associated with users and filtered by the selected service above. Select the agency of the user you wish to refer too.
-
-The location field provides a list of locations associated with the service selected and the agency selected. 
-
-If you are making a referral within your Primero instance, select the “Existing User”--a user within your deployment of Primero. If the desired user is not in the drop down, it means this user does not have privileges to be referred to. You must also select the type of service that will be rendered by the user to whom you are referring.
+Now, select the “Existing User”--a user within your deployment of Primero. A list of all users that perform the service selected, from the agency selected, and in the location selected will appear. If the desired user is not in the drop down, it means this user does not have privileges to be referred to or does not meet one of the matching criteria. 
 
 If you are not making a referral within the Primero instance, check the “Are you referring to a remote system?” tickbox, and more options will appear for this “remote” referral. A remote referral creates a referral export that is password protected to be shared outside the system.
 
-![](img/image68.png)
+![](img/externalreferal.png)
 
 If you are making a referral to a user outside your system who is using another Primero instance, you simply select “Primero” in the drop down marked “What type of export do you want.” In this case, the file Primero exports will be a JSON file which can be imported into the remote Primero system.
 
@@ -589,7 +585,7 @@ Choosing a timeframe for the service will help generate reminders in you or your
 
 ![](img/image106.png)
 
-Selecting a service provider in this form will allow you to refer your case to the service provider directly from the form. Make sure you fill in the "Service Provider Name" field, or no "REFER" button will appear for this particular service. In the situation below, we have selected a medical specialist to perform a medical service for our case.
+Selecting a service provider in this form will allow you to refer your case to the service provider directly from the form. When selecting a service provider, fill in Implementing Agency and Service delivery location. When you fill in the "Service Provider Name" field you will be shown a list of users filtered by the selected agency and delivery location. The "REFER" button will appear for this particular service. In the situation below, we have selected a medical specialist to perform a medical service for our case.
 
 ![](img/image99.png)
 
