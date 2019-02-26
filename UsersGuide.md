@@ -472,19 +472,19 @@ To transfer a record from either the individual record page or the list view, us
 The following modal form will appear and allow you to select options for your transfer. Consent of the individual \(or a consent override\) is  
 generally needed for transfers, although not for those which take place within the same Primero instance.
 
-You will also be asked if you are transferring to a remote system, that is a system outside of Primero. If you are transferring outside of Primero, click the select box "Are you transferring to a remote system?"
+You will also be asked if you are transferring to a remote system, that is a system outside of Primero. If you are transferring outside of Primero, click the check box "Are you transferring to a remote system?"
 
-![](img/transfercase.png)
+![](img/transfermenu.png)
 
 To select the user that you are transferring to, first select the agency and location associate with the user.
 
 If you are transferring within your Primero instance, select the “Existing User”--a user within your deployment of Primero. If the desired user is not in the drop down, it means this user does not have privileges to be transferred to or that the user does not meet the criteria selected in the Agency or Location fields.
 
-If you are not transferring within the Primero instance, check the “Are you transferring to a remote system?” tickbox, and more options will appear for this “remote” transfer. For en external transfer, you must type in the name and agency of the user you are transfering to. You will then create a transfer export that is password protected to be shared outside the system.
+If you are not transferring within the Primero instance, check the “Are you transferring to a remote system?” tickbox, and more options will appear for this “remote” transfer. For an external transfer, you must type in the name and agency of the user you are transfering to. You will then create a transfer export that is password protected to be shared outside the system.
 
 ![](img/externaltransfer.png)
 
-If you are transferring to a user outside your system who is using another Primero instance, you simply select “Primero” in the drop down marked “What type of export do you want.” In this case, the file Primero exports will be a JSON file which can be imported into the remote Primero system.
+After indicating that you are transferring to an external user, you must fill in the precise name and agnecy of the user you are referring to. You must select "Primero" in the drop down asking "What kind of export do you want?." This means the file Primero exports will be a JSON file which can be imported into the remote Primero system. 
 
 > _Note:  
 > When transferring any such password-protected export/import file, the means of sending the file, filename, and the password that opens it, will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
