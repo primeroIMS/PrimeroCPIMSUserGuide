@@ -318,7 +318,7 @@ To do this, go to the record list page, and search for your record using an id o
 
 ## Searching for Duplicate Records
 
-After viewing potential matches, you can see an option in your toolbar named "Duplicates." Utalizing the same criteria that is used to match cases, this option will allow you to search for cases that are likely to be duplicates.
+After viewing potential matches, you can see an option in your navigation bar named "Duplicates." Using the same criteria that is used to match cases, this option will allow you to search for cases that are likely to be duplicates. For example, if you wish to register a child and you suspect the child may already be in the primero system you have the ability to search similar cases. 
 
 ![](/img/DuplicatesIntro.png)
 
