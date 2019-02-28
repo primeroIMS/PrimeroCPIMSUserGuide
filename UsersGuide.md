@@ -318,13 +318,13 @@ To do this, go to the record list page, and search for your record using an id o
 
 ## Searching for Duplicate Records
 
-After viewing potential matches, you can see an option in your navigation bar named "Duplicates." Using the same criteria that is used to match cases, this option will allow you to search for cases that are likely to be duplicates. For example, if you wish to register a child and you suspect the child may already be in the primero system you have the ability to search similar cases. 
+After viewing potential matches, you can see an option in your navigation bar named "Duplicates." Using the same criteria that is used to match cases, this option will allow you to search for cases that are likely to be duplicates. For example, if you wish to register a child and you suspect the child may already be in the Primero system you have the ability to search similar cases. 
 
 ![](/img/DuplicatesIntro.png)
 
-On the right side of the screen you will see a filtered list, this allows you to search for duplicates using specific criteria such as the last name "Smith." The duplicate search criteria includes name, nickname, othername, sex, age, nationality, last telephone, ethnicity, main cause of separation, name of relative, relation, nickname of relative, language of relative, religion of relative, ethnicity of relative, nationality of relative, relative's current address, and relative's telephone.
+On the right side of the screen you will see a filtered list, this allows you to search for duplicates using specific criteria such as the last name "Mohamed." The duplicate search criteria includes name, nickname, othername, sex, age, nationality, last telephone, ethnicity, main cause of separation, name of relative, relation, nickname of relative, language of relative, religion of relative, ethnicity of relative, nationality of relative, relative's current address, and relative's telephone.
 
-![](/img/DuplicatesFilter.png)
+![](/img/duplicatenamesearch.png)
 
 ## Viewing Record Details
 
