@@ -468,8 +468,7 @@ To transfer a record from either the individual record page or the list view, go
 
 ![](img/referassigntransfermenu.png)
 
-The following modal form will appear and allow you to select options for your transfer. Consent of the individual \(or a consent override\) is  
-generally needed for transfers, although not for those which take place within the same Primero instance.
+The following modal form will appear and allow you to select options for your transfer. Consent of the individual \(or a consent override\) is generally needed for transfers, although not for those which take place within the same Primero instance.
 
 You will also be asked if you are transferring to a remote system, that is a system outside of Primero. If you are transferring outside of Primero, click the check box "Are you transferring to a remote system?"
 
@@ -532,7 +531,7 @@ The below modal form will appear and allow you to select options for your referr
 
 The following modal form will appear and allow you to select options for your referral. As with transfers, consent \(or a consent override\) of the individual is generally required for a referral. Consent for referral is found on the Data Confidentialty form under the Identification/Registration Form Group. If your case has not provided consent for referral, you will see a sentence at the top of the referral screen "Do you wish to override this setting?" If consent has not been provided, but the referal is needed, select this box. If you are referring a case outside of your Primero instance, select the button "Are you referring to a remote system?" and you will be take to the external referal form. If you are making a referral within Primero, you will use the Primero referal form:
 
-![](img/refermenu.png)
+![](img/referassigntransfermenu.png)
 
 The Service field identifies what specific service you are requesting the other user perform or examine. Select the service you wish to refer. The Agency field provides a selection of agencies associated users. Select the agency of the user you wish to refer to. The location field provides a list of locations associated with the country of origin.
 
@@ -540,7 +539,7 @@ Now, select the “Existing User”--a user within your deployment of Primero. A
 
 If you are not making a referral within the Primero instance, check the “Are you referring to a remote system?” tickbox, and more options will appear for this “remote” referral. A remote referral creates a referral export that is password protected to be shared outside the system.
 
-![](img/externalreferal.png)
+![](img/externalreferral.png)
 
 If you are making a referral to a user outside your system who is using another Primero instance, you simply select “Primero” in the drop down marked “What type of export do you want.” In this case, the file Primero exports will be a JSON file which can be imported into the remote Primero system.
 
@@ -753,7 +752,7 @@ The next field, specifying age range, helps make reports involving age more mana
 
 ![](img/image62.png)
 
-![](img/image45.png)
+![](img/image65.png)
 
 ![](img/image66.png)
 
