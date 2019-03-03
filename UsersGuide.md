@@ -464,8 +464,7 @@ While you are making changes to a case, you can make your job managing the case 
 ## Transfers
 
 Transferring a record is a way of providing another care provider with a record. There are some processes surrounding this for a transfer to a non-Primero individual or a Primero user outside your instance. However, those will be determined by your organization and the sharing protocol of the organization of the person you are transferring to.
-
-To transfer a record from either the individual record page or the list view, use the ACTIONS button in the Action Header to initiate the drop down of options. Within the options, select “Transfer Case.”
+To transfer a record from either the individual record page or the list view, go to the Action menu at the top of your screen and select “Transfer Case.”
 
 ![](img/referassigntransfermenu.png)
 
@@ -476,7 +475,7 @@ You will also be asked if you are transferring to a remote system, that is a sys
 
 ![](img/transfermenu.png)
 
-To select the user that you are transferring to, first select the agency and location associate with the user.
+To select the user that you are transferring to, first select the agency and location associated with the user.
 
 If you are transferring within your Primero instance, select the “Existing User”--a user within your deployment of Primero. If the desired user is not in the drop down, it means this user does not have privileges to be transferred to or that the user does not meet the criteria selected in the Agency or Location fields.
 
