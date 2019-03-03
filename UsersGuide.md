@@ -228,12 +228,6 @@ A history of the flags and unflags for the case is stored. To see the history, c
 
 ![](/img/image76.png)
 
-# Assign Users
-
-Managers have ability to assign a case to a different user. If you select the Assign option from the Actions dropdown menu, a modal will appear that allows you to select from existing users. Assigning the case will change the record owner to the selected user, that record will no longer be available to the previous case worker.
-
-![](/img/image77.png)
-
 # Reopen
 
 Users have the ability to reopen closed cases. Reopen displays in the Action menu on the case view page below Disable; it does not display on the case list view . Clicking Reopen brings up a confirmation dialog saying that clicking ok will change the status of the case to open. When the user clicks OK, the “Case Reopened?” field in the **Basic Identity** form is checked, the case status is set to Open, and the case’s state is set to Valid. This also creates an entry on the **Record Information** form.
@@ -459,41 +453,55 @@ Once again, if you wanted to avoid filling out the fields on one of these subfor
 
 While you are making changes to a case, you can make your job managing the case easier by having Primero generate reminders to perform a follow up every two weeks. To do this, click on the **Protection Concerns** Form Section, under the **Identification / Registration** Form Group and check the “Generate follow up reminders?” tick box. If you click save, Primero will automatically create a flag \(to be discussed later\) on the case for you, once every two weeks, which will remind you to perform a follow up. This feature may or may not be turned on.
 
-# Transfers and Referrals
+# Assignments, Transfers, and Referrals
+
+There are three actions which allow you give another user access to your case: *Assign*, *Transfer*, and *Refer*.
+
+![](/img/assign-transfer-referral.png)
+
+## Assignments
+
+Managers have ability to assign a case to a different user. If you select the Assign option from the Actions dropdown menu, a modal will appear that allows you to select from existing users. Assigning the case will change the record owner to the selected user, that record will no longer be available to the previous case worker.
+
+![](/img/image77.png)
 
 ## Transfers
 
-Transferring a record is a way of providing another care provider with a record. There are some processes surrounding this for a transfer to a non-Primero individual or a Primero user outside your instance. However, those will be determined by your organization and the sharing protocol of the organization of the person you are transferring to.
-To transfer a record from either the individual record page or the list view, go to the Action menu at the top of your screen and select “Transfer Case.”
+Much like assignments, transfers send a record to a different user. Unlike assignments, however, transfers give the recipient the opportunity to accept or reject the record. If they reject it, the record will stay with its original record owner. If they accept it, the recipient will now have full ownership of the record, and the original owner will no longer have access. 
 
-![](img/referassigntransfermenu.png)
-
-The following modal form will appear and allow you to select options for your transfer. Consent of the individual \(or a consent override\) is generally needed for transfers, although not for those which take place within the same Primero instance.
-
-You will also be asked if you are transferring to a remote system, that is a system outside of Primero. If you are transferring outside of Primero, click the check box "Are you transferring to a remote system?"
-
-![](img/transfermenu.png)
+The following modal form will appear and allow you to select options for your transfer. Consent of the individual \(or a consent override\) is required for transfers. You will also be asked if you are transferring to a remote system. This means that you are transferring the case to someone who does not use your Primero system. See the **Transferring to a Remote System** section below for details.
 
 To select the user that you are transferring to, first select the agency and location associated with the user.
 
-If you are transferring within your Primero instance, select the “Existing User”--a user within your deployment of Primero. If the desired user is not in the drop down, it means this user does not have privileges to be transferred to or that the user does not meet the criteria selected in the Agency or Location fields.
+![](img/transfer-modal-location-select.png)
 
-If you are not transferring within the Primero instance, check the “Are you transferring to a remote system?” tickbox, and more options will appear for this “remote” transfer. For an external transfer, you must type in the name and agency of the user you are transfering to. You will then create a transfer export that is password protected to be shared outside the system.
+Once you have selected an agency and location for your transfer, the "Existing User" field will only display users who are part of that agency and based in that location.
+
+![](img/transfer-modal-filtered-users.png)
+
+If the desired user is not in the drop down, it means this user does not have privileges to be transferred to or that the user does not meet the criteria selected in the Agency or Location fields.
+
+### Transferring to a Remote System
+
+The "Remote System" option allows you to create a password-protected export file which you can give to the recipient. The "Type of Transfer" field indicates the level of information access your export file will include. The options in this list will generally be roles in the system which are permitted to see specific forms on the child's case, depending on the role's expertise. For instance, one option might be "Medical Service Provider." Selecting this option will produce an export file which only contains the information a Medical Service Provider would be able to see in Primero.
+
+There are three types of exports which you can create as part of an "external" transfer, each for a different type of recipient:
+ * **Primero**: Someone who uses a different instance of Primero. This produces a JSON file which can then be imported into the recipient's Primero instance. 
+ * **Non-Primero**: Someone who is using a different type of information management system. This also produces a JSON file.
+ * **PDF**: Someone who is not using an information management system, and does not have a user account in Primero. 
 
 ![](img/externaltransfer.png)
-
-After indicating that you are transferring to an external user, you must fill in the precise name and agnecy of the user you are referring to. You must select "Primero" in the drop down asking "What kind of export do you want?." This means the file Primero exports will be a JSON file which can be imported into the remote Primero system. 
 
 > _Note:  
 > When transferring any such password-protected export/import file, the means of sending the file, filename, and the password that opens it, will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
 
-## Accepting or Rejecting Transfers
+### Accepting or Rejecting Transfers
 
 Based on your deployment's configuration, you may have the ability to accept or reject a case that has been transferred to you. You will be able to see if any cases have been transferred to on your dashboard. If you click on the Referrals and Transfers form for the case that has been transferred to you, you will see that the status is in progress and that there are buttons to either accept or reject the transfer. If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “other assigned user”. The record information is updated with this change. If you click Reject, it brings up a dialog box with an OK button and a textbox to enter the Rejection Reason. When you click OK, the rejection reason is saved to the nested subform. The status is changed to 'rejected, and you are removed from 'other assigned users' and no longer have access to the record.
 
-![](img/image81.png)
+![](img/transfer-recipient-accept-reject.png)
 
-## Requesting a Record Transfer
+### Requesting a Record Transfer
 
 If you find a record owned by another user and need full access to it, you can ask the record owner to transfer the record to you. In Primero, this is known as a *Transfer Request*. Your ability to perform a *Transfer Request* will depend on your instance's configuration. To request a transfer, first search for your case from the case list view. When you identify the entry in the list for the case you are seeking, click the "View" link at the right of the case's row.
 
@@ -509,7 +517,7 @@ Scroll to the bottom of the *View Details* modal. Here, you will see a button ma
 
 Here, you will see information on the record owner and a text box where you can enter a note to the owner of the record. Click "Send Request" to submit.
 
-### Notifications for the Case Owner
+#### Notifications for the Case Owner
 
 Once you have sent the transfer request, the record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer.
 
@@ -525,34 +533,40 @@ At this point, the record owner can choose whether or not to transfer the record
 
 ## Referrals
 
-Referring a record is a way of giving a user limited access to a record without transferring it completely. To refer a record from either the individual record page or the list view, use the ACTIONS button in the Action Header to initiate the drop down of options. Within the options, select “Refer Case.”
+Referring a record is a way of giving a user limited access to a record without transferring it completely. While referring a record allows the recipient to access your record, the referring user will maintain full record ownership and will be able to remove the recipient's access at any time. To refer a record from either the individual record page or the list view, go to the Action menu at the top of the page and select "Refer Case."
 
-The below modal form will appear and allow you to select options for your referral. As with transfers, there are some processes surrounding consent for referral and referrals to remote systems. These processes will be determined by your organization and the sharing protocol of the organization of the person you are referring to. 
+You may also refer a case directly from the services subform. For more information on how to do this, see the **Referring From Services Form** section below.
 
-The following modal form will appear and allow you to select options for your referral. As with transfers, consent \(or a consent override\) of the individual is generally required for a referral. Consent for referral is found on the Data Confidentialty form under the Identification/Registration Form Group. If your case has not provided consent for referral, you will see a sentence at the top of the referral screen "Do you wish to override this setting?" If consent has not been provided, but the referal is needed, select this box. If you are referring a case outside of your Primero instance, select the button "Are you referring to a remote system?" and you will be take to the external referal form. If you are making a referral within Primero, you will use the Primero referal form:
+The following modal form will appear and allow you to select options for your referral.
 
-![](img/referassigntransfermenu.png)
+![](/img/referral-modal.png)
 
-The Service field identifies what specific service you are requesting the other user perform or examine. Select the service you wish to refer. The Agency field provides a selection of agencies associated users. Select the agency of the user you wish to refer to. The location field provides a list of locations associated with the country of origin.
+As with transfers, consent of the individual is required for referral. Consent for referral is found on the Data Confidentialty form under the Identification/Registration Form Group. 
 
-Now, select the “Existing User”--a user within your deployment of Primero. A list of all users that perform the service selected, from the agency selected, and in the location selected will appear. If the desired user is not in the drop down, it means this user does not have privileges to be referred to or does not meet one of the matching criteria. 
+The following fields are important for selecting a user:
+ * **Service** you are requesting the other user perform
+ * **Agency** you would like to perform the service
+ * **Location** where you would like the service to take place
 
-If you are not making a referral within the Primero instance, check the “Are you referring to a remote system?” tickbox, and more options will appear for this “remote” referral. A remote referral creates a referral export that is password protected to be shared outside the system.
+![](/img/referral-modal-narrow-down-users.png)
+
+Now, select the “Existing User”--a user within your deployment of Primero. A list of all users that perform the service selected, from the agency selected, and in the location selected will appear. If the desired user is not in the drop down, it means this user does not have privileges to be referred to or does not meet one of the criteria listed above. 
+
+### Referring to a Remote System
+
+The "Remote System" option allows you to create a password-protected export file which you can give to the recipient. The "Type of Referral" field indicates the level of information access your export file will include. The options in this list will generally be roles in the system which are permitted to see specific forms on the child's case, depending on the role's expertise. For instance, one option might be "Medical Service Provider." Selecting this option will produce an export file which only contains the information a Medical Service Provider would be able to see in Primero.
+
+There are three types of exports which you can create as part of an "external" referral, each for a different type of recipient:
+ * **Primero**: Someone who uses a different instance of Primero. This produces a JSON file which can then be imported into the recipient's Primero instance. 
+ * **Non-Primero**: Someone who is using a different type of information management system. This also produces a JSON file.
+ * **PDF**: Someone who is not using an information management system, and does not have a user account in Primero. 
 
 ![](img/externalreferral.png)
 
-If you are making a referral to a user outside your system who is using another Primero instance, you simply select “Primero” in the drop down marked “What type of export do you want.” In this case, the file Primero exports will be a JSON file which can be imported into the remote Primero system.
+> _Note:  
+> When referring any such password-protected export/import file, the means of sending the file, filename, and the password that opens it, will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
 
-To specify which service a referral is for, go to the **Services** form and click on the "refer" button on the header for any service you have saved.
-
-![](img/image83.png)
-
-Once you have clicked "refer" you will see the below modal. Once again, make sure you have consent \(or a consent override\), and select a user who will receive the referral. The service type should already be selected for you, based on what you entered in the **Services** form.
-
-![](img/referral-from-services-subform-modal.png)
-
-
-## Relinquishing Referral
+### Relinquishing a Referral
 
 Based on the deployment, you may have the ability to relinquish a case that has been referred to you. You can see if any cases have been referred to you on your dashboard. When you click on the **Referrals and Transfers** form for the case that has been referred to you, you will see a DONE button next to the referral that has been made to you. If you are done reviewing the case, you can click the done button. Once clicked, it will be removed from your case list and you will no longer have access to it.
 
@@ -589,7 +603,11 @@ Selecting a service provider in this form will allow you to refer your case to t
 
 ## Referring from **Services** Form
 
-Once you have saved the case with this new service, and have been redirected back to the view page, go to the **Services** form and the service you just added. At the top of the service's subform, you should see a "REFER" button. Click on this button, and you will see a modal like the one pictured below. Here, you can enter information on your referral just like you normally would. However, if you have already filled out a service provider and a service type for your service, these fields will be pre-entered for you. Remember to ensure that your case has provided consent, or that you choose the override consent option before referring.
+Once you have saved the case with this new service, and have been redirected back to the view page, go to the **Services** form and the service you just added. At the top of the service's subform, you should see a "REFER" button.
+
+![](img/image83.png)
+
+Click on this button, and you will see a modal like the one pictured below. Here, you can enter information on your referral just like you normally would. However, if you have already filled out a service provider and a service type for your service, these fields will be pre-entered for you. Remember to ensure that your case has provided consent, or that you choose the override consent option before referring.
 
 ![](img/referral-from-services-subform-modal.png)
 
