@@ -192,7 +192,7 @@ Filtering your Case List or search results is an efficient way to narrow down to
 
 The Filter panel is visible on the search results page or when you click **CASES** tab in the header. See below:
 
-![](img/image63.png)
+![](img/case-list-filters.png)
 
 In the image, there is the normal checkbox filter selection, in which you click using your mouse, but also date range and drop down fields. For Date Ranges, you can enter these using any of the date field type actions. You can set the range for one day as well. Drop down fields in the filters panel are clickable with the mouse and only allow you to select one value at a time.
 
@@ -372,7 +372,7 @@ To export a single case, you can either check only that case in the case list, o
 
 Once you are creating or editing a record, you will see a navigation list in the left panel. This list is an organized way to navigate through your forms. The initial titles you see are called **Form Groups** and are set up by your site administrator. The current form you are on will be highlighted - see below:
 
-![](img/image44.png)
+![](img/case-view-form-group.png)
 
 If a Form Group has only one form, you can simply click on it and it will populate the form. If it has more than one, you can click on the Form Group name or the expand icon to the right of the name to expand it and see all the forms in the group. Once expanded you can then click on any of the form names to enter into the chosen form. For example, in the image above, the user has selected the **Identification / Registration** form group and the **Basic Identity** form.
 
@@ -549,7 +549,7 @@ To specify which service a referral is for, go to the **Services** form and clic
 
 Once you have clicked "refer" you will see the below modal. Once again, make sure you have consent \(or a consent override\), and select a user who will receive the referral. The service type should already be selected for you, based on what you entered in the **Services** form.
 
-![](img/image84.png)
+![](img/referral-from-services-subform-modal.png)
 
 
 ## Relinquishing Referral
@@ -591,7 +591,7 @@ Selecting a service provider in this form will allow you to refer your case to t
 
 Once you have saved the case with this new service, and have been redirected back to the view page, go to the **Services** form and the service you just added. At the top of the service's subform, you should see a "REFER" button. Click on this button, and you will see a modal like the one pictured below. Here, you can enter information on your referral just like you normally would. However, if you have already filled out a service provider and a service type for your service, these fields will be pre-entered for you. Remember to ensure that your case has provided consent, or that you choose the override consent option before referring.
 
-![](img/image100.png)
+![](img/referral-from-services-subform-modal.png)
 
 # Workflow Status
 
@@ -724,7 +724,7 @@ Next comes choosing the row and column attributes by which you want your data to
 
 ![](img/image59.png)
 
-![](img/image65.png)
+![](img/arrow-down.png)
 
 ![](img/image51.png)
 
@@ -752,7 +752,7 @@ The next field, specifying age range, helps make reports involving age more mana
 
 ![](img/image62.png)
 
-![](img/image65.png)
+![](img/arrow-down.png)
 
 ![](img/image66.png)
 
