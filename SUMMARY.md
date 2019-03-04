@@ -39,8 +39,6 @@
 
 *  [*Flagging*](UsersGuide.md#flagging)
 
-*  [*Assign Users*](UsersGuide.md#assign-users)
-
 *  [*Reopen*](UsersGuide.md#reopen)
 
 *  [*Approvals*](UsersGuide.md#approvals)
@@ -73,27 +71,39 @@
 
     *  [*Creating a Case*](UsersGuide.md#creating-a-case)
 
-*  [*Generating Automatic Follow Ups*](UsersGuide.md#generating-automatic-follow-ups)
+    *  [*Editing a Case*](UsersGuide.md#editing-a-case)
 
-*  [*Transfers and Referrals*](UsersGuide.md#transfers-and-referrals)
+*  [*Assignments, Transfers, and Referrals*](UsersGuide.md#assignments-transfers-and-referrals)
+
+    *  [*Assignments*](UsersGuide.md#assignments)
 
     *  [*Transfers*](UsersGuide.md#transfers)
 
-    *  [*Accepting or Rejecting Transfers*](UsersGuide.md#accepting-or-rejecting-transfers)
+        *  [*Transferring to a Remote System*](UsersGuide.md#transferring-to-a-remote-system)
 
-    *  [*Requesting a Record Transfer*](UsersGuide.md#requesting-a-record-transfer)
+        *  [*Accepting or Rejecting Transfers*](UsersGuide.md#accepting-or-rejecting-transfers)
 
-        *  [*Notifications for the Case Owner*](UsersGuide.md#notifications-for-the-case-owner)
+        *  [*Requesting a Record Transfer*](UsersGuide.md#requesting-a-record-transfer)
+
+            *  [*Notifications for the Case Owner*](UsersGuide.md#notifications-for-the-case-owner)
 
     *  [*Referrals*](UsersGuide.md#referrals)
 
-    *  [*Relinquishing Referral*](UsersGuide.md#relinquishing-referral)
+        *  [*Referring to a Remote System*](UsersGuide.md#referring-to-a-remote-system)
+
+        *  [*Revoking a Referral*](UsersGuide.md#revoking-a-referral)
+
+        *  [*Relinquishing a Referral*](UsersGuide.md#relinquishing-a-referral)
 
 *  [*Services*](UsersGuide.md#services)
 
     *  [*Services Form*](UsersGuide.md#services-form)
 
     *  [*Referring from Services Form*](UsersGuide.md#referring-from-services-form)
+
+*  [*Workflow Status*](UsersGuide.md#workflow-status)
+
+    *  [*The Workflow Status Bar*](UsersGuide.md#the-workflow-status-bar)
 
 *  [*Notification Emails*](UsersGuide.md#notification-emails)
 
