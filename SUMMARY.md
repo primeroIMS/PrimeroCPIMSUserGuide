@@ -91,6 +91,8 @@
 
         *  [*Referring to a Remote System*](UsersGuide.md#referring-to-a-remote-system)
 
+        *  [*Revoking a Referral*](UsersGuide.md#revoking-a-referral)
+
         *  [*Relinquishing a Referral*](UsersGuide.md#relinquishing-a-referral)
 
 *  [*Services*](UsersGuide.md#services)
@@ -98,6 +100,10 @@
     *  [*Services Form*](UsersGuide.md#services-form)
 
     *  [*Referring from Services Form*](UsersGuide.md#referring-from-services-form)
+
+*  [*Workflow Status*](UsersGuide.md#workflow-status)
+
+    *  [*The Workflow Status Bar*](UsersGuide.md#the-workflow-status-bar)
 
 *  [*Notification Emails*](UsersGuide.md#notification-emails)
 
