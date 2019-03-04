@@ -35,7 +35,9 @@
 
     * [*Language Toggle*](UsersGuide.md#language-toggle)
 
-    * [*My Account and Contact & Help links*](UsersGuide.md#my-account-and-contact-help-links)
+    * [*Contact and Help*](UsersGuide.md#contact-and-help)
+
+    * [*My Account and Password Change*](UsersGuide.md#my-account-and-password-change)
 
 *  [*Filtering*](UsersGuide.md#filtering)
 
