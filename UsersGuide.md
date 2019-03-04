@@ -362,7 +362,7 @@ The results that appear will include likelihood scores of "Possible" or "Likely.
 
 To see some limited details about a case, click the "View" link next to it.
 
-![](/img/v1-6/image6.png)
+![](/img/view-details-modal.png)
 
 # Exporting Information on Records
 
