@@ -316,16 +316,6 @@ To do this, go to the record list page, and search for your record using an id o
 
 ![](/img/v1-6/image4.png)
 
-## Searching for Duplicate Records
-
-After viewing potential matches, you can see an option in your navigation bar named "Duplicates." Using the same criteria that is used to match cases, this option will allow you to search for cases that are likely to be duplicates. For example, if you wish to register a child and you suspect the child may already be in the Primero system you have the ability to search similar cases. 
-
-![](/img/DuplicatesIntro.png)
-
-On the right side of the screen you will see a filtered list, this allows you to search for duplicates using specific criteria such as the last name "Mohamed." The duplicate search criteria includes name, nickname, othername, sex, age, nationality, last telephone, ethnicity, main cause of separation, name of relative, relation, nickname of relative, language of relative, religion of relative, ethnicity of relative, nationality of relative, relative's current address, and relative's telephone.
-
-![](/img/duplicatenamesearch.png)
-
 ## Viewing Record Details
 
 Before performing an action, you may wish to see some information about the record you have selected, even if you do not have permission to see all of the record's information. Some users will have permission to see a limited set of attributes for other users' records, using what is known as the *View Details* modal. To see information on such a record, click on the "View" link at the right-hand side of the record's entry in the list. You will then see a modal containing information on the case.
@@ -351,6 +341,28 @@ Depending on your user's configuration, you may also see a second button, marked
 Depending on your configuration, a user may be able to add a service provision to a case from the list view or when searching cases. To add a service to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Service Provision." You will see the following modal. Here, enter information on the service you are adding, and then save.
 
 ![](/img/image102.png)
+
+## Searching for Duplicate Cases
+
+Depending on your role permissions, you may have the ability to search in the system for potential duplicate Cases. To perform a Duplicate Search, click on the **DUPLICATES** link in the navigation bar.
+
+![](/img/duplicate-search-intro.png)
+
+Here, using the search criteria on the right side of the page, you can search to see if a child has an existing Case in the system. The criteria here are the same ones used to perform matching between Cases and Tracing Requests. For more information about Matching Criteria, please see the **Primero Administration and Configuration Guide**. 
+
+In the example below, we are searching for a 12-year-old Iraqi boy with the name "Mohamed."
+
+![](/img/duplicate-search-criteria.png)
+
+Click the **SEARCH FOR DUPLICATES** button to see your search results.
+
+![](/img/duplicate-search-results.png)
+
+The results that appear will include likelihood scores of "Possible" or "Likely." For more information on how scoring works, please see the **Scoring** section.
+
+To see some limited details about a case, click the "View" link next to it.
+
+![](/img/v1-6/image6.png)
 
 # Exporting Information on Records
 
