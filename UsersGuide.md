@@ -152,7 +152,11 @@ When the case is first opened, before any services are added, the status bar wil
 
 ## Action Buttons
 
-Our Action Buttons are the buttons just below our Header Navigation, which allow a user to act on a case or cases. The actions, depending on your permissions, are:
+Our Action Buttons are the buttons just below our Header Navigation, which allow a user to act on a case or cases.
+
+![](img/actions-menu.png)
+
+The actions, depending on your permissions, are:
 
 * Flagging
 
@@ -454,11 +458,6 @@ When a required field is located on a nested subform, a user must either fill ou
 
 Once again, if you wanted to avoid filling out the fields on one of these subform entries, you could just click the "Remove" button to remove that subform entry. For more information on how you can set which fields are required, please see the **Primero Administration and Configuration Guide**.
 
-
-# Generating Automatic Follow Ups
-
-While you are making changes to a case, you can make your job managing the case easier by having Primero generate reminders to perform a follow up every two weeks. To do this, click on the **Protection Concerns** Form Section, under the **Identification / Registration** Form Group and check the “Generate follow up reminders?” tick box. If you click save, Primero will automatically create a flag \(to be discussed later\) on the case for you, once every two weeks, which will remind you to perform a follow up. This feature may or may not be turned on.
-
 # Assignments, Transfers, and Referrals
 
 There are three actions which allow you give another user access to your case: *Assign*, *Transfer*, and *Refer*.
@@ -599,7 +598,7 @@ Once you have removed their name from the list, click **SAVE**. The referral rec
 
 ![](/img/case-save-button.png)
 
-For more information about how to edit a case, please see the **Edit and View a Record** section.
+For more information about how to edit a case, please see the **Editing a Case** section.
 
 ### Relinquishing a Referral
 

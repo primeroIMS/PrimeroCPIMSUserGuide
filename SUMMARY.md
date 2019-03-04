@@ -71,7 +71,7 @@
 
     *  [*Creating a Case*](UsersGuide.md#creating-a-case)
 
-*  [*Generating Automatic Follow Ups*](UsersGuide.md#generating-automatic-follow-ups)
+    *  [*Editing a Case*](UsersGuide.md#editing-a-case)
 
 *  [*Assignments, Transfers, and Referrals*](UsersGuide.md#assignments-transfers-and-referrals)
 
