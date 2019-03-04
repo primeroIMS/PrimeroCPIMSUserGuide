@@ -63,6 +63,10 @@
 
     * [*Adding Incident to Case from List View*](UsersGuide.md#adding-incident-to-case-from-list-view)
 
+    * [*Adding Service Provision to Case from List View*](UsersGuide.md#adding-service-provision-to-case-from-list-view)
+
+    * [*Searching for Duplicate Cases*](UsersGuide.md#searching-for-duplicate-cases)
+
 *  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 
 
 *  [*Navigating Primero Forms*](UsersGuide.md#navigating-primero-forms)

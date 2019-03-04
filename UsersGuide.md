@@ -388,6 +388,28 @@ Depending on your configuration, a user may be able to add a service provision t
 
 ![](/img/image102.png)
 
+## Searching for Duplicate Cases
+
+Depending on your role permissions, you may have the ability to search in the system for potential duplicate Cases. To perform a Duplicate Search, click on the **DUPLICATES** link in the navigation bar.
+
+![](/img/duplicate-search-intro.png)
+
+Here, using the search criteria on the right side of the page, you can search to see if a child has an existing Case in the system. The criteria here are the same ones used to perform matching between Cases and Tracing Requests. For more information about Matching Criteria, please see the **Primero Administration and Configuration Guide**. 
+
+In the example below, we are searching for a 12-year-old Iraqi boy with the name "Mohamed."
+
+![](/img/duplicate-search-criteria.png)
+
+Click the **SEARCH FOR DUPLICATES** button to see your search results.
+
+![](/img/duplicate-search-results.png)
+
+The results that appear will include likelihood scores of "Possible" or "Likely." For more information on how scoring works, please see the **Scoring** section.
+
+To see some limited details about a case, click the "View" link next to it.
+
+![](/img/view-details-modal.png)
+
 # Exporting Information on Records
 
 Exporting individual cases or a list of cases can be useful in a number of ways. This action can be found in the **ACTIONS** header button which   will display a drop down to select what format you want to export - PDF, XLS, CSV, etc.
