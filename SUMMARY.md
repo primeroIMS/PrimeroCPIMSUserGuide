@@ -117,7 +117,11 @@
 
         *  [*Scoring*](UsersGuide.md#scoring)
 
+        *  [*Adjustable Matching Criteria*](UsersGuide.md#adjustable-matching-criteria)
+
         *  [*Linking Tracing Requests with Cases*](UsersGuide.md#linking-tracing-requests-with-cases)
+
+        *  [*Initiating Tracing From a Case*](UsersGuide.md#initiating-tracing-from-a-case)
 
 *  [*Reports*](UsersGuide.md#reports)
 
