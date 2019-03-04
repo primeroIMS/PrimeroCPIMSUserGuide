@@ -192,9 +192,55 @@ Please note that when using these actions you must work according to the CP SoPs
 
 This bar, along with the Header Navigation bar and the workflow status bar, are part of what is called the **Anchored Header**, meaning, they never leave the screen when scrolling. This allows a user to easily navigate or act on a case or number of cases at any time.
 
-## My Account and Contact & Help links
+## Language Toggle 
 
-Above the Header Navigation bar, there are small links that bring you to pages that help you manage your account and contact information, as well as find out who is your site administrator. Clicking on the Primero icon from any page will take you back to the dashboard from anywhere.
+Above the Navigation Bar, there is a dropdown labelled "Language". Here, you can select the language in which you would like to see the page.
+
+![](img/language-toggle.png)
+
+To switch languages, click the dropdown and select one of the languages listed. The page will then reload, showing all content in this language. The Language Toggle will only translate the page in which you have clicked.
+
+![](img/language-toggle-select.png)
+
+![](img/arrow-down.png)
+
+![](img/language-toggle-after.png)
+
+Once you navigate away from the page, Primero will again display in your account's preferred language. For more information on how to update this preferred language, see the **My Account and Password Change** section.
+
+## Contact and Help
+
+Above the Header Navigation bar, there is a link labelled "Contact & Help." This will bring you to page with contact information for your system administrator. Clicking on the Primero icon from any page will take you back to the dashboard from anywhere.
+
+## My Account and Password Change
+
+To change your account details or your password, click the "My Account" link above the Navigation Bar.
+
+![](img/my-account-link.png)
+
+You will be taken to a page listing your account details. Click the **EDIT** button to change these details.
+
+![](img/my-account-view-page.png)
+
+Here, you will be able to update the following:
+
+ * **Full Name**: The name managers and administrators will see when looking at your account.
+ * **User Code**: Depending on configuration, may impact composite ID field generated for records you create. This is not often used.
+ * **Password**: Must be at least eight characters and contain both letters and numbers.
+ * **Language**: This will be the default language in which you will see the application.
+ * **Phone**: Allows other users with the ability to view your profile to contact you.
+ * **Email**: Will be used for any email notifications.
+ * **Services**: Any services you will be providing through Primero. This will determine whether and when you appear as a potential recipient for record referrals.
+ * **Position**: Your official title within your organization.
+ * **Current Location**: The location where you are always or most-often based. This will determine whether and when you appear as a potential recipient for record referrals and transfers.
+ * **Receive email notifications**: Will determine whether you receive email notifications, including the following:
+   * Cases assigned, transferred, or referred.
+   * Requests from other users for you to transfer one of your cases to them.
+   * Manager approvals and requests for manager approval.
+
+![](img/my-account-edit-page.png)
+
+Click the **SAVE** button once you are finished making changes.
 
 # Filtering
 

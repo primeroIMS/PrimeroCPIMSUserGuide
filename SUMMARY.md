@@ -33,7 +33,11 @@
 
     * [*Action Buttons*](UsersGuide.md#action-buttons)
 
-    * [*My Account and Contact & Help links*](UsersGuide.md#my-account-and-contact-help-links)
+    * [*Language Toggle*](UsersGuide.md#language-toggle)
+
+    * [*Contact and Help*](UsersGuide.md#contact-and-help)
+
+    * [*My Account and Password Change*](UsersGuide.md#my-account-and-password-change)
 
 *  [*Filtering*](UsersGuide.md#filtering)
 
