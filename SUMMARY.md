@@ -33,13 +33,15 @@
 
     * [*Action Buttons*](UsersGuide.md#action-buttons)
 
-    * [*My Account and Contact & Help links*](UsersGuide.md#my-account-and-contact-help-links)
+    * [*Language Toggle*](UsersGuide.md#language-toggle)
+
+    * [*Contact and Help*](UsersGuide.md#contact-and-help)
+
+    * [*My Account and Password Change*](UsersGuide.md#my-account-and-password-change)
 
 *  [*Filtering*](UsersGuide.md#filtering)
 
 *  [*Flagging*](UsersGuide.md#flagging)
-
-*  [*Assign Users*](UsersGuide.md#assign-users)
 
 *  [*Reopen*](UsersGuide.md#reopen)
 
@@ -61,6 +63,10 @@
 
     * [*Adding Incident to Case from List View*](UsersGuide.md#adding-incident-to-case-from-list-view)
 
+    * [*Adding Service Provision to Case from List View*](UsersGuide.md#adding-service-provision-to-case-from-list-view)
+
+    * [*Searching for Duplicate Cases*](UsersGuide.md#searching-for-duplicate-cases)
+
 *  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 
 
 *  [*Navigating Primero Forms*](UsersGuide.md#navigating-primero-forms)
@@ -73,27 +79,39 @@
 
     *  [*Creating a Case*](UsersGuide.md#creating-a-case)
 
-*  [*Generating Automatic Follow Ups*](UsersGuide.md#generating-automatic-follow-ups)
+    *  [*Editing a Case*](UsersGuide.md#editing-a-case)
 
-*  [*Transfers and Referrals*](UsersGuide.md#transfers-and-referrals)
+*  [*Assignments, Transfers, and Referrals*](UsersGuide.md#assignments-transfers-and-referrals)
+
+    *  [*Assignments*](UsersGuide.md#assignments)
 
     *  [*Transfers*](UsersGuide.md#transfers)
 
-    *  [*Accepting or Rejecting Transfers*](UsersGuide.md#accepting-or-rejecting-transfers)
+        *  [*Transferring to a Remote System*](UsersGuide.md#transferring-to-a-remote-system)
 
-    *  [*Requesting a Record Transfer*](UsersGuide.md#requesting-a-record-transfer)
+        *  [*Accepting or Rejecting Transfers*](UsersGuide.md#accepting-or-rejecting-transfers)
 
-        *  [*Notifications for the Case Owner*](UsersGuide.md#notifications-for-the-case-owner)
+        *  [*Requesting a Record Transfer*](UsersGuide.md#requesting-a-record-transfer)
+
+            *  [*Notifications for the Case Owner*](UsersGuide.md#notifications-for-the-case-owner)
 
     *  [*Referrals*](UsersGuide.md#referrals)
 
-    *  [*Relinquishing Referral*](UsersGuide.md#relinquishing-referral)
+        *  [*Referring to a Remote System*](UsersGuide.md#referring-to-a-remote-system)
+
+        *  [*Revoking a Referral*](UsersGuide.md#revoking-a-referral)
+
+        *  [*Relinquishing a Referral*](UsersGuide.md#relinquishing-a-referral)
 
 *  [*Services*](UsersGuide.md#services)
 
     *  [*Services Form*](UsersGuide.md#services-form)
 
     *  [*Referring from Services Form*](UsersGuide.md#referring-from-services-form)
+
+*  [*Workflow Status*](UsersGuide.md#workflow-status)
+
+    *  [*The Workflow Status Bar*](UsersGuide.md#the-workflow-status-bar)
 
 *  [*Notification Emails*](UsersGuide.md#notification-emails)
 
@@ -107,7 +125,11 @@
 
         *  [*Scoring*](UsersGuide.md#scoring)
 
+        *  [*Adjustable Matching Criteria*](UsersGuide.md#adjustable-matching-criteria)
+
         *  [*Linking Tracing Requests with Cases*](UsersGuide.md#linking-tracing-requests-with-cases)
+
+        *  [*Initiating Tracing From a Case*](UsersGuide.md#initiating-tracing-from-a-case)
 
 *  [*Reports*](UsersGuide.md#reports)
 

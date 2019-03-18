@@ -134,19 +134,29 @@ When selecting the record type or page you want to visit via the header navigati
 
 When creating a new record, you automatically are brought to the “Edit” page for that record. You can enter in all the relevant information you need at this time and save when done. 
 
-When selecting an existing record, you are brought to “View” the record. This means you can view all the data and forms you have permission to, but cannot edit. You must click the Edit button in the Action Buttons section of the header to change any information that is currently represented.
+When selecting an existing record, you are brought to “View” the record. This means you can view all the data and forms you have permission to, but cannot edit. You must click the **EDIT** button in the Action Buttons section of the header to change any information that is currently represented.
 
-## Case Status Bar
+![](/img/case-edit-button.png)
 
-On the view and edit pages for a case, the user will see the case status bar, which lets the user know the current case management stage of the record.
+Once you have made changes, click the **SAVE** button in the header.
+
+![](/img/case-save-button.png)
+
+## Workflow Status Bar
+
+On the view and edit pages for a case, the user will see the workflow status bar, which lets the user know the current case management stage of the record.
 
 ![](img/image85.png)
 
-When the case is first opened, before any services are added, the status bar will highlight the "New" status. Once a service has been added, however, the case status will correspond with the most recently-added response type. So, for instance, after a case is opened, if a case worker refers the case to a service provider for a service with a response type of "Action Plan", the case status will also be "Action Plan." When the case is closed, with manager approval, the case status will become "Closed." Keeping track of the case status helps the case worker keep track of the case's needs. Please note that the case status bar may or may not appear, depending on a given implementation's configuration.
+When the case is first opened, before any services are added, the status bar will highlight the "New" status. Once a service has been added, however, the workflow status will correspond with the most recently-added response type. So, for instance, after a case is opened, if a case worker refers the case to a service provider for a service with a response type of "Action Plan", the workflow status will also be "Action Plan." When the case is closed, with manager approval, the workflow status will become "Closed." Keeping track of the workflow status helps the case worker keep track of the case's needs. Please note that the workflow status bar may or may not appear, depending on a given implementation's configuration.
 
 ## Action Buttons
 
-Our Action Buttons are the buttons just below our Header Navigation, which allow a user to act on a case or cases. The actions, depending on your permissions, are:
+Our Action Buttons are the buttons just below our Header Navigation, which allow a user to act on a case or cases.
+
+![](img/actions-menu.png)
+
+The actions, depending on your permissions, are:
 
 * Flagging
 
@@ -180,11 +190,57 @@ Please note that when using these actions you must work according to the CP SoPs
 
 ![](img/image67.png)
 
-This bar, along with the Header Navigation bar and the case status bar, are part of what is called the **Anchored Header**, meaning, they never leave the screen when scrolling. This allows a user to easily navigate or act on a case or number of cases at any time.
+This bar, along with the Header Navigation bar and the workflow status bar, are part of what is called the **Anchored Header**, meaning, they never leave the screen when scrolling. This allows a user to easily navigate or act on a case or number of cases at any time.
 
-## My Account and Contact & Help links
+## Language Toggle 
 
-Above the Header Navigation bar, there are small links that bring you to pages that help you manage your account and contact information, as well as find out who is your site administrator. Clicking on the Primero icon from any page will take you back to the dashboard from anywhere.
+Above the Navigation Bar, there is a dropdown labelled "Language". Here, you can select the language in which you would like to see the page.
+
+![](img/language-toggle.png)
+
+To switch languages, click the dropdown and select one of the languages listed. The page will then reload, showing all content in this language. The Language Toggle will only translate the page in which you have clicked.
+
+![](img/language-toggle-select.png)
+
+![](img/arrow-down.png)
+
+![](img/language-toggle-after.png)
+
+Once you navigate away from the page, Primero will again display in your account's preferred language. For more information on how to update this preferred language, see the **My Account and Password Change** section.
+
+## Contact and Help
+
+Above the Header Navigation bar, there is a link labelled "Contact & Help." This will bring you to page with contact information for your system administrator. Clicking on the Primero icon from any page will take you back to the dashboard from anywhere.
+
+## My Account and Password Change
+
+To change your account details or your password, click the "My Account" link above the Navigation Bar.
+
+![](img/my-account-link.png)
+
+You will be taken to a page listing your account details. Click the **EDIT** button to change these details.
+
+![](img/my-account-view-page.png)
+
+Here, you will be able to update the following:
+
+ * **Full Name**: The name managers and administrators will see when looking at your account.
+ * **User Code**: Depending on configuration, may impact composite ID field generated for records you create. This is not often used.
+ * **Password**: Must be at least eight characters and contain both letters and numbers.
+ * **Language**: This will be the default language in which you will see the application.
+ * **Phone**: Allows other users with the ability to view your profile to contact you.
+ * **Email**: Will be used for any email notifications.
+ * **Services**: Any services you will be providing through Primero. This will determine whether and when you appear as a potential recipient for record referrals.
+ * **Position**: Your official title within your organization.
+ * **Current Location**: The location where you are always or most-often based. This will determine whether and when you appear as a potential recipient for record referrals and transfers.
+ * **Receive email notifications**: Will determine whether you receive email notifications, including the following:
+   * Cases assigned, transferred, or referred.
+   * Requests from other users for you to transfer one of your cases to them.
+   * Manager approvals and requests for manager approval.
+
+![](img/my-account-edit-page.png)
+
+Click the **SAVE** button once you are finished making changes.
 
 # Filtering
 
@@ -192,7 +248,7 @@ Filtering your Case List or search results is an efficient way to narrow down to
 
 The Filter panel is visible on the search results page or when you click **CASES** tab in the header. See below:
 
-![](img/image63.png)
+![](img/case-list-filters.png)
 
 In the image, there is the normal checkbox filter selection, in which you click using your mouse, but also date range and drop down fields. For Date Ranges, you can enter these using any of the date field type actions. You can set the range for one day as well. Drop down fields in the filters panel are clickable with the mouse and only allow you to select one value at a time.
 
@@ -227,12 +283,6 @@ Note that only the person who flagged the case can unflag the case. To do so:
 A history of the flags and unflags for the case is stored. To see the history, click on the View History tab, you can view the details of the flags and unflags.
 
 ![](/img/image76.png)
-
-# Assign Users
-
-Managers have ability to assign a case to a different user. If you select the Assign option from the Actions dropdown menu, a modal will appear that allows you to select from existing users. Assigning the case will change the record owner to the selected user, that record will no longer be available to the previous case worker.
-
-![](/img/image77.png)
 
 # Reopen
 
@@ -316,9 +366,9 @@ To do this, go to the record list page, and search for your record using an id o
 
 Before performing an action, you may wish to see some information about the record you have selected, even if you do not have permission to see all of the record's information. Some users will have permission to see a limited set of attributes for other users' records, using what is known as the *View Details* modal. To see information on such a record, click on the "View" link at the right-hand side of the record's entry in the list. You will then see a modal containing information on the case.
 
-![](/img/v1-6/image5.png)
+![](/img/view-details-link.png)
 
-![](/img/v1-6/image6.png)
+![](/img/view-details-modal.png)
 
 Depending on your user's role configuration, you may be able to see the case's photo in this modal. The permission to view this photo is different from the one which allows you to see the *View Details* modal. For more information on configuring user roles, please see the **Primero Administration Guide**.
 
@@ -337,6 +387,28 @@ Depending on your user's configuration, you may also see a second button, marked
 Depending on your configuration, a user may be able to add a service provision to a case from the list view or when searching cases. To add a service to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Service Provision." You will see the following modal. Here, enter information on the service you are adding, and then save.
 
 ![](/img/image102.png)
+
+## Searching for Duplicate Cases
+
+Depending on your role permissions, you may have the ability to search in the system for potential duplicate Cases. To perform a Duplicate Search, click on the **DUPLICATES** link in the navigation bar.
+
+![](/img/duplicate-search-intro.png)
+
+Here, using the search criteria on the right side of the page, you can search to see if a child has an existing Case in the system. The criteria here are the same ones used to perform matching between Cases and Tracing Requests. For more information about Matching Criteria, please see the **Primero Administration and Configuration Guide**. 
+
+In the example below, we are searching for a 12-year-old Iraqi boy with the name "Mohamed."
+
+![](/img/duplicate-search-criteria.png)
+
+Click the **SEARCH FOR DUPLICATES** button to see your search results.
+
+![](/img/duplicate-search-results.png)
+
+The results that appear will include likelihood scores of "Possible" or "Likely." For more information on how scoring works, please see the **Scoring** section.
+
+To see some limited details about a case, click the "View" link next to it.
+
+![](/img/view-details-modal.png)
 
 # Exporting Information on Records
 
@@ -372,7 +444,7 @@ To export a single case, you can either check only that case in the case list, o
 
 Once you are creating or editing a record, you will see a navigation list in the left panel. This list is an organized way to navigate through your forms. The initial titles you see are called **Form Groups** and are set up by your site administrator. The current form you are on will be highlighted - see below:
 
-![](img/image44.png)
+![](img/case-view-form-group.png)
 
 If a Form Group has only one form, you can simply click on it and it will populate the form. If it has more than one, you can click on the Form Group name or the expand icon to the right of the name to expand it and see all the forms in the group. Once expanded you can then click on any of the form names to enter into the chosen form. For example, in the image above, the user has selected the **Identification / Registration** form group and the **Basic Identity** form.
 
@@ -454,50 +526,63 @@ When a required field is located on a nested subform, a user must either fill ou
 
 Once again, if you wanted to avoid filling out the fields on one of these subform entries, you could just click the "Remove" button to remove that subform entry. For more information on how you can set which fields are required, please see the **Primero Administration and Configuration Guide**.
 
+# Assignments, Transfers, and Referrals
 
-# Generating Automatic Follow Ups
+There are three actions which allow you give another user access to your case: *Assign*, *Transfer*, and *Refer*.
 
-While you are making changes to a case, you can make your job managing the case easier by having Primero generate reminders to perform a follow up every two weeks. To do this, click on the **Protection Concerns** Form Section, under the **Identification / Registration** Form Group and check the “Generate follow up reminders?” tick box. If you click save, Primero will automatically create a flag \(to be discussed later\) on the case for you, once every two weeks, which will remind you to perform a follow up. This feature may or may not be turned on.
+![](/img/assign-transfer-referral.png)
 
-# Transfers and Referrals
+## Assignments
+
+Managers have ability to assign a case to a different user. If you select the Assign option from the Actions dropdown menu, a modal will appear that allows you to select from existing users. Assigning the case will change the record owner to the selected user, that record will no longer be available to the previous case worker.
+
+![](/img/image77.png)
 
 ## Transfers
 
-Transferring a record is a basic form of reassignment. There are some processes surrounding this for a transfer to a non-Primero individual or a Primero user outside your instance. But those will be determined by your organization and the sharing protocol of the organization of the person you are transferring to.
+Much like assignments, transfers send a record to a different user. Unlike assignments, however, transfers give the recipient the opportunity to accept or reject the record. If they reject it, the record will stay with its original owner. If they accept it, the recipient will now have full ownership of the record, and the original owner will no longer have access. 
 
-To transfer a record from either the individual record page or the list view, use the ACTIONS button in the Action Header to initiate the drop down of options. Within the options, select “Transfer Case.”
+The following modal form will appear and allow you to select options for your transfer. Consent of the individual \(or a consent override\) is required for transfers. You will also be asked if you are transferring to a remote system. This means that you are transferring the case to someone who does not use your Primero system. See the **Transferring to a Remote System** section below for details.
 
-![](img/image21.png)
+To select the user that you are transferring to, first select the agency and location associated with the user.
 
-The following modal form will appear and allow you to select options for your transfer. Consent of the individual \(or a consent override\) is  
-generally needed for transfers, although not for those which take place within the same Primero instance.
+![](img/transfer-modal-location-select.png)
 
-![](img/image46.png)
+Once you have selected an agency and location for your transfer, the "Existing User" field will only display users who are part of that agency and based in that location.
 
-If you are transferring within your Primero instance, select the “Existing User”--a user within your deployment of Primero. If the desired user is not in the drop down, it means this user does not have privileges to be transferred to.
+![](img/transfer-modal-filtered-users.png)
 
-If you are not transferring within the Primero instance, check the “Are you transferring to a remote system?” tickbox, and more options will appear for this “remote” transfer. A remote transfer creates a transfer export that is password protected to be shared outside the system.
+If the desired user is not in the drop down, it means this user does not have privileges to be transferred to or that the user does not meet the criteria selected in the Agency or Location fields.
 
-![](img/image43.png)
+### Transferring to a Remote System
 
-If you are transferring to a user outside your system who is using another Primero instance, you simply select “Primero” in the drop down marked “What type of export do you want.” In this case, the file Primero exports will be a JSON file which can be imported into the remote Primero system.
+The "Remote System" option allows you to create a password-protected export file which you can give to the recipient.
+
+![](/img/transfer-external-checkbox.png)
+
+The "Type of Transfer" field indicates the level of information access your export file will include. The options in this list will generally be roles in the system which are permitted to see specific forms on the child's case, depending on the role's expertise. For instance, one option might be "Medical Service Provider." Selecting this option will produce an export file which only contains the information a Medical Service Provider would be able to see in Primero.
+
+There are three types of exports which you can create as part of an "external" transfer, each for a different type of recipient:
+ * **Primero**: Someone who uses a different instance of Primero. This produces a JSON file which can then be imported into the recipient's Primero instance. 
+ * **Non-Primero**: Someone who is using a different type of information management system. This also produces a JSON file.
+ * **PDF**: Someone who is not using an information management system, and does not have a user account in Primero. 
+
+![](img/transfer-external-modal.png)
 
 > _Note:  
 > When transferring any such password-protected export/import file, the means of sending the file, filename, and the password that opens it, will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
 
-## Accepting or Rejecting Transfers
+### Accepting or Rejecting Transfers
 
 Based on your deployment's configuration, you may have the ability to accept or reject a case that has been transferred to you. You will be able to see if any cases have been transferred to on your dashboard. If you click on the Referrals and Transfers form for the case that has been transferred to you, you will see that the status is in progress and that there are buttons to either accept or reject the transfer. If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “other assigned user”. The record information is updated with this change. If you click Reject, it brings up a dialog box with an OK button and a textbox to enter the Rejection Reason. When you click OK, the rejection reason is saved to the nested subform. The status is changed to 'rejected, and you are removed from 'other assigned users' and no longer have access to the record.
 
-![](img/image81.png)
+![](img/transfer-recipient-accept-reject.png)
 
-## Requesting a Record Transfer
+### Requesting a Record Transfer
 
 If you find a record owned by another user and need full access to it, you can ask the record owner to transfer the record to you. In Primero, this is known as a *Transfer Request*. Your ability to perform a *Transfer Request* will depend on your instance's configuration. To request a transfer, first search for your case from the case list view. When you identify the entry in the list for the case you are seeking, click the "View" link at the right of the case's row.
 
 ![](/img/image88.png)
-
-![](/img/v1-6/image105.png)
 
 Scroll to the bottom of the *View Details* modal. Here, you will see a button marked "Request Transfer". Click it, and a modal will appear.
 
@@ -507,7 +592,7 @@ Scroll to the bottom of the *View Details* modal. Here, you will see a button ma
 
 Here, you will see information on the record owner and a text box where you can enter a note to the owner of the record. Click "Send Request" to submit.
 
-### Notifications for the Case Owner
+#### Notifications for the Case Owner
 
 Once you have sent the transfer request, the record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer.
 
@@ -523,34 +608,67 @@ At this point, the record owner can choose whether or not to transfer the record
 
 ## Referrals
 
-Referring a record is a way of giving a user limited access to a record without transferring it completely. As with transfers, there are some processes surrounding this action when referring to a non-Primero individual or a user outside your instance. These processes, however, will be determined by your organization and the sharing protocol of the organization of the person you are referring to.
+Referring a record is a way of giving a user limited access to a record without transferring it completely. While referring a record allows the recipient to access your record, the referring user will maintain full record ownership and will be able to remove the recipient's access at any time. To refer a record from either the individual record page or the list view, go to the Action menu at the top of the page and select "Refer Case."
 
-To refer a record from either the individual record page or the list view, use the ACTIONS button in the Action Header to initiate the drop down of options. Within the options, select “Refer Case.”
+You may also refer a case directly from the services subform. For more information on how to do this, see the **Referring From Services Form** section below.
 
-![](img/image21.png)
+The following modal form will appear and allow you to select options for your referral.
 
-The following modal form will appear and allow you to select options for your referral. As with transfers, consent \(or a consent override\) of the individual is generally required for a referral.
+![](/img/referral-modal.png)
 
-![](img/image50.png)
+As with transfers, consent of the individual is required for referral. Consent for referral is found on the Data Confidentialty form under the Identification/Registration Form Group. 
 
-If you are making a referral within your Primero instance, select the “Existing User”--a user within your deployment of Primero. If the desired user is not in the drop down, it means this user does not have privileges to be referred to. You must also select the type of service that will be rendered by the user to whom you are referring.
+The following fields are important for selecting a user:
+ * **Service** you are requesting the other user perform
+ * **Agency** you would like to perform the service
+ * **Location** where you would like the service to take place
 
-If you are not making a referral within the Primero instance, check the “Are you referring to a remote system?” tickbox, and more options will appear for this “remote” referral. A remote referral creates a referral export that is password protected to be shared outside the system.
+![](/img/referral-modal-narrow-down-users.png)
 
-![](img/image68.png)
+Now, select the “Existing User”--a user within your deployment of Primero. A list of all users that perform the service selected, from the agency selected, and in the location selected will appear. If the desired user is not in the drop down, it means this user does not have privileges to be referred to or does not meet one of the three criteria listed above.
 
-If you are making a referral to a user outside your system who is using another Primero instance, you simply select “Primero” in the drop down marked “What type of export do you want.” In this case, the file Primero exports will be a JSON file which can be imported into the remote Primero system.
+For more information on how to specify the Agency a user belongs to, the Location where they are based, and the Services they offer, please see the **Primero Administration and Configuration Guide**.
 
-To specify which service a referral is for, go to the **Services** form and click on the "refer" button on the header for any service you have saved.
+### Referring to a Remote System
 
-![](img/image83.png)
+The "Remote System" option allows you to create a password-protected export file which you can give to the recipient.
 
-Once you have clicked "refer" you will see the below modal. Once again, make sure you have consent \(or a consent override\), and select a user who will receive the referral. The service type should already be selected for you, based on what you entered in the **Services** form.
+![](/img/refer-external-checkbox.png)
 
-![](img/image84.png)
+The "Type of Referral" field indicates the level of information access your export file will include. The options in this list will generally be roles in the system which are permitted to see specific forms on the child's case, depending on the role's expertise. For instance, one option might be "Medical Service Provider." Selecting this option will produce an export file which only contains the information a Medical Service Provider would be able to see in Primero.
 
+There are three types of exports which you can create as part of an "external" referral, each for a different type of recipient:
+ * **Primero**: Someone who uses a different instance of Primero. This produces a JSON file which can then be imported into the recipient's Primero instance. 
+ * **Non-Primero**: Someone who is using a different type of information management system. This also produces a JSON file.
+ * **PDF**: Someone who is not using an information management system, and does not have a user account in Primero. 
 
-## Relinquishing Referral
+![](img/refer-external-modal.png)
+
+> _Note:  
+> When referring any such password-protected export/import file, the means of sending the file, filename, and the password that opens it, will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
+
+### Revoking a Referral
+
+To remove a referral recipient's access to a case, start by editing the case using the **EDIT** button.
+
+![](/img/case-edit-button.png)
+
+In the **Record Information** form, find the _Other Assigned Users_ field. Under this field, there will be a link labelled "Remove Referrals." Click this.
+
+![](/img/referral-revoke-1.png)
+
+The field will now allow you to remove the names of users who have access to the case. Click the 'x' next to the name of the user whose access you would like to revoke.
+
+![](/img/referral-revoke-2.png)
+![](/img/referral-revoke-3.png)
+
+Once you have removed their name from the list, click **SAVE**. The referral recipient will no longer have access to the case.
+
+![](/img/case-save-button.png)
+
+For more information about how to edit a case, please see the **Editing a Case** section.
+
+### Relinquishing a Referral
 
 Based on the deployment, you may have the ability to relinquish a case that has been referred to you. You can see if any cases have been referred to you on your dashboard. When you click on the **Referrals and Transfers** form for the case that has been referred to you, you will see a DONE button next to the referral that has been made to you. If you are done reviewing the case, you can click the done button. Once clicked, it will be removed from your case list and you will no longer have access to it.
 
@@ -567,13 +685,13 @@ To add a service to a case, simply go into the **Services** form on the case edi
 
 ![](img/image96.png)
 
-When selecting a "Type of Response", remember that this will help determine the workflow status of your case. So, for instance, if you select "Action Plan," your case status will also be "Action Plan" so long as you do not add any other services or close the case.
+When selecting a "Type of Response", remember that this will help determine the workflow status of your case. So, for instance, if you select "Action Plan," your workflow status will also be "Action Plan" so long as you do not add any other services or close the case.
 
 ![](img/image97.png)
 
 Another important field to fill in is the type of service that will be rendered for this particular response, whether it be medical, legal, or whatever other options have been specified in your implementation's configuration. This field will help service providers properly take care of your case.
 
-![](img/image98.png)
+![](img/services-subform-select-service-type.png)
 
 Choosing a timeframe for the service will help generate reminders in you or your manager's dashboard when the service is coming due or overdue. This timeframe, depending on your configuration, will take one of two forms: the time period after which the service will be due (e.g. three hours, one day); or the actual due date for the service (e.g. November 30, 2017). Both these forms are displayed in the pictures below. For more information on these reminders, check out the Dashboards section.
 
@@ -581,15 +699,19 @@ Choosing a timeframe for the service will help generate reminders in you or your
 
 ![](img/image106.png)
 
-Selecting a service provider in this form will allow you to refer your case to the service provider directly from the form. Make sure you fill in the "Service Provider Name" field, or no "REFER" button will appear for this particular service. In the situation below, we have selected a medical specialist to perform a medical service for our case.
+Selecting a service provider in this form will allow you to refer your case to the service provider directly from the form. When selecting a service provider, fill in Implementing Agency and Service delivery location. When you fill in the "Service Provider Name" field you will be shown a list of users filtered by the selected agency, delivery location, and service type. So, for instance, if you specified the "ACTED," "Psychosocial Service," and "Dahuk", you will only see users which are part of ACTED, located within Dahuk, and capable of providing a Psychosocial Service.
 
-![](img/image99.png)
+![](img/services-subform-filter-users.png)
 
 ## Referring from **Services** Form
 
-Once you have saved the case with this new service, and have been redirected back to the view page, go to the **Services** form and the service you just added. At the top of the service's subform, you should see a "REFER" button. Click on this button, and you will see a modal like the one pictured below. Here, you can enter information on your referral just like you normally would. However, if you have already filled out a service provider and a service type for your service, these fields will be pre-entered for you. Remember to ensure that your case has provided consent, or that you choose the override consent option before referring.
+Once you have saved the case with this new service, and have been redirected back to the view page, go to the **Services** form and the service you just added. If you have filled out the the _Response Type_, _Service Type_ and _Service Provider Name_ fields for your service, the "REFER" button will appear in the subform header.
 
-![](img/image100.png)
+![](img/services-subform-refer-button.png)
+
+Click on this button, and you will see a modal like the one pictured below. Here, you can enter information on your referral just like you normally would. However, if you have already filled out a service provider and a service type for your service, these fields will be pre-entered for you. Remember to ensure that your case has provided consent, or that you choose the override consent option before referring.
+
+![](img/services-subform-referral-modal.png)
 
 # Workflow Status
 
@@ -666,43 +788,77 @@ Next, you will fill out information on the child by filling out a subform entry 
 
 ## Matches
 
-Once you have saved the tracing request, you will see a "Find Match" link at the top of your "Tracing Request" subform. If you click on this link, you arrive at a page which displays a number of cases which are potential matches for your tracing request. This list will contain the case's ID, the record owner's user name, the record owner's agency, the approximate likelihood of the case being the right match (either "Possible" or "Likely"), and (depending on your user's configured permissions) a link which displays the *View Details* modal (See "Viewing Record Details" section above).
+Once you have saved the tracing request, you will see a "Find Match" link at the top of your "Tracing Request" subform.
 
 ![](/img/v1-6/image18.png)
 
+If you click on this link, you arrive at a page which displays a number of cases which are potential matches for your tracing request. This list will contain the case's ID, the record owner's user name, the record owner's agency, the approximate likelihood of the case being the right match (either "Possible" or "Likely"), and (depending on your user's configured permissions) a link which displays the *View Details* modal (See "Viewing Record Details" section above).
+
+![](/img/tracing-from-tr-match-list.png)
+
+The records provided as potential matches are based a scoring system that weight many attributes as detailed in the scoring section below. 
+
 ### Scoring
 
-Primero gives potential matches a score based on how similar they are to the tracing request *compared to other potential matches Primero has found*. This means that, if scoring were done on a 1-10 scale, The lowest potential match in a list would get a score of 1, the highest would get a 10, and the median match would get a 5. To simplify things, Primero instead simply scores a potential match as "Likely" or "Possible."
+Primero gives potential matches a score based on how similar they are to the tracing request *compared to other potential matches Primero has found*. This means that, if scoring were done on a 1-10 scale, the lowest potential match in a list would get a score of 1, the highest would get a 10, and the median match would get a 5. A high scoring match Primero will record as "Likely" and a medium-to-low scoring match, Primero will record as "Possible."
 
-When looking at the potential matches for your tracing request, you can see which case attributes matched your tracing request by clicking on the score label. This will reveal a modal which compares a number of case attributes side-by-side with the attributes you gave your tracing request. Attributes which are the same get a '✔', attributes which are different get a 'X', and attributes which were left blank on both the case and the tracing request get a '-'.
+When looking at the potential matches for your tracing request, you can see which case attributes matched your tracing request by clicking on the score label (Likely or Possible). This will reveal a modal which compares a number of case attributes side-by-side with the attributes you gave your tracing request. Attributes which are the same get a '✔', attributes which are different get a red 'X', and attributes which were left blank on both the case and the tracing request get a '-'. 
 
-![](/img/v1-6/image19.png)
+![](/img/tracing-score.png)
 
-![](/img/v1-6/image20.png)
+### Adjustable Matching Criteria
 
-To see more details about the potential match, click the "View" link to the right of the case entry (this may or may not appear, depending on your configuration). You will then see the *View Details* modal, which will display a number of attributes of the case. (Please see the "Viewing Record Details") section above.
+On the right side of the screen you will see a dynamic list of fields named "Matchable Case Fields." Each form containing matchable fields is represented by a select box representing a Case or Tracing Request form. For instance, the _Basic Identity_ field contains all attributes used for matching found on the **Basic Identity** form.
+
+![](/img/matching-criteria.png)
+
+By selecting the dark grey 'X' on each attribute you can remove any attribute that you do not wish to use for comparing cases and tracing requests in the current matching search. If you wish to add an atribute to the the searching criteria, simply begin to type the attribute into select box of the form the attribute is found on. Only fields which are included in the global Matching Configuration will be available. (For more information on which fields are included in the global Matching Configuration, contact your Primero Administrator.) After modifying the matching criteria, click **APPLY**.
+
+![](/img/matching-criteria-selection.png)
+
+The matching results will change based on your new criteria. To see more details about a potential match, click the "View" link to the right of the result (this may or may not appear, depending on your configuration).
+
+![](/img/tracing-from-tr-match-list-view-link.png)
+
+You will then see the *View Details* modal, which will display a number of attributes of the case. (For more information on the *View Details* modal, please see the **Viewing Record Details**) section above.
 
 ### Linking Tracing Requests with Cases
 
-Once you have identified a match which you think is the correct one, you can link this case to your tracing request, provided your user is configured to be able to see the case record in its entirety. If so, you should be able to click on the case's ID, after which you will arrive at the case record page. At the top of the page, you should see a button that says "Match." 
+Once you have identified a match which you think is the correct one, you can link this case to your tracing request, provided your user is configured to be able to see the case record in its entirety. If so, you should be able to click on the case's ID.
 
-![](/img/v1-6/image21.png)
+![](/img/tracing-from-tr-match-list-select-case.png)
 
-![](/img/v1-6/image22.png)
+You will now arrive at the case record page. At the top of the page, you should see a button that says "Match." 
+
+![](/img/tracing-from-tr-case-match-button.png)
 
 Click on this button to link the case to your tracing request. You should then see a notification at the top of the screen, indicating that your match succeeded.
 
-![](/img/v1-6/image23.png)
+![](/img/tracing-from-tr-case-match-notification.png)
 
 Now, if you return to your tracing request's list of matches by hitting the back button, you will see that the entry for the case you just linked to your tracing request is in bold.
 
-![](/img/v1-6/image24.png)
+![](/img/tracing-from-tr-match-list-matched.png)
 
 Similarly, when the user responsible for the case goes to the case's "Tracing and Separation Details" form, they will see a label marked "Matched tracing request," and to the right of this, a link to the tracing request which you created.
 
-![](/img/v1-6/image25.png)
+![](/img/tracing-from-tr-case-matched-tr-link.png)
 
 At this stage in the tracing process, the user who initiated the tracing request would manually contact the user and/or agency responsible for the case to initiate the verification and reunification process.
+
+### Initiating Tracing From a Case
+
+Depending on the system's configuration, some users may also be able to search for matching tracing requests from the View Case page. A case must have indicated consent for tracing in order for a user to have access to this feature. This field will be found on the **Consent** / **Data Confidentiality** form.
+
+![](/img/tracing-from-case-consent.png)
+
+Once you indicate that the child has given consent to share information for tracing and save the case, you should see a button marked **FIND TRACING MATCH** at the top of the View Case page.
+
+![](/img/tracing-from-case-button.png)
+
+If you click on this button, you will arrive at a list of potentially matching tracing requests for your case.
+
+![](/img/tracing-from-case-match-list.png)
 
 # Reports
 
@@ -722,7 +878,7 @@ Next comes choosing the row and column attributes by which you want your data to
 
 ![](img/image59.png)
 
-![](img/image65.png)
+![](img/arrow-down.png)
 
 ![](img/image51.png)
 
@@ -750,7 +906,7 @@ The next field, specifying age range, helps make reports involving age more mana
 
 ![](img/image62.png)
 
-![](img/image45.png)
+![](img/arrow-down.png)
 
 ![](img/image66.png)
 

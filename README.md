@@ -1,7 +1,7 @@
 
 # Primero CPIMS User Guide [Draft]
 
-June 30, 2017
+March 4, 2019
 
 
 
@@ -30,7 +30,7 @@ June 30, 2017
 
 > <span style="font-variant:small-caps;">Quoin</span>, Inc.
 >
-> 186 South Street, Suite 600
+> 186 South Street, Suite 400
 >
 > Boston, MA 02111
 
