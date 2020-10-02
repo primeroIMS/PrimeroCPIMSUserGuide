@@ -40,11 +40,11 @@ If your user has access to cases through either the CP or GBV module, you will s
 
 The first example below is the basic Cases Dashboard. If you have any access to cases, but you are not a manager or an administrator, you will see this dashboard. The dashboard is divided into two main sections: one for cases, one for services. The first section (first picture below) begins with a few key metrics: total cases, total new cases, transfers awaiting acceptance, new incidents, services implemented, total referrals, new referrals, pending transfers, and rejected transfers. \(In these metrics, “new” means anything which has not been edited since its creation.\) Below these key metrics lie two columns. The first shows the number of total and new cases, subdivided by assessment level. The second column shows all the number of pending, rejected, and new approvals, subdivided by the type of approval.
 
-![](/img/image90.png)
+![](/img/v2/dashboard-cp-cw.png)
 
 The second portion of the cases dashboard outlines all services for the user's cases, with a column for each response type. Within each column, services are broken down by priority level, at which point numbers are given for total services as well as those nearing or past their deadlines \(as determined by the timeframe specified for a given service\). Clicking any of these numbers will take the user to a list of the cases in question. This allows users to easily manage the most urgent tasks for their cases, in order of priority.
 
-![](/img/image91.png)
+![](/img/v2/dashboard-cp-cw-workflow.png)
 
 ### Manager Dashboard
 
@@ -52,7 +52,10 @@ The Manager Dashboard, meanwhile, appears if you have managerial tasks in your o
 
 Next comes the third section, composed of two columns. In the first of these, figures are given for the number of cases with each priority level, and for each of these classifications, how many of the cases are new. The second column, meanwhile, gives the number of pending approvals, broken down by approval type (in this case, case plan approval and closure approval).
 
-![](img/image73.png)
+![](img/v2/dashboard-cp-mgr-1.png)
+![](img/v2/dashboard-cp-mgr-2.png)
+![](img/v2/dashboard-cp-mgr-3.png)
+![](img/v2/dashboard-cp-mgr-4.png)
 
 Once again, clicking on any of the numbers shown in the dashboard will take you to a list of cases which meet the criteria represented by that number.
 
@@ -62,7 +65,7 @@ Finally, you will see the Admin Dashboard upon login if your user’s role has a
 
 Flags are, once again, on the right. Like the Manager Dashboard, and for similar reasons, the Admin Dashboard only lists those cases which you have flagged.
 
-![](img/image58.png)
+![](img/v2/dashboard-cp-admin.png)
 
 ## Flagged Case Lists
 
