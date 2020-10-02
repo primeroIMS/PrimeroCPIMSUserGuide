@@ -3,7 +3,8 @@
 ![](img/intro4.png)  
 The _Information Management and Innovation to Protect Children in Emergencies_ project has developed a software application that will help partners securely collect, store, manage, and share data for protection-related incident monitoring and case management. The new platform is called _Primero_ \(Protection-related Information Management\). _Primero_ supports multiple modules, including the “next generation” of the field-tested, inter-agency CPIMS and GBVIMS systems, which are currently in use in 20+ countries. These new iterations, called the CPIMS+ and GBVIMS+, can operate separately or be deployed as integrated modules on the _Primero_ platform. The inter-agency Steering Committees that govern the use of each of these modules will continue to support the new system.
 
-![](img/intro2.png)
+![](img/v2/case-list-intro.png)
+
 _Primero_ is flexible and adaptable to accommodate a broad range of protection concerns including GBV, unaccompanied and separated children, and monitoring grave violations of children’s rights in situations of armed conflict. To meet operational challenges, the application was designed to function both on- and off-line, with limited or no connectivity, and in multiple deployment configurations. A strong emphasis has been placed on security and confidentiality, with intuitive workflows designed to simplify processes while promoting good practice. Role-based access and granular security ensures that only those who need to see data will have access to it. All system transactions are time stamped, password protected and encrypted. _Primero_ has a user-friendly interface and intuitive tools, facilitating the work of field personnel while decreasing security risks and duplication. The application can leverage mobile data gathering tools such as the Primero mobile app on smart phones and tablets. In order to optimize results, _Primero_ was designed to be able to exchange data internally between modules, as well as externally with other IM systems. In addition to imports and exports, Primero has a highly secure application program interface \(JSON API\).
 
 _Primero_ functions as a distributed database, meaning that implementing partners can retain ownership of data while contributing and sharing information on shared programmes. In child protection interventions, referrals and case transfers are critical to effective service provision. Sharing sensitive information is a part of good programming. Data exchanges between organizations should be governed by endorsed information sharing protocols adapted to local contexts. _Primero_ design is based on the “need to know” principle; it does not impose data sharing, but facilitates the process when consent is provided, and when it is deemed appropriate and safe by partners.
@@ -16,7 +17,7 @@ Good information management practice emphasizes the importance of making data ac
 
 When logging into Primero, you’ll see Username and Password boxes. Click in the Username box and type in your unique user name provided to you by your System Administrator. Then enter your password in the field below and click on 'LOG IN'.
 
-![](img/image64.png)
+![](img/v2/login.png)
 
 # Navigating Primero
 
@@ -24,7 +25,7 @@ When logging into Primero, you’ll see Username and Password boxes. Click in th
 
 The header navigation is the dark bar across the top of the screen in which you navigate to your home page \(or dashboard\), Cases, Tracing Requests, Reports, and bulk export downloads. It also has a quick search field that can help you find a specific case quickly. Your current page will be highlighted. See below:
 
-![](/img/image71.png)
+![](/img/v2/side-navigation-bar-page.png)
 
 ## Dashboard
 
