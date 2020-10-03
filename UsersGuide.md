@@ -119,41 +119,54 @@ The Audit Logs page shows you a list of all actions which users have committed i
 
 NOTE: The Audit Logs do not contain identifiable information from records. For instance, an audit log entry might tell you that the user "john-case-worker" edited a case with the ID "abcd123" at 10:15 on October 1, 2020. However, it will not tell you what specific information was added to the case.
 
-## Tasks View
+## Tasks List
 
-Next to the "Home" icon in the navigation bar, you may see a calendar icon (depending on your configuration). Clicking on this icon will take you to the **Tasks View**.
+If you click on the "Tasks" link in the Navigation Menu, you will arrive at the **Tasks** page.
 
 ![](img/v2/tasks-view.png)
 
-Here, you will see all of the pending, incomplete tasks present for all of your cases. These "tasks" can include assessments, case plans, follow ups, and services. As you can see, tasks that are upcoming have their due dates in black font, while those which are overdue have their due dates in red font and have small alert symbols next to their case links. Clicking on any of the case links will take you to the case which needs the task to be performed.
+Here, you will see the incomplete Tasks present for all of the cases you manage. Primero automatically generates Tasks for four types of actions: assessments, case plans, services, and follow ups. For each Task, the list shows:
+- Case ID
+- Name of the Case
+- Priority Level (also sometimes called "Risk Level" or "Assessment Level").
+- Type of Action
+- Due Date
+- Status (either "Overdue" or "Almost due")
 
-It is important to understand where the due dates for these tasks come from, as well as which tasks are considered "incomplete."
+Primero automatically generates Tasks based on information you fill out in the Case forms. Each type of Task action has a date field in the Case forms that acts as its due date. As soon as a user enters a date value into one of these fields, Primero generates a Task with that due date. To find out which field sets the due date for a Task, hover over the due date for any Task you find in the Tasks page.
 
-### Assessments
+TODO Screenshot
 
-Assessments become due based on the "Date Assessment Due" field (or any field with the id "assessment_due_date") on the **Basic Identity** form. This field is not visible by default in Primero, meaning that, unless your system is configured to use the field, you will not see Assessments as tasks in the Tasks view. Furthermore, an assessment is considered incomplete if the "Assessment requested on" field (or any field with the id "assessment_requested_on") on the **Assessment** form has not been filled out.
+Each type of Task action also has a date field in the Case forms which marks the Task as "complete". Once a user enters a date value into this field, the Task is marked as "complete" and disappears from the Tasks list.
 
+To complete a Task, click on that Task in the list. You will arrive at that Task's Case, on the form which corresponds to that Task and contains its "complete" field. (Note: Usually the "complete" field for a Task will have help text to let you know it is used to complete a Task.) For example, if I click on a Case Plan Task, I will arrive at the Case Plan form for that Case. This form contains the field "Case Plan Initiated". If I fill out this field, the Task will be marked as "complete."
+
+TODO Screenshot
+
+Note that each Primero configuration may have different names for the fields which set and complete Tasks. Below is a list of the fields used for each type of Task action in the Primero default configuration.
+
+- Assessment
+	- Due Date: "Date Assessment Due" on the "Basic Identity" form.
+	- Complete: "Assessment requested on" on the "Assessment" form.
 ![](img/v2/assessment-due.png)
 
-### Case Plans
-
-Case plans become due based on the "Date Case Plan Due" field (or any field with the id "case_plan_due_date") on the **Assessment** form. Like the "Date Asssessment Due" field, this is also hidden by default, so unless your implementation makes the field visible, you will not see case plans in the Tasks view. A case plan is considered complete once the field "Date Case Plan Inititated" on the **Case Plan** form has been filled out.
-
+- Case Plan
+	- Due Date: "Date Case Plan Due" on the "Assessment" form.
+	- Complete: "Date Case Plan Initiated" on the "Case Plan" form.
 ![](img/v2/case-plan-due.png)
 
-### Services
-
-By default, services become due based on the "Implementation Timeframe" field (or any field with the id "service_response_timeframe") on the Services subform. For example, if a service is created on June 2, and the timeframe is set for "Three Days," the service will be considered due on June 5. Alternatively, however, depending on how your system is configured, the "Appointment Date" field (or any other field with the id "service_appointment_date") on the service subform may be used as a due date. For more information on the **Services** form and its configuration, see the **Services Form** section, or the **Primero Administration and Configuration Guide**.
-
-A service is considered complete once the "Service Implemented On" field (or any field with the id "service_implemented_day_time") on the Services subform is filled out.
+- Service:
+	- Due Date: "Implementation Timeframe" on the "Services" subform.
+		- NOTE: Each Service subform entry will generate its own Task.
+		- NOTE: "Implementation Timeframe" is a dropdown, not a date field. In some configurations, the "Appointment Date" field is used to set the Task due date instead.
+	- Complete: "Service Implemented On"
 
 ![](img/v2/services-due.png)
 
-There is also an option to make services become due based on the "Appointment Date" field rather than the timeframe field. For more information on how to set this option, please see the **Primero Administration and Configuration Guide**.
-
-### Follow Ups
-
-Follow ups become due based on the "Follow up needed by" field (or any other field with the id "followup_needed_by_date") on the nested **Follow Up** form. A follow up is then considered complete when the "Follow Up Date" field (or any field with the id "followup_date") on the nested **Follow Up** form is filled out.
+- Follow Up:
+	- Due Date: "Follow up needed by" on the Follow Up subform
+		- NOTE: Each Follow Up subform entry will generate its own Task.
+	- Complete: "Follow Up Date" on the Follow Up subform.
 
 ![](img/v2/followup-due.png)
 

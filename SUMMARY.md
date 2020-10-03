@@ -19,7 +19,7 @@
 
     * [*Audit Logs*](UsersGuide.md#audit-logs)
 
-    * [*Tasks View*](UsersGuide.md#tasks-view)
+    * [*Tasks List*](UsersGuide.md#tasks-view)
 
     * [*List View*](UsersGuide.md#list-view)
 
