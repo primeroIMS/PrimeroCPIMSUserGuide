@@ -117,12 +117,6 @@ When you click on this link, you will see the table pictured below. This contain
 
 ![](img/v1-6/image3.png) 
 
-## GBV Incident Dashboard
-
-The GBV Incident Dashboard will appear below whichever case dashboard you have if your user’s role has access to incidents through the GBV module. The table in this dashboard lists out each incident, with columns for “Incident \#ID,” “Date of Interview,” “Date of Incident,” and “Violence Type.” Each incident’s id will link to the incident’s page, and each incident will feature an icon indicating the number of flags it has, provided it has at least one. To the right of the GBV Incident Dashboard will be a list of incidents flagged by the user.
-
-![](img/v2/incident-dashboard-cp.png)
-
 ## Tasks View
 
 Next to the "Home" icon in the navigation bar, you may see a calendar icon (depending on your configuration). Clicking on this icon will take you to the **Tasks View**.

@@ -19,8 +19,6 @@
 
     * [*Audit Logs*](UsersGuide.md#audit-logs)
 
-    * [*GBV Incident Dashboard*](UsersGuide.md#gbv-incident-dashboard)
-
     * [*Tasks View*](UsersGuide.md#tasks-view)
 
     * [*List View*](UsersGuide.md#list-view)
