@@ -409,35 +409,44 @@ If the case worker then clicks on the form, they will be able to see the manager
 
 ![](/img/v2/notes-view-cw.png)
 
-# Search and Advanced Search
+# Searching for Records
 
-## Quick Search
+![](/img/v2/case-list-view-search-focus.png)
 
-Quick Search refers to the search field in the header navigation bar. From here you can type in your search and return a list of possible matches. If you are searching from the cases page you can enter your case’s value for one of the following fields to find a match: “Long ID,” “Case ID,” “proGres ID,” “Name,” “Nickname,” “Other Name,” “Ration Card Number,” “ICRC Ref No.,” “RC ID No.,” “UNHCR ID,” “UN Number,” “National ID Number,” “Number of Other ID Document,” and “Other Agency ID.” When looking for a tracing request, you can search these fields: “Long ID,” “Inquirer ID,” “Name of inquirer,” and “Nickname of inquirer.” After searching, you can filter results further.
+On all of the record list pages, you will find a search bar at the top right of the page. When you perform a search, Primero compares your query against the following fields for each record type:
+- **Cases**: “Long ID,” “Case ID,” “proGres ID,” “Name,” “Nickname,” “Other Name,” “Ration Card Number,” “ICRC Ref No.,” “RC ID No.,” “UNHCR ID,” “UN Number,” “National ID Number,” “Number of Other ID Document,” and “Other Agency ID.”
+- **Incidents**: "Long ID," "Incident Code," "Account of Incident," "Survivor Code", and "Incident ID IR."
+- **Tracing Requests**: “Long ID,” “Inquirer ID,” “Name of inquirer,” and “Nickname of inquirer.”
 
-## Searching for Records Owned By Other Users
+**Note**: You can search and filter the record liats at the same time (example: Search for Cases with the name "Smith" while filtering for only Male Cases with a Risk Level of "High").
 
-Depending on your configuration, some users may have the ability to search for records owned by other users. In this case, the records are only visible in the list view. Clicking on a record in this view does not take the user to the view page for that record. Instead, the user can perform actions on the record from the list view.
+## Searching for Cases Managed By Other Users
+
+Depending on your Primero implementation's configuration, some users may have the ability to search for and view limited information about records managed by other users. When users with this ability perform a search and arrive at the Search Results page, they may see Cases for which they have full access (for example, a Case they manage) as well as Cases for which they _do not_ have full access (for example, a Case managed by another user at another organization). 
 
 ![](/img/image88.png)
 
-To do this, go to the record list page, and search for your record using an id or other searchable field. Once your search results appear, select the check box for the record on which you wish to perform an action. Now, select the action you wish to perform in the action button dropdown.
+When the user clicks on a Case in the Search Results page...
+- If they have full access, they arrive at the View Case page.
+- If they _do not_ have full access, the **View Details** modal appears.
 
-![](/img/v1-6/image4.png)
+## The View Details Modal
 
-## Viewing Record Details
+The **View Details** modal displays a small set of fields about a Case. This allows you to see some limited information about a Case managed by another user without endangering the data confidentiality of the Case.
 
-Before performing an action, you may wish to see some information about the record you have selected, even if you do not have permission to see all of the record's information. Some users will have permission to see a limited set of attributes for other users' records, using what is known as the *View Details* modal. To see information on such a record, click on the "View" link at the right-hand side of the record's entry in the list. You will then see a modal containing information on the case.
-
-![](/img/view-details-link.png)
+**NOTE**: Depending on the system's configuration, you may also be able to see the Case's photo in this modal.
 
 ![](/img/view-details-modal.png)
 
-Depending on your user's role configuration, you may be able to see the case's photo in this modal. The permission to view this photo is different from the one which allows you to see the *View Details* modal. For more information on configuring user roles, please see the **Primero Administration Guide**.
+For more information on configuring the **View Details** modal and which information appears there, please see the **Primero Administration Guide**.
 
 ## Adding Incident to Case from List View
 
-Depending on your configuration, a user may be able to add an incident to a case from the list view or when searching for a case. To add an incident to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Incident." You will see the following modal. Here, enter information on the incident you are adding, and then save.
+Depending on your configuration, a user may be able to add an incident to a case from the list view or when searching for a case. To add an incident to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Incident."
+
+![](/img/v1-6/image4.png)
+
+You will see the following modal. Here, enter information on the incident you are adding, and then save.
 
 ![](/img/image89.png)
 

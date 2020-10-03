@@ -49,13 +49,11 @@
 
 *  [*Add Notes*](UsersGuide.md#add-notes)
 
-*  [*Search and Advanced Search*](UsersGuide.md#search-and-advanced-search)
+*  [*Searching for Records*](UsersGuide.md#searching-for-records)
 
-    * [*Quick Search*](UsersGuide.md#quick-search)
+    * [*Searching for Cases Managed By Other Users*](UsersGuide.md#searching-for-cases-managed-by-other-users)
 
-    * [*Searching for Records Owned By Other Users*](UsersGuide.md#searching-for-records-owned-by-other-users)
-
-    * [*Viewing Record Details*](UsersGuide.md#viewing-record-details)
+    * [*The View Details Modal*](UsersGuide.md#the-view-details-modal)
 
     * [*Adding Incident to Case from List View*](UsersGuide.md#adding-incident-to-case-from-list-view)
 
