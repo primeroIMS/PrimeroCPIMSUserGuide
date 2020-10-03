@@ -21,9 +21,11 @@
 
     * [*Tasks List*](UsersGuide.md#tasks-view)
 
-    * [*List View*](UsersGuide.md#list-view)
+    * [*Record Lists*](UsersGuide.md#record-lists)
 
-    * [*Edit and View a record*](UsersGuide.md#edit-and-view-a-record)
+    * [*View and Edit a record*](UsersGuide.md#view-and-edit-a-record)
+
+        * [*Workflow Status Bar*](UsersGuide.md#workflow-status-bar)
 
     * [*Action Buttons*](UsersGuide.md#action-buttons)
 

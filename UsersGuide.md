@@ -170,32 +170,36 @@ Note that each Primero configuration may have different names for the fields whi
 
 ![](img/v2/followup-due.png)
 
-## List View
+## Record Lists
 
-When selecting the record type or page you want to visit via the header navigation, you can see all cases or tracing requests that belong to you when you click on CASES. Once there, you see a list of the possible matching records, that you are able to filter and/or sort. See below:
+There are three main types of records in Primero: **Cases**, **Incidents**, and **Tracing Requests**. In the Navigation Menu, below the Tasks link are the links to the List pages for each type of record. These are the **Case List**, the **Incident List**, and the **Tracing Request List**. Depending on the work you do for your organization, you may only have access to one or two of these pages. For instance, in most Child Protection contexts case workers only deal with Cases, and so only have access to the Case List. For this reason, we will use the Case List to explain how the record list pages work.
 
 ![](img/v2/case-list-view.png)
 
-## Edit and View a record
+## View and Edit a Record
 
-When creating a new record, you automatically are brought to the “Edit” page for that record. You can enter in all the relevant information you need at this time and save when done. 
-
-When selecting an existing record, you are brought to “View” the record. This means you can view all the data and forms you have permission to, but cannot edit. You must click the **EDIT** button in the Action Buttons section of the header to change any information that is currently represented.
+In the Case List, you can click on any Case to see more details. You will arrive at the View Case page. On this page, you can only _view_ information about the case; you cannot _edit_ it. In order to edit information about the case, click the "Edit" button with the pencil icon at the top right of the page.
 
 ![](/img/v2/edit-case.png)
 
-Once you have made changes, click the **SAVE** button in the header.
+You should now be able to update information about the case. Once you have made changes, click the **SAVE** button in the header. NOTE: If you do not click the Save button, your changes will be lost.
 
 ![](/img/v2/save-case.png)
 
-## Workflow Status Bar
+### Workflow Status Bar
 
-On the view and edit pages for a case, the user will see the workflow status bar, which lets the user know the current case management stage of the record.
+On the view and edit pages for a Case, the user will see the **Workflow Status Bar**. This tells the user which stage of the case management workflow the case has reached. 
 
+While each configuration will have its own specific workflow statuses, the default Primero configuration has the following:
+- **New** - When the case is first created it gets this status by default.
 ![](img/v2/workflow-new.png)
+- **Assessment** - This status is set when the user records a value for the "Assessment requested on" field on the Assessment form.
+- **Case Plan** - This status is set when the user records a value for the "Date Case Plan Initiated" field on the Case Plan form.
+- **Service Provision** - If the user adds an entry to the Services subform, this status gets set.
+	- NOTE: In some configurations, services are categorized by "Response Type". In these configurations, the "Service Provision" status is split into multiple statuses - one for each "Response Type" option. The case gets the status which corresponds with the Response Type of the service which the case worker added most recently. For instance, if a case worker refers the case to a service provider for a service with a Response Type of "Immediate Response", the workflow status will also be "Immediate Response."
 ![](img/v2/workflow-update.png)
-
-When the case is first opened, before any services are added, the status bar will highlight the "New" status. Once a service has been added, however, the workflow status will correspond with the most recently-added response type. So, for instance, after a case is opened, if a case worker refers the case to a service provider for a service with a response type of "Action Plan", the workflow status will also be "Action Plan." When the case is closed, with manager approval, the workflow status will become "Closed." Keeping track of the workflow status helps the case worker keep track of the case's needs. Please note that the workflow status bar may or may not appear, depending on a given implementation's configuration.
+- **Closed** - This status is applied when a user performs the "Close" action on a Case.
+- **Reopened** - This status is applied when a user performs the "Reopen" action on a Case. In this situation, the "Reopen" status appears where the "New" status normally appears in the Workflow Status Bar. This indicates that the case management workflow has started from the beginning.
 
 ## Action Buttons
 
