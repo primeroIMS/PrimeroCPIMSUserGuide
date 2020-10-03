@@ -7,19 +7,15 @@
 
 *  [*Navigating Primero*](UsersGuide.md#navigating-primero)
 
-    * [*Header Navigation Bar*](UsersGuide.md#header-navigation-bar)
+    * [*Navigation Menu*](UsersGuide.md#navigation-menu)
 
     * [*Dashboard*](UsersGuide.md#dashboard)
 
-    * [*Case Dashboards*](UsersGuide.md#case-dashboards)
+        * [*Case Worker Dashboards*](UsersGuide.md#case-worker-dashboards)
 
-        * [*Cases Dashboard*](UsersGuide.md#cases-dashboard)
+        * [*Manager Dashboards*](UsersGuide.md#manager-dashboards)
 
-        * [*Manager Dashboard*](UsersGuide.md#manager-dashboard)
-
-        * [*Admin Dashboard*](UsersGuide.md#admin-dashboard)
-
-    * [*Flagged Case Lists*](UsersGuide.md#flagged-case-lists)
+        * [*Admin Dashboards*](UsersGuide.md#admin-dashboards)
 
     * [*Audit Logs*](UsersGuide.md#audit-logs)
 

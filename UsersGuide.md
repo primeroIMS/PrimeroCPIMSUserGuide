@@ -5,73 +5,106 @@ The _Information Management and Innovation to Protect Children in Emergencies_ p
 
 ![](img/v2/case-list-intro.png)
 
-_Primero_ is flexible and adaptable to accommodate a broad range of protection concerns including GBV, unaccompanied and separated children, and monitoring grave violations of children’s rights in situations of armed conflict. To meet operational challenges, the application was designed to function both on- and off-line, with limited or no connectivity, and in multiple deployment configurations. A strong emphasis has been placed on security and confidentiality, with intuitive workflows designed to simplify processes while promoting good practice. Role-based access and granular security ensures that only those who need to see data will have access to it. All system transactions are time stamped, password protected and encrypted. _Primero_ has a user-friendly interface and intuitive tools, facilitating the work of field personnel while decreasing security risks and duplication. The application can leverage mobile data gathering tools such as the Primero mobile app on smart phones and tablets. In order to optimize results, _Primero_ was designed to be able to exchange data internally between modules, as well as externally with other IM systems. In addition to imports and exports, Primero has a highly secure application program interface \(JSON API\).
+_Primero_ is flexible and adaptable to accommodate a broad range of protection concerns including GBV, unaccompanied and separated children, and monitoring grave violations of children’s rights in situations of armed conflict. To meet operational challenges, the application was designed to function both on- and off-line, with limited or no connectivity, and in multiple deployment configurations. A strong emphasis has been placed on security and confidentiality, with intuitive workflows designed to simplify processes while promoting good practice. Role-based access and granular security ensures that only those who need to see data will have access to it. All system transactions are time stamped, password protected and encrypted. _Primero_ has a user-friendly interface and intuitive tools, facilitating the work of field personnel while decreasing security risks and duplication. Primero functions as a Progressive Web Application (PWA), which meanssome functionality, such as basic information collection, still work when the user is offline. In addition to exports in a number of formats, Primero has a highly secure application program interface \(JSON API\), which facilitates interoperability with other systems.
 
 _Primero_ functions as a distributed database, meaning that implementing partners can retain ownership of data while contributing and sharing information on shared programmes. In child protection interventions, referrals and case transfers are critical to effective service provision. Sharing sensitive information is a part of good programming. Data exchanges between organizations should be governed by endorsed information sharing protocols adapted to local contexts. _Primero_ design is based on the “need to know” principle; it does not impose data sharing, but facilitates the process when consent is provided, and when it is deemed appropriate and safe by partners.
 
 Good information management practice emphasizes the importance of making data actionable. _Primero_ has built-in customizable reports that can facilitate periodic reporting processes, and be used to analyze data for programmatic insights. A document and photo repository allows end users to organize relevant resources in one convenient place.
 
->  _A note for end users. Although there are a standard set of forms configured in the CPIMS+ based on the CPWG standard forms that we recommend using, your System Administrator may have configured these forms specific to your location and needs. For any questions about the forms and information you have or need, please reach out to this person_
+>  _A note for end users. Although there are a standard set of forms configured in the CPIMS+ based on the CPWG standard forms that we recommend using, your System Administrator may have configured these forms specific to your location and needs. For any questions about the forms and information you have or need, please reach out to this person. To find contact information for your system administrator, please click the "Support" link in the navigation menu of Primero_
 
 ## Logging In
 
-When logging into Primero, you’ll see Username and Password boxes. Click in the Username box and type in your unique user name provided to you by your System Administrator. Then enter your password in the field below and click on 'LOG IN'.
+When logging into Primero, you’ll see Username and Password boxes. Click in the Username box and type in the unique user name provided to you by your System Administrator. Then enter your password in the field below and click on 'LOG IN'.
 
 ![](img/v2/login.png)
 
 # Navigating Primero
 
-## Header Navigation Bar
+## Navigation Menu
 
-The header navigation is the dark bar across the top of the screen in which you navigate to your home page \(or dashboard\), Cases, Tracing Requests, Reports, and bulk export downloads. It also has a quick search field that can help you find a specific case quickly. Your current page will be highlighted. See below:
+The Navigation Menu appears at the left side of your screen. You can access this menu from any page of the app.
 
 ![](/img/v2/side-navigation-bar-page.png)
 
+On smaller devices, such as tablets or phones, you will need to click or tap on the menu button to show the Navigation Menu. The menu button will appear at the top left of your screen.
+
+TODO Screenshot
+
 ## Dashboard
 
-The Dashboard, or Home Page, is where you can quickly find information for your cases. Depending on the work you do in your organization, it contains a number of different types of information, which can include caseload summaries, recently flagged cases, cases for which approval has been requested or cases that are pending approval, referred cases, etc. The case worker dashboard will be different, from the managers and from the administrator.
+The Dashboard is where you can quickly find information about the records you manage in Primero. The type of information that appears here will depend on the type of work you do for your organization. For instance, social workers, managers, and agency administrators will each see dashboards which are tailored to the needs of their day-to-day work.
 
+A few notes about dashboards:
+- You can always get back to the dashboard by clicking on the "Home" link in the Navigation Menu. 
+- Clicking on any of the numbers in the dashboard sections below will take you to a list of the records which that number represents.
+- In general, numbers in the dashboard represent records to which you have access. For example:
+	- If you have access to only your own cases, numbers in the dashboard will reflect only those cases which you manage directly, or which have been referred to you.
+	- If you are a manager and have access to all the cases managed by users in your team (user groups), the numbers in your dashboard will reflect these cases.
+	- Administrator dashboards generally reflect all records in the system.
+- Dashboard numbers also tend to represent only open records. Unless the dashboard explicitly mentions closed records, assume that it represents only open ones.
+- Dashboard numbers also exclude disabled records.
 
-## Case Dashboards
+### Case Worker Dashboards
 
-If your user has access to cases through either the CP or GBV module, you will see one--and only one--of the following three case dashboards.
-
-### Cases Dashboard
-
-The first example below is the basic Cases Dashboard. If you have any access to cases, but you are not a manager or an administrator, you will see this dashboard. The dashboard is divided into two main sections: one for cases, one for services. The first section (first picture below) begins with a few key metrics: total cases, total new cases, transfers awaiting acceptance, new incidents, services implemented, total referrals, new referrals, pending transfers, and rejected transfers. \(In these metrics, “new” means anything which has not been edited since its creation.\) Below these key metrics lie two columns. The first shows the number of total and new cases, subdivided by assessment level. The second column shows all the number of pending, rejected, and new approvals, subdivided by the type of approval.
+The image below shows an example of the dashboard you might see as a case worker when you first login to Primero.
 
 ![](/img/v2/dashboard-cp-cw.png)
 
-The second portion of the cases dashboard outlines all services for the user's cases, with a column for each response type. Within each column, services are broken down by priority level, at which point numbers are given for total services as well as those nearing or past their deadlines \(as determined by the timeframe specified for a given service\). Clicking any of these numbers will take the user to a list of the cases in question. This allows users to easily manage the most urgent tasks for their cases, in order of priority.
+- *Cases by Assessment Level* - This section tells you how many of your cases are at each "Assessment Level" (sometimes also called "Risk Level")
+- *My Cases* - This includes two indicators:
+	- "Total" - The total number of cases you manage
+	- "New and Updated" - A case is included in this number if 1.) a supervisor has just assigned it to you; or 2.) another user in the system has added information to the case since the last time you saw it.
+- *Shared with Me* - This shows you the number of cases which have been referred or transferred to you. We will review referrals and transfers in a later section.
+- *Shared with Others* - This shows you how many of your cases have been referred or transferred to someone else in the system. We will review referrals and transfers in a later section.
+- *Approvals* - This tells you how many of your approval requests are pending, approved, or rejected. Each type of approval appears with its own column.
+- *Workflow - Individual Cases* - This tells you how many of your cases are at each stage of the case management workflow. Please note that different implementations may use different specific workflow stages.
 
 ![](/img/v2/dashboard-cp-cw-workflow.png)
 
-### Manager Dashboard
+Please note that these dashboard sections are only meant to serve as an example. The exact dashboards you see when you login will depend on your Primero implementation's configuration.
 
-The Manager Dashboard, meanwhile, appears if you have managerial tasks in your organization. This dashboard is similar to the cases dashboard, but includes the cases of the team you manage, and involves some tasks that managers have to perform. The first section, labeled "Cases," tells the manager how many of the team's cases are open or closed, as well as the number of cases have pending transfer requests, or whose transfer requests have been approved or rejected. Beneath that, a second section tells the manager how many unassigned cases have each priority level. These cases are then further broken down by due date. 
+### Manager Dashboards
 
-Next comes the third section, composed of two columns. In the first of these, figures are given for the number of cases with each priority level, and for each of these classifications, how many of the cases are new. The second column, meanwhile, gives the number of pending approvals, broken down by approval type (in this case, case plan approval and closure approval).
+Below are some examples of sections which may appear in your dashboard if you are a manager.
 
 ![](img/v2/dashboard-cp-mgr-1.png)
+
+- *Cases by Assessment Level* - See description above.
+- *My Group's Cases* - This shows the total number of open and closed cases managed by all of the case workers in your team.
+- *Shared with Me* - See description above. Note that, because the user in the example is not able to receive referrals, they only see information on the number of cases which other users have transferred to them, and which still have not been accepted. We will discuss referrals and transfers in a later section.
+- *Shared with Others* - See description above.
+
 ![](img/v2/dashboard-cp-mgr-2.png)
+
+- *Shared from My Team* - This is similar to the "Shared with Others" section, except that it shows how many of the cases managed by each of the case workers in your team have been transferred or referred to other users.
+- *Shared with My Team* - This is similar to the "Shared with Me" section, except that it shows how many of the cases other users have referred or transferred to case workers in your team.
+
 ![](img/v2/dashboard-cp-mgr-3.png)
+
+- *Overdue Tasks* - For each case worker in your team, this section shows how many cases have a task which is past its due date. This is broken down by the four type of task: Assessment, Case Plan, Service, and Follow Up.
+
 ![](img/v2/dashboard-cp-mgr-4.png)
 
-Once again, clicking on any of the numbers shown in the dashboard will take you to a list of cases which meet the criteria represented by that number.
+- *Workflow - Team Cases* - For each case worker in your team, this section shows how many cases are at each stage of the case management workflow. Please note that different implementations may use different specific workflow stages.
 
-### Admin Dashboard
+### Admin Dashboards
 
-Finally, you will see the Admin Dashboard upon login if your user’s role has access to all records in the system \(thus giving you an administrator’s functionality\). On this dashboard, you will see a table of cases by district, with each row broken down into total open cases, cases created last week, cases created this week, cases closed last week, and cases closed this week. \(Here, a week is measured from midnight Monday morning to 11:59 Sunday night. This means that for a case to have been created this week, it must have been created during or since the immediately preceding Monday morning.\) As stated previously, if you see the Admin Dashboard, you will not see the Cases Dashboard or the Manager Dashboard, since one user can only have one of the case dashboards display on their Dashboard Page.
-
-Flags are, once again, on the right. Like the Manager Dashboard, and for similar reasons, the Admin Dashboard only lists those cases which you have flagged.
+The below image gives an example of the sections you may see in your dashboard if you are an administrator.
 
 ![](img/v2/dashboard-cp-admin.png)
 
-## Flagged Case Lists
-
-If you see any of the case dashboards, the right of your screen will show one or two lists of flagged cases. These lists will keep you reminded of pending flags. The first list, shown above, consists of the cases which you have flagged most recently. The second list, shown below, is a list of your cases which someone else has flagged, and only displays for the Casesand Admin Dashboards. \(Since managers often do not even have the ability to make cases, it makes no sense for them to have a list of flagged cases which they own.\)
-
-![](img/image22.png)
+- *Cases by Location* - This table shows the number of cases registered in each location. For each location, the table also shows:
+	- "Open Cases" - Total number of open cases registered in this location
+	- "New (Last Week)" - Cases registered in this location 7-14 days ago.
+	- "New (This Week)" - Cases registered in this location 0-7 days ago.
+	- "Closed (Last Week)" - Cases registered in this location which were closed 7-14 days ago.
+	- "Closed (This Week)" - Cases registered in this location which were closed 0-7 days ago.
+- *Cases by Protection Concern* - Shows the number of cases with each type of protection concern, broken down by:
+	- "All Cases" - This includes both open and closed cases.
+	- "Open Cases" - This includes only cases which are still open.
+	- "New (This Week)" - Open cases registered 0-7 days ago.
+	- "Closed (This Week)" - Cases which were closed 0-7 days ago.
 
 ## Audit Logs
 
