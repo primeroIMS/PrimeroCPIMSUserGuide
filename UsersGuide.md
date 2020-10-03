@@ -88,13 +88,13 @@ When you click on this link, you will see the table pictured below. This contain
 
 The GBV Incident Dashboard will appear below whichever case dashboard you have if your user’s role has access to incidents through the GBV module. The table in this dashboard lists out each incident, with columns for “Incident \#ID,” “Date of Interview,” “Date of Incident,” and “Violence Type.” Each incident’s id will link to the incident’s page, and each incident will feature an icon indicating the number of flags it has, provided it has at least one. To the right of the GBV Incident Dashboard will be a list of incidents flagged by the user.
 
-![](img/image48.png)
+![](img/v2/incident-dashboard-cp.png)
 
 ## Tasks View
 
 Next to the "Home" icon in the navigation bar, you may see a calendar icon (depending on your configuration). Clicking on this icon will take you to the **Tasks View**.
 
-![](img/image112.png)
+![](img/v2/tasks-view.png)
 
 Here, you will see all of the pending, incomplete tasks present for all of your cases. These "tasks" can include assessments, case plans, follow ups, and services. As you can see, tasks that are upcoming have their due dates in black font, while those which are overdue have their due dates in red font and have small alert symbols next to their case links. Clicking on any of the case links will take you to the case which needs the task to be performed.
 
@@ -104,13 +104,13 @@ It is important to understand where the due dates for these tasks come from, as 
 
 Assessments become due based on the "Date Assessment Due" field (or any field with the id "assessment_due_date") on the **Basic Identity** form. This field is not visible by default in Primero, meaning that, unless your system is configured to use the field, you will not see Assessments as tasks in the Tasks view. Furthermore, an assessment is considered incomplete if the "Assessment requested on" field (or any field with the id "assessment_requested_on") on the **Assessment** form has not been filled out.
 
-![](img/image113.png)
+![](img/v2/assessment-due.png)
 
 ### Case Plans
 
 Case plans become due based on the "Date Case Plan Due" field (or any field with the id "case_plan_due_date") on the **Assessment** form. Like the "Date Asssessment Due" field, this is also hidden by default, so unless your implementation makes the field visible, you will not see case plans in the Tasks view. A case plan is considered complete once the field "Date Case Plan Inititated" on the **Case Plan** form has been filled out.
 
-![](img/image114.png)
+![](img/v2/case-plan-due.png)
 
 ### Services
 
@@ -118,7 +118,7 @@ By default, services become due based on the "Implementation Timeframe" field (o
 
 A service is considered complete once the "Service Implemented On" field (or any field with the id "service_implemented_day_time") on the Services subform is filled out.
 
-![](img/image118.png)
+![](img/v2/services-due.png)
 
 There is also an option to make services become due based on the "Appointment Date" field rather than the timeframe field. For more information on how to set this option, please see the **Primero Administration and Configuration Guide**.
 
@@ -126,7 +126,7 @@ There is also an option to make services become due based on the "Appointment Da
 
 Follow ups become due based on the "Follow up needed by" field (or any other field with the id "followup_needed_by_date") on the nested **Follow Up** form. A follow up is then considered complete when the "Follow Up Date" field (or any field with the id "followup_date") on the nested **Follow Up** form is filled out.
 
-![](img/image116.png)
+![](img/v2/followup-due.png)
 
 ## List View
 
