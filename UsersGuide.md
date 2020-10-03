@@ -221,11 +221,11 @@ Above the Header Navigation bar, there is a link labelled "Contact & Help." This
 
 To change your account details or your password, click the "My Account" link above the Navigation Bar.
 
-![](img/my-account-link.png)
+![](img/v2/my-account.png)
 
 You will be taken to a page listing your account details. Click the **EDIT** button to change these details.
 
-![](img/my-account-view-page.png)
+![](img/v2/my-account-edit.png)
 
 Here, you will be able to update the following:
 
@@ -243,7 +243,7 @@ Here, you will be able to update the following:
    * Requests from other users for you to transfer one of your cases to them.
    * Manager approvals and requests for manager approval.
 
-![](img/my-account-edit-page.png)
+![](img/v2/my-account-save.png)
 
 Click the **SAVE** button once you are finished making changes.
 
@@ -253,7 +253,7 @@ Filtering your Case List or search results is an efficient way to narrow down to
 
 The Filter panel is visible on the search results page or when you click **CASES** tab in the header. See below:
 
-![](img/case-list-filters.png)
+![](img/v2/filter-cases-cp.png)
 
 In the image, there is the normal checkbox filter selection, in which you click using your mouse, but also date range and drop down fields. For Date Ranges, you can enter these using any of the date field type actions. You can set the range for one day as well. Drop down fields in the filters panel are clickable with the mouse and only allow you to select one value at a time.
 
@@ -261,15 +261,13 @@ Once you have selected one or more filters (e.g. Female cases with ages between 
 
 You can also save a set of filters for later use by clicking the "Save" button, positioned next to the "Apply" button. This will take you to the modal pictured below.
 
-![](img/image109.png)
+![](img/v2/filter-save.png)
 
 Here, you enter a name for this new saved search. In this case, we have entered the name "Girls between the age of 0 and 5." Click "Save" to save the search. Once the search has finished saving, click on the "Saved Searches" tab in the filters panel.
 
-![](img/image110.png)
+![](img/v2/filter-saved-list.png)
 
 Here you see the search you had saved earlier. If you click on it, you'll notice that the filters you had previously selected have been applied to the case list. To delete a saved search, you can click on the 'x' next to the search's row in the "Saved Searches" tab.
-
-![](img/image111.png)
 
 # Flagging
 
@@ -280,6 +278,9 @@ Flagging a case is a way to alert either yourself or a manager that a case needs
     needs to be addressed
  3. Click flags to complete
 
+![](/img/v2/flags-button.png)
+![](/img/v2/flags-new.png)
+
 Note that only the person who flagged the case can unflag the case. To do so:
 
  1. Click on the (+) button next to the flag, under the Unflag Case heading.
@@ -287,13 +288,13 @@ Note that only the person who flagged the case can unflag the case. To do so:
 
 A history of the flags and unflags for the case is stored. To see the history, click on the View History tab, you can view the details of the flags and unflags.
 
-![](/img/image76.png)
+![](/img/v2/flags-list.png)
 
 # Reopen
 
 Users have the ability to reopen closed cases. Reopen displays in the Action menu on the case view page below Disable; it does not display on the case list view . Clicking Reopen brings up a confirmation dialog saying that clicking ok will change the status of the case to open. When the user clicks OK, the “Case Reopened?” field in the **Basic Identity** form is checked, the case status is set to Open, and the case’s state is set to Valid. This also creates an entry on the **Record Information** form.
 
-![](/img/image78.png)
+![](/img/v2/reopen-case.png)
 
 # Approvals
 
