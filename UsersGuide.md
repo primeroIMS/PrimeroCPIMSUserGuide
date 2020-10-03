@@ -132,7 +132,7 @@ Follow ups become due based on the "Follow up needed by" field (or any other fie
 
 When selecting the record type or page you want to visit via the header navigation, you can see all cases or tracing requests that belong to you when you click on CASES. Once there, you see a list of the possible matching records, that you are able to filter and/or sort. See below:
 
-![](img/image53.png)
+![](img/v2/case-list-view.png)
 
 ## Edit and View a record
 
@@ -140,17 +140,18 @@ When creating a new record, you automatically are brought to the “Edit” page
 
 When selecting an existing record, you are brought to “View” the record. This means you can view all the data and forms you have permission to, but cannot edit. You must click the **EDIT** button in the Action Buttons section of the header to change any information that is currently represented.
 
-![](/img/case-edit-button.png)
+![](/img/v2/edit-case.png)
 
 Once you have made changes, click the **SAVE** button in the header.
 
-![](/img/case-save-button.png)
+![](/img/v2/save-case.png)
 
 ## Workflow Status Bar
 
 On the view and edit pages for a case, the user will see the workflow status bar, which lets the user know the current case management stage of the record.
 
-![](img/image85.png)
+![](img/v2/workflow-new.png)
+![](img/v2/workflow-update.png)
 
 When the case is first opened, before any services are added, the status bar will highlight the "New" status. Once a service has been added, however, the workflow status will correspond with the most recently-added response type. So, for instance, after a case is opened, if a case worker refers the case to a service provider for a service with a response type of "Action Plan", the workflow status will also be "Action Plan." When the case is closed, with manager approval, the workflow status will become "Closed." Keeping track of the workflow status helps the case worker keep track of the case's needs. Please note that the workflow status bar may or may not appear, depending on a given implementation's configuration.
 
@@ -158,7 +159,9 @@ When the case is first opened, before any services are added, the status bar wil
 
 Our Action Buttons are the buttons just below our Header Navigation, which allow a user to act on a case or cases.
 
-![](img/actions-menu.png)
+![](img/v2/action-menu-collapsed.png)
+
+![](img/v2/action-menu.png)
 
 The actions, depending on your permissions, are:
 
@@ -192,23 +195,21 @@ The actions, depending on your permissions, are:
 
 Please note that when using these actions you must work according to the CP SoPs that are in place. Also, the system does not replace the communication that you need to have in a child protection case management program, through case conferences, emails or other to ensure that people are aware of transfers and referrals and to follow up on referred and transferred cases.
 
-![](img/image67.png)
-
 This bar, along with the Header Navigation bar and the workflow status bar, are part of what is called the **Anchored Header**, meaning, they never leave the screen when scrolling. This allows a user to easily navigate or act on a case or number of cases at any time.
 
 ## Language Toggle 
 
 Above the Navigation Bar, there is a dropdown labelled "Language". Here, you can select the language in which you would like to see the page.
 
-![](img/language-toggle.png)
+![](img/v2/language-menu.png)
 
 To switch languages, click the dropdown and select one of the languages listed. The page will then reload, showing all content in this language. The Language Toggle will only translate the page in which you have clicked.
 
-![](img/language-toggle-select.png)
+![](img/v2/language-menu-detail.png)
 
 ![](img/arrow-down.png)
 
-![](img/language-toggle-after.png)
+![](img/v2/language-ar.png)
 
 Once you navigate away from the page, Primero will again display in your account's preferred language. For more information on how to update this preferred language, see the **My Account and Password Change** section.
 
