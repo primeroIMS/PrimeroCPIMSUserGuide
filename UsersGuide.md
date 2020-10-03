@@ -302,9 +302,11 @@ Users have the ability to reopen closed cases. Reopen displays in the Action men
 
 Case worker roles have the ability to request approval for a case plan, BIA, or closure from the manager. This is done by going into the ACTIONS button dropdown, clicking on "Request Approval," and then clicking on the type of approval you would like to request. This will produce a modal to submit the request.
 
+![](/img/v2/approval-button-cw.png)
+
 If you request a case plan approval, the below modal will appear. Select a case plan type \(the options will correspond with the various response types\) and then click "OK."
 
-![](/img/image79.png)
+![](/img/v2/approval-request-cw.png)
 
 The modal for requesting closure approval will be similar, except that it wil not have a dropdown for case plan type. Here, simply click "OK" to request approval.
 
@@ -312,7 +314,7 @@ Once the approval request is made, it will show up as pending under the approval
 
 All approvals for a case will also appear in the **Approvals** form section on the case edit and view pages. Here, you will see the type of approval (case plan or closure), the approval's status, the date of the approval request, and, if the approval is for a case plan, the type of case plan.
 
-![](/img/image86.png)
+![](/img/v2/approvals-status-cw.png)
 
 ## Managers
 
@@ -320,27 +322,27 @@ Managers may have the ability to approve a case's case plan and/or closure, depe
 
 To perform an approval, go into the ACTIONS button dropdown, click "Approvals," and then click either "Approve Case Plan," "Approve Closure," or "Approve BIA," depending on the type of approval. You will see a modal like the one pictured below. To complete the approval, simply click the "Yes" check box, add in any necessary comments, then click "SUBMIT."
 
-![](/img/image93.png)
+![](/img/v2/approval-button-mgr.png)
 
-![](/img/image94.png)
+![](/img/v2/approval-mgr.png)
 
 # Manager Notes
 
 Managers overseeing a team of case workers may want to add notes to a particular case so that they can give the case worker guidance on case management. When viewing a case, managers should see a button marked "Add Notes" at the top of the page.
 
-![](/img/image119.png)
+![](/img/v2/notes-mgr.png)
 
 Click this button. A modal will appear. Here, you can write the subject of your note, as well as its full text. Click submit to add the note to the case.
 
-![](/img/image120.png)
+![](/img/v2/notes-add-mgr.png)
 
 When the case worker logs in and views this case, a notification will appear on the form tab for the Notes or "Other Comments" form.
 
-![](/img/image121.png)
+![](/img/v2/notes-alert-cw.png)
 
 If the case worker then clicks on the form, they will be able to see the manager's note, including the subject, full text, the manager's username, and the date the note was added.
 
-![](/img/image122.png)
+![](/img/v2/notes-view-cw.png)
 
 Case workers will also see a notification about the new note when viewing the case on mobile as well. For more information on this, please see the **Primero Mobile User Guide**
 
