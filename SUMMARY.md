@@ -27,8 +27,6 @@
 
         * [*Workflow Status Bar*](UsersGuide.md#workflow-status-bar)
 
-    * [*Flag Button*](UsersGuide.md#flag-button)
-
     * [*Action Buttons*](UsersGuide.md#action-buttons)
 
     * [*Language Toggle*](UsersGuide.md#language-toggle)

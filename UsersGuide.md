@@ -205,8 +205,6 @@ While each configuration will have its own specific workflow statuses, the defau
 - **Closed** - This status is applied when a user performs the "Close" action on a Case.
 - **Reopened** - This status is applied when a user performs the "Reopen" action on a Case. In this situation, the "Reopen" status appears where the "New" status normally appears in the Workflow Status Bar. This indicates that the case management workflow has started from the beginning.
 
-## Flag Button
-
 ## Action Buttons
 
 To the right of the "Edit" button on the View Case page, you should see a small button with three dots. This is the **Actions** button.
@@ -279,46 +277,45 @@ Click the **SAVE** button once you are finished making changes.
 
 # Filtering
 
-Filtering your Case List or search results is an efficient way to narrow down to the case or cases that need your immediate attention. You can filter the list to show not only if a case has other characteristics but contains specific information within those characteristics as well. For example, you can filter by males only, but you can also filter by specific Protection Concern, Current Location, and the case registration date range.
-
-The Filter panel is visible on the search results page or when you click **CASES** tab in the header. See below:
+On the right side of all of the record list pages, you will see the **Filters Panel**. Filtering is an efficient way to find the record or records that need your immediate attention.
 
 ![](img/v2/filter-cases-cp.png)
 
-In the image, there is the normal checkbox filter selection, in which you click using your mouse, but also date range and drop down fields. For Date Ranges, you can enter these using any of the date field type actions. You can set the range for one day as well. Drop down fields in the filters panel are clickable with the mouse and only allow you to select one value at a time.
+The most-commonly-used filters are always visible at the top of the Filters Panel. To expose more specific filters, click the "More" button below the panel. To re-hide these, click "Less".
 
-Once you have selected one or more filters (e.g. Female cases with ages between 0 and 5), you can apply them to the case list. To do this, simply click the "Apply" button at the top of the filters panel.
+Once you have set one or more filters, click the "Apply" button at the top of the Filters panel to update your list results. To clear the filters you had selected, click the "Clear" button.
 
-You can also save a set of filters for later use by clicking the "Save" button, positioned next to the "Apply" button. This will take you to the modal pictured below.
+You can also save a set of filters for later use by clicking the "Save" button at the top of the Filters Panel. You will now see the modal pictured below.
 
 ![](img/v2/filter-save.png)
 
-Here, you enter a name for this new saved search. In this case, we have entered the name "Girls between the age of 0 and 5." Click "Save" to save the search. Once the search has finished saving, click on the "Saved Searches" tab in the filters panel.
+Enter a name for your new saved search and click "Save". Once the search has finished saving, click on the "Saved Searches" tab at the top of the filters panel.
 
 ![](img/v2/filter-saved-list.png)
 
-Here you see the search you had saved earlier. If you click on it, you'll notice that the filters you had previously selected have been applied to the case list. To delete a saved search, you can click on the 'x' next to the search's row in the "Saved Searches" tab.
+Here, you see the search you had saved earlier. Click on the saved search to apply the filters you had saved. To delete a saved search, you can click on the trash can button next to it.
 
 # Flagging
 
-Flagging a case is a way to alert either yourself or a manager that a case needs additional work or attention. To flag a case:
-
- 1. Once you have opened the case, click on Flags
- 2. Enter the flag reason and if applicable the Date by which this flag
-    needs to be addressed
- 3. Click flags to complete
+The **Flags** button allows a case worker or manager to leave a message or "Flag" on a record. Usually, this is a reminder to other users that they need to perform an action (example: reminding a case worker to perform an assessment or reminding a manager to approve the Case Plan).
 
 ![](/img/v2/flags-button.png)
+
+When you click the Flags button, a modal appears with two tabs: "Flags" and "Add New Flag". The "Flags" tab will open by default. Here, you will see a list of all flags that have already been added to this record. To add a new flag, click on the "Add New Flag" tab. Here, you can enter a reason for your flag, as well as a flag date.
+
 ![](/img/v2/flags-new.png)
 
-Note that only the person who flagged the case can unflag the case. To do so:
-
- 1. Click on the (+) button next to the flag, under the Unflag Case heading.
- 2. Enter a reason for unflagging the case.
-
-A history of the flags and unflags for the case is stored. To see the history, click on the View History tab, you can view the details of the flags and unflags.
+Once you click "Save", you will arrive back on the "Flags" tab. Here, you will see the flag you just saved.
 
 ![](/img/v2/flags-list.png)
+
+Once a flag is no longer relevant (example: your manager read the flag and approved your Case Plan as you requested), you can _resolve_ the flag. To do this, click the "Resolve" button next to the flag. A modal will now appear where you can enter your reason for resolving the flag. NOTE: Only the user who created a flag can resolve it.
+
+Once the flag is resolved:
+- It will appear under the "Resolved" header in the "Flags" tab of the Flags modal.
+- It will no longer be included in the count of active flags which appears in the record list and on the "Flags" button (see below).
+
+TODO Screenshots
 
 # Reopen
 
