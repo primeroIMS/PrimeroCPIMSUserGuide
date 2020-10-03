@@ -39,13 +39,13 @@
 
 *  [*Flagging*](UsersGuide.md#flagging)
 
-*  [*Reopen*](UsersGuide.md#reopen)
+*  [*Close / Reopen*](UsersGuide.md#close--reopen)
 
 *  [*Approvals*](UsersGuide.md#approvals)
 
-    *  [*Caseworker*](UsersGuide.md#caseworker)
+    *  [*Requesting Approval for a Form*](UsersGuide.md#requesting-approval-for-a-form)
 
-    *  [*Managers*](UsersGuide.md#managers)
+    *  [*Approving or Rejecting a Form*](UsersGuide.md#approving-or-rejecting-a-form)
 
 *  [*Manager Notes*](UsersGuide.md#manager-notes)
 

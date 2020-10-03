@@ -277,7 +277,9 @@ Click the **SAVE** button once you are finished making changes.
 
 # Filtering
 
-On the right side of all of the record list pages, you will see the **Filters Panel**. Filtering is an efficient way to find the record or records that need your immediate attention.
+On the right side of all of the record list pages, you will see the **Filters Panel**. Filtering is an efficient way to find the record or records that need your immediate attention. 
+
+**NOTE** By default, the record list pages will only show records which are open and enabled. You can choose to show closed or disabled records using the "Status" and "Enabled / Disabled" filters.
 
 ![](img/v2/filter-cases-cp.png)
 
@@ -317,41 +319,73 @@ Once the flag is resolved:
 
 TODO Screenshots
 
-# Reopen
+# Close / Reopen
 
-Users have the ability to reopen closed cases. Reopen displays in the Action menu on the case view page below Disable; it does not display on the case list view . Clicking Reopen brings up a confirmation dialog saying that clicking ok will change the status of the case to open. When the user clicks OK, the “Case Reopened?” field in the **Basic Identity** form is checked, the case status is set to Open, and the case’s state is set to Valid. This also creates an entry on the **Record Information** form.
+The **Close / Reopen** action allows you to change a Case's "Case Status" field. Only certain users have the ability to perform this action.
+
+When a Case is open, this action appears as **Close** in the Actions menu. Clicking this action will change the Case Status field to "Closed", and the Workflow Status to "Closed". NOTE: Once a Case is closed, it will not appear by default on the Case List page. For information on how to find closed Cases, please see the [Filtering](UsersGuide#filtering) section.
+
+When a Case is closed, the action appears as **Reopen** in the Actions menu. clicking this action will change the Case Status field to "Open" and set the "Case Reopened?" field on the Basic Identity form. It will also set the Case's Workflow Status to "Reopened".
 
 ![](/img/v2/reopen-case.png)
 
 # Approvals
 
-## Caseworker
+## Requesting Approval for a Form
 
-Case worker roles have the ability to request approval for a case plan, BIA, or closure from the manager. This is done by going into the ACTIONS button dropdown, clicking on "Request Approval," and then clicking on the type of approval you would like to request. This will produce a modal to submit the request.
+Case workers can request a manager's approval on the following Case forms:
+
+- Assessment
+- Case Plan
+- Closure
+
+**NOTE**: Based on your Primero implementation's configuration, only some of these forms may have approvals enabled. If you have questions about which approvals are enabled in your configuration, pleae contact your system administrator.
+
+To request approval for one of these forms, click the **Request Approval** action in the Actions menu.
 
 ![](/img/v2/approval-button-cw.png)
 
-If you request a case plan approval, the below modal will appear. Select a case plan type \(the options will correspond with the various response types\) and then click "OK."
+The below modal will appear. Select the form for which you would like to request approval, then click "OK." In the example here, the user has selected approval for the Case Plan form.
 
 ![](/img/v2/approval-request-cw.png)
 
-The modal for requesting closure approval will be similar, except that it wil not have a dropdown for case plan type. Here, simply click "OK" to request approval.
+Once you have requested approval, you will notice that an alert appears on the link corresponding form on your Case's Form Navigation Menu (in our example, this would be the "Case Plan" form). Click into this form. Note that there is an alert message at the top of the form. Also, note that the "Approval Status" field is set to "Pending." This means that you are still waiting for your manager to either approve or reject the form.
 
-Once the approval request is made, it will show up as pending under the approvals section on the caseworker dashboard. It will also appear on the manager’s dashboard as a pending approval. Once the manager approves or rejects the form for the case, the status will change on both the case worker and manager dashboards.
+TODO Screenshot (alert on form name, alert message, and Case Status field)
 
-All approvals for a case will also appear in the **Approvals** form section on the case edit and view pages. Here, you will see the type of approval (case plan or closure), the approval's status, the date of the approval request, and, if the approval is for a case plan, the type of case plan.
+Now, click into the "Record Information" section of the Form Navigation Menu. Click "Approvals". Here, you will see a list of all approval requests and approvals made on your Case. The approval request you just submitted should appear here.
 
 ![](/img/v2/approvals-status-cw.png)
 
-## Managers
+Now, go to your dashboard. In the "Approvals" section, your case will now be counted as "Pending" in the column for the form where you requested approval (in our example, this is "Case Plan").
 
-Managers may have the ability to approve a case's case plan and/or closure, depending on configuration. To check to see if any approvals have been requested for a case, a manager can go to the **Approvals** form on the case view page (pictured above). As you can see, an entry for an approval in the forms will tell you what type of approval it is (BIA, Case Plan or Closure).
+![](/img/v2/dashboard-cp-cw-approvals-focus.png)
 
-To perform an approval, go into the ACTIONS button dropdown, click "Approvals," and then click either "Approve Case Plan," "Approve Closure," or "Approve BIA," depending on the type of approval. You will see a modal like the one pictured below. To complete the approval, simply click the "Yes" check box, add in any necessary comments, then click "SUBMIT."
+## Approving or Rejecting a Form
+
+Managers will also have the ability to approve or reject certain Case forms. Once again, these are:
+
+- Assessment
+- Case Plan
+- Closure
+
+A manager can check for pending approvals in the "Approvals" section of their dashboard.
+
+![](/img/v2/dashboard-cp-mgr-1-approvals-focus.png)
+
+The numbers here represent the number of Cases with pending approvals for each approvable form.
+
+Using our previous example, if a manager clicks on the number for "Case Plan," they will arrive at a list of Cases with pending Case Plan approval requests. Clicking into one of these Cases, they will see an alert on the Case Plan form in the Form Navigation Menu. The manager can then click into the Case Plan form, read through the Case Plan that the case worker has recorded, and decide whether to approve or reject it.
+
+To approve or reject the Case Plan, the manager clicks the **Approvals** action in the Action Menu.
 
 ![](/img/v2/approval-button-mgr.png)
 
+In the modal that appears, the manager can select "Approve" to approve the Case Plan, or "Not Approve" to reject it. Note that the manager can also use the "The form for" dropdown to select a different form to approve. The manager can also leave a comment about their decision to approve or reject the form. This will appear both on the approved / rejected form and in the Approvals form.
+
 ![](/img/v2/approval-mgr.png)
+
+Once a manager has approved or rejected the Case Plan, the "Approval Status" on that form will update to be either "Approved" or "Rejected." The alert will also disappear from the "Case Plan" form. For both the case worker and the manager, the "Approvals" section of the dashboard will show one less pending Case Plan approval. In the "Approvals" section of the case worker's dashboard, the number for "Approved" or "Rejected" Case Plans will have increased by one, depending on how the manager responded.
 
 # Manager Notes
 
