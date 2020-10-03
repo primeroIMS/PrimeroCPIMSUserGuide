@@ -47,7 +47,7 @@
 
     *  [*Approving or Rejecting a Form*](UsersGuide.md#approving-or-rejecting-a-form)
 
-*  [*Manager Notes*](UsersGuide.md#manager-notes)
+*  [*Add Notes*](UsersGuide.md#add-notes)
 
 *  [*Search and Advanced Search*](UsersGuide.md#search-and-advanced-search)
 

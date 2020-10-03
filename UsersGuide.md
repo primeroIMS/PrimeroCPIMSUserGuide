@@ -387,25 +387,27 @@ In the modal that appears, the manager can select "Approve" to approve the Case 
 
 Once a manager has approved or rejected the Case Plan, the "Approval Status" on that form will update to be either "Approved" or "Rejected." The alert will also disappear from the "Case Plan" form. For both the case worker and the manager, the "Approvals" section of the dashboard will show one less pending Case Plan approval. In the "Approvals" section of the case worker's dashboard, the number for "Approved" or "Rejected" Case Plans will have increased by one, depending on how the manager responded.
 
-# Manager Notes
+# Add Notes
 
-Managers overseeing a team of case workers may want to add notes to a particular case so that they can give the case worker guidance on case management. When viewing a case, managers should see a button marked "Add Notes" at the top of the page.
+Managers overseeing a team of case workers may want to add notes to a particular Case so that they can give the case worker guidance on case management.
+
+**NOTE**: This action is particularly useful for managers who do not have the ability to edit Cases. If managers do have the ability to edit Cases, they can always add a note by editing the case, going to the Notes form, and adding a subform entry.
+
+To add a note, in the Actions menu, click the **Add Notes** action.
 
 ![](/img/v2/notes-mgr.png)
 
-Click this button. A modal will appear. Here, you can write the subject of your note, as well as its full text. Click submit to add the note to the case.
+A modal will appear. Here, you can write the subject of your note, as well as its full text. Click **SAVE** to add the note to the case.
 
 ![](/img/v2/notes-add-mgr.png)
 
-When the case worker logs in and views this case, a notification will appear on the form tab for the Notes or "Other Comments" form.
+When the case worker logs in and views this case, an alert will appear on the link for the Notes form in the Form Navigation Menu.
 
 ![](/img/v2/notes-alert-cw.png)
 
 If the case worker then clicks on the form, they will be able to see the manager's note, including the subject, full text, the manager's username, and the date the note was added.
 
 ![](/img/v2/notes-view-cw.png)
-
-Case workers will also see a notification about the new note when viewing the case on mobile as well. For more information on this, please see the **Primero Mobile User Guide**
 
 # Create Incident from Case
 
