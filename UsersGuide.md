@@ -29,7 +29,11 @@ The Navigation Menu appears at the left side of your screen. You can access this
 
 On smaller devices, such as tablets or phones, you will need to click or tap on the menu button to show the Navigation Menu. The menu button will appear at the top left of your screen.
 
-TODO Screenshot
+![](/img/v2/mobile-case-list.png)
+
+![](/img/v2/mobile-nav-menu.png)
+
+TODO Adjust screenshots
 
 ## Dashboard
 
@@ -201,9 +205,11 @@ While each configuration will have its own specific workflow statuses, the defau
 - **Closed** - This status is applied when a user performs the "Close" action on a Case.
 - **Reopened** - This status is applied when a user performs the "Reopen" action on a Case. In this situation, the "Reopen" status appears where the "New" status normally appears in the Workflow Status Bar. This indicates that the case management workflow has started from the beginning.
 
+## Flag Button
+
 ## Action Buttons
 
-Our Action Buttons are the buttons just below our Header Navigation, which allow a user to act on a case or cases.
+To the right of the "Edit" button on the View Case page, you should see a small button with three dots. This is the **Actions** button.
 
 ![](img/v2/action-menu-collapsed.png)
 
@@ -211,65 +217,42 @@ Our Action Buttons are the buttons just below our Header Navigation, which allow
 
 The actions, depending on your permissions, are:
 
-* Flagging
+- Refer
+- Assign
+- Transfer
+- Close / Reopen
+	- Note: This action will appear as "Close" if the Case is open, and "Reopen" if the Case is closed.
+- Disable / Enable
+	- Note: This action will appear as "Disable" if the Case is enabled, and "Enable" if the Case is disabled.
+- Request Approval
+- Approvals
+- Export
 
-* Export
-
-* Custom Exports
-
-* Import \(List View\)
-
-* Transfer
-
-* Refer
-
-* Assign
-
-* Disable
-
-* Save \(edit view only\)
-
-* Cancel \(edit view only\)
-
-* Mark for mobile
-
-* Un-mark for mobile
-
-* Request Approvals
-
-* Approvals
-
-Please note that when using these actions you must work according to the CP SoPs that are in place. Also, the system does not replace the communication that you need to have in a child protection case management program, through case conferences, emails or other to ensure that people are aware of transfers and referrals and to follow up on referred and transferred cases.
-
-This bar, along with the Header Navigation bar and the workflow status bar, are part of what is called the **Anchored Header**, meaning, they never leave the screen when scrolling. This allows a user to easily navigate or act on a case or number of cases at any time.
+NOTE: When using these actions, you must follow the your local Standard Operating Procedures (SoPs). Primero  does not replace normal day-to-day communications (e.g. email, text, WhatsApp) between the people and organizations that perform Child Protection work.
 
 ## Language Toggle 
 
-Above the Navigation Bar, there is a dropdown labelled "Language". Here, you can select the language in which you would like to see the page.
+At the bottom of the Navigation Menu, you will see a dropdown with a small globe icon and the your current language. This is the **Language Toggle**. Click this to view Primero in a different language.
 
 ![](img/v2/language-menu.png)
 
-To switch languages, click the dropdown and select one of the languages listed. The page will then reload, showing all content in this language. The Language Toggle will only translate the page in which you have clicked.
-
 ![](img/v2/language-menu-detail.png)
-
-![](img/arrow-down.png)
 
 ![](img/v2/language-ar.png)
 
-Once you navigate away from the page, Primero will again display in your account's preferred language. For more information on how to update this preferred language, see the **My Account and Password Change** section.
+## Support
 
-## Contact and Help
+In the Navigation Menu, below the Exports link, you should see the **Support** link. Clicking on this will bring you to page with contact information for your system administrator, as well as links to support forums and documentation.
 
-Above the Header Navigation bar, there is a link labelled "Contact & Help." This will bring you to page with contact information for your system administrator. Clicking on the Primero icon from any page will take you back to the dashboard from anywhere.
+TODO Screenshot
 
 ## My Account and Password Change
 
-To change your account details or your password, click the "My Account" link above the Navigation Bar.
+In the Navigation Menu, below the Support link, you will see a link with your username. Click this to go to the **My Account** page.
 
 ![](img/v2/my-account.png)
 
-You will be taken to a page listing your account details. Click the **EDIT** button to change these details.
+Here, you can see details about your user account. Click the Edit button at the top right of the page to update any of these details or to change your password.
 
 ![](img/v2/my-account-edit.png)
 
@@ -278,6 +261,7 @@ Here, you will be able to update the following:
  * **Full Name**: The name managers and administrators will see when looking at your account.
  * **User Code**: Depending on configuration, may impact composite ID field generated for records you create. This is not often used.
  * **Password**: Must be at least eight characters and contain both letters and numbers.
+ 	* To update your password, please click the "Change Password" link. Otherwise, your password will stay the same.
  * **Language**: This will be the default language in which you will see the application.
  * **Phone**: Allows other users with the ability to view your profile to contact you.
  * **Email**: Will be used for any email notifications.

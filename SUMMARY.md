@@ -27,11 +27,13 @@
 
         * [*Workflow Status Bar*](UsersGuide.md#workflow-status-bar)
 
+    * [*Flag Button*](UsersGuide.md#flag-button)
+
     * [*Action Buttons*](UsersGuide.md#action-buttons)
 
     * [*Language Toggle*](UsersGuide.md#language-toggle)
 
-    * [*Contact and Help*](UsersGuide.md#contact-and-help)
+    * [*Support*](UsersGuide.md#support)
 
     * [*My Account and Password Change*](UsersGuide.md#my-account-and-password-change)
 
