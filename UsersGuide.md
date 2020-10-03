@@ -409,14 +409,6 @@ If the case worker then clicks on the form, they will be able to see the manager
 
 ![](/img/v2/notes-view-cw.png)
 
-# Create Incident from Case
-
-When viewing a GBV case, a case worker can create an incident directly from the case by clicking the "CREATE INCIDENT" button, located next to the ACTIONS button in the **Anchored Header**. Doing so will re-direct the user to the create incident form, with case information automatically loaded into the **Survivor Information** form.
-
-![](/img/image87.png)
-
-Alternatively, a user--depending on configuration--can create an incident from any case from the case list or search results views. To learn more about this capability, read the section labeled "Adding Incident to Case from List View".
-
 # Search and Advanced Search
 
 ## Quick Search
