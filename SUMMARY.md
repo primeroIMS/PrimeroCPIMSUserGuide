@@ -63,6 +63,10 @@
 
 *  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 
 
+    *  [*Custom Exports*](UsersGuide.md#custom-exports)
+
+    *  [*Downloading Exports*](UsersGuide.md#downloading-exports)
+
 *  [*Navigating Primero Forms*](UsersGuide.md#navigating-primero-forms)
 
     *  [*Navigating Sub-Forms*](UsersGuide.md#navigating-sub-forms)

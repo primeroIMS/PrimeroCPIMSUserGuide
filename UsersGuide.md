@@ -471,33 +471,40 @@ TODO Screenshot
 
 # Exporting Information on Records
 
-Exporting individual cases or a list of cases can be useful in a number of ways. This action can be found in the **ACTIONS** header button which   will display a drop down to select what format you want to export - PDF, XLS, CSV, etc.
+Primero allows users to export information about records in a number of formats. Users can export information from the View Record or Record List pages.
 
 | **Format** | **Description** | **Fields Included** |
 | --- | --- | --- |
-| CSV | Stands for “Comma-Separated Values.” Readable in excel, and can be imported back into any Primero instance. | All fields to which the user’s role has access. |
-| Excel | Exports to a standard .xls file, which can be re-imported back into Primero. | All fields to which the user’s role has access. |
-| JSON | Easiest format to be read \(only\) by Primero, and the preferred format for importing. | All fields to which the user’s role has access. |
-| Photo Wall | Exports a PDF file with the photo of each selected case along with the case’s ID. Cannot be re-imported into Primero. | Photo, ID. |
-| PDF | PDF file containing a profile on each case, including the fields from the forms specified by the user. Cannot be imported. | All fields specified by the user, to which the user’s role has access. |
-| UNHCR | CSV file specifically formatted to be compatible with UNHCR’s data import. | All fields to which the user’s role has access. |
-| Custom | Excel file containing all the fields specified by the user. Can be imported back into Primero. | All fields specified by the user, to which the user’s role has access. |
+| CSV | Stands for “Comma-Separated Values.” Readable in Excel. This format does not support languages with non-UTF-8 characters (e.g. Arabic, Bangla, etc.) | All fields to which the user’s role has access. |
+| List View | CSV file containing the fields which are visible in the list view. Readable in Excel. This format does not support languages with non-UTF-8 characters (e.g. Arabic, Bangla, etc.) Only available from the list view. | All fields visible from the list view. |
+| Excel | Exports to a standard .xls file. Each form gets its own tab in the file. | All fields to which the user’s role has access. |
+| JSON | Easiest format to be read \(only\) by Primero. Not easy for users to read. | All fields to which the user’s role has access. |
+| Photo Wall | Exports a PDF file with the photo of each selected Case along with the Case’s ID. Only available for Cases. Only available from the list view. | Photo, ID. |
+| PDF | PDF file which displays data as it appears in Primero. Not available from the list view. Does not support encryption. | Fields on all forms specified by the user, to which the user's role has access. |
+| UNHCR | CSV file specifically formatted to be compatible with UNHCR’s data import. Only available for Cases. | Decided by partners and UNHCR on an implementation-specific basis. This export is not used or available in all contexts. |
+| Custom | Excel file containing all the fields specified by the user. | All fields specified by the user, to which the user’s role has access. |
+
+To export one or more records, in the Actions menu, click **Export**. A modal will appear. You will see a dropdown labelled "Type of export." Click into this dropdown and select an export format.
 
 ![](img/image57.png)
 
-Once you’ve selected your format, the export window will appear, allowing you to set your own password for the file, and create your own file name.
+Depending on the format you choose, you may then be able to select forms and fields to export, specify a filename, and choose a password to encrypt your export file.
 
 ![](img/image52.png)
 
-To export a list of cases, while in the case list view, you can select as many as you’d like to export via the check boxes:
+## Custom Exports
 
-![](img/image60.png)
+TODO Content
 
-To export all cases, you can leave all unchecked and it will export all cases you have access to. The bulk export will generate in the background. You can continue to use the app while it is generating. To access it, click on the tab with the download icon. 
+## Downloading Exports
 
-![](/img/image80.png)
+To create the export file, click **Export**. A notification will appear with a link to the Exports page. Click on this.
 
-To export a single case, you can either check only that case in the case list, or enter into the case to view it, then use the ACTIONS button to export.
+TODO Screenshot
+
+You will now arrive at the Exports page. You can always access the Exports page by clicking the **Exports** link in the Navigation Menu. Here you will see a list of all of the exports you have created. Click on an export in the list to download the file.
+
+**NOTE**: PDF exports do not appear on the Exports page. Instead, these download automatically once you submit your export.
 
 # Navigating Primero Forms
 
