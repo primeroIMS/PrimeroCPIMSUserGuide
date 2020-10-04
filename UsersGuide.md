@@ -488,7 +488,7 @@ To export one or more records, in the Actions menu, click **Export**. A modal wi
 
 ![](img/image57.png)
 
-Depending on the format you choose, you may then be able to select forms and fields to export, specify a filename, and choose a password to encrypt your export file.
+Depending on the format you choose, you may then be able to select forms and fields to export, specify a file name, and choose a password to encrypt your export file.
 
 ![](img/image52.png)
 
@@ -508,15 +508,31 @@ You will now arrive at the Exports page. You can always access the Exports page 
 
 # Navigating Primero Forms
 
-Once you are creating or editing a record, you will see a navigation list in the left panel. This list is an organized way to navigate through your forms. The initial titles you see are called **Form Groups** and are set up by your site administrator. The current form you are on will be highlighted - see below:
+When you are viewing, creating, or editing a record in Primero, you can move between Forms using the **Form Navigation Menu**, which appears on the left side of the screen.
 
 ![](img/case-view-form-group.png)
 
-If a Form Group has only one form, you can simply click on it and it will populate the form. If it has more than one, you can click on the Form Group name or the expand icon to the right of the name to expand it and see all the forms in the group. Once expanded you can then click on any of the form names to enter into the chosen form. For example, in the image above, the user has selected the **Identification / Registration** form group and the **Basic Identity** form.
+You will notice that some Forms appear under a collapseable header. This is called a **Form Group**. In the above image, "Identification / Registration" is a Form Group, which contains a number of Forms, including "Basic Identity." When you click on a Form Group, the Form Group opens, and you arrive at the first Form in the group. Click on any other Form in the group to view that Form. To collapse an open Form Group, click on it again.
 
-## Navigating Sub-Forms
+## Navigating Subforms
 
-In certain data sets and forms, we find that information pertaining to an event or entity is nearly identical. For example, information on specific family members can be the same form, just labeled per family member name and relationship. So in cases like this, we’ve designed these forms as “sub-forms,” and you manually add additional individual forms to add information on family members, individual follow ups, etc. To navigate those, there is an expand/collapse function, and an add/remove function.
+Some Forms contain information that is entered multiple times. For example, a case worker might fill out the Name, Age, Date of Birth for multiple family members on the same Case. In situations like this, Primero organizes information in **Subforms**.
+
+### Adding Subforms
+
+When you click into a Form that contains a subform, you will see an **ADD** button. Click this to add a **Subform Entry**. A modal will appear. Here, you fill out information about the entry you want to add. For example, on the "Family Details" subform, you might add information about the Case's sibling.
+
+TODO Screenshot
+
+When you are done filling in information, click **ADD** at the bottom of the subform modal. Note that if you click **CANCEL** instead, you will lose all of your changes.
+
+### Updating Subforms
+
+TODO Content
+
+### Removing Subforms
+
+TODO Content
 
 ## Alerts
 

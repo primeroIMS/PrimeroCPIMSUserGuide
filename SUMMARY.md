@@ -69,9 +69,13 @@
 
 *  [*Navigating Primero Forms*](UsersGuide.md#navigating-primero-forms)
 
-    *  [*Navigating Sub-Forms*](UsersGuide.md#navigating-sub-forms)
+    *  [*Navigating Subforms*](UsersGuide.md#navigating-subforms)
 
-    *  [*Alerts*](UsersGuide.md#alerts)
+    *  [*Adding Subforms*](UsersGuide.md#adding-subforms)
+
+    *  [*Updating Subforms*](UsersGuide.md#updating-subforms)
+
+*  [*Alerts*](UsersGuide.md#alerts)
 
 *  [*Creating, Updating, or Editing a Case*](UsersGuide.md#creating-updating-or-editing-a-case)
 
