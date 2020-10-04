@@ -432,7 +432,9 @@ When the user clicks on a Case in the Search Results page...
 
 ## The View Details Modal
 
-The **View Details** modal displays a small set of fields about a Case. This allows you to see some limited information about a Case managed by another user without endangering the data confidentiality of the Case.
+The **View Details** modal displays a small set of fields about a Case. This allows you to see some limited information about a Case managed by another user, without endangering the data confidentiality of the Case.
+
+At the bottom of this modal, you may see a button labelled **Request Transfer**. For more information on this action, please see the [Requesting a Case Transfer](UsersGuide#requesting-a-case-transfer) section
 
 **NOTE**: Depending on the system's configuration, you may also be able to see the Case's photo in this modal.
 
@@ -440,25 +442,32 @@ The **View Details** modal displays a small set of fields about a Case. This all
 
 For more information on configuring the **View Details** modal and which information appears there, please see the **Primero Administration Guide**.
 
-## Adding Incident to Case from List View
+## Adding an Incident to a Case from the Search Results Page
 
-Depending on your configuration, a user may be able to add an incident to a case from the list view or when searching for a case. To add an incident to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Incident."
+Depending on your Primero implementation's configuration, some users may be able to add an Incident to a Case from the Search Results page. To do this, select the Case's check box on the Search Results page. Then, in the Action menu , click **Add Incident**.
 
 ![](/img/v1-6/image4.png)
 
-You will see the following modal. Here, enter information on the incident you are adding, and then save.
+A modal will appear. Enter information about the Incident, then click **SAVE**.
 
 ![](/img/image89.png)
 
-Depending on your user's configuration, you may also see a second button, marked "Save and Add Service Provision." Clicking on this will save the incident details you have entered and then take you directly to the add service modal, where you can enter information on a service rendered for the child.
+Depending on your user's configuration, you may also see a second button next to the **SAVE** button, marked **SAVE AND ADD SERVICE PROVISION**. Clicking on this will save the Incident details you have entered, then take you directly to the Add Service modal, where you can enter information on a service you have performed for the Case.
 
 ![](/img/v1-6/image12.png)
 
-## Adding Service Provision to Case from List View
+## Adding a Service Provision to a Case from the Search Results Page
 
-Depending on your configuration, a user may be able to add a service provision to a case from the list view or when searching cases. To add a service to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Service Provision." You will see the following modal. Here, enter information on the service you are adding, and then save.
+Depending on your Primero implementation's configuration, some users may be able to add a service provision to a case from the Search Results page. To do this, select your case's check box on the search results page, then, in the Actions menu, click **Add Service Provision**. A modal will appear. Here, enter information on the service you are adding, and then click **SAVE**.
 
+TODO Fix screenshot
 ![](/img/image102.png)
+
+## Alerts for Information Added to a Case
+
+If another user adds an Incident or a service to your Case, an alert will appear on the corresponding form on your Case. For example, in the image below, another user has added a service to the Case. An alert appears on the "Services" form in the Form Navigation Menu, and an alert message appears at the top of the form, telling the case worker which user added the service and when.
+
+TODO Screenshot
 
 # Exporting Information on Records
 
@@ -628,7 +637,7 @@ Based on your deployment's configuration, you may have the ability to accept or 
 
 ![](img/transfer-recipient-accept-reject.png)
 
-### Requesting a Record Transfer
+### Requesting a Case Transfer
 
 If you find a record owned by another user and need full access to it, you can ask the record owner to transfer the record to you. In Primero, this is known as a *Transfer Request*. Your ability to perform a *Transfer Request* will depend on your instance's configuration. To request a transfer, first search for your case from the case list view. When you identify the entry in the list for the case you are seeking, click the "View" link at the right of the case's row.
 

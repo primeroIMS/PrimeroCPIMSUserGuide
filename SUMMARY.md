@@ -19,7 +19,7 @@
 
     * [*Audit Logs*](UsersGuide.md#audit-logs)
 
-    * [*Tasks List*](UsersGuide.md#tasks-view)
+    * [*Tasks List*](UsersGuide.md#tasks-list)
 
     * [*Record Lists*](UsersGuide.md#record-lists)
 
@@ -55,9 +55,11 @@
 
     * [*The View Details Modal*](UsersGuide.md#the-view-details-modal)
 
-    * [*Adding Incident to Case from List View*](UsersGuide.md#adding-incident-to-case-from-list-view)
+    * [*Adding an Incident to a Case from the Search Results Page*](UsersGuide.md#adding-an-incident-to-a-case-from-the-search-results-page)
 
-    * [*Adding Service Provision to Case from List View*](UsersGuide.md#adding-service-provision-to-case-from-list-view)
+    * [*Adding a Service Provision to a Case from the Search Results Page*](UsersGuide.md#adding-a-service-provision-to-a-case-from-the-search-results-page)
+
+    * [*Alerts for Information Added to a Case*](UsersGuide.md#alerts-for-information-added-to-a-case)
 
 *  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 
 
@@ -83,7 +85,7 @@
 
         *  [*Accepting or Rejecting Transfers*](UsersGuide.md#accepting-or-rejecting-transfers)
 
-        *  [*Requesting a Record Transfer*](UsersGuide.md#requesting-a-record-transfer)
+        *  [*Requesting a Case Transfer*](UsersGuide.md#requesting-a-case-transfer)
 
             *  [*Notifications for the Case Owner*](UsersGuide.md#notifications-for-the-case-owner)
 
