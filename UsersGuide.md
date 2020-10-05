@@ -86,7 +86,7 @@ Below are some examples of sections which may appear in your dashboard if you ar
 
 ![](img/v2/dashboard-cp-mgr-3.png)
 
-- *Overdue Tasks* - For each case worker in your team, this section shows how many cases have a task which is past its due date. This is broken down by the four type of task: Assessment, Case Plan, Service, and Follow Up.
+- *Overdue Tasks* - This section shows how many of your team's cases have tasks past their due dates. This is broken down by case worker and by the four types of tasks: Assessment, Case Plan, Service, and Follow Up.
 
 ![](img/v2/dashboard-cp-mgr-4.png)
 
