@@ -494,15 +494,29 @@ Depending on the format you choose, you may then be able to select forms and fie
 
 ## Custom Exports
 
-TODO Content
+If you select **Custom** as your export type, you will see the below fields appear in the Export modal.
+
+![](img/v2/custom-export-1.png)
+
+There two formats for the Custom export are:
+- _Form_ - The user selects a list of forms or a list of fields to include in the export. Primero exports an Excel file with a _tab for each form_ included in the export.
+- _Field_ - The user selects a list of fields to include in the export. Primero exports an Excel file with _one tab_, which includes all exported fields.
+
+If you select "Form" as your format, a checkbox appears with the label "Would you like to choose individual fields for a form?"
+- If you leave this un-checked, you will choose a list of _forms_ you would like to include in the export file. All fields on these forms will be included.
+- If you check this box, you will choose a list of individual _fields_ to include in the export file. In the Excel file Primero exports, the fields you choose will be organized by form, so that each form gets its own tab.
+
+![](img/v2/custom-export-form.png)
 
 ## Downloading Exports
 
 To create the export file, click **Export**. A notification will appear with a link to the Exports page. Click on this.
 
-TODO Screenshot
+![](img/v2/export-notification.png)
 
-You will now arrive at the Exports page. You can always access the Exports page by clicking the **Exports** link in the Navigation Menu. Here you will see a list of all of the exports you have created. Click on an export in the list to download the file.
+You will now arrive at the Exports page. You can always access the Exports page by clicking the **Exports** link in the Navigation Menu. Here you will see a list of all of the exports you have created. When Primero is still loading an export, you will see a "loading circle" spinning next to it. If an export is ready to download, you will see a "download" icon next to it. Click on an export in the list to download the file.
+
+![](img/v2/exports-page.png)
 
 **NOTE**: PDF exports do not appear on the Exports page. Instead, these download automatically once you submit your export.
 
