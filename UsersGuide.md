@@ -99,7 +99,7 @@ The below image gives an example of the sections you may see in your dashboard i
 ![](img/v2/dashboard-cp-admin.png)
 
 - *Cases by Location* - This table shows the number of cases registered in each location. For each location, the table also shows:
-	- "Open Cases" - Total number of open cases registered in this location
+	- "Open Cases" - Total number of open cases registered in this location.
 	- "New (Last Week)" - Cases registered in this location 7-14 days ago.
 	- "New (This Week)" - Cases registered in this location 0-7 days ago.
 	- "Closed (Last Week)" - Cases registered in this location which were closed 7-14 days ago.
@@ -168,7 +168,7 @@ Note that each Primero configuration may have different names for the fields whi
 ![](img/v2/services-due.png)
 
 - Follow Up:
-	- Due Date: "Follow up needed by" on the Follow Up subform
+	- Due Date: "Follow up needed by" on the Follow Up subform.
 		- NOTE: Each Follow Up subform entry will generate its own Task.
 	- Complete: "Follow Up Date" on the Follow Up subform.
 
@@ -285,9 +285,9 @@ On the right side of all of the record list pages, you will see the **Filters Pa
 
 The most-commonly-used filters are always visible at the top of the Filters Panel. To expose more specific filters, click the "More" button below the panel. To re-hide these, click "Less".
 
-Once you have set one or more filters, click the "Apply" button at the top of the Filters panel to update your list results. To clear the filters you had selected, click the "Clear" button.
+Once you have set one or more filters, click the "Apply" button at the top of the Filters panel to update your list results. To clear the filters you have selected, click the "Clear" button.
 
-You can also save a set of filters for later use by clicking the "Save" button at the top of the Filters Panel. You will now see the modal pictured below.
+You can also save a set of filters for later use by clicking the "Save" button at the top of the Filters Panel. This opens the modal pictured below.
 
 ![](img/v2/filter-save.png)
 
@@ -295,11 +295,11 @@ Enter a name for your new saved search and click "Save". Once the search has fin
 
 ![](img/v2/filter-saved-list.png)
 
-Here, you see the search you had saved earlier. Click on the saved search to apply the filters you had saved. To delete a saved search, you can click on the trash can button next to it.
+Here, you can find the search you had saved earlier. Click on the saved search to apply the filters that were saved. To delete a saved search, you can click on the trash can button next to it.
 
 # Flagging
 
-The **Flags** button allows a case worker or manager to leave a message or "Flag" on a record. Usually, this is a reminder to other users that they need to perform an action (example: reminding a case worker to perform an assessment or reminding a manager to approve the Case Plan).
+The **Flags** button allows a case worker or manager to leave a message or a "Flag" on a record. Usually, this is a reminder to other users that they need to perform an action (example: reminding a case worker to perform an assessment or reminding a manager to approve the Case Plan).
 
 ![](/img/v2/flags-button.png)
 
@@ -339,7 +339,7 @@ Case workers can request a manager's approval on the following Case forms:
 - Case Plan
 - Closure
 
-**NOTE**: Based on your Primero implementation's configuration, only some of these forms may have approvals enabled. If you have questions about which approvals are enabled in your configuration, pleae contact your system administrator.
+**NOTE**: Based on your Primero implementation's configuration, only some of these forms may have approvals enabled. If you have questions about which approvals are enabled in your configuration, please contact your system administrator.
 
 To request approval for one of these forms, click the **Request Approval** action in the Actions menu.
 
@@ -349,7 +349,7 @@ The below modal will appear. Select the form for which you would like to request
 
 ![](/img/v2/approval-request-cw.png)
 
-Once you have requested approval, you will notice that an alert appears on the link corresponding form on your Case's Form Navigation Menu (in our example, this would be the "Case Plan" form). Click into this form. Note that there is an alert message at the top of the form. Also, note that the "Approval Status" field is set to "Pending." This means that you are still waiting for your manager to either approve or reject the form.
+Once you have requested approval, you will notice that an alert appears on the link to the corresponding form on your Case's Form Navigation Menu (in our example, this would be the "Case Plan" form). Click into this form. Note that there is an alert message at the top of the form. Also, note that the "Approval Status" field is set to "Pending." This means that you are still waiting for your manager to either approve or reject the form.
 
 TODO Screenshot (alert on form name, alert message, and Case Status field)
 
@@ -381,7 +381,7 @@ To approve or reject the Case Plan, the manager clicks the **Approvals** action 
 
 ![](/img/v2/approval-button-mgr.png)
 
-In the modal that appears, the manager can select "Approve" to approve the Case Plan, or "Not Approve" to reject it. Note that the manager can also use the "The form for" dropdown to select a different form to approve. The manager can also leave a comment about their decision to approve or reject the form. This will appear both on the approved / rejected form and in the Approvals form.
+In the modal that appears, the manager can select "Approve" to approve the Case Plan, or "Not Approve" to reject it. Note that the manager can also use the "The form for" dropdown to select a different form to approve. The manager can also leave a comment on their decision, which will appear both on the approved / rejected form and in the Approvals form.
 
 ![](/img/v2/approval-mgr.png)
 
@@ -418,7 +418,7 @@ On all of the record list pages, you will find a search bar at the top right of 
 - **Incidents**: "Long ID," "Incident Code," "Account of Incident," "Survivor Code", and "Incident ID IR."
 - **Tracing Requests**: “Long ID,” “Inquirer ID,” “Name of inquirer,” and “Nickname of inquirer.”
 
-**Note**: You can search and filter the record liats at the same time (example: Search for Cases with the name "Smith" while filtering for only Male Cases with a Risk Level of "High").
+**Note**: You can search and filter the record lists at the same time (example: Search for Cases with the name "Smith" while filtering for only Male Cases with a Risk Level of "High").
 
 ## Searching for Cases Managed By Other Users
 
