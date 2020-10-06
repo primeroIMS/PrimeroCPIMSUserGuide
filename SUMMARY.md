@@ -7,35 +7,31 @@
 
 *  [*Navigating Primero*](UsersGuide.md#navigating-primero)
 
-    * [*Header Navigation Bar*](UsersGuide.md#header-navigation-bar)
+    * [*Navigation Menu*](UsersGuide.md#navigation-menu)
 
     * [*Dashboard*](UsersGuide.md#dashboard)
 
-    * [*Case Dashboards*](UsersGuide.md#case-dashboards)
+        * [*Case Worker Dashboards*](UsersGuide.md#case-worker-dashboards)
 
-        * [*Cases Dashboard*](UsersGuide.md#cases-dashboard)
+        * [*Manager Dashboards*](UsersGuide.md#manager-dashboards)
 
-        * [*Manager Dashboard*](UsersGuide.md#manager-dashboard)
-
-        * [*Admin Dashboard*](UsersGuide.md#admin-dashboard)
-
-    * [*Flagged Case Lists*](UsersGuide.md#flagged-case-lists)
+        * [*Admin Dashboards*](UsersGuide.md#admin-dashboards)
 
     * [*Audit Logs*](UsersGuide.md#audit-logs)
 
-    * [*GBV Incident Dashboard*](UsersGuide.md#gbv-incident-dashboard)
+    * [*Tasks List*](UsersGuide.md#tasks-list)
 
-    * [*Tasks View*](UsersGuide.md#tasks-view)
+    * [*Record Lists*](UsersGuide.md#record-lists)
 
-    * [*List View*](UsersGuide.md#list-view)
+    * [*View and Edit a record*](UsersGuide.md#view-and-edit-a-record)
 
-    * [*Edit and View a record*](UsersGuide.md#edit-and-view-a-record)
+        * [*Workflow Status Bar*](UsersGuide.md#workflow-status-bar)
 
     * [*Action Buttons*](UsersGuide.md#action-buttons)
 
     * [*Language Toggle*](UsersGuide.md#language-toggle)
 
-    * [*Contact and Help*](UsersGuide.md#contact-and-help)
+    * [*Support*](UsersGuide.md#support)
 
     * [*My Account and Password Change*](UsersGuide.md#my-account-and-password-change)
 
@@ -43,37 +39,43 @@
 
 *  [*Flagging*](UsersGuide.md#flagging)
 
-*  [*Reopen*](UsersGuide.md#reopen)
+*  [*Close / Reopen*](UsersGuide.md#close--reopen)
 
 *  [*Approvals*](UsersGuide.md#approvals)
 
-    *  [*Caseworker*](UsersGuide.md#caseworker)
+    *  [*Requesting Approval for a Form*](UsersGuide.md#requesting-approval-for-a-form)
 
-    *  [*Managers*](UsersGuide.md#managers)
+    *  [*Approving or Rejecting a Form*](UsersGuide.md#approving-or-rejecting-a-form)
 
-*  [*Manager Notes*](UsersGuide.md#manager-notes)
+*  [*Add Notes*](UsersGuide.md#add-notes)
 
-*  [*Search and Advanced Search*](UsersGuide.md#search-and-advanced-search)
+*  [*Searching for Records*](UsersGuide.md#searching-for-records)
 
-    * [*Quick Search*](UsersGuide.md#quick-search)
+    * [*Searching for Cases Managed By Other Users*](UsersGuide.md#searching-for-cases-managed-by-other-users)
 
-    * [*Searching for Records Owned By Other Users*](UsersGuide.md#searching-for-records-owned-by-other-users)
+    * [*The View Details Modal*](UsersGuide.md#the-view-details-modal)
 
-    * [*Viewing Record Details*](UsersGuide.md#viewing-record-details)
+    * [*Adding an Incident to a Case from the Search Results Page*](UsersGuide.md#adding-an-incident-to-a-case-from-the-search-results-page)
 
-    * [*Adding Incident to Case from List View*](UsersGuide.md#adding-incident-to-case-from-list-view)
+    * [*Adding a Service Provision to a Case from the Search Results Page*](UsersGuide.md#adding-a-service-provision-to-a-case-from-the-search-results-page)
 
-    * [*Adding Service Provision to Case from List View*](UsersGuide.md#adding-service-provision-to-case-from-list-view)
-
-    * [*Searching for Duplicate Cases*](UsersGuide.md#searching-for-duplicate-cases)
+    * [*Alerts for Information Added to a Case*](UsersGuide.md#alerts-for-information-added-to-a-case)
 
 *  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 
 
+    *  [*Custom Exports*](UsersGuide.md#custom-exports)
+
+    *  [*Downloading Exports*](UsersGuide.md#downloading-exports)
+
 *  [*Navigating Primero Forms*](UsersGuide.md#navigating-primero-forms)
 
-    *  [*Navigating Sub-Forms*](UsersGuide.md#navigating-sub-forms)
+    *  [*Navigating Subforms*](UsersGuide.md#navigating-subforms)
 
-    *  [*Alerts*](UsersGuide.md#alerts)
+    *  [*Adding Subforms*](UsersGuide.md#adding-subforms)
+
+    *  [*Updating Subforms*](UsersGuide.md#updating-subforms)
+
+*  [*Alerts*](UsersGuide.md#alerts)
 
 *  [*Creating, Updating, or Editing a Case*](UsersGuide.md#creating-updating-or-editing-a-case)
 
@@ -91,7 +93,7 @@
 
         *  [*Accepting or Rejecting Transfers*](UsersGuide.md#accepting-or-rejecting-transfers)
 
-        *  [*Requesting a Record Transfer*](UsersGuide.md#requesting-a-record-transfer)
+        *  [*Requesting a Case Transfer*](UsersGuide.md#requesting-a-case-transfer)
 
             *  [*Notifications for the Case Owner*](UsersGuide.md#notifications-for-the-case-owner)
 
