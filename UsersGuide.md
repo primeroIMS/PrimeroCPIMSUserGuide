@@ -789,25 +789,26 @@ Using Primero's **Tracing** functionality, users can perform searches on behalf 
 
 **IMPORTANT NOTE**: Cases will only appear as potential matches for tracing request if they have provided consent for tracing. Users can record a case's consent to take part in tracing by filling out the tracing consent field in the "Data Confidentiality" form. This field is pictured below.
 
-![](/img/v1-6/image13.png)
+![](/img/v2/tracing-consent.png)
 
 ## Tracing Requests
 
 If your user is configured for tracing activities, you should have access to **Tracing Requests**, and you should see the "Tracing Requests" link in the navigation bar at all times.
 
-![](/img/v1-6/image14.png)
+![](/img/v2/tracing-list.png)
 
 If you click on this link, you will see a list of all the tracing requests you have access to. Click "New Tracing Request" to begin tracing.
 
-![](/img/v1-6/image15.png)
 
 First, you will fill out the "Inquirer" form. This contains information on the parent or guardian who has initiated tracing. Primero will use much of the information in this form to search against information recorded about family members in each case's "Family Details" subform entries. So, for instance, if a child's father, named "Ibrahim," is the inquirer, Primero will search for cases with a family member whose relationship to the child is recorded as "Father", and whose name is "Ibrahim."
 
-![](/img/v1-6/image16.png)
+![](/img/v2/tracing-inquirer.png)
 
 Next, you will fill out information on the child by filling out a subform entry in the "Tracing Request" form. Primero will use the information here to search for cases with similar attributes. So, for instance, if the father mentioned above is looking for a daughter named "Fatima," who is 15 years old, Primero will search for cases with the name "Fatima" and an age of 15.
 
-![](/img/v1-6/image17.png)
+![](/img/v2/tracing-request.png)
+
+![](/img/v2/tracing-request-subform.png)
 
 ## Matches
 
