@@ -440,7 +440,7 @@ At the bottom of this modal, you may see a button labelled **Request Transfer**.
 
 **NOTE**: Depending on the system's configuration, you may also be able to see the Case's photo in this modal.
 
-![](/img/view-details-modal.png)
+![](/img/v2/transfer-request.png)
 
 For more information on configuring the **View Details** modal and which information appears there, please see the **Primero Administration Guide**.
 
@@ -526,7 +526,7 @@ You will now arrive at the Exports page. You can always access the Exports page 
 
 When you are viewing, creating, or editing a record in Primero, you can move between Forms using the **Form Navigation Menu**, which appears on the left side of the screen.
 
-![](img/case-view-form-group.png)
+![](img/v2/form-nav-menu.png)
 
 You will notice that some Forms appear under a collapseable header. This is called a **Form Group**. In the above image, "Identification / Registration" is a Form Group, which contains a number of Forms, including "Basic Identity." When you click on a Form Group, the Form Group opens, and you arrive at the first Form in the group. Click on any other Form in the group to view that Form. To collapse an open Form Group, click on it again.
 
@@ -536,19 +536,27 @@ Some Forms contain information that is entered multiple times. For example, a ca
 
 ### Adding Subforms
 
-When you click into a Form that contains a subform, you will see an **ADD** button. Click this to add a **Subform Entry**. A modal will appear. Here, you fill out information about the entry you want to add. For example, on the "Family Details" subform, you might add information about the Case's sibling.
+When you click into a Form that contains a subform, you will see an **ADD** button. Click this to add a **Subform Entry**. 
 
-TODO Screenshot
+![](img/v2/subform-add.png)
+
+A modal will appear. Here, you fill out information about the entry you want to add. For example, on the "Family Details" subform, you might add information about the Case's sibling.
+
+![](img/v2/subform-modal.png)
 
 When you are done filling in information, click **ADD** at the bottom of the subform modal. Note that if you click **CANCEL** instead, you will lose all of your changes.
 
 ### Updating Subforms
 
-TODO Content
+If multiple subforms are added in this way, they will be listed in collapsed form. Each can be reopened by clicking on the right-side arrows. Once you are finished with your edits, click **UPDATE** at the bottom of the subform in order to add your changes.
+
+![](img/v2/subform-update.png)
 
 ### Removing Subforms
 
-TODO Content
+To remove a subform, click on the trashcan icon on the collapsed subform. A modal will appear asking you to confirm your decision.
+
+![](img/v2/subform-remove.png)
 
 ## Alerts
 
