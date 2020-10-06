@@ -980,23 +980,27 @@ Reports allow users to see a high-level, aggregate view of data, helping them to
 
 To create a report, first click the **Reports** icon in the top toolbar. You will see that there are already a number of pre-built reports which you can view at any time. To start your own, click the **Create Report** button at the top of the screen.
 
-![](img/image23.png)
+![](img/v2/reports-list.png)
 
 When you have reached the new report form, be sure to enter a name and description for your report. You must then specify the module from which to draw the records for your report, as well as the type of records you want to be drawing upon. Here, we have chosen the Child Protection module, and the Case record type.
 
-![](img/image54.png)
+![](img/v2/reports-module.png)
 
 Next comes choosing the row and column attributes by which you want your data to be grouped. The first item you choose in each field will be the outer grouping layer, with each successive item acting as a sub-categorization. Taking a look at the example below, we can see that the columns of our report have been first divided by sex, and then sub-divided by permanent district/chiefdom, since these are the first and second “Group by column” attributes, respectively. We can see that the rows of the report follow the same pattern.
 
-![](img/image59.png)
+![](img/v2/reports-age.png)
 
 ![](img/arrow-down.png)
 
-![](img/image51.png)
+![](img/v2/reports-no-graph.png)
 
 The columns of your report will be augmented by a final “Total” column, which shows the aggregate for each row. It is important to note that the numbers in each of your columns may not add up to the number in your total column, since many attributes will go undefined by the workers doing registration. For instance, in the example below, three cases with the “child has been abandoned” protection concern were never assigned a sex, resulting in a report with one female, no males, and four total cases.
 
-![](img/image24.png)
+![](img/v2/reports-filter-blank.png)
+
+![](img/arrow-down.png)
+
+![](img/v2/reports-filtered-table.png)
 
 Furthermore, any reports based on fields within certain nested forms will automatically count a field for each saved record, even if a nested form for this field was never filled out. This is because Primero automatically populates an empty subform on the page for form sections such as “Protection Concerns,” so that the user can easily enter information. When a user fails to enter information for that field, however, the field still counts as a single item. For instance, if you were to create a case and fail to enter any information into the blank Protection Concerns subform, a report outlining how many cases had each type of protection concern would still count your case as having a single protection concern type, even though you had never entered any information on the Protection Concerns subform. This would then count into the total, without counting into the column for any single one of the protection concern types. Taking a look at the example below, we can see that, in the Freetown district, one child has been registered as abandoned and one with a protection concern type of “Extreme levels of poverty.” But the total number of protection concerns for this district is three, meaning that one case was registered with a protection concern form where the protection concern type was never filled in.
 
@@ -1016,11 +1020,11 @@ Now, instead of seeing that there are two cases that meet the criteria for being
 
 The next field, specifying age range, helps make reports involving age more manageable by grouping them into a smaller list of ranges. The two images below exemplify the usefulness of this feature. The first shows part of a sprawling report without age ranges enabled. The second shows the same report with age ranges.
 
-![](img/image62.png)
+![](img/v2/reports-all-ages.png)
 
 ![](img/arrow-down.png)
 
-![](img/image66.png)
+![](img/v2/reports-age-range.png)
 
 ### Date Ranges
 
@@ -1030,7 +1034,17 @@ The next field, “Use date ranges,” allows you to do much the same thing, but
 
 Next, you can put filters on the records you are using to eliminate irrelevant data. By default, each report filters to include only those records with a “Case Status” of “Open” and a “Valid Record?” value of “Yes.” You can create a filter on any single-select, multi-select, tick box, check box, radio button, number, tally, or date field, and for each one, you can specify which values are acceptable for records being included into the report.
 
+![](img/v2/reports-filters.png)
+
+![](img/v2/reports-filter-new.png)
+
 Finally, you are asked whether you would like to generate an exportable graph of your report.
+
+![](img/v2/reports-groupings-2.png)
+
+![](img/arrow-down.png)
+
+![](img/v2/reports-graph-2.png)
 
 ## Viewing your reports
 
