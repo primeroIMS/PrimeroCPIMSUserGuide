@@ -29,11 +29,8 @@ The Navigation Menu appears at the left side of your screen. You can access this
 
 On smaller devices, such as tablets or phones, you will need to click or tap on the menu button to show the Navigation Menu. The menu button will appear at the top left of your screen.
 
-![](/img/v2/mobile-case-list.png)
+![alt-text-1](/img/v2/mobile-home-menu.png)  ------------------->   ![alt-text-2](/img/v2/mobile-nav-menu-2.png)
 
-![](/img/v2/mobile-nav-menu.png)
-
-TODO Adjust screenshots
 
 ## Dashboard
 
@@ -114,12 +111,9 @@ The below image gives an example of the sections you may see in your dashboard i
 
 Some administrative users and team managers may have access to the *Audit Logs*. To access this feature, click the Settings link in the Navigation Menu. Once you are in Settings, click "Audit Logs" in the Settings Navigation Menu.
 
-![](img/v1-6/image1.png)
-![](img/v1-6/image2.png)
+![](img/v2/audit-logs.png)
 
 The Audit Logs page shows you a list of all actions which users have committed in the system. Each row represents a different action, including the username of the user, the type of action, the type (and sometimes the ID) of the record on which the action was performed, and the date and time of the action. Using the filters menu to the right of the list, you can limit which audit log entries are displayed. You can filter by date and time or username. To apply a set of filters, click "Apply," and to clear out all filters, click "Clear."
-
-![](img/v1-6/image3.png) 
 
 NOTE: The Audit Logs do not contain identifiable information from records. For instance, an audit log entry might tell you that the user "john-case-worker" edited a case with the ID "abcd123" at 10:15 on October 1, 2020. However, it will not tell you what specific information was added to the case.
 
@@ -139,7 +133,7 @@ Here, you will see the incomplete Tasks present for all of the cases you manage.
 
 Primero automatically generates Tasks based on information you fill out in the Case forms. Each type of Task action has a date field in the Case forms that acts as its due date. As soon as a user enters a date value into one of these fields, Primero generates a Task with that due date. To find out which field sets the due date for a Task, hover over the due date for any Task you find in the Tasks page.
 
-TODO Screenshot
+![](img/v2/tasks-hover.png)
 
 Each type of Task action also has a date field in the Case forms which marks the Task as "complete". Once a user enters a date value into this field, the Task is marked as "complete" and disappears from the Tasks list.
 
@@ -242,7 +236,7 @@ At the bottom of the Navigation Menu, you will see a dropdown with a small globe
 
 In the Navigation Menu, below the Exports link, you should see the **Support** link. Clicking on this will bring you to page with contact information for your system administrator, as well as links to support forums and documentation.
 
-TODO Screenshot
+![](img/v2/support-page.png)
 
 ## My Account and Password Change
 
@@ -305,7 +299,7 @@ The **Flags** button allows a case worker or manager to leave a message or a "Fl
 
 When you click the Flags button, a modal appears with two tabs: "Flags" and "Add New Flag". The "Flags" tab will open by default. Here, you will see a list of all flags that have already been added to this record. To add a new flag, click on the "Add New Flag" tab. Here, you can enter a reason for your flag, as well as a flag date.
 
-![](/img/v2/flags-new.png)
+![](/img/v2/flags-new-2.png)
 
 Once you click "Save", you will arrive back on the "Flags" tab. Here, you will see the flag you just saved.
 
@@ -317,7 +311,13 @@ Once the flag is resolved:
 - It will appear under the "Resolved" header in the "Flags" tab of the Flags modal.
 - It will no longer be included in the count of active flags which appears in the record list and on the "Flags" button (see below).
 
-TODO Screenshots
+
+![](img/v2/flags-alert-records.png)
+
+
+![](img/v2/flags-alert-case.png)
+
+![](img/v2/flags-resolved.png)
 
 # Close / Reopen
 
@@ -351,7 +351,9 @@ The below modal will appear. Select the form for which you would like to request
 
 Once you have requested approval, you will notice that an alert appears on the link to the corresponding form on your Case's Form Navigation Menu (in our example, this would be the "Case Plan" form). Click into this form. Note that there is an alert message at the top of the form. Also, note that the "Approval Status" field is set to "Pending." This means that you are still waiting for your manager to either approve or reject the form.
 
-TODO Screenshot (alert on form name, alert message, and Case Status field)
+![](img/v2/approval-alert-record.png)
+
+![](img/v2/approval-alert-forms.png)
 
 Now, click into the "Record Information" section of the Form Navigation Menu. Click "Approvals". Here, you will see a list of all approval requests and approvals made on your Case. The approval request you just submitted should appear here.
 
@@ -486,11 +488,11 @@ Primero allows users to export information about records in a number of formats.
 
 To export one or more records, in the Actions menu, click **Export**. A modal will appear. You will see a dropdown labelled "Type of export." Click into this dropdown and select an export format.
 
-![](img/image57.png)
+![](img/v2/exports-modal.png)
 
 Depending on the format you choose, you may then be able to select forms and fields to export, specify a file name, and choose a password to encrypt your export file.
 
-![](img/image52.png)
+![](img/v2/exports-password.png)
 
 ## Custom Exports
 
