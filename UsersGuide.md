@@ -590,7 +590,9 @@ Note that dependng on your configuration, some form names may be different from 
 
 ## Creating a Case
 
-To create a case from the case list view, click on the "NEW CASE" button. You will see a modal like the one pictured below. Here, you have two options. The first option is to simply create a case by clicking the "CREATE CASE" button. However, you can also check to see if a case already exists for a child by running a search. \(For a list of fields that are searchable, read the "Quick Search" section.\) To run a search, simply type your search query into the search box and click the "SEARCH" button. This will take you to a search results page. If no search results appear, you can just create a case by clicking on the "NEW CASE" button again on the search screen.
+To create a case from the Case List, click on the "NEW" button. You will see a modal like the one pictured below. Here, you have two options. 
+
+The first option is to simply create a case by clicking the "CREATE NEW CASE" button on the bottom left of the modal. The second option is to first run a search to check if a case already exists for the child. To do so, type the child's name or ID into the search bar and click the "SEARCH" button at the bottom right of the modal. If there is a match in the system, you will be taken to a search results page, which may include cases managed by other users. \(For more information on fields that are searchable and case access, read the [Searching for Records](UsersGuide#searching-for-records) section.\) If there is no match, you will be taken to a blank form and asked to create a new case.
 
 ![](/img/v2/new-case.png)
 
@@ -598,47 +600,45 @@ Once you have reached the new case page, you can navigate to different forms as 
 
 ## Editing a Case
 
-To edit a case, simply located it in the case list view and then click on it. Once you’ve entered into the case you would like to update, you must click the **EDIT** button in the actions header. The page will then refresh and allow you edit individual form fields.
+To edit a case, locate it in the Case List and click on it. Once you’ve entered into the case, click the **EDIT** button in the actions header. The page will then refresh and allow you to edit individual form fields.
 
-There are a number of different field types in which you can edit differently.
+There are a number of different field types which you can edit differently.
 
-* **Text** - Type normally using your keypad or keyboard.
+* **Text Field** - Type normally using your keypad or keyboard.
 
-* **Text Area** - Similar to the Text field. Type normally, the field expands for more information as you continue to enter information.
+* **Text Area** - Similar to the Text Field, but the field expands as you type in order to enter more information.
 
-* **Date** - Multiple ways to edit
+* **Date Field** - Opens a calendar widget where you can directly select the correct day, month, and year. 
+	- To go to another calendar month, click the side arrows to navigate forwards or backwards. 
+	- To choose another year, click on the year at the top left of the widget and select a year from the scrolling menu. 
+	- Clicking "OK" sets your choice; "Clear" returns you to today's date; "Cancel" does not make any changes.
 
-  * You can type in a numerical date in the format of dd-mm-yyyy
+* **Checkboxes** - Select one or many of the checkbox options.
 
-  * You can type in the first three letters of the month in the format of 01-Jan-2014
+* **Tick Box** - Select the tick box if it applies to you.
 
-  * You can use the calendar widget to go to the correct day and select it directly
+* **Select Dropdown** - Select an option from the dropdown menu. You can also try typing a word into the select field to narrow down the menu and find a desired option faster.
 
-* **Check Boxes** - You may click one or many of the options using the mouse.
+* **Multi-Select Dropdown** - Similar to Select Dropdown, but you can select more than one option from the dropdown menu. 
 
-* **Tick Box** - You may click on the box using the mouse.
+* **Radio Button** - Similar to Tick Box, click on the correct answer.
 
-* **Select Drop Down** - Click any option to select it.**Multi-Select Drop Down** - Begin typing and either hit ‘enter’ or click to select multiple options.
+* **Numeric Field** - Type a number into the field. Non-numeric numbers will return an error.
 
-* **Radio Button** - Similar to Tick Box, click on the correct answer using the mouse
+* **Tally Field** - Type in the number you need for each tally. The total is automatically calculated based on the tally fields and is not editable in itself.
 
-* **Numeric Field** - Key the number into the field.
-
-* **Tally Field** - Key in the number you need for each tally. The total automatically calculates based on the tally fields and is not editable in itself.
-
-When you attempt to save, there is always the possibility that one or more of the fields you entered will be formatted incorrectly. For instance, if you try to fill in the “Date of Registration or Interview” field--which is supposed to be a current or past date--with a date in the future, Primero will be unable to save the information. In this case, after you hit the “save” button, the case will fail to update with your new information, and the “Date of Birth” field’s label will be highlighted in red, to inform you that the field has been entered incorrectly.
-
-![](/img/v2/case-error-age.png)
-
-In addition, it may be possible that, when you try to save, you will have forgotten to fill out some fields that are required. In this case, the required fields will be highlighted in red to inform you that they are required. In addition, a message will appear at the top of the form, telling you which un-filled fields are required, and on which forms these fields are located. In the form tabs, small red numbers will appear next to each form section or form group name to tell you how many fields on each need amending, due to their being either blank or improperly formatted. Another way to tell which fields are required is that each will have a small, red star to its right.
+Note that some of the fields are required. Required fields can be identified by the asterisk next to the field name. If you forget to fill out those fields, the system will return an error message when you try to save the case, and you will not be able to save the rest of your data until you have completed them. Red error alerts will appear on the corresponding forms in the Form Navigation Menu to further help you identify the required fields. 
 
 ![](/img/v2/case-error-1.png)
 
 ![](/img/v2/case-error-2.png)
 
-When a required field is located on a nested subform, a user must either fill out the required field or remove the subform entry with the un-filled field. The red number next to the name of each form section representing the number of un-filled fields in a form section will reflect the total number of required fields across all subform instances in that form section. So, for instance, if there are two required fields on the Family Details subform, and the user has created subform entries for each of three family members without filling out any of the required fields, the number '6' will appear next to **Family Details** form section name in the forms list (2 × 3 = 6).
 
-Once again, if you wanted to avoid filling out the fields on one of these subform entries, you could just click the "Remove" button to remove that subform entry. For more information on how you can set which fields are required, please see the **Primero Administration and Configuration Guide**.
+If you enter a field incorrectly, the system will return a similar series of error messages and alerts when you try to save the case. In the example below, a negative age and a “Date of Birth” in the future causes errors until you fix those fields. 
+
+![](/img/v2/case-error-age.png)
+
+ For more information on how to set which fields are required and other data constraints, please see the **Primero Administration and Configuration Guide**.
 
 # Assignments, Transfers, and Referrals
 
