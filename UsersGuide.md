@@ -560,21 +560,31 @@ To remove a subform, click on the trashcan icon on the collapsed subform. A moda
 
 ## Alerts
 
-When an incident has been added to your case, you will see a small alert badge next to the incident subform. This helps users keep track of updates to a given case's situation and immediately undertake any necessary services.
+Alerts help you keep track of updates to a given case's situation. Alerts consist of either small gold dots or message banners. 
 
-![](/img/image95.png)
+Case-level alerts: 
+ - On the Navigation Menu, an alert next to Cases keeps track of total cases with alerts.
+ - In the Case Records List, a small gold dot appears next to Cases with alerts.
 
-There are two other situations which would cause an alert to appear: the addition of a service provision to your case, and an approval request being made on a case. In the first situation, if another user adds a service provision to your case, an alert will appear next to the Services form tab in the forms side bar. (Depending on your configuration, this form may also be called "Response Overview.")
+![](img/v2/alerts-cases.png)
 
-![](/img/image103.png)
+Form-level alerts:
+ - When you click into a case, an alert in the Form Navigation Menu indicates the form with pending / updated information.
+ - When you click into the form, you can see a message banner alert that informs you of the reason for the alert.
 
-You may also see a message at the top of the form informing you of the reason for the alert.
+![](img/v2/approval-alert-forms-2.png)
 
-![](/img/image104.png)
+Alerts appear in any of the following situations:
 
-An alert may also appear on a case form if a request was recently requested for case plan, closure, or best-interest assessment approval. Whenever an approval is requested for one of these situations, an alert will appear next to the appropriate form tab: Services (also called Response Overview in some implementations) for case plan approval, Closure for closure approval, and BIA for best interest assessment approval.
+ - When you request approval for Assessment, Case Plan, and/or Closure. Alerts will appear on the corresponding form or forms pending approval. Once the form is approved or rejected by your supervisor, the alert goes away.
 
-![](/img/image105.png)
+ - When a supervisor adds a Note to your case. Once you edit and save the Note, the alert goes away.
+
+ - When another user directly edits a Services subform on your case. Once you edit and save the Services subform, the alert goes away.
+
+ - When another user adds information to your case, such as an Incident or a Service Provision. Once you edit and save these additions, the alerts go away.
+
+Note that dependng on your configuration, some form names may be different from the User Guide examples.
 
 # Creating, Updating, or Editing a Case
 
