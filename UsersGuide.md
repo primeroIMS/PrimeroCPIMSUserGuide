@@ -228,8 +228,6 @@ At the bottom of the Navigation Menu, you will see a dropdown with a small globe
 
 ![](img/v2/language-menu.png)
 
-![](img/v2/language-menu-detail.png)
-
 ![](img/v2/language-ar.png)
 
 ## Support
@@ -299,7 +297,7 @@ The **Flags** button allows a case worker or manager to leave a message or a "Fl
 
 When you click the Flags button, a modal appears with two tabs: "Flags" and "Add New Flag". The "Flags" tab will open by default. Here, you will see a list of all flags that have already been added to this record. To add a new flag, click on the "Add New Flag" tab. Here, you can enter a reason for your flag, as well as a flag date.
 
-![](/img/v2/flags-new-2.png)
+![](/img/v2/flags-new.png)
 
 Once you click "Save", you will arrive back on the "Flags" tab. Here, you will see the flag you just saved.
 
@@ -426,7 +424,7 @@ On all of the record list pages, you will find a search bar at the top right of 
 
 Depending on your Primero implementation's configuration, some users may have the ability to search for and view limited information about records managed by other users. When users with this ability perform a search and arrive at the Search Results page, they may see Cases for which they have full access (for example, a Case they manage) as well as Cases for which they _do not_ have full access (for example, a Case managed by another user at another organization). 
 
-![](/img/image88.png)
+![](/img/v2/search-results.png)
 
 When the user clicks on a Case in the Search Results page...
 - If they have full access, they arrive at the View Case page.
@@ -436,27 +434,29 @@ When the user clicks on a Case in the Search Results page...
 
 The **View Details** modal displays a small set of fields about a Case. This allows you to see some limited information about a Case managed by another user, without endangering the data confidentiality of the Case.
 
-At the bottom of this modal, you may see a button labelled **Request Transfer**. For more information on this action, please see the [Requesting a Case Transfer](UsersGuide#requesting-a-case-transfer) section
+Depending on your configuration, you may also see a button labelled **Request Transfer** at the bottom of this modal. For more information on this action, please see the [Requesting a Case Transfer](UsersGuide#requesting-a-case-transfer) section.
 
 **NOTE**: Depending on the system's configuration, you may also be able to see the Case's photo in this modal.
 
-![](/img/v2/transfer-request.png)
+![](/img/v2/search-results-view.png)
 
 For more information on configuring the **View Details** modal and which information appears there, please see the **Primero Administration Guide**.
 
 ## Adding an Incident to a Case from the Search Results Page
 
-Depending on your Primero implementation's configuration, some users may be able to add an Incident to a Case from the Search Results page. To do this, select the Case's check box on the Search Results page. Then, in the Action menu , click **Add Incident**.
+Depending on your Primero implementation's configuration, some users may be able to add an Incident to a Case from the Search Results page. To do this, select the Case's check box on the Search Results page. Then, in the Action menu, click **Add Incident**.
 
-![](/img/v1-6/image4.png)
+![](/img/v2/incident-add-cp.png)
 
 A modal will appear. Enter information about the Incident, then click **SAVE**.
 
 ![](/img/image89.png)
+TODO v2 screenshot?
 
 Depending on your user's configuration, you may also see a second button next to the **SAVE** button, marked **SAVE AND ADD SERVICE PROVISION**. Clicking on this will save the Incident details you have entered, then take you directly to the Add Service modal, where you can enter information on a service you have performed for the Case.
 
 ![](/img/v1-6/image12.png)
+TODO v2 screenshot?
 
 ## Adding a Service Provision to a Case from the Search Results Page
 
@@ -467,9 +467,9 @@ TODO Fix screenshot
 
 ## Alerts for Information Added to a Case
 
-If another user adds an Incident or a service to your Case, an alert will appear on the corresponding form on your Case. For example, in the image below, another user has added a service to the Case. An alert appears on the "Services" form in the Form Navigation Menu, and an alert message appears at the top of the form, telling the case worker which user added the service and when.
+If another user adds an incident or a service to your Case, an alert will appear on the corresponding form on your Case. For example, in the image below, another user has added a service to the Case. An alert appears on the "Services" form in the Form Navigation Menu, and an alert message appears at the top of the form, telling the case worker which user added the service and when.
 
-TODO Screenshot
+![](/img/v2/alert-services.png)
 
 # Exporting Information on Records
 
@@ -633,7 +633,6 @@ Note that some of the fields are required. Required fields can be identified by 
 
 ![](/img/v2/case-error-2.png)
 
-
 If you enter a field incorrectly, the system will return a similar series of error messages and alerts when you try to save the case. In the example below, a negative age and a “Date of Birth” in the future causes errors until you fix those fields. 
 
 ![](/img/v2/case-error-age.png)
@@ -741,14 +740,7 @@ The following fields are important for selecting a user:
  * **Agency** you would like to perform the service
  * **Location** where you would like the service to take place
 
-![](/img/referral-modal-narrow-down-users.png)
-
-TODO - format v2 screenshots (below) like above image ^
-
-![](/img/v2/referral-service.png)
-![](/img/v2/referral-agency.png)
-![](/img/v2/referral-location.png)
-![](/img/v2/referral-recipient.png)
+![](/img/v2/referral-recipient-diagram-gh.png)
 
 Now, select the “Recipient” - who must be a user within your deployment of Primero. A list of all users that perform the service selected, from the agency selected, and in the location selected will appear. If the desired user is not in the drop down, it means this user does not have privileges to be referred to or does not meet one of the three criteria listed above.
 
