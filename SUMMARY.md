@@ -89,8 +89,6 @@
 
     *  [*Transfers*](UsersGuide.md#transfers)
 
-        *  [*Transferring to a Remote System*](UsersGuide.md#transferring-to-a-remote-system)
-
         *  [*Accepting or Rejecting Transfers*](UsersGuide.md#accepting-or-rejecting-transfers)
 
         *  [*Requesting a Case Transfer*](UsersGuide.md#requesting-a-case-transfer)
