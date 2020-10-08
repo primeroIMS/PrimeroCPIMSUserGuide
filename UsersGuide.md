@@ -852,22 +852,19 @@ For more information on how turn welcome and notification emails on or off in th
 
 # Tracing
 
-Using Primero's **Tracing** functionality, users can perform searches on behalf of parents or guardians looking for unaccompanied or separated children.
+Depending on your deployment, you may have access to Primero's **Tracing** records and forms. This functionality enables certain users to record Tracing Requests on behalf of parents or guardians looking for unaccompanied or separated children.
 
 ## Consent for Tracing
 
-**IMPORTANT NOTE**: Cases will only appear as potential matches for tracing request if they have provided consent for tracing. Users can record a case's consent to take part in tracing by filling out the tracing consent field in the "Data Confidentiality" form. This field is pictured below.
+**IMPORTANT NOTE**: Cases will only appear as potential matches for tracing requests if they have provided consent for tracing. Users can record a case's consent to take part in tracing by filling out the tracing consent field in the "Data Confidentiality" form. This field is pictured below.
 
 ![](/img/v2/tracing-consent.png)
 
 ## Tracing Requests
 
-If your user is configured for tracing activities, you should have access to **Tracing Requests**, and you should see the "Tracing Requests" link in the navigation bar at all times.
+If your user is configured for basic tracing activities, you should have access to *Tracing Requests* in the Navigation Menu. If you click on this link, you will see a list of all the tracing requests you have access to. This is called the Tracing Request List. Click NEW to begin tracing.
 
 ![](/img/v2/tracing-list.png)
-
-If you click on this link, you will see a list of all the tracing requests you have access to. Click "New Tracing Request" to begin tracing.
-
 
 First, you will fill out the "Inquirer" form. This contains information on the parent or guardian who has initiated tracing. Primero will use much of the information in this form to search against information recorded about family members in each case's "Family Details" subform entries. So, for instance, if a child's father, named "Ibrahim," is the inquirer, Primero will search for cases with a family member whose relationship to the child is recorded as "Father", and whose name is "Ibrahim."
 
@@ -879,79 +876,14 @@ Next, you will fill out information on the child by filling out a subform entry 
 
 ![](/img/v2/tracing-request-subform.png)
 
+**IMPORTANT NOTE**: Even if a user has access to the Tracing Request List and/or can add new records, they may not be configured for full tracing functionality (running searches, viewing matches, etc.). If you have questions about which tracing activities are enabled in your configuration, please contact your system administrator.
+
 ## Matches
 
-Once you have saved the tracing request, you will see a "Find Match" link at the top of your "Tracing Request" subform.
+If you are configured for searching, you will see a "Find Match" link at the top of your "Tracing Request" subform once you have saved the tracing request.
 
-![](/img/v1-6/image18.png)
+If you click on this link, you arrive at a page which displays a number of cases which are potential matches for your tracing request. This list will contain the case's ID, the record owner's user name, the record owner's agency, the approximate likelihood of the case being the right match, and (depending on your user's configured permissions) a link which displays the *View Details* modal.
 
-If you click on this link, you arrive at a page which displays a number of cases which are potential matches for your tracing request. This list will contain the case's ID, the record owner's user name, the record owner's agency, the approximate likelihood of the case being the right match (either "Possible" or "Likely"), and (depending on your user's configured permissions) a link which displays the *View Details* modal (See "Viewing Record Details" section above).
-
-![](/img/tracing-from-tr-match-list.png)
-
-The records provided as potential matches are based a scoring system that weight many attributes as detailed in the scoring section below. 
-
-### Scoring
-
-Primero gives potential matches a score based on how similar they are to the tracing request *compared to other potential matches Primero has found*. This means that, if scoring were done on a 1-10 scale, the lowest potential match in a list would get a score of 1, the highest would get a 10, and the median match would get a 5. A high scoring match Primero will record as "Likely" and a medium-to-low scoring match, Primero will record as "Possible."
-
-When looking at the potential matches for your tracing request, you can see which case attributes matched your tracing request by clicking on the score label (Likely or Possible). This will reveal a modal which compares a number of case attributes side-by-side with the attributes you gave your tracing request. Attributes which are the same get a '✔', attributes which are different get a red 'X', and attributes which were left blank on both the case and the tracing request get a '-'. 
-
-![](/img/tracing-score.png)
-
-### Adjustable Matching Criteria
-
-On the right side of the screen you will see a dynamic list of fields named "Matchable Case Fields." Each form containing matchable fields is represented by a select box representing a Case or Tracing Request form. For instance, the _Basic Identity_ field contains all attributes used for matching found on the **Basic Identity** form.
-
-![](/img/matching-criteria.png)
-
-By selecting the dark grey 'X' on each attribute you can remove any attribute that you do not wish to use for comparing cases and tracing requests in the current matching search. If you wish to add an atribute to the the searching criteria, simply begin to type the attribute into select box of the form the attribute is found on. Only fields which are included in the global Matching Configuration will be available. (For more information on which fields are included in the global Matching Configuration, contact your Primero Administrator.) After modifying the matching criteria, click **APPLY**.
-
-![](/img/matching-criteria-selection.png)
-
-The matching results will change based on your new criteria. To see more details about a potential match, click the "View" link to the right of the result (this may or may not appear, depending on your configuration).
-
-![](/img/tracing-from-tr-match-list-view-link.png)
-
-You will then see the *View Details* modal, which will display a number of attributes of the case. (For more information on the *View Details* modal, please see the **Viewing Record Details**) section above.
-
-### Linking Tracing Requests with Cases
-
-Once you have identified a match which you think is the correct one, you can link this case to your tracing request, provided your user is configured to be able to see the case record in its entirety. If so, you should be able to click on the case's ID.
-
-![](/img/tracing-from-tr-match-list-select-case.png)
-
-You will now arrive at the case record page. At the top of the page, you should see a button that says "Match." 
-
-![](/img/tracing-from-tr-case-match-button.png)
-
-Click on this button to link the case to your tracing request. You should then see a notification at the top of the screen, indicating that your match succeeded.
-
-![](/img/tracing-from-tr-case-match-notification.png)
-
-Now, if you return to your tracing request's list of matches by hitting the back button, you will see that the entry for the case you just linked to your tracing request is in bold.
-
-![](/img/tracing-from-tr-match-list-matched.png)
-
-Similarly, when the user responsible for the case goes to the case's "Tracing and Separation Details" form, they will see a label marked "Matched tracing request," and to the right of this, a link to the tracing request which you created.
-
-![](/img/tracing-from-tr-case-matched-tr-link.png)
-
-At this stage in the tracing process, the user who initiated the tracing request would manually contact the user and/or agency responsible for the case to initiate the verification and reunification process.
-
-### Initiating Tracing From a Case
-
-Depending on the system's configuration, some users may also be able to search for matching tracing requests from the View Case page. A case must have indicated consent for tracing in order for a user to have access to this feature. This field will be found on the **Consent** / **Data Confidentiality** form.
-
-![](/img/tracing-from-case-consent.png)
-
-Once you indicate that the child has given consent to share information for tracing and save the case, you should see a button marked **FIND TRACING MATCH** at the top of the View Case page.
-
-![](/img/tracing-from-case-button.png)
-
-If you click on this button, you will arrive at a list of potentially matching tracing requests for your case.
-
-![](/img/tracing-from-case-match-list.png)
 
 # Reports
 
