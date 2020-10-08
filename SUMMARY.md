@@ -109,10 +109,6 @@
 
     *  [*Referring from Services Form*](UsersGuide.md#referring-from-services-form)
 
-*  [*Workflow Status*](UsersGuide.md#workflow-status)
-
-    *  [*The Workflow Status Bar*](UsersGuide.md#the-workflow-status-bar)
-
 *  [*Notification Emails*](UsersGuide.md#notification-emails)
 
 *  [*Tracing*](UsersGuide.md#tracing)
