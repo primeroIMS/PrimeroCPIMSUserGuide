@@ -123,13 +123,7 @@
 
     *  [*Creating a Report*](UsersGuide.md#creating-a-report)
 
-        *  [*Age Range*](UsersGuide.md#age-range)
-
-        *  [*Date Ranges*](UsersGuide.md#date-ranges)
-
-        *  [*Filters*](UsersGuide.md#filters)
-
-    *  [*Viewing your reports*](UsersGuide.md#viewing-your-reports)
+    *  [*Viewing a Report*](UsersGuide.md#viewing-a-report)
 
 
 

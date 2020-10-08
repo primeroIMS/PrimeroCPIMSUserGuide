@@ -887,19 +887,25 @@ If you click on this link, you arrive at a page which displays a number of cases
 
 # Reports
 
-Reports allow users to see a high-level, aggregate view of data, helping them to understand trends and coming challenges in their work. Only certain roles--and thus certain users--will have the ability to create or view reports. Some users will be able to navigate to the **Reports** section of the application and view existing reports but not edit them or create new ones, while others will have the ability to view, create, edit, and export reports.
-
-## Creating a Report
-
-To create a report, first click the **Reports** icon in the top toolbar. You will see that there are already a number of pre-built reports which you can view at any time. To start your own, click the **Create Report** button at the top of the screen.
+Reports allow users to see a high-level, aggregate view of data, helping them to understand trends and coming challenges in their work. Only certain roles - and thus certain users - will have the ability to create or view reports. Some users will be able to navigate to the **Reports** section of the application and view existing reports but not edit them or create new ones, while others will have the ability to view, create, and edit reports.
 
 ![](img/v2/reports-list.png)
 
-When you have reached the new report form, be sure to enter a name and description for your report. You must then specify the module from which to draw the records for your report, as well as the type of records you want to be drawing upon. Here, we have chosen the Child Protection module, and the Case record type.
+## Creating a Report
+
+To create a report, first click on **Reports** in the Navigation Menu. You will see that there are already a number of pre-built reports which you can view at any time. To start your own, click the NEW button at the top of the screen. Complete all of the fields as detailed below, and then click SAVE to generate and view your report. 
+
+**Name and Description**: Type in a title for the report, so you can find it on the Reports List later.
+
+**Module and Record Type**: Specify the module and type of records you want to draw the records from for your report. Below, we have chosen the Child Protection module, and the Case record type.
 
 ![](img/v2/reports-module.png)
 
-Next comes choosing the row and column attributes by which you want your data to be grouped. The first item you choose in each field will be the outer grouping layer, with each successive item acting as a sub-categorization. Taking a look at the example below, we can see that the columns of our report have been first divided by sex, and then sub-divided by permanent district/chiefdom, since these are the first and second “Group by column” attributes, respectively. We can see that the rows of the report follow the same pattern.
+**Rows and Columns**: Group your data by row and by column by selecting one or multiple fields from a dropdown menu. The options in the menu depend on the type of record and module you selected above. For instance, if you selected Case records, you will only see the fields that would appear on a Case record form, as opposed to an Incident record. 
+
+![](img/v2/reports-groupings.png)
+
+In the example below, the rows are divided by sex and the columns by marital status. It is also possible to select more than one attribute per row or column, for further subdivision of data. In that case, the first item you choose in each field will be the outer grouping layer, with each successive item acting as a sub-categorization.
 
 ![](img/v2/reports-age.png)
 
@@ -907,31 +913,11 @@ Next comes choosing the row and column attributes by which you want your data to
 
 ![](img/v2/reports-no-graph.png)
 
-The columns of your report will be augmented by a final “Total” column, which shows the aggregate for each row. It is important to note that the numbers in each of your columns may not add up to the number in your total column, since many attributes will go undefined by the workers doing registration. For instance, in the example below, three cases with the “child has been abandoned” protection concern were never assigned a sex, resulting in a report with one female, no males, and four total cases.
+**Age and Date Ranges**: Select the tickboxes for age and date ranges to group these large data sets into a smaller, more manageable set of ranges. 
 
-![](img/v2/reports-filter-blank.png)
+![](img/v2/reports-groupings-3.png)
 
-![](img/arrow-down.png)
-
-![](img/v2/reports-filtered-table.png)
-
-Furthermore, any reports based on fields within certain nested forms will automatically count a field for each saved record, even if a nested form for this field was never filled out. This is because Primero automatically populates an empty subform on the page for form sections such as “Protection Concerns,” so that the user can easily enter information. When a user fails to enter information for that field, however, the field still counts as a single item. For instance, if you were to create a case and fail to enter any information into the blank Protection Concerns subform, a report outlining how many cases had each type of protection concern would still count your case as having a single protection concern type, even though you had never entered any information on the Protection Concerns subform. This would then count into the total, without counting into the column for any single one of the protection concern types. Taking a look at the example below, we can see that, in the Freetown district, one child has been registered as abandoned and one with a protection concern type of “Extreme levels of poverty.” But the total number of protection concerns for this district is three, meaning that one case was registered with a protection concern form where the protection concern type was never filled in.
-
-![](img/image61.png)
-
-After you have defined the row and column attributes for your report, you will choose the fields from which you will receive an aggregate count. This feature obviously only works on numeric fields. To give an example of how it works, imagine we have a report that disaggregates your cases based on number of children in the family and date of birth \(by year\). Three cases end up going into the report: one born in 2004 whose family has three children, one born in 2001 whose family has six children, and another born in 2001 whose family also has six children. Here is what the report would normally look like:
-
-![](img/image49.png)
-
-As you can see, the 2001 column has the number “2” in the “7” row, since there are two cases born in 2001 whose families have seven children. We see this same number in the “Total” column for the “7” row for the same reasons. If we choose to have aggregate counts on the “Number of children” field, however, the report would look like this:
-
-![](img/image06.png)
-
-Now, instead of seeing that there are two cases that meet the criteria for being born in 2001 and having a family with seven children, we instead see the number “14,” representative of fourteen total children. Once again, this field also shows up in the “Total” column.
-
-### Age Range
-
-The next field, specifying age range, helps make reports involving age more manageable by grouping them into a smaller list of ranges. The two images below exemplify the usefulness of this feature. The first shows part of a sprawling report without age ranges enabled. The second shows the same report with age ranges.
+The two images below exemplify the usefulness of this feature. The first image shows part of a sprawling report showing every age. The second shows the same report with age ranges enabled.
 
 ![](img/v2/reports-all-ages.png)
 
@@ -939,32 +925,36 @@ The next field, specifying age range, helps make reports involving age more mana
 
 ![](img/v2/reports-age-range.png)
 
-### Date Ranges
+**Generate a Graph**: Select this tickbox to generate a bar graph of your data in addition to a table report.
 
-The next field, “Use date ranges,” allows you to do much the same thing, but with date fields instead of ages. Now, instead of having to have a column for every date over a two year period--as would be the case with the default, day-long range--you can disaggregate your records by whether or not they fit into week-, month-, or year-long spans of time.
+![](img/v2/reports-groupings-graph.png)
 
-### Filters
+**Disabled**: Select to disable this report.
 
-Next, you can put filters on the records you are using to eliminate irrelevant data. By default, each report filters to include only those records with a “Case Status” of “Open” and a “Valid Record?” value of “Yes.” You can create a filter on any single-select, multi-select, tick box, check box, radio button, number, tally, or date field, and for each one, you can specify which values are acceptable for records being included into the report.
+**Filters**:  Put filters on the records you are using to eliminate irrelevant data. The two default filters are set to ensure that reports include only "Open" and "Valid" records. You can create a filter on any field, as well as specify which values are acceptable for records being included into the report.
 
 ![](img/v2/reports-filters.png)
 
 ![](img/v2/reports-filter-new.png)
 
-Finally, you are asked whether you would like to generate an exportable graph of your report.
 
-![](img/v2/reports-groupings-2.png)
+## Viewing a Report
+
+If you click SAVE on your report, and it saves successfully, you will arrive at the view page for your report. If you did not select the "Generate a graph" tickbox, you will see a data table representing your report. If you specified that your report should generate a graph, you will see the graph followed by the table report.
+
+[](img/v2/reports-groupings-2.png)
 
 ![](img/arrow-down.png)
 
 ![](img/v2/reports-graph-2.png)
 
-## Viewing your reports
+Note that the columns of your report contain a “Total” column, which shows the aggregate for each row. The numbers in each of your columns may not add up to the number in your total column, since many fields will go undefined by the workers doing registration. For instance, in the example above, there were a total of 30 female cases, but only 5 in which the marital status field was filled out. 
 
-If you click save on your report, and it saves successfully, you should arrive at the view page for your report. You will first see a table representing your report. Above the table, you should see either one or two tabs. The first, marked “Table,” represents what you currently see. The second, which will only appear if you specified that your report should generate a graph, will be marked “Graph” and will show you just that.
+If you wish to view only the cases that contain relevant data, you can select EDIT to go back into the case. Then, create a new report filter and select the "Is not blank?" tick box. Once saved again, the report generated with this criteria has a Total column that only calculates based on the completed fields.
 
-![](img/image70.png)
+![](img/v2/reports-filter-blank.png)
 
-You can also use the **Export** button above the tabs to export either the data \(in CSV form\) or the graph \(as a .png image file\). Below is an example of a graph generated and then exported from a report.
+![](img/arrow-down.png)
 
-![](img/image47.png)
+![](img/v2/reports-filtered-table.png)
+
