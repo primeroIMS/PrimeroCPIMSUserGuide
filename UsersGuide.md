@@ -793,32 +793,42 @@ Based on the deployment, you may have the ability to relinquish a case that has 
 
 # Services
 
-A core part of the case management process is responding to the needs of a case. Primero manages these through the **Services** form and through the provision of services (sometimes also referred to as "responses").
-
+Case workers can plan, document, and refer for services using the **Services** form.
 
 ## Services Form
 
-To add a service to a case, simply go into the **Services** form on the case edit page, and click the "add" button. You will see a subform like the one in the picture below. Here, you can enter information on the service.
+To add a service to a case, go to the **Services** form, and click the "Add" button. A modal will appear. NOTE: The screenshot and description below are based on the default configuration. The fields on the Services subform may vary depending on your configuration.
+![](img/v2/services-subform-1.png)
 
-![](img/image96.png)
+The first two fields on the subform provide information about the type of service you are providing, and in which part of the case management workflow it belongs.
+- **Type of Response** - This field is a _general_ category for the service. For instance, some contexts require that services be divided into "Immediate" responses and "Comprehensive" responses, to distinguish quickly-implemented, one-time actions from long-term, ongoing ones. In contexts where this kind of distinction is not necessary, the only option for this field will be "Service Provision". When you add a service to a Case, the Workflow Status is set to be the Response Type of the most-recently-added service. For instance, if a user adds a service with a Response Type of "Immediate Response" on Monday, the Workflow Status will be set to "Immediate Response." If, the next day, the user then adds a service with a Response Type of "Comprehensive Response," the Workflow Status will then change to "Comprehensive Response."
+- **Type of Service** - This is the _specific_ type of service being provided (example: "Medical Examination" or "Psychosocial Counseling"). When you enter a value in this field, Primero uses it to search for Agencies and Users capable of providing the chosen service type.
+![](img/v2/services-subform-response-service-type.png)
 
-When selecting a "Type of Response", remember that this will help determine the workflow status of your case. So, for instance, if you select "Action Plan," your workflow status will also be "Action Plan" so long as you do not add any other services or close the case.
+_Setting a Due Date_ - Each service has a due date, which will appear on your service's Task in the Tasks list page. Depending on your Primero implementation's configuration, one of the below two fields will set the service's due date:
+- **Implementation Timeframe** - When you select an option in this dropdown, Primero sets a due date based on the selected timeframe and the current date. For instance, if you select a timeframe of three days on October 8, your service's due date will be October 11.
+![](img/v2/services-subform-impl-timeframe.png)
+- **Appointment Date** - In some configurations, selecting an Appointment Date sets the service due date.
+![](img/v2/services-subform-appt-date-field.png)
 
-![](img/image97.png)
+_Referral information (internal)_ - If another user in Primero will be providing this service, fill out the below fields to start the process of referring your Case to that user.
+- **Implementing Agency** - The Agency which will be providing the service. The dropdown will only display Agencies which are able to provide the type of service you entered in the **Type of Service** field (see above).
+- **Service delivery location** - Location where you would like the service to occur. To find a location in the dropdown, start typing the location's name; Primero will update the options to show all locations which match the name you have entered. Selecting a location here will narrow down which Users appear in the **Service Provider Name** field (see below).
+- **Service Provider Name** - This the Primero User who will perform the service. The options in this dropdown will be all Users who are able to perform the selected **Type of Service**, belong to the selected **Implementing Agency**, and are in the selected **Service delivery location**. When you refer the case for this service, this User will gain temporary access to the Case.
+![](img/v2/services-subform-int-referral.png)
 
-Another important field to fill in is the type of service that will be rendered for this particular response, whether it be medical, legal, or whatever other options have been specified in your implementation's configuration. This field will help service providers properly take care of your case.
+_Referral information (external)_ - If an individual or organization who does not use Primero will be providing the service, fill out the below fields.
+- **Is this a referral to an external system / user?** - Check this box to indicate that this service will be provided by an individual or organization not using Primero. Checking this box also allows you to perform an **External Referral** for this service.
+- **Service Provider** - Name of the individual who will provide the service.
+- **Implementing Agency** - Agency or organization who will provide the service.
+- **Service Location** - Place where the service will be provided.
+![](img/v2/services-subform-ext-referral.png)
 
-![](img/services-subform-select-service-type.png)
+_Marking a service as implemented_ - The two fields below indicate whether and when the service was implemented.
+- **Service implemented** - This field is disabled. Any service saved to a Case gets a value of "Not Implemented" in this field by default. To change this fields value to "Implemented," fill out the "Service Implemented On" field (see below). Once all services on a case are marked as "Implemented," the Case's Workflow Status will update to "Service Implemented".
+- **Service Implemented On** - When the user fills out a date and time in this field and then saves their Case, the "Service implemented" field (see above) is set to "Implemented."
 
-Choosing a timeframe for the service will help generate reminders in you or your manager's dashboard when the service is coming due or overdue. This timeframe, depending on your configuration, will take one of two forms: the time period after which the service will be due (e.g. three hours, one day); or the actual due date for the service (e.g. November 30, 2017). Both these forms are displayed in the pictures below. For more information on these reminders, check out the Dashboards section.
-
-![](img/image101.png)
-
-![](img/image106.png)
-
-Selecting a service provider in this form will allow you to refer your case to the service provider directly from the form. When selecting a service provider, fill in Implementing Agency and Service delivery location. When you fill in the "Service Provider Name" field you will be shown a list of users filtered by the selected agency, delivery location, and service type. So, for instance, if you specified the "ACTED," "Psychosocial Service," and "Dahuk", you will only see users which are part of ACTED, located within Dahuk, and capable of providing a Psychosocial Service.
-
-![](img/services-subform-filter-users.png)
+![](img/v2/services-subform-referral-field-filtering.png)
 
 ## Referring from **Services** Form
 
