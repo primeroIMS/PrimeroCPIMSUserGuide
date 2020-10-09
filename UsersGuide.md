@@ -715,15 +715,15 @@ At the bottom left of the *View Details* modal, you will see a button marked "Re
 
 Here, you will see information on the record owner and a text box where you can enter a note to the owner of the record. Click "Send Request" to submit.
 
-#### Notifications for the Case Owner
+#### Notifications for the Case Worker
 
-Once you have sent the transfer request, the record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer. They can also see any Pending Transfers in the "Shared With Others" section of their dashboard.
+Once you have sent the transfer request, the Case's record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer. They can also see any Pending Transfers in the "Shared With Others" section of their dashboard.
 
 ![](/img/v1-6/image9.png)
 
 ![](img/v2/transfer-pending.png)
 
-If the case owner clicks on the link in the email or the pending transfer in the dashboard, they will eventually be redirected to the case record, where they will see an alert in the Form Navigation Menu and on the *Transfers / Assignments* form. Here, they can expand the transfer request subform to see the details of your request, including any notes you have included.
+If the Case record owner clicks on the link in the email or the pending transfer in the dashboard, they will eventually be redirected to the case record, where they will see an alert in the Form Navigation Menu and on the *Transfers / Assignments* form. Here, they can expand the transfer request subform to see the details of your request, including any notes you have included.
 
 ![](/img/v2/transfer-request-owner.png)
 
@@ -758,77 +758,87 @@ For more information on how to specify the Agency a user belongs to, the Locatio
 
 TODO review section
 
-The "Remote System" option allows you to create either a PDF or password-protected export file which you can give to the recipient. To start this process, select the tick box for "Are you transferring to a remote system?"
+The "Remote System" option allows you record a referral to an individual or organization who is not using Primero. This action will generate a PDF export of some limited information about the Case which you can give to the referral recipient. To start this process, select the tick box for "Are you transferring to a remote system?"
 
 ![](/img/v2/referral-modal-external.png)
 
-The "Type of Referral" field indicates the level of information access your export file will include. The options in this list will generally be roles in the system which are permitted to see specific forms on the child's case, depending on the role's expertise. For instance, one option might be "Medical Service Provider." Selecting this option will produce an export file which only contains the information a Medical Service Provider would be able to see in Primero. In the example above, we have chosen a generic "Referral" type.
-
-There are three types of exports which you can create as part of an "external" referral, each for a different type of recipient:
- * **Primero**: Someone who uses a different instance of Primero. This produces a JSON file which can then be imported into the recipient's Primero instance. 
- * **Non-Primero**: Someone who is using a different type of information management system. This also produces a JSON file.
- * **PDF**: Someone who is not using an information management system, and does not have a user account in Primero. 
-
+The "Type of Referral" field indicates the level of information access your export file will include. The options in this list will generally be roles in the system which are permitted to see specific forms on the Case, depending on the role's expertise. For instance, one option might be "Medical Service Provider." Selecting this option will produce a non-encrypted PDF export file which only contains the information a Medical Service Provider would be able to see in Primero. In the example above, we have chosen a generic "Referral" type.
 
 > _Note:  
-> When referring any such password-protected export/import file, the means of sending the file, filename, and the password that opens it, will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
+> When referring any export/import file containing sensitive Case information, the means of sending the file will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
 
 ### Revoking a Referral
 
-The case owner can remove a referral recipient's access to a case, usually upon completion of the referral work. To revoke a case you have referred to another user, simply enter the case and go to the Referrals form in the **Record Information** form group. Expand the referral subform for the recipient you wish to remove and select REVOKE from the top right menu.
+The Case Worker who manages the Case can remove a referral recipient's access to a Case, usually upon completion of the referral work. To revoke a Case you have referred to another user, simply enter the Case and go to the **Referrals** form in the **Record Information** form group. Expand the referral subform for the recipient you wish to remove and click the **REVOKE** action in the referral's action menu.
 
 ![](/img/v2/referral-revoke-menu.png)
 
-Once you have revoked the referral, click **SAVE**. The referral recipient will no longer have access to the case. The *In Progress* button changes to *Done* to indicate that the referral has been closed and the recipient no longer has case access.
+Once you have revoked a referral, that referral's recipient will no longer have access to the Case. The referral's status changes from *In Progress* to *Done* to indicate that the referral has been closed and the recipient no longer has Case access.
 
 ![](/img/v2/referral-revoked.png)
 
-For more information about how to edit a case, please see the **Editing a Case** section.
-
 ### Relinquishing a Referral
 
-Based on the deployment, you may have the ability to relinquish a case that has been referred to you. Go to the case record, click on the *Referrals* form, and select the appropriate referral subform. If you are done reviewing the case, you can click the DONE button from the actions menu. The system will then ask you to confirm your decision in a modal window. Once done, the referred case will be removed from your Case List and you will no longer have access to it.
+If you have received a Case referral, you can relinquish the referral and give up access to the Case at any time by marking the referral as **Done**. Go to the case record, click on the *Referrals* form in the *Record Information* form group. Click the **DONE** action in the actions menu of the appropriate referral. Primero will then ask you to confirm your decision in a modal. Once you have marked the referral as **Done**, the referred Case will be removed from your Case List and you will no longer have access to it.
 
 ![](img/v2/referral-relinquish-done.png)
 
 # Services
 
-A core part of the case management process is responding to the needs of a case. Primero manages these through the **Services** form and through the provision of services (sometimes also referred to as "responses").
-
+Case workers can plan, document, and refer for services using the **Services** form.
 
 ## Services Form
 
-To add a service to a case, simply go into the **Services** form on the case edit page, and click the "add" button. You will see a subform like the one in the picture below. Here, you can enter information on the service.
+To add a service to a case, go to the **Services** form, and click the "Add" button. A modal will appear. NOTE: The screenshot and description below are based on the default configuration. The fields on the Services subform may vary depending on your configuration.
+![](img/v2/services-subform-1.png)
 
-![](img/image96.png)
+The first two fields on the subform provide information about the type of service you are providing, and in which part of the case management workflow it belongs.
+- **Type of Response** - This field is a _general_ category for the service. For instance, some contexts require that services be divided into "Immediate" responses and "Comprehensive" responses, to distinguish quickly-implemented, one-time actions from long-term, ongoing ones. In contexts where this kind of distinction is not necessary, the only option for this field will be "Service Provision". When you add a service to a Case, the Workflow Status is set to be the Response Type of the most-recently-added service. For instance, if a user adds a service with a Response Type of "Immediate Response" on Monday, the Workflow Status will be set to "Immediate Response." If, the next day, the user then adds a service with a Response Type of "Comprehensive Response," the Workflow Status will then change to "Comprehensive Response."
+- **Type of Service** - This is the _specific_ type of service being provided (example: "Medical Examination" or "Psychosocial Counseling"). When you enter a value in this field, Primero uses it to search for Agencies and Users capable of providing the chosen service type.
+![](img/v2/services-subform-response-service-type.png)
 
-When selecting a "Type of Response", remember that this will help determine the workflow status of your case. So, for instance, if you select "Action Plan," your workflow status will also be "Action Plan" so long as you do not add any other services or close the case.
+_Setting a Due Date_ - Each service has a due date, which will appear on your service's Task in the Tasks list page. Depending on your Primero implementation's configuration, one of the below two fields will set the service's due date:
+- **Implementation Timeframe** - When you select an option in this dropdown, Primero sets a due date based on the selected timeframe and the current date. For instance, if you select a timeframe of three days on October 8, your service's due date will be October 11.
+![](img/v2/services-subform-impl-timeframe.png)
+- **Appointment Date** - In some configurations, selecting an Appointment Date sets the service due date.
+![](img/v2/services-subform-appt-date-field.png)
 
-![](img/image97.png)
+_Referral information (internal)_ - If another user in Primero will be providing this service, fill out the below fields to start the process of referring your Case to that user.
+- **Implementing Agency** - The Agency which will be providing the service. The dropdown will only display Agencies which are able to provide the type of service you entered in the **Type of Service** field (see above).
+- **Service delivery location** - Location where you would like the service to occur. To find a location in the dropdown, start typing the location's name; Primero will update the options to show all locations which match the name you have entered. Selecting a location here will narrow down which Users appear in the **Service Provider Name** field (see below).
+- **Service Provider Name** - This the Primero User who will perform the service. The options in this dropdown will be all Users who are able to perform the selected **Type of Service**, belong to the selected **Implementing Agency**, and are in the selected **Service delivery location**. When you refer the case for this service, this User will gain temporary access to the Case.
+![](img/v2/services-subform-int-referral.png)
 
-Another important field to fill in is the type of service that will be rendered for this particular response, whether it be medical, legal, or whatever other options have been specified in your implementation's configuration. This field will help service providers properly take care of your case.
+_Referral information (external)_ - If an individual or organization who does not use Primero will be providing the service, fill out the below fields.
+- **Is this a referral to an external system / user?** - Check this box to indicate that this service will be provided by an individual or organization not using Primero. Checking this box also allows you to perform an **External Referral** for this service.
+- **Service Provider** - Name of the individual who will provide the service.
+- **Service Provider** - Agency or organization who will provide the service.
+- **Service Location** - Place where the service will be provided.
+![](img/v2/services-subform-ext-referral.png)
 
-![](img/services-subform-select-service-type.png)
+_Marking a service as implemented_ - The two fields below indicate whether and when the service was implemented.
+- **Service implemented** - This field is disabled. Any service saved to a Case gets a value of "Not Implemented" in this field by default. To change this fields value to "Implemented," fill out the "Service Implemented On" field (see below). Once all services on a case are marked as "Implemented," the Case's Workflow Status will update to "Service Implemented".
+- **Service Implemented On** - When the user fills out a date and time in this field and then saves their Case, the "Service implemented" field (see above) is set to "Implemented."
 
-Choosing a timeframe for the service will help generate reminders in you or your manager's dashboard when the service is coming due or overdue. This timeframe, depending on your configuration, will take one of two forms: the time period after which the service will be due (e.g. three hours, one day); or the actual due date for the service (e.g. November 30, 2017). Both these forms are displayed in the pictures below. For more information on these reminders, check out the Dashboards section.
-
-![](img/image101.png)
-
-![](img/image106.png)
-
-Selecting a service provider in this form will allow you to refer your case to the service provider directly from the form. When selecting a service provider, fill in Implementing Agency and Service delivery location. When you fill in the "Service Provider Name" field you will be shown a list of users filtered by the selected agency, delivery location, and service type. So, for instance, if you specified the "ACTED," "Psychosocial Service," and "Dahuk", you will only see users which are part of ACTED, located within Dahuk, and capable of providing a Psychosocial Service.
-
-![](img/services-subform-filter-users.png)
+![](img/v2/services-subform-referral-field-filtering.png)
 
 ## Referring from **Services** Form
 
-Once you have saved the case with this new service, and have been redirected back to the view page, go to the **Services** form and the service you just added. If you have filled out the the _Response Type_, _Service Type_ and _Service Provider Name_ fields for your service, the "REFER" button will appear in the subform header.
+Once you have saved the case with this new service, go to the **Services** form and the service you just added. A **Refer** button will appear on your service if:
+- You have filled out the the **Type of Response**, **Type of Service** and **Service Provider Name** fields for your service.
+- _Or_, you have selected the **Is this a referral to an external system / user?** checkbox.
 
-![](img/services-subform-refer-button.png)
+Note that, if you have already referred a service, the **Refer** button will allow you to refer the service a second time, and will read **Refer Again**.
 
-Click on this button, and you will see a modal like the one pictured below. Here, you can enter information on your referral just like you normally would. However, if you have already filled out a service provider and a service type for your service, these fields will be pre-entered for you. Remember to ensure that your case has provided consent, or that you choose the override consent option before referring.
+![](img/v2/services-subform-refer-button.png)
 
-![](img/services-subform-referral-modal.png)
+Click on the **Refer** button, and a modal will appear. Note that the information you have already entered about the **Type of Service**, **Implementing Agency**, **Service delivery location** and **Service Provider Name** are already filled in for you. Remember to ensure that your case has provided consent for the referral.
+
+![](img/v2/services-subform-referral-modal-internal.png)
+
+If you selected the **Is this a referral to an external system / user?** checkbox, the values you entered for **Service Provider**, **Service Provider**, and **Service Location** will appear in the referral modal.
+
+![](img/v2/services-subform-referral-modal-external.png)
 
 # Notification Emails
 

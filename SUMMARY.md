@@ -93,7 +93,7 @@
 
         *  [*Requesting a Case Transfer*](UsersGuide.md#requesting-a-case-transfer)
 
-            *  [*Notifications for the Case Owner*](UsersGuide.md#notifications-for-the-case-owner)
+            *  [*Notifications for the Case Worker*](UsersGuide.md#notifications-for-the-case-worker)
 
     *  [*Referrals*](UsersGuide.md#referrals)
 
