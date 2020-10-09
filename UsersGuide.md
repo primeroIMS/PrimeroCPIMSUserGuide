@@ -708,15 +708,15 @@ At the bottom left of the *View Details* modal, you will see a button marked "Re
 
 Here, you will see information on the record owner and a text box where you can enter a note to the owner of the record. Click "Send Request" to submit.
 
-#### Notifications for the Case Owner
+#### Notifications for the Case Worker
 
-Once you have sent the transfer request, the record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer. They can also see any Pending Transfers in the "Shared With Others" section of their dashboard.
+Once you have sent the transfer request, the Case's record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer. They can also see any Pending Transfers in the "Shared With Others" section of their dashboard.
 
 ![](/img/v1-6/image9.png)
 
 ![](img/v2/transfer-pending.png)
 
-If the case owner clicks on the link in the email or the pending transfer in the dashboard, they will eventually be redirected to the case record, where they will see an alert in the Form Navigation Menu and on the *Transfers / Assignments* form. Here, they can expand the transfer request subform to see the details of your request, including any notes you have included.
+If the Case record owner clicks on the link in the email or the pending transfer in the dashboard, they will eventually be redirected to the case record, where they will see an alert in the Form Navigation Menu and on the *Transfers / Assignments* form. Here, they can expand the transfer request subform to see the details of your request, including any notes you have included.
 
 ![](/img/v2/transfer-request-owner.png)
 
@@ -758,36 +758,28 @@ For more information on how to specify the Agency a user belongs to, the Locatio
 
 TODO review section
 
-The "Remote System" option allows you to create either a PDF or password-protected export file which you can give to the recipient. To start this process, select the tick box for "Are you transferring to a remote system?"
+The "Remote System" option allows you record a referral to an individual or organization who is not using Primero. This action will generate a PDF export of some limited information about the Case which you can give to the referral recipient. To start this process, select the tick box for "Are you transferring to a remote system?"
 
 ![](/img/v2/referral-modal-external.png)
 
-The "Type of Referral" field indicates the level of information access your export file will include. The options in this list will generally be roles in the system which are permitted to see specific forms on the child's case, depending on the role's expertise. For instance, one option might be "Medical Service Provider." Selecting this option will produce an export file which only contains the information a Medical Service Provider would be able to see in Primero. In the example above, we have chosen a generic "Referral" type.
-
-There are three types of exports which you can create as part of an "external" referral, each for a different type of recipient:
- * **Primero**: Someone who uses a different instance of Primero. This produces a JSON file which can then be imported into the recipient's Primero instance. 
- * **Non-Primero**: Someone who is using a different type of information management system. This also produces a JSON file.
- * **PDF**: Someone who is not using an information management system, and does not have a user account in Primero. 
-
+The "Type of Referral" field indicates the level of information access your export file will include. The options in this list will generally be roles in the system which are permitted to see specific forms on the Case, depending on the role's expertise. For instance, one option might be "Medical Service Provider." Selecting this option will produce a non-encrypted PDF export file which only contains the information a Medical Service Provider would be able to see in Primero. In the example above, we have chosen a generic "Referral" type.
 
 > _Note:  
-> When referring any such password-protected export/import file, the means of sending the file, filename, and the password that opens it, will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
+> When referring any export/import file containing sensitive Case information, the means of sending the file will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
 
 ### Revoking a Referral
 
-The case owner can remove a referral recipient's access to a case, usually upon completion of the referral work. To revoke a case you have referred to another user, simply enter the case and go to the Referrals form in the **Record Information** form group. Expand the referral subform for the recipient you wish to remove and select REVOKE from the top right menu.
+The Case Worker who manages the Case can remove a referral recipient's access to a Case, usually upon completion of the referral work. To revoke a Case you have referred to another user, simply enter the Case and go to the **Referrals** form in the **Record Information** form group. Expand the referral subform for the recipient you wish to remove and click the **REVOKE** action in the referral's action menu.
 
 ![](/img/v2/referral-revoke-menu.png)
 
-Once you have revoked the referral, click **SAVE**. The referral recipient will no longer have access to the case. The *In Progress* button changes to *Done* to indicate that the referral has been closed and the recipient no longer has case access.
+Once you have revoked a referral, that referral's recipient will no longer have access to the Case. The referral's status changes from *In Progress* to *Done* to indicate that the referral has been closed and the recipient no longer has Case access.
 
 ![](/img/v2/referral-revoked.png)
 
-For more information about how to edit a case, please see the **Editing a Case** section.
-
 ### Relinquishing a Referral
 
-Based on the deployment, you may have the ability to relinquish a case that has been referred to you. Go to the case record, click on the *Referrals* form, and select the appropriate referral subform. If you are done reviewing the case, you can click the DONE button from the actions menu. The system will then ask you to confirm your decision in a modal window. Once done, the referred case will be removed from your Case List and you will no longer have access to it.
+If you have received a Case referral, you can relinquish the referral and give up access to the Case at any time by marking the referral as **Done**. Go to the case record, click on the *Referrals* form in the *Record Information* form group. Click the **DONE** action in the actions menu of the appropriate referral. Primero will then ask you to confirm your decision in a modal. Once you have marked the referral as **Done**, the referred Case will be removed from your Case List and you will no longer have access to it.
 
 ![](img/v2/referral-relinquish-done.png)
 
