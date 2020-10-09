@@ -312,8 +312,11 @@ Once the flag is resolved:
 
 ![](img/v2/flags-alert-records.png)
 
+![](img/arrow-down.png)
 
 ![](img/v2/flags-alert-case.png)
+
+![](img/arrow-down.png)
 
 ![](img/v2/flags-resolved.png)
 
@@ -590,17 +593,22 @@ Note that dependng on your configuration, some form names may be different from 
 
 ## Creating a Case
 
-To create a case from the Case List, click on the "NEW" button. You will see a modal like the one pictured below. Here, you have two options. 
+To create a case from the Case List, click on the NEW button. You will see a modal like the one pictured below. Here, you have two options: 
 
-The first option is to simply create a case by clicking the "CREATE NEW CASE" button on the bottom left of the modal. The second option is to first run a search to check if a case already exists for the child. To do so, type the child's name or ID into the search bar and click the "SEARCH" button at the bottom right of the modal. If there is a match in the system, you will be taken to a search results page, which may include cases managed by other users. \(For more information on fields that are searchable and case access, read the [Searching for Records](UsersGuide#searching-for-records) section.\) If there is no match, you will be taken to a blank form and asked to create a new case.
+  * Create a case by clicking the "CREATE NEW CASE" button on the bottom left of the modal. 
+  OR 
+  * Run a search first to check whether a case already exists for that child. 
+  	* You can type the child's name or ID into the search bar and then click the SEARCH button at the bottom right of the modal.
+ 	 * If there is a match in the system, you will be taken to a search results page, which may include cases managed by other users. \(For more information on fields that are searchable and case access, read the [Searching for Records](UsersGuide#searching-for-records) section.\) 
+  	* If there is no match, you will be taken to a blank form and asked to create a new case.
 
 ![](/img/v2/new-case.png)
 
-Once you have reached the new case page, you can navigate to different forms as we describe in the “Navigating Primero Forms” section.
+Once you have reached the new case page, you can navigate to different forms as described in the “Navigating Primero Forms” section.
 
 ## Editing a Case
 
-To edit a case, locate it in the Case List and click on it. Once you’ve entered into the case, click the **EDIT** button in the actions header. The page will then refresh and allow you to edit individual form fields.
+To edit a case, enter the case record and click the **EDIT** button in the actions header. The page will then refresh and allow you to edit individual form fields.
 
 There are a number of different field types which you can edit differently.
 
@@ -627,13 +635,13 @@ There are a number of different field types which you can edit differently.
 
 * **Tally Field** - Type in the number you need for each tally. The total is automatically calculated based on the tally fields and is not editable in itself.
 
-Note that some of the fields are required. Required fields can be identified by the asterisk next to the field name. If you forget to fill out those fields, the system will return an error message when you try to save the case, and you will not be able to save the rest of your data until you have completed them. Red error alerts will appear on the corresponding forms in the Form Navigation Menu to further help you identify the required fields. 
+You may be required to complete certain fields. Required fields can be identified by the star next to the field name. You will receive an error if you try to save the Case before filling out those fields. Red error alerts will appear on the corresponding forms in the Form Navigation Menu to further help you identify the required fields. 
 
 ![](/img/v2/case-error-1.png)
 
 ![](/img/v2/case-error-2.png)
 
-If you enter a field incorrectly, the system will return a similar series of error messages and alerts when you try to save the case. In the example below, a negative age and a “Date of Birth” in the future causes errors until you fix those fields. 
+If you enter a field incorrectly, the system will return a similar series of error messages and alerts when you try to save the case. In the example below, a negative age and a “Date of Birth” in the future causes errors until those fields are fixed. 
 
 ![](/img/v2/case-error-age.png)
 
@@ -641,23 +649,23 @@ If you enter a field incorrectly, the system will return a similar series of err
 
 # Assignments, Transfers, and Referrals
 
-There are three actions which allow you give another user access to your case: *Assign*, *Transfer*, and *Refer*.
+There are three actions which allow you give another user access to your case: *Assign*, *Transfer*, and *Refer*. To do any of these, open the Action Button in the View Case page and select the appropriate action.
 
 ![](/img/assign-transfer-referral.png)
 
 ## Assignments
 
-Managers have ability to assign a case to a different user. If you select the Assign option from the Actions dropdown menu, a modal will appear that allows you to select from existing users. Assigning the case will change the record owner to the selected user. The new owner will have full access to the record, and the previous case worker will lose their access.
+Managers have ability to assign a case to a different user. If you select the Assign option, a modal will appear that allows you to select from existing users. Assigning the case will change the record owner to the selected user. The new owner will have full access to the record, and the previous case worker will lose their access.
 
 ![](/img/v2/assign-modal.png)
 
 ## Transfers
 
-Much like assignments, transfers send a record to a different user. Unlike assignments, however, transfers give the recipient the opportunity to accept or reject the record. If they reject it, the record will stay with its original owner. If they accept it, the recipient will now have full ownership of the record, and the original owner will no longer have access. 
+Managers can also transfer a record to a different user. Unlike assignments, however, transfers give the recipient the opportunity to accept or reject the record. If the recipient rejects it, the record will stay with its original owner. If recipient accepts it, they will now have full ownership of the record, and the original owner will no longer have access. 
 
 ![](/img/v2/transfer-log.png)
 
-The following modal form will appear and allow you to select options for your transfer. Consent of the individual \(or a consent override\) is required for transfers. You may also be asked if you are transferring to a remote system (ie. someone who does not use Primero). As this feature is not currently enabled for most configurations, you can ignore this field without affecting the Transfer action. 
+When you select the Transfer action from the Action Button, a modal will appear so you can add the correct information for the transfer. Consent of the individual \(or a consent override\) is required. You may also be asked if you are transferring to a remote system (ie. someone who does not use Primero). As this feature is not currently enabled for most configurations, you can ignore this field without affecting the Transfer action. 
 
 To select the user that you are transferring to, first select the agency and location associated with the user.
 

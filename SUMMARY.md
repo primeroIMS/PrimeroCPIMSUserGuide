@@ -23,7 +23,7 @@
 
     * [*Record Lists*](UsersGuide.md#record-lists)
 
-    * [*View and Edit a record*](UsersGuide.md#view-and-edit-a-record)
+    * [*View and Edit a Record*](UsersGuide.md#view-and-edit-a-record)
 
         * [*Workflow Status Bar*](UsersGuide.md#workflow-status-bar)
 
