@@ -820,7 +820,7 @@ _Referral information (internal)_ - If another user in Primero will be providing
 _Referral information (external)_ - If an individual or organization who does not use Primero will be providing the service, fill out the below fields.
 - **Is this a referral to an external system / user?** - Check this box to indicate that this service will be provided by an individual or organization not using Primero. Checking this box also allows you to perform an **External Referral** for this service.
 - **Service Provider** - Name of the individual who will provide the service.
-- **Implementing Agency** - Agency or organization who will provide the service.
+- **Service Provider** - Agency or organization who will provide the service.
 - **Service Location** - Place where the service will be provided.
 ![](img/v2/services-subform-ext-referral.png)
 
@@ -832,13 +832,21 @@ _Marking a service as implemented_ - The two fields below indicate whether and w
 
 ## Referring from **Services** Form
 
-Once you have saved the case with this new service, and have been redirected back to the view page, go to the **Services** form and the service you just added. If you have filled out the the _Response Type_, _Service Type_ and _Service Provider Name_ fields for your service, the "REFER" button will appear in the subform header.
+Once you have saved the case with this new service, go to the **Services** form and the service you just added. A **Refer** button will appear on your service if:
+- You have filled out the the **Type of Response**, **Type of Service** and **Service Provider Name** fields for your service.
+- _Or_, you have selected the **Is this a referral to an external system / user?** checkbox.
 
-![](img/services-subform-refer-button.png)
+Note that, if you have already referred a service, the **Refer** button will allow you to refer the service a second time, and will read **Refer Again**.
 
-Click on this button, and you will see a modal like the one pictured below. Here, you can enter information on your referral just like you normally would. However, if you have already filled out a service provider and a service type for your service, these fields will be pre-entered for you. Remember to ensure that your case has provided consent, or that you choose the override consent option before referring.
+![](img/v2/services-subform-refer-button.png)
 
-![](img/services-subform-referral-modal.png)
+Click on the **Refer** button, and a modal will appear. Note that the information you have already entered about the **Type of Service**, **Implementing Agency**, **Service delivery location** and **Service Provider Name** are already filled in for you. Remember to ensure that your case has provided consent for the referral.
+
+![](img/v2/services-subform-referral-modal-internal.png)
+
+If you selected the **Is this a referral to an external system / user?** checkbox, the values you entered for **Service Provider**, **Service Provider**, and **Service Location** will appear in the referral modal.
+
+![](img/v2/services-subform-referral-modal-external.png)
 
 # Notification Emails
 
