@@ -39,7 +39,7 @@
 
     * [*Filtering*](UsersGuide.md#filtering)
 
-    * [*View and Edit a Record*](UsersGuide.md#view-and-edit-a-record)
+    * [*Viewing and Editing a Record*](UsersGuide.md#viewing-and-editing-a-record)
 
         * [*Workflow Status Bar*](UsersGuide.md#workflow-status-bar)
 
@@ -56,6 +56,8 @@
         *  [*Adding Subforms*](UsersGuide.md#adding-subforms)
 
         *  [*Updating Subforms*](UsersGuide.md#updating-subforms)
+
+        *  [*Removing Subforms*](UsersGuide.md#removing-subforms)
 
     *  [*Alerts*](UsersGuide.md#alerts)
 

@@ -15,7 +15,7 @@ Good information management practice emphasizes the importance of making data ac
 
 ## Logging In
 
-When logging into Primero, you’ll see Username and Password boxes. Click in the Username box and type in the unique user name provided to you by your System Administrator. Then enter your password in the field below and click on 'LOG IN'.
+When logging into Primero, you’ll see Username and Password fields. Click in the Username field and type in the unique user name provided to you by your System Administrator. Then enter your password in the field below and click **LOG IN**.
 
 ![](img/v2/login.png)
 
@@ -29,7 +29,7 @@ The Navigation Menu appears at the left side of your screen. You can access this
 
 On smaller devices, such as tablets or phones, you will need to click or tap on the menu button to show the Navigation Menu. The menu button will appear at the top left of your screen.
 
-![alt-text-1](/img/v2/mobile-home-menu.png)  ------------------->   ![alt-text-2](/img/v2/mobile-nav-menu-2.png)
+![alt-text-1](/img/v2/mobile-home-menu.png) ![](/img/v2/right-arrow-400h.png) ![alt-text-2](/img/v2/mobile-nav-menu-2.png)
 
 
 ## Dashboard
@@ -260,13 +260,13 @@ Depending on your user's configuration, you may also see a second button next to
 -->
 ### Adding a Service Provision to a Case from the Search Results Page
 
-Depending on your Primero implementation's configuration, some users may be able to add a service provision to a Case managed by another user. To do this, you must first run a search and be on the Search Results page; this action is never available from the Case List page. Then, select the Case's checkbox and click **Add Service Provision** from the Action Menu. A modal will appear. Here, enter information on the service you are adding, and then click SAVE.
+Depending on your Primero implementation's configuration, some users may be able to add a service provision to a Case managed by another user. To do this, you must first run a search and be on the Search Results page; this action is never available from the Case List page. Then, select the Case's checkbox and click **Add Service Provision** from the Action Menu. A modal will appear. Here, enter information on the service you are adding, and then click **SAVE**.
 
 ![](/img/v2/service-provision-menu.png)
 
 ![](/img/v2/service-provision-modal.png)
 
-If another user adds a service to your Case, an alert will appear on the "Services" form in the Form Navigation Menu. An alert message also appears at the top of the form, telling the case worker which user added the service and when. You can read more on [Alerts](UsersGuide#alerts) in this section.
+If another user adds a service to your Case, an alert will appear on the "Services" form in the Form Navigation Menu. An alert message also appears at the top of the form, telling the case worker which user added the service and when. For more information on how alerts are added to a Case, please see the [Alerts](UsersGuide#alerts) section.
 
 ![](/img/v2/alert-services.png)
 
@@ -335,12 +335,12 @@ You will notice that some Forms appear under a collapseable header. This is call
 
 To create a case from the Case List, click on the NEW button. You will see a modal like the one pictured below. Here, you have two options: 
 
-  * Create a case by clicking the "CREATE NEW CASE" button on the bottom left of the modal. 
+  * Create a case by clicking the **CREATE NEW CASE** button on the bottom left of the modal. 
   OR 
-  * First run a search to check whether a record already exists for that child. 
-  	* You can type the child's name or ID into the search bar and then click the SEARCH button at the bottom right of the modal.
- 	 * If there is a match in the system, you will be taken to a search results page, which may include cases managed by other users. \(For more information on fields that are searchable and case access, read the [Searching for Records](UsersGuide#searching-for-records) section.\) 
-  	* If there is no match, you will be taken to a blank form and asked to create a new case.
+  * First run a search to check whether a record already exists for the individual you are registering. 
+  	* You can type the individual's name or ID into the search bar and then click the SEARCH button at the bottom right of the modal.
+ 	 * If there is a match in the system, you will be taken to a search results page, which may include Cases managed by other users. \(For more information on fields that are searchable and Case access, read the [Searching for Records](UsersGuide#searching-for-records) section.\) 
+  	* If there is no match, you will be taken to a blank form and asked to create a new Case.
 
 ![](/img/v2/new-case.png)
 
@@ -348,22 +348,22 @@ Once you have reached the new case page, you can navigate to different forms as 
 
 ### Editing a Case
 
-To edit a case, enter the case record and click the **EDIT** button in the actions header. The page will then refresh and allow you to edit individual form fields.
+To edit a case, enter the case record and click the **EDIT** button. The page will then allow you to edit information in the forms.
 
 There are a number of different field types which you can edit differently.
 
 * **Text Field** - Type normally using your keypad or keyboard.
 
-* **Text Area** - Similar to the Text Field, but the field expands as you type in order to enter more information.
+* **Text Area** - Similar to the Text Field, but the field expands as you type, allowing you to enter more information.
 
 * **Date Field** - Opens a calendar widget where you can directly select the correct day, month, and year. 
 	- To go to another calendar month, click the side arrows to navigate forwards or backwards. 
 	- To choose another year, click on the year at the top left of the widget and select a year from the scrolling menu. 
 	- Clicking "OK" sets your choice; "Clear" returns you to today's date; "Cancel" does not make any changes.
 
-* **Checkboxes** - Select one or many of the checkbox options.
+* **Date Field** - Similar to the **Date Field**, except that you can specify a date as well as a time.
 
-* **Tick Box** - Select the tick box if it applies to you.
+* **Tick Box** - Select the tick box if the statement in its label is true.
 
 * **Select Dropdown** - Select an option from the dropdown menu. You can also try typing a word into the select field to narrow down the menu and find a desired option faster.
 
@@ -375,17 +375,17 @@ There are a number of different field types which you can edit differently.
 
 * **Tally Field** - Type in the number you need for each tally. The total is automatically calculated based on the tally fields and is not editable in itself.
 
-You may be required to complete certain fields. Required fields can be identified by the star next to the field name. You will receive an error if you try to save the Case before filling out those fields. Red error alerts will appear on the corresponding forms in the Form Navigation Menu to further help you identify the required fields. 
+You may be required to complete certain fields. Required fields can be identified by the star next to the field name. You will receive an error if you try to save the Case before filling out those fields. Red error messages will appear on the corresponding forms in the Form Navigation Menu to further help you identify the required fields. 
 
 ![](/img/v2/case-error-1.png)
 
 ![](/img/v2/case-error-2.png)
 
-If you enter a field incorrectly, the system will return a similar series of error messages and alerts when you try to save the case. In the example below, a negative age and a “Date of Birth” in the future causes errors until those fields are fixed. 
+If you enter a field incorrectly, the system will return a similar series of error messages and alerts when you try to save the case. In the example below, a negative age and a “Date of Birth” in the future cause errors until those fields are fixed. 
 
 ![](/img/v2/case-error-age.png)
 
- For more information on how to set which fields are required and other data constraints, please see the **Primero Administration and Configuration Guide**.
+For more information on how to set which fields are required and other data constraints, please see the **Primero Administration and Configuration Guide**.
 
 ## Navigating Subforms
 
@@ -417,16 +417,16 @@ To remove a subform, click on the trashcan icon on the collapsed subform. A moda
 
 ## Alerts
 
-Alerts help you keep track of updates to a given case's situation. Alerts consist of either small gold dots or message banners. 
+Alerts help you keep track of updates to a Case's situation. Alerts are represented by small gold dots or message banners.
 
 Case-level alerts: 
- - On the Navigation Menu, an alert next to Cases keeps track of total cases with alerts.
- - In the Case Records List, a small gold dot appears next to Cases with alerts.
+ - On the Navigation Menu, an alert next to the Cases link keeps track of total cases with alerts.
+ - In the Case Records List, a small gold dot appears next to each Case with one or more alerts.
 
 ![](img/v2/alerts-cases.png)
 
 Form-level alerts:
- - When you click into a case, an alert in the Form Navigation Menu indicates the form with pending / updated information.
+ - When you click into a case, an alert in the Form Navigation Menu indicates the form with updated information.
  - When you click into the form, you can see a message banner alert that informs you of the reason for the alert.
 
 ![](img/v2/approval-alert-forms-2.png)
@@ -435,11 +435,11 @@ Alerts appear in any of the following situations:
 
  - When you request approval for Assessment, Case Plan, and/or Closure. Alerts will appear on the corresponding form or forms pending approval. Once the form is approved or rejected by your supervisor, the alert goes away.
 
- - When a supervisor adds a Note to your case. Once you edit and save the Note, the alert goes away.
+ - When a supervisor adds a Note to your case. Once you edit and save your Case, the alert goes away.
 
- - When another user directly edits a Services subform on your case. Once you edit and save the Services subform, the alert goes away.
+ - When another user directly edits a Services subform on your case. Once you edit and save your Case, the alert goes away.
 
- - When another user adds information to your case, such as an Incident or a Service Provision. Once you edit and save these additions, the alerts go away.
+ - When another user adds a subform entry to your case, such as an Incident or a Service Provision. Once you edit and save your Case, the alert goes away.
 
 Note that dependng on your configuration, some form names may be different from the User Guide examples.
 
@@ -457,20 +457,21 @@ Once you click "Save", you will arrive back on the "Flags" tab. Here, you will s
 
 ![](/img/v2/flags-list.png)
 
-Once a flag is no longer relevant (example: your manager read the flag and approved your Case Plan as you requested), you can _resolve_ the flag. To do this, click the "Resolve" button next to the flag. A modal will now appear where you can enter your reason for resolving the flag. NOTE: Only the user who created a flag can resolve it.
-
-Once the flag is resolved:
-- It will appear under the "Resolved" header in the "Flags" tab of the Flags modal.
-- It will no longer be included in the count of active flags which appears in the record list and on the "Flags" button (see below).
-
+Records which have active flags will appear in the record list with a flag icon displaying the number of active flags on that record.
 
 ![](img/v2/flags-alert-records.png)
 
-![](img/arrow-down.png)
+When you are viewing a record, if it has any active flags, the **Flags** button will display a small red circle showing the number of active flags.
 
 ![](img/v2/flags-alert-case.png)
 
-![](img/arrow-down.png)
+Once a flag is no longer relevant (example: your manager read the flag and approved your Case Plan as you requested), you can _resolve_ the flag. To do this, click the **Resolve** button next to the flag. A modal will now appear where you can enter your reason for resolving the flag. NOTE: Only the user who created a flag can resolve it.
+
+![](img/v2/flags-resolve-button.png)
+
+Once the flag is resolved:
+- It will appear under the "Resolved Flags" header in the "Flags" tab of the Flags modal.
+- It will no longer be included in the count of active flags which appears in the record list and on the "Flags" button (see below).
 
 ![](img/v2/flags-resolved.png)
 
@@ -506,7 +507,7 @@ There are three very important actions which allow you give another user access 
 
 ### Assignments
 
-Managers have ability to assign a case to a different user. If you select the Assign option, a modal will appear that allows you to select from existing users. Assigning the case will change the record owner to the selected user. The new owner will have full access to the record, and the previous case worker will lose their access.
+Managers have the ability to assign a case to a different user. If you select the Assign option, a modal will appear that allows you to select from existing users. Assigning the case will change the record owner to the selected user. The new owner will have full access to the record, and the previous case worker will lose their access.
 
 ![](/img/v2/assign-modal.png)
 
@@ -530,27 +531,27 @@ If the desired user is not in the drop down, it means this user does not have pr
 
 #### Accepting or Rejecting Transfers
 
-Based on your deployment's configuration, you may have the ability to accept or reject a case that has been transferred to you. You can see if any cases have been transferred to you on your dashboard under "Shared With Me - Transfers Awaiting Acceptance".
+Based on your deployment's configuration, you may have the ability to receive a case transfer. You can see if any cases have been transferred to you on your dashboard under "Shared With Me - Transfers Awaiting Acceptance".
 
 ![](img/v2/transfer-await-accept.png)
 
- When you enter the case that has been transferred to you, open up the Record Information form group and click on the Transfers / Assignments form. You will see that the status is in progress. Clicking on the menu at the far right displays buttons to either accept or reject the transfer. 
+When you enter the case that has been transferred to you, open up the Record Information form group and click on the Transfers / Assignments form. You will see that the status is in progress. Clicking on the menu at the far right displays buttons to either accept or reject the transfer. 
 
- ![](img/v2/transfer-mgr-accept-reject.png)
+![](img/v2/transfer-mgr-accept-reject.png)
 
- ![](img/v2/transfer-mgr-accept.png)
+![](img/v2/transfer-mgr-accept.png)
 
- If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “Other Assigned User”. The record information is updated with this change (see below images).
+If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “Other Assigned User”. The record information is updated with this change (see below images).
 
- Before accepting the transfer:
+Before accepting the transfer:
 
- ![](img/v2/transfer-mgr-owner-original.png)
+![](img/v2/transfer-mgr-owner-original.png)
 
- After accepting the transfer: 
+After accepting the transfer: 
 
- ![](img/v2/transfer-mgr-owner-accepted.png)
+![](img/v2/transfer-mgr-owner-accepted.png)
 
-  If you click Reject, a modal opens with text box for entering the Rejection Reason. When you click REJECT, the rejection reason is saved to the nested subform and the transfer status is changed to 'Rejected.' You are also removed from "Other Assigned Users" and will no longer have access to the record.
+If you click Reject, a modal opens with text box for entering the Rejection Reason. When you click REJECT, the rejection reason is in the transfer subform on the Case and the transfer status is changed to 'Rejected.' You are will then lose access to the record.
 
 ![](img/v2/transfer-mgr-reject.png)
 
@@ -566,23 +567,22 @@ At the bottom left of the *View Details* modal, you will see a button marked "Re
 
 Here, you will see information on the record owner and a text box where you can enter a note to the owner of the record. Click "Send Request" to submit.
 
-Once you have sent the transfer request, the Case's record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer. They can also see any Pending Transfers in the "Shared With Others" section of their dashboard.
+Once you have sent the transfer request, the Case's record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer.
 
 ![](/img/v1-6/image9.png)
 
-![](img/v2/transfer-pending.png)
-
-If the Case record owner clicks on the link in the email or the pending transfer in the dashboard, they will eventually be redirected to the case record, where they will see an alert in the Form Navigation Menu and on the *Transfers / Assignments* form. Here, they can expand the transfer request subform to see the details of your request, including any notes you have included.
+If the Case record owner clicks on the link in the email, they will arrive at the case record in Primero. Here they will see an alert in the Form Navigation Menu on the *Transfers / Assignments* form. Here, they can expand the transfer request subform to see the details of your request, including any notes you have included.
 
 ![](/img/v2/transfer-request-owner.png)
+<!-- TODO Above image has a missed translation. Replace image once translation is fixed. -->
 
-At this point, the record owner can choose whether or not to transfer the record to you.
+At this point, the record owner can choose whether or not to transfer the record to the user who requested the transfer.
 
 ## Referrals
 
-Referring a record is a way of giving a user limited access to a record without transferring it completely. While referring a record allows the recipient to access your record, the referring user will maintain full record ownership and will be able to remove the recipient's access at any time. To refer a record from either the individual record page or the list view, go to the Action menu at the top of the page and select "Refer Case."
+Referring a record is a way of giving a user limited access to a record without transferring it completely. While referring a record allows the recipient to access your record, the referring user will maintain full record ownership and will be able to remove the recipient's access at any time. To start a referral, click the **Refer** action in the actions menu.
 
-You may also refer a case directly from the services subform. For more information on how to do this, see the **Referring From Services Form** section below.
+You may also refer a case directly from the services subform. For more information on how to do this, see the [**Referring From Services Form**](UsersGuide#referring-from-services-form) section below.
 
 The following modal form will appear and allow you to select options for your referral.
 
@@ -777,7 +777,7 @@ Case workers can plan, document, and refer for services using the **Services** f
 
 ## Services Form
 
-To add a service to a case, go to the **Services** form, and click the "Add" button. A modal will appear. NOTE: The screenshot and description below are based on the default configuration. The fields on the Services subform may vary depending on your configuration.
+To add a service to a Case, go to the **Services** form, and click the "Add" button. A modal will appear. NOTE: The screenshot and description below are based on the default configuration. The fields on the Services subform may vary depending on your configuration.
 ![](img/v2/services-subform-1.png)
 
 The first two fields on the subform provide information about the type of service you are providing, and in which part of the case management workflow it belongs.
@@ -962,6 +962,7 @@ If you wish to view only the cases that contain relevant data, you can select ED
 Some administrative users and team managers may have access to the *Audit Logs*. To access this feature, click the Settings link in the Navigation Menu. Once you are in Settings, click "Audit Logs" in the Settings Navigation Menu.
 
 ![](img/v2/audit-logs.png)
+<!-- TODO The above screenshot contains missing translations. Replace these once the missing translations have been fixed. -->
 
 The Audit Logs page shows you a list of all actions which users have committed in the system. Each row represents a different action, including the username of the user, the type of action, the type (and sometimes the ID) of the record on which the action was performed, and the date and time of the action. Using the filters menu to the right of the list, you can limit which audit log entries are displayed. You can filter by date and time or username. To apply a set of filters, click "Apply," and to clear out all filters, click "Clear."
 
