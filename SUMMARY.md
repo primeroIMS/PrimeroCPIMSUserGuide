@@ -7,111 +7,103 @@
 
 *  [*Navigating Primero*](UsersGuide.md#navigating-primero)
 
-    * [*Header Navigation Bar*](UsersGuide.md#header-navigation-bar)
+    * [*Navigation Menu*](UsersGuide.md#navigation-menu)
 
     * [*Dashboard*](UsersGuide.md#dashboard)
 
-    * [*Case Dashboards*](UsersGuide.md#case-dashboards)
+        * [*Case Worker Dashboards*](UsersGuide.md#case-worker-dashboards)
 
-        * [*Cases Dashboard*](UsersGuide.md#cases-dashboard)
+        * [*Manager Dashboards*](UsersGuide.md#manager-dashboards)
 
-        * [*Manager Dashboard*](UsersGuide.md#manager-dashboard)
+        * [*Admin Dashboards*](UsersGuide.md#admin-dashboards)
 
-        * [*Admin Dashboard*](UsersGuide.md#admin-dashboard)
+    * [*Tasks List*](UsersGuide.md#tasks-list)
 
-    * [*Flagged Case Lists*](UsersGuide.md#flagged-case-lists)
-
-    * [*Audit Logs*](UsersGuide.md#audit-logs)
-
-    * [*GBV Incident Dashboard*](UsersGuide.md#gbv-incident-dashboard)
-
-    * [*Tasks View*](UsersGuide.md#tasks-view)
-
-    * [*List View*](UsersGuide.md#list-view)
-
-    * [*Edit and View a record*](UsersGuide.md#edit-and-view-a-record)
-
-    * [*Action Buttons*](UsersGuide.md#action-buttons)
+    * [*Record Lists*](UsersGuide.md#record-lists)
 
     * [*Language Toggle*](UsersGuide.md#language-toggle)
 
-    * [*Contact and Help*](UsersGuide.md#contact-and-help)
+    * [*Support*](UsersGuide.md#support)
 
     * [*My Account and Password Change*](UsersGuide.md#my-account-and-password-change)
 
-*  [*Filtering*](UsersGuide.md#filtering)
+*  [*Navigating Record Lists*](UsersGuide.md#navigating-record-lists)
 
-*  [*Flagging*](UsersGuide.md#flagging)
+    *  [*Searching for Records*](UsersGuide.md#searching-for-records)
 
-*  [*Reopen*](UsersGuide.md#reopen)
+        * [*Searching for Cases Managed By Other Users*](UsersGuide.md#searching-for-cases-managed-by-other-users)
 
-*  [*Approvals*](UsersGuide.md#approvals)
+        * [*The View Details Modal*](UsersGuide.md#the-view-details-modal)
 
-    *  [*Caseworker*](UsersGuide.md#caseworker)
+        * [*Adding a Service Provision to a Case from the Search Results Page*](UsersGuide.md#adding-a-service-provision-to-a-case-from-the-search-results-page)
 
-    *  [*Managers*](UsersGuide.md#managers)
+    * [*Filtering*](UsersGuide.md#filtering)
 
-*  [*Manager Notes*](UsersGuide.md#manager-notes)
+    * [*Viewing and Editing a Record*](UsersGuide.md#viewing-and-editing-a-record)
 
-*  [*Search and Advanced Search*](UsersGuide.md#search-and-advanced-search)
-
-    * [*Quick Search*](UsersGuide.md#quick-search)
-
-    * [*Searching for Records Owned By Other Users*](UsersGuide.md#searching-for-records-owned-by-other-users)
-
-    * [*Viewing Record Details*](UsersGuide.md#viewing-record-details)
-
-    * [*Adding Incident to Case from List View*](UsersGuide.md#adding-incident-to-case-from-list-view)
-
-    * [*Adding Service Provision to Case from List View*](UsersGuide.md#adding-service-provision-to-case-from-list-view)
-
-    * [*Searching for Duplicate Cases*](UsersGuide.md#searching-for-duplicate-cases)
-
-*  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 
+        * [*Workflow Status Bar*](UsersGuide.md#workflow-status-bar)
 
 *  [*Navigating Primero Forms*](UsersGuide.md#navigating-primero-forms)
 
-    *  [*Navigating Sub-Forms*](UsersGuide.md#navigating-sub-forms)
+    *  [*Creating, Viewing, or Editing a Case*](UsersGuide.md#creating-viewing-or-editing-a-case)
+
+        *  [*Creating a Case*](UsersGuide.md#creating-a-case)
+
+        *  [*Editing a Case*](UsersGuide.md#editing-a-case)
+
+    *  [*Navigating Subforms*](UsersGuide.md#navigating-subforms)
+
+        *  [*Adding Subforms*](UsersGuide.md#adding-subforms)
+
+        *  [*Updating Subforms*](UsersGuide.md#updating-subforms)
+
+        *  [*Removing Subforms*](UsersGuide.md#removing-subforms)
 
     *  [*Alerts*](UsersGuide.md#alerts)
 
-*  [*Creating, Updating, or Editing a Case*](UsersGuide.md#creating-updating-or-editing-a-case)
+    *  [*Flagging*](UsersGuide.md#flagging)
 
-    *  [*Creating a Case*](UsersGuide.md#creating-a-case)
+*  [*Actions Menu*](UsersGuide.md#actions-menu)
 
-    *  [*Editing a Case*](UsersGuide.md#editing-a-case)
+    *  [*Assignments, Transfers, and Referrals*](UsersGuide.md#assignments-transfers-and-referrals)
 
-*  [*Assignments, Transfers, and Referrals*](UsersGuide.md#assignments-transfers-and-referrals)
+        *  [*Assignments*](UsersGuide.md#assignments)
 
-    *  [*Assignments*](UsersGuide.md#assignments)
+        *  [*Transfers*](UsersGuide.md#transfers)
 
-    *  [*Transfers*](UsersGuide.md#transfers)
+            *  [*Accepting or Rejecting Transfers*](UsersGuide.md#accepting-or-rejecting-transfers)
 
-        *  [*Transferring to a Remote System*](UsersGuide.md#transferring-to-a-remote-system)
+            *  [*Requesting a Case Transfer*](UsersGuide.md#requesting-a-case-transfer)
 
-        *  [*Accepting or Rejecting Transfers*](UsersGuide.md#accepting-or-rejecting-transfers)
+        *  [*Referrals*](UsersGuide.md#referrals)
 
-        *  [*Requesting a Record Transfer*](UsersGuide.md#requesting-a-record-transfer)
+            *  [*Referring to a Remote System*](UsersGuide.md#referring-to-a-remote-system)
 
-            *  [*Notifications for the Case Owner*](UsersGuide.md#notifications-for-the-case-owner)
+            *  [*Revoking a Referral*](UsersGuide.md#revoking-a-referral)
 
-    *  [*Referrals*](UsersGuide.md#referrals)
+            *  [*Relinquishing a Referral*](UsersGuide.md#relinquishing-a-referral)
 
-        *  [*Referring to a Remote System*](UsersGuide.md#referring-to-a-remote-system)
+    *  [*Close / Reopen*](UsersGuide.md#close--reopen)
 
-        *  [*Revoking a Referral*](UsersGuide.md#revoking-a-referral)
+    *  [*Approvals*](UsersGuide.md#approvals)
 
-        *  [*Relinquishing a Referral*](UsersGuide.md#relinquishing-a-referral)
+        *  [*Requesting Approval for a Form*](UsersGuide.md#requesting-approval-for-a-form)
+
+        *  [*Approving or Rejecting a Form*](UsersGuide.md#approving-or-rejecting-a-form)
+
+    *  [*Add Notes*](UsersGuide.md#add-notes)
+
+    *  [*Exporting Information on Records*](UsersGuide.md#exporting-information-on-records) 
+
+        *  [*Custom Exports*](UsersGuide.md#custom-exports)
+
+        *  [*Downloading Exports*](UsersGuide.md#downloading-exports)    
 
 *  [*Services*](UsersGuide.md#services)
 
     *  [*Services Form*](UsersGuide.md#services-form)
 
     *  [*Referring from Services Form*](UsersGuide.md#referring-from-services-form)
-
-*  [*Workflow Status*](UsersGuide.md#workflow-status)
-
-    *  [*The Workflow Status Bar*](UsersGuide.md#the-workflow-status-bar)
 
 *  [*Notification Emails*](UsersGuide.md#notification-emails)
 
@@ -121,27 +113,13 @@
 
     *  [*Tracing Requests*](UsersGuide.md#tracing-requests)
 
-    *  [*Matches*](UsersGuide.md#matches)
-
-        *  [*Scoring*](UsersGuide.md#scoring)
-
-        *  [*Adjustable Matching Criteria*](UsersGuide.md#adjustable-matching-criteria)
-
-        *  [*Linking Tracing Requests with Cases*](UsersGuide.md#linking-tracing-requests-with-cases)
-
-        *  [*Initiating Tracing From a Case*](UsersGuide.md#initiating-tracing-from-a-case)
-
 *  [*Reports*](UsersGuide.md#reports)
 
     *  [*Creating a Report*](UsersGuide.md#creating-a-report)
 
-        *  [*Age Range*](UsersGuide.md#age-range)
+    *  [*Viewing a Report*](UsersGuide.md#viewing-a-report)
 
-        *  [*Date Ranges*](UsersGuide.md#date-ranges)
-
-        *  [*Filters*](UsersGuide.md#filters)
-
-    *  [*Viewing your reports*](UsersGuide.md#viewing-your-reports)
+*   [*Audit Logs*](UsersGuide.md#audit-logs)
 
 
 

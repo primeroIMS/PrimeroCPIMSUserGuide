@@ -3,230 +3,196 @@
 ![](img/intro4.png)  
 The _Information Management and Innovation to Protect Children in Emergencies_ project has developed a software application that will help partners securely collect, store, manage, and share data for protection-related incident monitoring and case management. The new platform is called _Primero_ \(Protection-related Information Management\). _Primero_ supports multiple modules, including the “next generation” of the field-tested, inter-agency CPIMS and GBVIMS systems, which are currently in use in 20+ countries. These new iterations, called the CPIMS+ and GBVIMS+, can operate separately or be deployed as integrated modules on the _Primero_ platform. The inter-agency Steering Committees that govern the use of each of these modules will continue to support the new system.
 
-![](img/intro2.png)
-_Primero_ is flexible and adaptable to accommodate a broad range of protection concerns including GBV, unaccompanied and separated children, and monitoring grave violations of children’s rights in situations of armed conflict. To meet operational challenges, the application was designed to function both on- and off-line, with limited or no connectivity, and in multiple deployment configurations. A strong emphasis has been placed on security and confidentiality, with intuitive workflows designed to simplify processes while promoting good practice. Role-based access and granular security ensures that only those who need to see data will have access to it. All system transactions are time stamped, password protected and encrypted. _Primero_ has a user-friendly interface and intuitive tools, facilitating the work of field personnel while decreasing security risks and duplication. The application can leverage mobile data gathering tools such as the Primero mobile app on smart phones and tablets. In order to optimize results, _Primero_ was designed to be able to exchange data internally between modules, as well as externally with other IM systems. In addition to imports and exports, Primero has a highly secure application program interface \(JSON API\).
+![](img/v2/case-list-intro.png)
+
+_Primero_ is flexible and adaptable to accommodate a broad range of protection concerns including GBV, unaccompanied and separated children, and monitoring grave violations of children’s rights in situations of armed conflict. To meet operational challenges, the application was designed to function both on- and off-line, with limited or no connectivity, and in multiple deployment configurations. A strong emphasis has been placed on security and confidentiality, with intuitive workflows designed to simplify processes while promoting good practice. Role-based access and granular security ensures that only those who need to see data will have access to it. All system transactions are time stamped, password protected and encrypted. _Primero_ has a user-friendly interface and intuitive tools, facilitating the work of field personnel while decreasing security risks and duplication. Primero functions as a Progressive Web Application (PWA), which means some functionality, such as basic information collection, continues to work even when the user is offline. In addition to exports in a number of formats, Primero has a highly secure application program interface \(JSON API\), which facilitates interoperability with other systems.
 
 _Primero_ functions as a distributed database, meaning that implementing partners can retain ownership of data while contributing and sharing information on shared programmes. In child protection interventions, referrals and case transfers are critical to effective service provision. Sharing sensitive information is a part of good programming. Data exchanges between organizations should be governed by endorsed information sharing protocols adapted to local contexts. _Primero_ design is based on the “need to know” principle; it does not impose data sharing, but facilitates the process when consent is provided, and when it is deemed appropriate and safe by partners.
 
 Good information management practice emphasizes the importance of making data actionable. _Primero_ has built-in customizable reports that can facilitate periodic reporting processes, and be used to analyze data for programmatic insights. A document and photo repository allows end users to organize relevant resources in one convenient place.
 
->  _A note for end users. Although there are a standard set of forms configured in the CPIMS+ based on the CPWG standard forms that we recommend using, your System Administrator may have configured these forms specific to your location and needs. For any questions about the forms and information you have or need, please reach out to this person_
+>  _A note for end users. Although there are a standard set of forms configured in the CPIMS+ based on the CPWG standard forms that we recommend using, your System Administrator may have configured these forms specific to your location and needs. For any questions about the forms and information you have or need, please reach out to this person. To find contact information for your system administrator, please click the "Support" link in the navigation menu of Primero_
 
 ## Logging In
 
-When logging into Primero, you’ll see Username and Password boxes. Click in the Username box and type in your unique user name provided to you by your System Administrator. Then enter your password in the field below and click on 'LOG IN'.
+When logging into Primero, you’ll see Username and Password fields. Click in the Username field and type in the unique user name provided to you by your System Administrator. Then enter your password in the field below and click **LOG IN**.
 
-![](img/image64.png)
+![](img/v2/login.png)
 
 # Navigating Primero
 
-## Header Navigation Bar
+## Navigation Menu
 
-The header navigation is the dark bar across the top of the screen in which you navigate to your home page \(or dashboard\), Cases, Tracing Requests, Reports, and bulk export downloads. It also has a quick search field that can help you find a specific case quickly. Your current page will be highlighted. See below:
+The Navigation Menu appears at the left side of your screen. You can access this menu from any page of the app.
 
-![](/img/image71.png)
+![](/img/v2/side-navigation-bar-page.png)
+
+On smaller devices, such as tablets or phones, you will need to click or tap on the menu button to show the Navigation Menu. The menu button will appear at the top left of your screen.
+
+![alt-text-1](/img/v2/mobile-home-menu.png) ![](/img/v2/right-arrow-400h.png) ![alt-text-2](/img/v2/mobile-nav-menu-2.png)
+
 
 ## Dashboard
 
-The Dashboard, or Home Page, is where you can quickly find information for your cases. Depending on the work you do in your organization, it contains a number of different types of information, which can include caseload summaries, recently flagged cases, cases for which approval has been requested or cases that are pending approval, referred cases, etc. The case worker dashboard will be different, from the managers and from the administrator.
+The Dashboard ("Home") is where you can quickly find information about the records you manage in Primero. The type of information that appears here will depend on the type of work you do for your organization. For instance, social workers, managers, and agency administrators will each see dashboards which are tailored to the needs of their day-to-day work.
 
+A few notes about dashboards:
+- You can always get back to the dashboard by clicking on the "Home" link in the Navigation Menu. 
+- Clicking on any of the numbers in the dashboard sections below will take you to a list of the records which that number represents.
+- In general, numbers in the dashboard represent records to which you have access. For example:
+	- If you have access to only your own cases, numbers in the dashboard will reflect only those cases which you manage directly, or which have been referred to you.
+	- If you are a manager and have access to all the cases managed by users in your team (user groups), the numbers in your dashboard will reflect these cases.
+	- Administrator dashboards generally reflect all records in the system.
+- Dashboard numbers also tend to represent only open records. Unless the dashboard explicitly mentions closed records, assume that it represents only open ones.
+- Dashboard numbers also exclude disabled records.
 
-## Case Dashboards
+### Case Worker Dashboards
 
-If your user has access to cases through either the CP or GBV module, you will see one--and only one--of the following three case dashboards.
+The image below shows an example of the dashboard you might see as a case worker when you first login to Primero.
 
-### Cases Dashboard
+![](/img/v2/dashboard-cp-cw.png)
 
-The first example below is the basic Cases Dashboard. If you have any access to cases, but you are not a manager or an administrator, you will see this dashboard. The dashboard is divided into two main sections: one for cases, one for services. The first section (first picture below) begins with a few key metrics: total cases, total new cases, transfers awaiting acceptance, new incidents, services implemented, total referrals, new referrals, pending transfers, and rejected transfers. \(In these metrics, “new” means anything which has not been edited since its creation.\) Below these key metrics lie two columns. The first shows the number of total and new cases, subdivided by assessment level. The second column shows all the number of pending, rejected, and new approvals, subdivided by the type of approval.
+- *Cases by Assessment Level* - This section tells you how many of your cases are at each "Assessment Level" (sometimes also called "Risk Level")
+- *My Cases* - This includes two indicators:
+	- "Total" - The total number of cases you manage
+	- "New and Updated" - A case is included in this number if 1.) a supervisor has just assigned it to you; or 2.) another user in the system has added information to the case since the last time you saw it.
+- *Shared with Me* - This shows you the number of cases which have been referred or transferred to you. We will review referrals and transfers in a later section.
+- *Shared with Others* - This shows you how many of your cases have been referred or transferred to someone else in the system. We will review referrals and transfers in a later section.
+- *Approvals* - This tells you how many of your approval requests are pending, approved, or rejected. Each type of approval appears with its own column.
+- *Workflow - Individual Cases* - This tells you how many of your cases are at each stage of the case management workflow. Please note that different implementations may use different specific workflow stages.
 
-![](/img/image90.png)
+![](/img/v2/dashboard-cp-cw-workflow.png)
 
-The second portion of the cases dashboard outlines all services for the user's cases, with a column for each response type. Within each column, services are broken down by priority level, at which point numbers are given for total services as well as those nearing or past their deadlines \(as determined by the timeframe specified for a given service\). Clicking any of these numbers will take the user to a list of the cases in question. This allows users to easily manage the most urgent tasks for their cases, in order of priority.
+Please note that these dashboard sections are only meant to serve as an example. The exact dashboards you see when you login will depend on your Primero implementation's configuration.
 
-![](/img/image91.png)
+### Manager Dashboards
 
-### Manager Dashboard
+Below are some examples of sections which may appear in your dashboard if you are a manager.
 
-The Manager Dashboard, meanwhile, appears if you have managerial tasks in your organization. This dashboard is similar to the cases dashboard, but includes the cases of the team you manage, and involves some tasks that managers have to perform. The first section, labeled "Cases," tells the manager how many of the team's cases are open or closed, as well as the number of cases have pending transfer requests, or whose transfer requests have been approved or rejected. Beneath that, a second section tells the manager how many unassigned cases have each priority level. These cases are then further broken down by due date. 
+![](img/v2/dashboard-cp-mgr-1.png)
 
-Next comes the third section, composed of two columns. In the first of these, figures are given for the number of cases with each priority level, and for each of these classifications, how many of the cases are new. The second column, meanwhile, gives the number of pending approvals, broken down by approval type (in this case, case plan approval and closure approval).
+- *Cases by Assessment Level* - See description above.
+- *My Group's Cases* - This shows the total number of open and closed cases managed by all of the case workers in your team.
+- *Shared with Me* - See description above. Note that, because the user in the example is not able to receive referrals, they only see information on the number of cases which other users have transferred to them, and which still have not been accepted. We will discuss referrals and transfers in a later section.
+- *Shared with Others* - See description above.
 
-![](img/image73.png)
+![](img/v2/dashboard-cp-mgr-2.png)
 
-Once again, clicking on any of the numbers shown in the dashboard will take you to a list of cases which meet the criteria represented by that number.
+- *Shared from My Team* - This is similar to the "Shared with Others" section, except that it shows how many of the cases managed by each of the case workers in your team have been transferred or referred to other users.
+- *Shared with My Team* - This is similar to the "Shared with Me" section, except that it shows how many of the cases other users have referred or transferred to case workers in your team.
 
-### Admin Dashboard
+![](img/v2/dashboard-cp-mgr-3.png)
 
-Finally, you will see the Admin Dashboard upon login if your user’s role has access to all records in the system \(thus giving you an administrator’s functionality\). On this dashboard, you will see a table of cases by district, with each row broken down into total open cases, cases created last week, cases created this week, cases closed last week, and cases closed this week. \(Here, a week is measured from midnight Monday morning to 11:59 Sunday night. This means that for a case to have been created this week, it must have been created during or since the immediately preceding Monday morning.\) As stated previously, if you see the Admin Dashboard, you will not see the Cases Dashboard or the Manager Dashboard, since one user can only have one of the case dashboards display on their Dashboard Page.
+- *Overdue Tasks* - This section shows how many of your team's cases have tasks past their due dates. This is broken down by case worker and by the four types of tasks: Assessment, Case Plan, Service, and Follow Up.
 
-Flags are, once again, on the right. Like the Manager Dashboard, and for similar reasons, the Admin Dashboard only lists those cases which you have flagged.
+![](img/v2/dashboard-cp-mgr-4.png)
 
-![](img/image58.png)
+- *Workflow - Team Cases* - For each case worker in your team, this section shows how many cases are at each stage of the case management workflow. Please note that different implementations may use different specific workflow stages.
 
-## Flagged Case Lists
+### Admin Dashboards
 
-If you see any of the case dashboards, the right of your screen will show one or two lists of flagged cases. These lists will keep you reminded of pending flags. The first list, shown above, consists of the cases which you have flagged most recently. The second list, shown below, is a list of your cases which someone else has flagged, and only displays for the Casesand Admin Dashboards. \(Since managers often do not even have the ability to make cases, it makes no sense for them to have a list of flagged cases which they own.\)
+The below image gives an example of the sections you may see in your dashboard if you are an administrator.
 
-![](img/image22.png)
+![](img/v2/dashboard-cp-admin.png)
 
-## Audit Logs
+- *Cases by Location* - This table shows the number of cases registered in each location. For each location, the table also shows:
+	- "Open Cases" - Total number of open cases registered in this location.
+	- "New (Last Week)" - Cases registered in this location 7-14 days ago.
+	- "New (This Week)" - Cases registered in this location 0-7 days ago.
+	- "Closed (Last Week)" - Cases registered in this location which were closed 7-14 days ago.
+	- "Closed (This Week)" - Cases registered in this location which were closed 0-7 days ago.
+- *Cases by Protection Concern* - Shows the number of cases with each type of protection concern, broken down by:
+	- "All Cases" - This includes both open and closed cases.
+	- "Open Cases" - This includes only cases which are still open.
+	- "New (This Week)" - Open cases registered 0-7 days ago.
+	- "Closed (This Week)" - Cases which were closed 0-7 days ago.
 
-Some administrative users and team managers may have access to the *Audit Log*. To see the audit log, first navigate to Settings by clicking on the settings icon at the top of the page. In the side panel, you will see a link labelled "Audit Logs."
+## Tasks List
 
-![](img/v1-6/image1.png)
-![](img/v1-6/image2.png)
+If you click on the "Tasks" link in the Navigation Menu, you will arrive at the **Tasks** page.
 
-When you click on this link, you will see the table pictured below. This contains a list of all actions which users have committed in the system. Each row represents a different action, including the user name of the user, the type of action, the type (and some times the id) of the record on which the action was performed, and the date and time of the action. Using the filter inputs to the right of the list, you can filter which actions are displayed. You can filter by date and time or user name. To apply a set of filters, click "Apply," and to clear out all filters, click "Clear."
+![](img/v2/tasks-view.png)
 
-![](img/v1-6/image3.png) 
+Here, you will see the incomplete Tasks present for all of the cases you manage. Primero automatically generates Tasks for four types of actions: assessments, case plans, services, and follow ups. For each Task, the list shows:
+- Case ID
+- Name of the Case
+- Priority Level (also sometimes called "Risk Level" or "Assessment Level").
+- Type of Action
+- Due Date
+- Status (either "Overdue" or "Almost due")
 
-## GBV Incident Dashboard
+Primero automatically generates Tasks based on information you fill out in the Case forms. Each type of Task action has a date field in the Case forms that acts as its due date. As soon as a user enters a date value into one of these fields, Primero generates a Task with that due date. To find out which field sets the due date for a Task, hover over the due date for any Task you find in the Tasks page.
 
-The GBV Incident Dashboard will appear below whichever case dashboard you have if your user’s role has access to incidents through the GBV module. The table in this dashboard lists out each incident, with columns for “Incident \#ID,” “Date of Interview,” “Date of Incident,” and “Violence Type.” Each incident’s id will link to the incident’s page, and each incident will feature an icon indicating the number of flags it has, provided it has at least one. To the right of the GBV Incident Dashboard will be a list of incidents flagged by the user.
+![](img/v2/tasks-hover.png)
 
-![](img/image48.png)
+Each type of Task action also has a date field in the Case forms which marks the Task as "complete". Once a user enters a date value into this field, the Task is marked as "complete" and disappears from the Tasks list.
 
-## Tasks View
+To complete a Task, click on that Task in the list. You will arrive at that Task's Case, on the form which corresponds to that Task and contains its "complete" field. (Note: Usually the "complete" field for a Task will have help text to let you know it is used to complete a Task.) For example, if I click on a Case Plan Task, I will arrive at the Case Plan form for that Case. This form contains the field "Case Plan Initiated". If I fill out this field, the Task will be completed and will disappear from the Tasks list.
 
-Next to the "Home" icon in the navigation bar, you may see a calendar icon (depending on your configuration). Clicking on this icon will take you to the **Tasks View**.
+Note that each Primero configuration may have different names for the fields which set and complete Tasks. Below is a list of the fields used for each type of Task action in the Primero default configuration.
 
-![](img/image112.png)
+- Assessment
+	- Due Date: "Date Assessment Due" on the "Basic Identity" form.
+	- Complete: "Assessment requested on" on the "Assessment" form.
+![](img/v2/assessment-due.png)
 
-Here, you will see all of the pending, incomplete tasks present for all of your cases. These "tasks" can include assessments, case plans, follow ups, and services. As you can see, tasks that are upcoming have their due dates in black font, while those which are overdue have their due dates in red font and have small alert symbols next to their case links. Clicking on any of the case links will take you to the case which needs the task to be performed.
+- Case Plan
+	- Due Date: "Date Case Plan Due" on the "Assessment" form.
+	- Complete: "Date Case Plan Initiated" on the "Case Plan" form.
+![](img/v2/case-plan-due.png)
 
-It is important to understand where the due dates for these tasks come from, as well as which tasks are considered "incomplete."
+- Service:
+	- Due Date: "Implementation Timeframe" on the "Services" subform.
+		- NOTE: Each Service subform entry will generate its own Task.
+		- NOTE: "Implementation Timeframe" is a dropdown, not a date field. In some configurations, the "Appointment Date" field is used to set the Task due date instead.
+	- Complete: "Service Implemented On"
 
-### Assessments
+![](img/v2/services-due.png)
 
-Assessments become due based on the "Date Assessment Due" field (or any field with the id "assessment_due_date") on the **Basic Identity** form. This field is not visible by default in Primero, meaning that, unless your system is configured to use the field, you will not see Assessments as tasks in the Tasks view. Furthermore, an assessment is considered incomplete if the "Assessment requested on" field (or any field with the id "assessment_requested_on") on the **Assessment** form has not been filled out.
+- Follow Up:
+	- Due Date: "Follow up needed by" on the Follow Up subform.
+		- NOTE: Each Follow Up subform entry will generate its own Task.
+	- Complete: "Follow Up Date" on the Follow Up subform.
 
-![](img/image113.png)
+![](img/v2/followup-due.png)
 
-### Case Plans
+## Record Lists
 
-Case plans become due based on the "Date Case Plan Due" field (or any field with the id "case_plan_due_date") on the **Assessment** form. Like the "Date Asssessment Due" field, this is also hidden by default, so unless your implementation makes the field visible, you will not see case plans in the Tasks view. A case plan is considered complete once the field "Date Case Plan Inititated" on the **Case Plan** form has been filled out.
+There are three main types of records in Primero: **Cases**, **Incidents**, and **Tracing Requests**. In the Navigation Menu, below the Tasks link are the links to the List pages for each type of record. These are the **Case List**, the **Incident List**, and the **Tracing Request List**. Depending on the work you do for your organization, you may only have access to one or two of these pages. For instance, in most Child Protection contexts case workers only deal with Cases, and so only have access to the Case List. For this reason, we usually use the Case List as an example when discussing record list functionality.
 
-![](img/image114.png)
-
-### Services
-
-By default, services become due based on the "Implementation Timeframe" field (or any field with the id "service_response_timeframe") on the Services subform. For example, if a service is created on June 2, and the timeframe is set for "Three Days," the service will be considered due on June 5. Alternatively, however, depending on how your system is configured, the "Appointment Date" field (or any other field with the id "service_appointment_date") on the service subform may be used as a due date. For more information on the **Services** form and its configuration, see the **Services Form** section, or the **Primero Administration and Configuration Guide**.
-
-A service is considered complete once the "Service Implemented On" field (or any field with the id "service_implemented_day_time") on the Services subform is filled out.
-
-![](img/image118.png)
-
-There is also an option to make services become due based on the "Appointment Date" field rather than the timeframe field. For more information on how to set this option, please see the **Primero Administration and Configuration Guide**.
-
-### Follow Ups
-
-Follow ups become due based on the "Follow up needed by" field (or any other field with the id "followup_needed_by_date") on the nested **Follow Up** form. A follow up is then considered complete when the "Follow Up Date" field (or any field with the id "followup_date") on the nested **Follow Up** form is filled out.
-
-![](img/image116.png)
-
-## List View
-
-When selecting the record type or page you want to visit via the header navigation, you can see all cases or tracing requests that belong to you when you click on CASES. Once there, you see a list of the possible matching records, that you are able to filter and/or sort. See below:
-
-![](img/image53.png)
-
-## Edit and View a record
-
-When creating a new record, you automatically are brought to the “Edit” page for that record. You can enter in all the relevant information you need at this time and save when done. 
-
-When selecting an existing record, you are brought to “View” the record. This means you can view all the data and forms you have permission to, but cannot edit. You must click the **EDIT** button in the Action Buttons section of the header to change any information that is currently represented.
-
-![](/img/case-edit-button.png)
-
-Once you have made changes, click the **SAVE** button in the header.
-
-![](/img/case-save-button.png)
-
-## Workflow Status Bar
-
-On the view and edit pages for a case, the user will see the workflow status bar, which lets the user know the current case management stage of the record.
-
-![](img/image85.png)
-
-When the case is first opened, before any services are added, the status bar will highlight the "New" status. Once a service has been added, however, the workflow status will correspond with the most recently-added response type. So, for instance, after a case is opened, if a case worker refers the case to a service provider for a service with a response type of "Action Plan", the workflow status will also be "Action Plan." When the case is closed, with manager approval, the workflow status will become "Closed." Keeping track of the workflow status helps the case worker keep track of the case's needs. Please note that the workflow status bar may or may not appear, depending on a given implementation's configuration.
-
-## Action Buttons
-
-Our Action Buttons are the buttons just below our Header Navigation, which allow a user to act on a case or cases.
-
-![](img/actions-menu.png)
-
-The actions, depending on your permissions, are:
-
-* Flagging
-
-* Export
-
-* Custom Exports
-
-* Import \(List View\)
-
-* Transfer
-
-* Refer
-
-* Assign
-
-* Disable
-
-* Save \(edit view only\)
-
-* Cancel \(edit view only\)
-
-* Mark for mobile
-
-* Un-mark for mobile
-
-* Request Approvals
-
-* Approvals
-
-Please note that when using these actions you must work according to the CP SoPs that are in place. Also, the system does not replace the communication that you need to have in a child protection case management program, through case conferences, emails or other to ensure that people are aware of transfers and referrals and to follow up on referred and transferred cases.
-
-![](img/image67.png)
-
-This bar, along with the Header Navigation bar and the workflow status bar, are part of what is called the **Anchored Header**, meaning, they never leave the screen when scrolling. This allows a user to easily navigate or act on a case or number of cases at any time.
+For more information on how record lists work, please see the [Navigating Record Lists](UsersGuide#navigating-record-lists) section.
 
 ## Language Toggle 
 
-Above the Navigation Bar, there is a dropdown labelled "Language". Here, you can select the language in which you would like to see the page.
+At the bottom of the Navigation Menu, you will see a dropdown with a small globe icon and the your current language. This is the **Language Toggle**. Click this to view Primero in a different language.
 
-![](img/language-toggle.png)
+![](img/v2/language-menu.png)
+<!--
+![](img/v2/language-ar.png)
+-->
 
-To switch languages, click the dropdown and select one of the languages listed. The page will then reload, showing all content in this language. The Language Toggle will only translate the page in which you have clicked.
+## Support
 
-![](img/language-toggle-select.png)
+In the Navigation Menu, below the Exports link, you should see the **Support** link. Clicking on this will bring you to page with contact information for your system administrator, as well as links to support forums and documentation.
 
-![](img/arrow-down.png)
-
-![](img/language-toggle-after.png)
-
-Once you navigate away from the page, Primero will again display in your account's preferred language. For more information on how to update this preferred language, see the **My Account and Password Change** section.
-
-## Contact and Help
-
-Above the Header Navigation bar, there is a link labelled "Contact & Help." This will bring you to page with contact information for your system administrator. Clicking on the Primero icon from any page will take you back to the dashboard from anywhere.
+![](img/v2/support-page.png)
 
 ## My Account and Password Change
 
-To change your account details or your password, click the "My Account" link above the Navigation Bar.
+In the Navigation Menu, below the Support link, you will see a link with your username. Click this to go to the **My Account** page.
 
-![](img/my-account-link.png)
+![](img/v2/my-account.png)
 
-You will be taken to a page listing your account details. Click the **EDIT** button to change these details.
+Here, you can see details about your user account. Click the Edit button at the top right of the page to update any of these details or to change your password.
 
-![](img/my-account-view-page.png)
+![](img/v2/my-account-edit.png)
 
 Here, you will be able to update the following:
 
  * **Full Name**: The name managers and administrators will see when looking at your account.
  * **User Code**: Depending on configuration, may impact composite ID field generated for records you create. This is not often used.
  * **Password**: Must be at least eight characters and contain both letters and numbers.
+ 	* To update your password, please click the "Change Password" link. Otherwise, your password will stay the same.
  * **Language**: This will be the default language in which you will see the application.
  * **Phone**: Allows other users with the ability to view your profile to contact you.
  * **Email**: Will be used for any email notifications.
@@ -238,505 +204,629 @@ Here, you will be able to update the following:
    * Requests from other users for you to transfer one of your cases to them.
    * Manager approvals and requests for manager approval.
 
-![](img/my-account-edit-page.png)
+![](img/v2/my-account-save.png)
 
 Click the **SAVE** button once you are finished making changes.
 
-# Filtering
+# Navigating Record Lists
 
-Filtering your Case List or search results is an efficient way to narrow down to the case or cases that need your immediate attention. You can filter the list to show not only if a case has other characteristics but contains specific information within those characteristics as well. For example, you can filter by males only, but you can also filter by specific Protection Concern, Current Location, and the case registration date range.
+## Searching for Records
 
-The Filter panel is visible on the search results page or when you click **CASES** tab in the header. See below:
+![](/img/v2/case-list-view-search-focus.png)
 
-![](img/case-list-filters.png)
+On all of the record list pages, you will find a search bar at the top right of the page. When you perform a search, Primero compares your query against the following fields for each record type:
+- **Cases**: “Long ID,” “Case ID,” “proGres ID,” “Name,” “Nickname,” “Other Name,” “Ration Card Number,” “ICRC Ref No.,” “RC ID No.,” “UNHCR ID,” “UN Number,” “National ID Number,” “Number of Other ID Document,” and “Other Agency ID.”
+- **Incidents**: "Long ID," "Incident Code," "Account of Incident," "Survivor Code", and "Incident ID IR."
+- **Tracing Requests**: “Long ID,” “Inquirer ID,” “Name of inquirer,” and “Nickname of inquirer.”
 
-In the image, there is the normal checkbox filter selection, in which you click using your mouse, but also date range and drop down fields. For Date Ranges, you can enter these using any of the date field type actions. You can set the range for one day as well. Drop down fields in the filters panel are clickable with the mouse and only allow you to select one value at a time.
+**Note**: You can search and filter the record lists at the same time (example: Search for Cases with the name "Smith" while filtering for only Male Cases with a Risk Level of "High").
 
-Once you have selected one or more filters (e.g. Female cases with ages between 0 and 5), you can apply them to the case list. To do this, simply click the "Apply" button at the top of the filters panel.
+### Searching for Cases Managed By Other Users
 
-You can also save a set of filters for later use by clicking the "Save" button, positioned next to the "Apply" button. This will take you to the modal pictured below.
+Depending on your Primero implementation's configuration, some users may have the ability to search for and view limited information about records managed by other users. When users with this ability perform a search and arrive at the Search Results page, they may see Cases for which they have full access (for example, a Case they manage) as well as Cases for which they _do not_ have full access (for example, a Case managed by another user at another organization). 
 
-![](img/image109.png)
+![](/img/v2/search-results.png)
 
-Here, you enter a name for this new saved search. In this case, we have entered the name "Girls between the age of 0 and 5." Click "Save" to save the search. Once the search has finished saving, click on the "Saved Searches" tab in the filters panel.
+When the user clicks on a Case in the Search Results page...
+- If they have full access, they arrive at the View Case page.
+- If they _do not_ have full access, the **View Details** modal appears.
 
-![](img/image110.png)
+### The View Details Modal
 
-Here you see the search you had saved earlier. If you click on it, you'll notice that the filters you had previously selected have been applied to the case list. To delete a saved search, you can click on the 'x' next to the search's row in the "Saved Searches" tab.
+The **View Details** modal displays a small set of fields about a Case. This allows you to see some limited information about a Case managed by another user, without endangering the data confidentiality of the Case.
 
-![](img/image111.png)
+Depending on your configuration, you may also see a button labelled **Request Transfer** at the bottom of this modal. For more information on this action, please see the [Requesting a Case Transfer](UsersGuide#requesting-a-case-transfer) section.
 
-# Flagging
+**NOTE**: Depending on the system's configuration, you may also be able to see the Case's photo in this modal.
 
-Flagging a case is a way to alert either yourself or a manager that a case needs additional work or attention. To flag a case:
+![](/img/v2/search-results-view.png)
 
- 1. Once you have opened the case, click on Flags
- 2. Enter the flag reason and if applicable the Date by which this flag
-    needs to be addressed
- 3. Click flags to complete
+For more information on configuring the **View Details** modal and which information appears there, please see the **Primero Administration Guide**.
 
-Note that only the person who flagged the case can unflag the case. To do so:
+<!--
+## Adding an Incident to a Case from the Search Results Page
 
- 1. Click on the (+) button next to the flag, under the Unflag Case heading.
- 2. Enter a reason for unflagging the case.
+Depending on your Primero implementation's configuration, some users may be able to add an Incident to a Case from the Search Results page. To do this, select the Case's check box on the Search Results page. Then, in the Action menu, click **Add Incident**.
 
-A history of the flags and unflags for the case is stored. To see the history, click on the View History tab, you can view the details of the flags and unflags.
+![](/img/v2/incident-add-cp.png)
 
-![](/img/image76.png)
-
-# Reopen
-
-Users have the ability to reopen closed cases. Reopen displays in the Action menu on the case view page below Disable; it does not display on the case list view . Clicking Reopen brings up a confirmation dialog saying that clicking ok will change the status of the case to open. When the user clicks OK, the “Case Reopened?” field in the **Basic Identity** form is checked, the case status is set to Open, and the case’s state is set to Valid. This also creates an entry on the **Record Information** form.
-
-![](/img/image78.png)
-
-# Approvals
-
-## Caseworker
-
-Case worker roles have the ability to request approval for a case plan, BIA, or closure from the manager. This is done by going into the ACTIONS button dropdown, clicking on "Request Approval," and then clicking on the type of approval you would like to request. This will produce a modal to submit the request.
-
-If you request a case plan approval, the below modal will appear. Select a case plan type \(the options will correspond with the various response types\) and then click "OK."
-
-![](/img/image79.png)
-
-The modal for requesting closure approval will be similar, except that it wil not have a dropdown for case plan type. Here, simply click "OK" to request approval.
-
-Once the approval request is made, it will show up as pending under the approvals section on the caseworker dashboard. It will also appear on the manager’s dashboard as a pending approval. Once the manager approves or rejects the form for the case, the status will change on both the case worker and manager dashboards.
-
-All approvals for a case will also appear in the **Approvals** form section on the case edit and view pages. Here, you will see the type of approval (case plan or closure), the approval's status, the date of the approval request, and, if the approval is for a case plan, the type of case plan.
-
-![](/img/image86.png)
-
-## Managers
-
-Managers may have the ability to approve a case's case plan and/or closure, depending on configuration. To check to see if any approvals have been requested for a case, a manager can go to the **Approvals** form on the case view page (pictured above). As you can see, an entry for an approval in the forms will tell you what type of approval it is (BIA, Case Plan or Closure).
-
-To perform an approval, go into the ACTIONS button dropdown, click "Approvals," and then click either "Approve Case Plan," "Approve Closure," or "Approve BIA," depending on the type of approval. You will see a modal like the one pictured below. To complete the approval, simply click the "Yes" check box, add in any necessary comments, then click "SUBMIT."
-
-![](/img/image93.png)
-
-![](/img/image94.png)
-
-# Manager Notes
-
-Managers overseeing a team of case workers may want to add notes to a particular case so that they can give the case worker guidance on case management. When viewing a case, managers should see a button marked "Add Notes" at the top of the page.
-
-![](/img/image119.png)
-
-Click this button. A modal will appear. Here, you can write the subject of your note, as well as its full text. Click submit to add the note to the case.
-
-![](/img/image120.png)
-
-When the case worker logs in and views this case, a notification will appear on the form tab for the Notes or "Other Comments" form.
-
-![](/img/image121.png)
-
-If the case worker then clicks on the form, they will be able to see the manager's note, including the subject, full text, the manager's username, and the date the note was added.
-
-![](/img/image122.png)
-
-Case workers will also see a notification about the new note when viewing the case on mobile as well. For more information on this, please see the **Primero Mobile User Guide**
-
-# Create Incident from Case
-
-When viewing a GBV case, a case worker can create an incident directly from the case by clicking the "CREATE INCIDENT" button, located next to the ACTIONS button in the **Anchored Header**. Doing so will re-direct the user to the create incident form, with case information automatically loaded into the **Survivor Information** form.
-
-![](/img/image87.png)
-
-Alternatively, a user--depending on configuration--can create an incident from any case from the case list or search results views. To learn more about this capability, read the section labeled "Adding Incident to Case from List View".
-
-# Search and Advanced Search
-
-## Quick Search
-
-Quick Search refers to the search field in the header navigation bar. From here you can type in your search and return a list of possible matches. If you are searching from the cases page you can enter your case’s value for one of the following fields to find a match: “Long ID,” “Case ID,” “proGres ID,” “Name,” “Nickname,” “Other Name,” “Ration Card Number,” “ICRC Ref No.,” “RC ID No.,” “UNHCR ID,” “UN Number,” “National ID Number,” “Number of Other ID Document,” and “Other Agency ID.” When looking for a tracing request, you can search these fields: “Long ID,” “Inquirer ID,” “Name of inquirer,” and “Nickname of inquirer.” After searching, you can filter results further.
-
-## Searching for Records Owned By Other Users
-
-Depending on your configuration, some users may have the ability to search for records owned by other users. In this case, the records are only visible in the list view. Clicking on a record in this view does not take the user to the view page for that record. Instead, the user can perform actions on the record from the list view.
-
-![](/img/image88.png)
-
-To do this, go to the record list page, and search for your record using an id or other searchable field. Once your search results appear, select the check box for the record on which you wish to perform an action. Now, select the action you wish to perform in the action button dropdown.
-
-![](/img/v1-6/image4.png)
-
-## Viewing Record Details
-
-Before performing an action, you may wish to see some information about the record you have selected, even if you do not have permission to see all of the record's information. Some users will have permission to see a limited set of attributes for other users' records, using what is known as the *View Details* modal. To see information on such a record, click on the "View" link at the right-hand side of the record's entry in the list. You will then see a modal containing information on the case.
-
-![](/img/view-details-link.png)
-
-![](/img/view-details-modal.png)
-
-Depending on your user's role configuration, you may be able to see the case's photo in this modal. The permission to view this photo is different from the one which allows you to see the *View Details* modal. For more information on configuring user roles, please see the **Primero Administration Guide**.
-
-## Adding Incident to Case from List View
-
-Depending on your configuration, a user may be able to add an incident to a case from the list view or when searching for a case. To add an incident to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Incident." You will see the following modal. Here, enter information on the incident you are adding, and then save.
+A modal will appear. Enter information about the Incident, then click **SAVE**.
 
 ![](/img/image89.png)
 
-Depending on your user's configuration, you may also see a second button, marked "Save and Add Service Provision." Clicking on this will save the incident details you have entered and then take you directly to the add service modal, where you can enter information on a service rendered for the child.
+Depending on your user's configuration, you may also see a second button next to the **SAVE** button, marked **SAVE AND ADD SERVICE PROVISION**. Clicking on this will save the Incident details you have entered, then take you directly to the Add Service modal, where you can enter information on a service you have performed for the Case.
 
 ![](/img/v1-6/image12.png)
+-->
+### Adding a Service Provision to a Case from the Search Results Page
 
-## Adding Service Provision to Case from List View
+Depending on your Primero implementation's configuration, some users may be able to add a service provision to a Case managed by another user. To do this, you must first run a search and be on the Search Results page; this action is never available from the Case List page. Then, select the Case's checkbox and click **Add Service Provision** from the Action Menu. A modal will appear. Here, enter information on the service you are adding, and then click **SAVE**.
 
-Depending on your configuration, a user may be able to add a service provision to a case from the list view or when searching cases. To add a service to a case, select your case's check box on the search results page, then, under the action button dropdown, select "Add Service Provision." You will see the following modal. Here, enter information on the service you are adding, and then save.
+![](/img/v2/service-provision-menu.png)
 
-![](/img/image102.png)
+![](/img/v2/service-provision-modal.png)
 
-## Searching for Duplicate Cases
+If another user adds a service to your Case, an alert will appear on the "Services" form in the Form Navigation Menu. An alert message also appears at the top of the form, telling the case worker which user added the service and when. For more information on how alerts are added to a Case, please see the [Alerts](UsersGuide#alerts) section.
 
-Depending on your role permissions, you may have the ability to search in the system for potential duplicate Cases. To perform a Duplicate Search, click on the **DUPLICATES** link in the navigation bar.
+![](/img/v2/alert-services.png)
 
-![](/img/duplicate-search-intro.png)
+## Filtering
 
-Here, using the search criteria on the right side of the page, you can search to see if a child has an existing Case in the system. The criteria here are the same ones used to perform matching between Cases and Tracing Requests. For more information about Matching Criteria, please see the **Primero Administration and Configuration Guide**. 
+On the right side of all of the Record Lists, you will see the **Filters Panel**. Filtering is an efficient way to find the record or records that need your immediate attention. 
 
-In the example below, we are searching for a 12-year-old Iraqi boy with the name "Mohamed."
+**NOTE**: By default, the record list pages will only show records which are open and enabled. You can choose to show closed or disabled records using the "Status" and "Enabled / Disabled" filters.
 
-![](/img/duplicate-search-criteria.png)
+![](img/v2/filter-cases-cp.png)
 
-Click the **SEARCH FOR DUPLICATES** button to see your search results.
+The most-commonly-used filters are always visible at the top of the Filters Panel. To expose more specific filters, click the "More" button below the panel. To re-hide these, click "Less".
 
-![](/img/duplicate-search-results.png)
+Once you have set one or more filters, click the "Apply" button at the top of the Filters panel to update your list results. To clear the filters you have selected, click the "Clear" button.
 
-The results that appear will include likelihood scores of "Possible" or "Likely." For more information on how scoring works, please see the **Scoring** section.
+You can also save a set of filters for later use by clicking the "Save" button at the top of the Filters Panel. This opens the modal pictured below.
 
-To see some limited details about a case, click the "View" link next to it.
+![](img/v2/filter-save.png)
 
-![](/img/view-details-modal.png)
+Enter a name for your new saved search and click "Save". Once the search has finished saving, click on the "Saved Searches" tab at the top of the filters panel.
 
-# Exporting Information on Records
+![](img/v2/filter-saved-list.png)
 
-Exporting individual cases or a list of cases can be useful in a number of ways. This action can be found in the **ACTIONS** header button which   will display a drop down to select what format you want to export - PDF, XLS, CSV, etc.
+Here, you can find the search you had saved earlier. Click on the saved search to apply the filters that were saved. To delete a saved search, you can click on the trash can button next to it.
 
-| **Format** | **Description** | **Fields Included** |
-| --- | --- | --- |
-| CSV | Stands for “Comma-Separated Values.” Readable in excel, and can be imported back into any Primero instance. | All fields to which the user’s role has access. |
-| Excel | Exports to a standard .xls file, which can be re-imported back into Primero. | All fields to which the user’s role has access. |
-| JSON | Easiest format to be read \(only\) by Primero, and the preferred format for importing. | All fields to which the user’s role has access. |
-| Photo Wall | Exports a PDF file with the photo of each selected case along with the case’s ID. Cannot be re-imported into Primero. | Photo, ID. |
-| PDF | PDF file containing a profile on each case, including the fields from the forms specified by the user. Cannot be imported. | All fields specified by the user, to which the user’s role has access. |
-| UNHCR | CSV file specifically formatted to be compatible with UNHCR’s data import. | All fields to which the user’s role has access. |
-| Custom | Excel file containing all the fields specified by the user. Can be imported back into Primero. | All fields specified by the user, to which the user’s role has access. |
+![](img/v2/case-list-view.png)
 
-![](img/image57.png)
+## Viewing and Editing a Record
 
-Once you’ve selected your format, the export window will appear, allowing you to set your own password for the file, and create your own file name.
+In the Case List, you can click on any Case to see more details. You will arrive at the View Case page. On this page, you can only _view_ information about the case; you cannot _edit_ it. In order to edit information about the case, click the "Edit" button with the pencil icon at the top right of the page. 
 
-![](img/image52.png)
+![](/img/v2/edit-case.png)
 
-To export a list of cases, while in the case list view, you can select as many as you’d like to export via the check boxes:
+You should now be able to update information about the case. Once you have made changes, click the **SAVE** button in the header. NOTE: If you do not click the Save button, your changes will be lost.
 
-![](img/image60.png)
+![](/img/v2/save-case.png)
 
-To export all cases, you can leave all unchecked and it will export all cases you have access to. The bulk export will generate in the background. You can continue to use the app while it is generating. To access it, click on the tab with the download icon. 
+You can find more details on this topic in the [Creating, Viewing, or Editing a Case](UsersGuide#creating-viewing-or-editing-a-case) section. Note that depending on your permissions, you may only be able to view records, not edit. 
 
-![](/img/image80.png)
+### Workflow Status Bar
 
-To export a single case, you can either check only that case in the case list, or enter into the case to view it, then use the ACTIONS button to export.
+On the view and edit pages for a Case, the user will see the **Workflow Status Bar**. This tells the user which stage of the case management workflow the case has reached. 
+
+While each configuration will have its own specific workflow statuses, the default Primero configuration has the following:
+- **New** - When the case is first created it gets this status by default.
+![](img/v2/workflow-new.png)
+- **Assessment** - This status is set when the user records a value for the "Assessment requested on" field on the Assessment form.
+- **Case Plan** - This status is set when the user records a value for the "Date Case Plan Initiated" field on the Case Plan form.
+- **Service Provision** - If the user adds an entry to the Services subform, this status gets set.
+	- NOTE: In some configurations, services are categorized by "Response Type". In these configurations, the "Service Provision" status is split into multiple statuses - one for each "Response Type" option. The case gets the status which corresponds with the Response Type of the service which the case worker added most recently. For instance, if a case worker refers the case to a service provider for a service with a Response Type of "Immediate Response", the workflow status will also be "Immediate Response."
+![](img/v2/workflow-update.png)
+- **Closed** - This status is applied when a user performs the "Close" action on a Case.
+- **Reopened** - This status is applied when a user performs the "Reopen" action on a Case. In this situation, the "Reopen" status appears where the "New" status normally appears in the Workflow Status Bar. This indicates that the case management workflow has started from the beginning.
 
 # Navigating Primero Forms
 
-Once you are creating or editing a record, you will see a navigation list in the left panel. This list is an organized way to navigate through your forms. The initial titles you see are called **Form Groups** and are set up by your site administrator. The current form you are on will be highlighted - see below:
+When you are viewing, creating, or editing a record in Primero, you can move between Forms using the **Form Navigation Menu**, which appears on the left side of the screen.
 
-![](img/case-view-form-group.png)
+![](img/v2/form-nav-menu.png)
 
-If a Form Group has only one form, you can simply click on it and it will populate the form. If it has more than one, you can click on the Form Group name or the expand icon to the right of the name to expand it and see all the forms in the group. Once expanded you can then click on any of the form names to enter into the chosen form. For example, in the image above, the user has selected the **Identification / Registration** form group and the **Basic Identity** form.
+You will notice that some Forms appear under a collapseable header. This is called a **Form Group**. In the above image, "Identification / Registration" is a Form Group, which contains a number of Forms, including "Basic Identity." When you click on a Form Group, the Form Group opens, and you arrive at the first Form in the group. Click on any other Form in the group to view that Form. To collapse an open Form Group, click on it again.
 
-## Navigating Sub-Forms
+## Creating, Viewing, or Editing a Case
 
-In certain data sets and forms, we find that information pertaining to an event or entity is nearly identical. For example, information on specific family members can be the same form, just labeled per family member name and relationship. So in cases like this, we’ve designed these forms as “sub-forms,” and you manually add additional individual forms to add information on family members, individual follow ups, etc. To navigate those, there is an expand/collapse function, and an add/remove function.
+### Creating a Case
+
+To create a case from the Case List, click on the NEW button. You will see a modal like the one pictured below. Here, you have two options: 
+
+  * Create a case by clicking the **CREATE NEW CASE** button on the bottom left of the modal. 
+  OR 
+  * First run a search to check whether a record already exists for the individual you are registering. 
+  	* You can type the individual's name or ID into the search bar and then click the SEARCH button at the bottom right of the modal.
+ 	 * If there is a match in the system, you will be taken to a search results page, which may include Cases managed by other users. \(For more information on fields that are searchable and Case access, read the [Searching for Records](UsersGuide#searching-for-records) section.\) 
+  	* If there is no match, you will be taken to a blank form and asked to create a new Case.
+
+![](/img/v2/new-case.png)
+
+Once you have reached the new case page, you can navigate to different forms as described in the “Navigating Primero Forms” section.
+
+### Editing a Case
+
+To edit a case, enter the case record and click the **EDIT** button. The page will then allow you to edit information in the forms.
+
+There are a number of different field types which you can edit differently.
+
+* **Text Field** - Type normally using your keypad or keyboard.
+
+* **Text Area** - Similar to the Text Field, but the field expands as you type, allowing you to enter more information.
+
+* **Date Field** - Opens a calendar widget where you can directly select the correct day, month, and year. 
+	- To go to another calendar month, click the side arrows to navigate forwards or backwards. 
+	- To choose another year, click on the year at the top left of the widget and select a year from the scrolling menu. 
+	- Clicking "OK" sets your choice; "Clear" returns you to today's date; "Cancel" does not make any changes.
+
+* **Date Field** - Similar to the **Date Field**, except that you can specify a date as well as a time.
+
+* **Tick Box** - Select the tick box if the statement in its label is true.
+
+* **Select Dropdown** - Select an option from the dropdown menu. You can also try typing a word into the select field to narrow down the menu and find a desired option faster.
+
+* **Multi-Select Dropdown** - Similar to Select Dropdown, but you can select more than one option from the dropdown menu. 
+
+* **Radio Button** - Similar to Tick Box, click on the correct answer.
+
+* **Numeric Field** - Type a number into the field. Non-numeric numbers will return an error.
+
+* **Tally Field** - Type in the number you need for each tally. The total is automatically calculated based on the tally fields and is not editable in itself.
+
+You may be required to complete certain fields. Required fields can be identified by the star next to the field name. You will receive an error if you try to save the Case before filling out those fields. Red error messages will appear on the corresponding forms in the Form Navigation Menu to further help you identify the required fields. 
+
+![](/img/v2/case-error-1.png)
+
+![](/img/v2/case-error-2.png)
+
+If you enter a field incorrectly, the system will return a similar series of error messages and alerts when you try to save the case. In the example below, a negative age and a “Date of Birth” in the future cause errors until those fields are fixed. 
+
+![](/img/v2/case-error-age.png)
+
+For more information on how to set which fields are required and other data constraints, please see the **Primero Administration and Configuration Guide**.
+
+## Navigating Subforms
+
+Some Forms contain information that is entered multiple times. For example, a case worker might fill out the Name, Age, Date of Birth for multiple family members on the same Case. In situations like this, Primero organizes information in **Subforms**.
+
+### Adding Subforms
+
+When you click into a Form that contains a subform, you will see an **ADD** button. Click this to add a **Subform Entry**. 
+
+![](img/v2/subform-add.png)
+
+A modal will appear. Here, you fill out information about the entry you want to add. For example, on the "Family Details" subform, you might add information about the Case's sibling.
+
+![](img/v2/subform-modal.png)
+
+When you are done filling in information, click **ADD** at the bottom of the subform modal. Note that if you click **CANCEL** instead, you will lose all of your changes.
+
+### Updating Subforms
+
+If multiple subforms are added in this way, they will be listed in collapsed form. Each can be reopened by clicking on the right-side arrows. Once you are finished with your edits, click **UPDATE** at the bottom of the subform in order to add your changes.
+
+![](img/v2/subform-update.png)
+
+### Removing Subforms
+
+To remove a subform, click on the trashcan icon on the collapsed subform. A modal will appear asking you to confirm your decision.
+
+![](img/v2/subform-remove.png)
 
 ## Alerts
 
-When an incident has been added to your case, you will see a small alert badge next to the incident subform. This helps users keep track of updates to a given case's situation and immediately undertake any necessary services.
+Alerts help you keep track of updates to a Case's situation. Alerts are represented by small gold dots or message banners.
 
-![](/img/image95.png)
+Case-level alerts: 
+ - On the Navigation Menu, an alert next to the Cases link keeps track of total cases with alerts.
+ - In the Case Records List, a small gold dot appears next to each Case with one or more alerts.
 
-There are two other situations which would cause an alert to appear: the addition of a service provision to your case, and an approval request being made on a case. In the first situation, if another user adds a service provision to your case, an alert will appear next to the Services form tab in the forms side bar. (Depending on your configuration, this form may also be called "Response Overview.")
+![](img/v2/alerts-cases.png)
 
-![](/img/image103.png)
+Form-level alerts:
+ - When you click into a case, an alert in the Form Navigation Menu indicates the form with updated information.
+ - When you click into the form, you can see a message banner alert that informs you of the reason for the alert.
 
-You may also see a message at the top of the form informing you of the reason for the alert.
+![](img/v2/approval-alert-forms-2.png)
 
-![](/img/image104.png)
+Alerts appear in any of the following situations:
 
-An alert may also appear on a case form if a request was recently requested for case plan, closure, or best-interest assessment approval. Whenever an approval is requested for one of these situations, an alert will appear next to the appropriate form tab: Services (also called Response Overview in some implementations) for case plan approval, Closure for closure approval, and BIA for best interest assessment approval.
+ - When you request approval for Assessment, Case Plan, and/or Closure. Alerts will appear on the corresponding form or forms pending approval. Once the form is approved or rejected by your supervisor, the alert goes away.
 
-![](/img/image105.png)
+ - When a supervisor adds a Note to your case. Once you edit and save your Case, the alert goes away.
 
-# Creating, Updating, or Editing a Case
+ - When another user directly edits a Services subform on your case. Once you edit and save your Case, the alert goes away.
 
-## Creating a Case
+ - When another user adds a subform entry to your case, such as an Incident or a Service Provision. Once you edit and save your Case, the alert goes away.
 
-To create a case from the case list view, click on the "NEW CASE" button. You will see a modal like the one pictured below. Here, you have two options. The first option is to simply create a case by clicking the "CREATE CASE" button. However, you can also check to see if a case already exists for a child by running a search. \(For a list of fields that are searchable, read the "Quick Search" section.\) To run a search, simply type your search query into the search box and click the "SEARCH" button. This will take you to a search results page. If no search results appear, you can just create a case by clicking on the "NEW CASE" button again on the search screen.
+Note that dependng on your configuration, some form names may be different from the User Guide examples.
 
-![](/img/image92.png)
+## Flagging
 
-Once you have reached the new case page, you can navigate to different forms as we describe in the “Navigating Primero Forms” section.
+The **Flags** button allows a case worker or manager to leave a message or a "Flag" on a record. Usually, this is a reminder to other users that they need to perform an action (example: reminding a case worker to perform an assessment or reminding a manager to approve the Case Plan).
 
-## Editing a Case
+![](/img/v2/flags-button.png)
 
-To edit a case, simply located it in the case list view and then click on it. Once you’ve entered into the case you would like to update, you must click the **EDIT** button in the actions header. The page will then refresh and allow you edit individual form fields.
+When you click the Flags button, a modal appears with two tabs: "Flags" and "Add New Flag". The "Flags" tab will open by default. Here, you will see a list of all flags that have already been added to this record. To add a new flag, click on the "Add New Flag" tab. Here, you can enter a reason for your flag, as well as a flag date.
 
-There are a number of different field types in which you can edit differently.
+![](/img/v2/flags-new.png)
 
-* **Text** - Type normally using your keypad or keyboard.
+Once you click "Save", you will arrive back on the "Flags" tab. Here, you will see the flag you just saved.
 
-* **Text Area** - Similar to the Text field. Type normally, the field expands for more information as you continue to enter information.
+![](/img/v2/flags-list.png)
 
-* **Date** - Multiple ways to edit
+Records which have active flags will appear in the record list with a flag icon displaying the number of active flags on that record.
 
-  * You can type in a numerical date in the format of dd-mm-yyyy
+![](img/v2/flags-alert-records.png)
 
-  * You can type in the first three letters of the month in the format of 01-Jan-2014
+When you are viewing a record, if it has any active flags, the **Flags** button will display a small red circle showing the number of active flags.
 
-  * You can use the calendar widget to go to the correct day and select it directly
+![](img/v2/flags-alert-case.png)
 
-* **Check Boxes** - You may click one or many of the options using the mouse.
+Once a flag is no longer relevant (example: your manager read the flag and approved your Case Plan as you requested), you can _resolve_ the flag. To do this, click the **Resolve** button next to the flag. A modal will now appear where you can enter your reason for resolving the flag. NOTE: Only the user who created a flag can resolve it.
 
-* **Tick Box** - You may click on the box using the mouse.
+![](img/v2/flags-resolve-button.png)
 
-* **Select Drop Down** - Click any option to select it.**Multi-Select Drop Down** - Begin typing and either hit ‘enter’ or click to select multiple options.
+Once the flag is resolved:
+- It will appear under the "Resolved Flags" header in the "Flags" tab of the Flags modal.
+- It will no longer be included in the count of active flags which appears in the record list and on the "Flags" button (see below).
 
-* **Radio Button** - Similar to Tick Box, click on the correct answer using the mouse
+![](img/v2/flags-resolved.png)
 
-* **Numeric Field** - Key the number into the field.
+# Actions Menu
 
-* **Tally Field** - Key in the number you need for each tally. The total automatically calculates based on the tally fields and is not editable in itself.
+To the right of the "Edit" button on the View Case page, you should see a small button with three dots. This is the **Actions Menu**. 
 
-When you attempt to save, there is always the possibility that one or more of the fields you entered will be formatted incorrectly. For instance, if you try to fill in the “Date of Registration or Interview” field--which is supposed to be a current or past date--with a date in the future, Primero will be unable to save the information. In this case, after you hit the “save” button, the case will fail to update with your new information, and the “Date of Birth” field’s label will be highlighted in red, to inform you that the field has been entered incorrectly.
+![](img/v2/action-menu-collapsed.png)
 
-![](/img/image102.png)
+![](img/v2/action-menu-sup.png)
 
-In addition, it may be possible that, when you try to save, you will have forgotten to fill out some fields that are required. In this case, the required fields will be highlighted in red to inform you that they are required. In addition, a message will appear at the top of the form, telling you which un-filled fields are required, and on which forms these fields are located. In the form tabs, small red numbers will appear next to each form section or form group name to tell you how many fields on each need amending, due to their being either blank or improperly formatted. Another way to tell which fields are required is that each will have a small, red star to its right.
+The full list of actions (which ones you see depends on your permissions):
 
-![](/img/image103.png)
+- Refer
+- Assign
+- Transfer
+- Close / Reopen
+	- Note: This action will appear as "Close" if the Case is open, and "Reopen" if the Case is closed.
+- Disable / Enable
+	- Note: This action will appear as "Disable" if the Case is enabled, and "Enable" if the Case is disabled.
+- Add Notes
+- Request Approval
+- Approvals
+- Export
 
-![](/img/image104.png)
+NOTE: When using these actions, you must follow the your local Standard Operating Procedures (SoPs). Primero  does not replace normal day-to-day communications (e.g. email, text, WhatsApp) between the people and organizations that perform Child Protection work.
 
-When a required field is located on a nested subform, a user must either fill out the required field or remove the subform entry with the un-filled field. The red number next to the name of each form section representing the number of un-filled fields in a form section will reflect the total number of required fields across all subform instances in that form section. So, for instance, if there are two required fields on the Family Details subform, and the user has created subform entries for each of three family members without filling out any of the required fields, the number '6' will appear next to **Family Details** form section name in the forms list (2 × 3 = 6).
+## Assignments, Transfers, and Referrals
 
-![](/img/image105.png)
-
-Once again, if you wanted to avoid filling out the fields on one of these subform entries, you could just click the "Remove" button to remove that subform entry. For more information on how you can set which fields are required, please see the **Primero Administration and Configuration Guide**.
-
-# Assignments, Transfers, and Referrals
-
-There are three actions which allow you give another user access to your case: *Assign*, *Transfer*, and *Refer*.
+There are three very important actions which allow you give another user access to your case: *Assign*, *Transfer*, and *Refer*. 
 
 ![](/img/assign-transfer-referral.png)
 
-## Assignments
+### Assignments
 
-Managers have ability to assign a case to a different user. If you select the Assign option from the Actions dropdown menu, a modal will appear that allows you to select from existing users. Assigning the case will change the record owner to the selected user, that record will no longer be available to the previous case worker.
+Managers have the ability to assign a case to a different user. If you select the Assign option, a modal will appear that allows you to select from existing users. Assigning the case will change the record owner to the selected user. The new owner will have full access to the record, and the previous case worker will lose their access.
 
-![](/img/image77.png)
+![](/img/v2/assign-modal.png)
 
-## Transfers
+### Transfers
 
-Much like assignments, transfers send a record to a different user. Unlike assignments, however, transfers give the recipient the opportunity to accept or reject the record. If they reject it, the record will stay with its original owner. If they accept it, the recipient will now have full ownership of the record, and the original owner will no longer have access. 
+Managers can also transfer a record to a different user. Unlike assignments, however, transfers give the recipient the opportunity to accept or reject the record. If the recipient rejects it, the record will stay with its original owner. If recipient accepts it, they will now have full ownership of the record, and the original owner will no longer have access. 
 
-The following modal form will appear and allow you to select options for your transfer. Consent of the individual \(or a consent override\) is required for transfers. You will also be asked if you are transferring to a remote system. This means that you are transferring the case to someone who does not use your Primero system. See the **Transferring to a Remote System** section below for details.
+![](/img/v2/transfer-log.png)
+
+When you select the Transfer action from the Action Button, a modal will appear so you can add the correct information for the transfer. Consent of the individual \(or a consent override\) is required. You may also be asked if you are transferring to a remote system (ie. someone who does not use Primero). As this feature is not currently enabled for most configurations, you can ignore this field without affecting the Transfer action. 
 
 To select the user that you are transferring to, first select the agency and location associated with the user.
 
-![](img/transfer-modal-location-select.png)
+![](img/v2/transfer-modal.png)
 
-Once you have selected an agency and location for your transfer, the "Existing User" field will only display users who are part of that agency and based in that location.
+Once you have selected an agency and location for your transfer, the "Recipient" field will only display users who are part of that agency and based in that location.
 
-![](img/transfer-modal-filtered-users.png)
+![](img/v2/transfer-recipients-filtered.png)
 
 If the desired user is not in the drop down, it means this user does not have privileges to be transferred to or that the user does not meet the criteria selected in the Agency or Location fields.
 
-### Transferring to a Remote System
+#### Accepting or Rejecting Transfers
 
-The "Remote System" option allows you to create a password-protected export file which you can give to the recipient.
+Based on your deployment's configuration, you may have the ability to receive a case transfer. You can see if any cases have been transferred to you on your dashboard under "Shared With Me - Transfers Awaiting Acceptance".
 
-![](/img/transfer-external-checkbox.png)
+![](img/v2/transfer-await-accept.png)
 
-The "Type of Transfer" field indicates the level of information access your export file will include. The options in this list will generally be roles in the system which are permitted to see specific forms on the child's case, depending on the role's expertise. For instance, one option might be "Medical Service Provider." Selecting this option will produce an export file which only contains the information a Medical Service Provider would be able to see in Primero.
+When you enter the case that has been transferred to you, open up the Record Information form group and click on the Transfers / Assignments form. You will see that the status is in progress. Clicking on the menu at the far right displays buttons to either accept or reject the transfer. 
 
-There are three types of exports which you can create as part of an "external" transfer, each for a different type of recipient:
- * **Primero**: Someone who uses a different instance of Primero. This produces a JSON file which can then be imported into the recipient's Primero instance. 
- * **Non-Primero**: Someone who is using a different type of information management system. This also produces a JSON file.
- * **PDF**: Someone who is not using an information management system, and does not have a user account in Primero. 
+![](img/v2/transfer-mgr-accept-reject.png)
 
-![](img/transfer-external-modal.png)
+![](img/v2/transfer-mgr-accept.png)
 
-> _Note:  
-> When transferring any such password-protected export/import file, the means of sending the file, filename, and the password that opens it, will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
+If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “Other Assigned User”. The record information is updated with this change (see below images).
 
-### Accepting or Rejecting Transfers
+Before accepting the transfer:
 
-Based on your deployment's configuration, you may have the ability to accept or reject a case that has been transferred to you. You will be able to see if any cases have been transferred to on your dashboard. If you click on the Referrals and Transfers form for the case that has been transferred to you, you will see that the status is in progress and that there are buttons to either accept or reject the transfer. If you click to accept the case, the status will change to accepted, and you will become the record owner, rather than an “other assigned user”. The record information is updated with this change. If you click Reject, it brings up a dialog box with an OK button and a textbox to enter the Rejection Reason. When you click OK, the rejection reason is saved to the nested subform. The status is changed to 'rejected, and you are removed from 'other assigned users' and no longer have access to the record.
+![](img/v2/transfer-mgr-owner-original.png)
 
-![](img/transfer-recipient-accept-reject.png)
+After accepting the transfer: 
 
-### Requesting a Record Transfer
+![](img/v2/transfer-mgr-owner-accepted.png)
 
-If you find a record owned by another user and need full access to it, you can ask the record owner to transfer the record to you. In Primero, this is known as a *Transfer Request*. Your ability to perform a *Transfer Request* will depend on your instance's configuration. To request a transfer, first search for your case from the case list view. When you identify the entry in the list for the case you are seeking, click the "View" link at the right of the case's row.
+If you click Reject, a modal opens with text box for entering the Rejection Reason. When you click REJECT, the rejection reason is in the transfer subform on the Case and the transfer status is changed to 'Rejected.' You are will then lose access to the record.
 
-![](/img/image88.png)
+![](img/v2/transfer-mgr-reject.png)
 
-Scroll to the bottom of the *View Details* modal. Here, you will see a button marked "Request Transfer". Click it, and a modal will appear.
+#### Requesting a Case Transfer
 
-![](/img/v1-6/image7.png)
+If you find a record owned by another user and need full access to it, you can ask the record owner to transfer the record to you. In Primero, this is known as a *Transfer Request*. Your ability to perform a *Transfer Request* will depend on your instance's configuration. To request a transfer, first search for your case from the case list view. When you identify the case in the search results, clicking on the case will open the *View Details* modal.
 
-![](/img/v1-6/image8.png)
+![](/img/v2/transfer-request.png)
+
+At the bottom left of the *View Details* modal, you will see a button marked "Request Transfer". Click it, and a modal will appear.
+
+![](/img/v2/transfer-request-send.png)
 
 Here, you will see information on the record owner and a text box where you can enter a note to the owner of the record. Click "Send Request" to submit.
 
-#### Notifications for the Case Owner
-
-Once you have sent the transfer request, the record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer.
+Once you have sent the transfer request, the Case's record owner - if their user account is configured with an email address and the ability to receive email notifications - will receive a notification telling them about your request for a record transfer.
 
 ![](/img/v1-6/image9.png)
 
-If the case owner clicks on the link in the email, they will be redirected to the Primero login page and then to the case record, where they will see a notification in the forms side bar and on the *Transfers and Referrals* form alerting them to the transfer request. Here, they will also see the note you included in your request.
+If the Case record owner clicks on the link in the email, they will arrive at the case record in Primero. Here they will see an alert in the Form Navigation Menu on the *Transfers / Assignments* form. Here, they can expand the transfer request subform to see the details of your request, including any notes you have included.
 
-![](/img/v1-6/image10.png)
+![](/img/v2/transfer-request-owner.png)
+<!-- TODO Above image has a missed translation. Replace image once translation is fixed. -->
 
-![](/img/v1-6/image11.png)
-
-At this point, the record owner can choose whether or not to transfer the record to you.
+At this point, the record owner can choose whether or not to transfer the record to the user who requested the transfer.
 
 ## Referrals
 
-Referring a record is a way of giving a user limited access to a record without transferring it completely. While referring a record allows the recipient to access your record, the referring user will maintain full record ownership and will be able to remove the recipient's access at any time. To refer a record from either the individual record page or the list view, go to the Action menu at the top of the page and select "Refer Case."
+Referring a record is a way of giving a user limited access to a record without transferring it completely. While referring a record allows the recipient to access your record, the referring user will maintain full record ownership and will be able to remove the recipient's access at any time. To start a referral, click the **Refer** action in the actions menu.
 
-You may also refer a case directly from the services subform. For more information on how to do this, see the **Referring From Services Form** section below.
+You may also refer a case directly from the services subform. For more information on how to do this, see the [**Referring From Services Form**](UsersGuide#referring-from-services-form) section below.
 
 The following modal form will appear and allow you to select options for your referral.
 
-![](/img/referral-modal.png)
+![](/img/v2/referral-modal.png)
 
-As with transfers, consent of the individual is required for referral. Consent for referral is found on the Data Confidentialty form under the Identification/Registration Form Group. 
+As with transfers, consent of the individual is required for referral. Consent for referral is found on the Data Confidentialty form. 
 
 The following fields are important for selecting a user:
  * **Service** you are requesting the other user perform
  * **Agency** you would like to perform the service
  * **Location** where you would like the service to take place
 
-![](/img/referral-modal-narrow-down-users.png)
+![](/img/v2/referral-recipient-diagram-gh.png)
 
-Now, select the “Existing User”--a user within your deployment of Primero. A list of all users that perform the service selected, from the agency selected, and in the location selected will appear. If the desired user is not in the drop down, it means this user does not have privileges to be referred to or does not meet one of the three criteria listed above.
+Now, select the “Recipient” - who must be a user within your deployment of Primero. A list of all users that perform the service selected, from the agency selected, and in the location selected will appear. If the desired user is not in the drop down, it means this user does not have privileges to be referred to or does not meet one of the three criteria listed above.
 
 For more information on how to specify the Agency a user belongs to, the Location where they are based, and the Services they offer, please see the **Primero Administration and Configuration Guide**.
 
 ### Referring to a Remote System
 
-The "Remote System" option allows you to create a password-protected export file which you can give to the recipient.
+The "Remote System" option allows you record a referral to an individual or organization who is not using Primero. This action will generate a PDF export of some limited information about the Case which you can give to the referral recipient. To start this process, select the tick box for "Are you transferring to a remote system?"
 
-![](/img/refer-external-checkbox.png)
+![](/img/v2/referral-modal-external.png)
 
-The "Type of Referral" field indicates the level of information access your export file will include. The options in this list will generally be roles in the system which are permitted to see specific forms on the child's case, depending on the role's expertise. For instance, one option might be "Medical Service Provider." Selecting this option will produce an export file which only contains the information a Medical Service Provider would be able to see in Primero.
-
-There are three types of exports which you can create as part of an "external" referral, each for a different type of recipient:
- * **Primero**: Someone who uses a different instance of Primero. This produces a JSON file which can then be imported into the recipient's Primero instance. 
- * **Non-Primero**: Someone who is using a different type of information management system. This also produces a JSON file.
- * **PDF**: Someone who is not using an information management system, and does not have a user account in Primero. 
-
-![](img/refer-external-modal.png)
+The "Type of Referral" field indicates the level of information access your export file will include. The options in this list will generally be roles in the system which are permitted to see specific forms on the Case, depending on the role's expertise. For instance, one option might be "Medical Service Provider." Selecting this option will produce a non-encrypted PDF export file which only contains the information a Medical Service Provider would be able to see in Primero. In the example above, we have chosen a generic "Referral" type.
 
 > _Note:  
-> When referring any such password-protected export/import file, the means of sending the file, filename, and the password that opens it, will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
+> When referring any export/import file containing sensitive Case information, the means of sending the file will be determined by the Information Sharing Protocol \(ISP\) decided by the appropriate local steering committee. When determining this policy, on-the-ground security considerations will be at play, as well as the ease and speed of physical transport within the country._
 
 ### Revoking a Referral
 
-To remove a referral recipient's access to a case, start by editing the case using the **EDIT** button.
+The Case Worker who manages the Case can remove a referral recipient's access to a Case, usually upon completion of the referral work. To revoke a Case you have referred to another user, simply enter the Case and go to the **Referrals** form in the **Record Information** form group. Expand the referral subform for the recipient you wish to remove and click the **REVOKE** action in the referral's action menu.
 
-![](/img/case-edit-button.png)
+![](/img/v2/referral-revoke-menu.png)
 
-In the **Record Information** form, find the _Other Assigned Users_ field. Under this field, there will be a link labelled "Remove Referrals." Click this.
+Once you have revoked a referral, that referral's recipient will no longer have access to the Case. The referral's status changes from *In Progress* to *Done* to indicate that the referral has been closed and the recipient no longer has Case access.
 
-![](/img/referral-revoke-1.png)
-
-The field will now allow you to remove the names of users who have access to the case. Click the 'x' next to the name of the user whose access you would like to revoke.
-
-![](/img/referral-revoke-2.png)
-![](/img/referral-revoke-3.png)
-
-Once you have removed their name from the list, click **SAVE**. The referral recipient will no longer have access to the case.
-
-![](/img/case-save-button.png)
-
-For more information about how to edit a case, please see the **Editing a Case** section.
+![](/img/v2/referral-revoked.png)
 
 ### Relinquishing a Referral
 
-Based on the deployment, you may have the ability to relinquish a case that has been referred to you. You can see if any cases have been referred to you on your dashboard. When you click on the **Referrals and Transfers** form for the case that has been referred to you, you will see a DONE button next to the referral that has been made to you. If you are done reviewing the case, you can click the done button. Once clicked, it will be removed from your case list and you will no longer have access to it.
+If you have received a Case referral, you can relinquish the referral and give up access to the Case at any time by marking the referral as **Done**. Go to the case record, click on the *Referrals* form in the *Record Information* form group. Click the **DONE** action in the actions menu of the appropriate referral. Primero will then ask you to confirm your decision in a modal. Once you have marked the referral as **Done**, the referred Case will be removed from your Case List and you will no longer have access to it.
 
-![](img/image82.png)
+![](img/v2/referral-relinquish-done.png)
+
+## Close / Reopen
+
+The **Close / Reopen** action allows you to change a Case's "Case Status" field. Only certain users have the ability to perform this action.
+
+When a Case is open, this action appears as **Close** in the Actions menu. Clicking this action will change the Case Status field to "Closed", and the Workflow Status to "Closed". NOTE: Once a Case is closed, it will not appear by default on the Case List page. For information on how to find closed Cases, please see the [Filtering](UsersGuide#filtering) section.
+
+When a Case is closed, the action appears as **Reopen** in the Actions menu. clicking this action will change the Case Status field to "Open" and set the "Case Reopened?" field on the Basic Identity form. It will also set the Case's Workflow Status to "Reopened".
+
+![](/img/v2/reopen-case.png)
+
+## Approvals
+
+### Requesting Approval for a Form
+
+Case workers can request a manager's approval on the following Case forms:
+
+- Assessment
+- Case Plan
+- Closure
+
+**NOTE**: Based on your Primero implementation's configuration, only some of these forms may have approvals enabled. If you have questions about which approvals are enabled in your configuration, please contact your system administrator.
+
+To request approval for one of these forms, click the **Request Approval** action in the Actions menu.
+
+![](/img/v2/approval-button-cw.png)
+
+The below modal will appear. Select the form for which you would like to request approval, then click "OK." In the example here, the user has selected approval for the Case Plan form.
+
+![](/img/v2/approval-request-cw.png)
+
+Once you have requested approval, you will notice that an alert appears on the link to the corresponding form on your Case's Form Navigation Menu (in our example, this would be the "Case Plan" form). Click into this form. Note that there is an alert message at the top of the form. Also, note that the "Approval Status" field is set to "Pending." This means that you are still waiting for your manager to either approve or reject the form.
+
+![](img/v2/approval-alert-record.png)
+
+![](img/v2/approval-alert-forms.png)
+
+Now, click into the "Record Information" section of the Form Navigation Menu. Click "Approvals". Here, you will see a list of all approval requests and approvals made on your Case. The approval request you just submitted should appear here.
+
+![](/img/v2/approvals-status-cw.png)
+
+Now, go to your dashboard. In the "Approvals" section, your case will now be counted as "Pending" in the column for the form where you requested approval (in our example, this is "Case Plan").
+
+![](/img/v2/dashboard-cp-cw-approvals-focus.png)
+
+### Approving or Rejecting a Form
+
+Managers will also have the ability to approve or reject certain Case forms. Once again, these are:
+
+- Assessment
+- Case Plan
+- Closure
+
+A manager can check for pending approvals in the "Approvals" section of their dashboard.
+
+![](/img/v2/dashboard-cp-mgr-1-approvals-focus.png)
+
+The numbers here represent the number of Cases with pending approvals for each approvable form.
+
+Using our previous example, if a manager clicks on the number for "Case Plan," they will arrive at a list of Cases with pending Case Plan approval requests. Clicking into one of these Cases, they will see an alert on the Case Plan form in the Form Navigation Menu. The manager can then click into the Case Plan form, read through the Case Plan that the case worker has recorded, and decide whether to approve or reject it.
+
+To approve or reject the Case Plan, the manager clicks the **Approvals** action in the Action Menu.
+
+![](/img/v2/approval-button-mgr.png)
+
+In the modal that appears, the manager can select "Approve" to approve the Case Plan, or "Not Approve" to reject it. Note that the manager can also use the "The form for" dropdown to select a different form to approve. The manager can also leave a comment on their decision, which will appear both on the approved / rejected form and in the Approvals form.
+
+![](/img/v2/approval-mgr.png)
+
+Once a manager has approved or rejected the Case Plan, the "Approval Status" on that form will update to be either "Approved" or "Rejected." The alert will also disappear from the "Case Plan" form. For both the case worker and the manager, the "Approvals" section of the dashboard will show one less pending Case Plan approval. In the "Approvals" section of the case worker's dashboard, the number for "Approved" or "Rejected" Case Plans will have increased by one, depending on how the manager responded.
+
+## Add Notes
+
+Managers overseeing a team of case workers may want to add notes to a particular Case so that they can give the case worker guidance on case management.
+
+**NOTE**: This action is particularly useful for managers who do not have the ability to edit Cases. If managers do have the ability to edit Cases, they can always add a note by editing the case, going to the Notes form, and adding a subform entry.
+
+To add a note, in the Actions menu, click the **Add Notes** action.
+
+![](/img/v2/notes-mgr.png)
+
+A modal will appear. Here, you can write the subject of your note, as well as its full text. Click **SAVE** to add the note to the case.
+
+![](/img/v2/notes-add-mgr.png)
+
+When the case worker logs in and views this case, an alert will appear on the link for the Notes form in the Form Navigation Menu.
+
+![](/img/v2/notes-alert-cw.png)
+
+If the case worker then clicks on the form, they will be able to see the manager's note, including the subject, full text, the manager's username, and the date the note was added.
+
+![](/img/v2/notes-view-cw.png)
+
+## Exporting Information on Records
+
+Primero allows users to export information about records in a number of formats. Users can export information from the View Record or Record List pages.
+
+| **Format** | **Description** | **Fields Included** |
+| --- | --- | --- |
+| CSV | Stands for “Comma-Separated Values.” Readable in Excel. This format does not support languages with non-UTF-8 characters (e.g. Arabic, Bangla, etc.) | All fields to which the user’s role has access. |
+| List View | CSV file containing the fields which are visible in the list view. Readable in Excel. This format does not support languages with non-UTF-8 characters (e.g. Arabic, Bangla, etc.) Only available from the list view. | All fields visible from the list view. |
+| Excel | Exports to a standard .xls file. Each form gets its own tab in the file. | All fields to which the user’s role has access. |
+| JSON | Easiest format to be read \(only\) by Primero. Not easy for users to read. | All fields to which the user’s role has access. |
+| Photo Wall | Exports a PDF file with the photo of each selected Case along with the Case’s ID. Only available for Cases. Only available from the list view. | Photo, ID. |
+| PDF | PDF file which displays data as it appears in Primero. Not available from the list view. Does not support encryption. | Fields on all forms specified by the user, to which the user's role has access. |
+| UNHCR | CSV file specifically formatted to be compatible with UNHCR’s data import. Only available for Cases. | Decided by partners and UNHCR on an implementation-specific basis. This export is not used or available in all contexts. |
+| Custom | Excel file containing all the fields specified by the user. | All fields specified by the user, to which the user’s role has access. |
+
+To export one or more records, in the Actions menu, click **Export**. A modal will appear. You will see a dropdown labelled "Type of export." Click into this dropdown and select an export format.
+
+![](img/v2/exports-modal.png)
+
+Depending on the format you choose, you may then be able to select forms and fields to export, specify a file name, and choose a password to encrypt your export file.
+
+![](img/v2/exports-password.png)
+
+### Custom Exports
+
+If you select **Custom** as your export type, you will see the below fields appear in the Export modal.
+
+![](img/v2/custom-export-1.png)
+
+There two formats for the Custom export are:
+- _Form_ - The user selects a list of forms or a list of fields to include in the export. Primero exports an Excel file with a _tab for each form_ included in the export.
+- _Field_ - The user selects a list of fields to include in the export. Primero exports an Excel file with _one tab_, which includes all exported fields.
+
+If you select "Form" as your format, a checkbox appears with the label "Would you like to choose individual fields for a form?"
+- If you leave this un-checked, you will choose a list of _forms_ you would like to include in the export file. All fields on these forms will be included.
+- If you check this box, you will choose a list of individual _fields_ to include in the export file. In the Excel file Primero exports, the fields you choose will be organized by form, so that each form gets its own tab.
+
+![](img/v2/custom-export-form.png)
+
+### Downloading Exports
+
+To create the export file, click **Export**. A notification will appear with a link to the Exports page. Click on this.
+
+![](img/v2/export-notification.png)
+
+You will now arrive at the Exports page. You can always access the Exports page by clicking the **Exports** link in the Navigation Menu. Here you will see a list of all of the exports you have created. When Primero is still loading an export, you will see a "loading circle" spinning next to it. If an export is ready to download, you will see a "download" icon next to it. Click on an export in the list to download the file.
+
+![](img/v2/exports-page.png)
+
+**NOTE**: PDF exports do not appear on the Exports page. Instead, these download automatically once you submit your export.
 
 # Services
 
-A core part of the case management process is responding to the needs of a case. Primero manages these through the **Services** form and through the provision of services (sometimes also referred to as "responses").
-
+Case workers can plan, document, and refer for services using the **Services** form.
 
 ## Services Form
 
-To add a service to a case, simply go into the **Services** form on the case edit page, and click the "add" button. You will see a subform like the one in the picture below. Here, you can enter information on the service.
+To add a service to a Case, go to the **Services** form, and click the "Add" button. A modal will appear. NOTE: The screenshot and description below are based on the default configuration. The fields on the Services subform may vary depending on your configuration.
+![](img/v2/services-subform-1.png)
 
-![](img/image96.png)
+The first two fields on the subform provide information about the type of service you are providing, and in which part of the case management workflow it belongs.
+- **Type of Response** - This field is a _general_ category for the service. For instance, some contexts require that services be divided into "Immediate" responses and "Comprehensive" responses, to distinguish quickly-implemented, one-time actions from long-term, ongoing ones. In contexts where this kind of distinction is not necessary, the only option for this field will be "Service Provision". When you add a service to a Case, the Workflow Status is set to be the Response Type of the most-recently-added service. For instance, if a user adds a service with a Response Type of "Immediate Response" on Monday, the Workflow Status will be set to "Immediate Response." If, the next day, the user then adds a service with a Response Type of "Comprehensive Response," the Workflow Status will then change to "Comprehensive Response."
+- **Type of Service** - This is the _specific_ type of service being provided (example: "Medical Examination" or "Psychosocial Counseling"). When you enter a value in this field, Primero uses it to search for Agencies and Users capable of providing the chosen service type.
+![](img/v2/services-subform-response-service-type.png)
 
-When selecting a "Type of Response", remember that this will help determine the workflow status of your case. So, for instance, if you select "Action Plan," your workflow status will also be "Action Plan" so long as you do not add any other services or close the case.
+_Setting a Due Date_ - Each service has a due date, which will appear on your service's Task in the Tasks list page. Depending on your Primero implementation's configuration, one of the below two fields will set the service's due date:
+- **Implementation Timeframe** - When you select an option in this dropdown, Primero sets a due date based on the selected timeframe and the current date. For instance, if you select a timeframe of three days on October 8, your service's due date will be October 11.
+![](img/v2/services-subform-impl-timeframe.png)
+- **Appointment Date** - In some configurations, selecting an Appointment Date sets the service due date.
+![](img/v2/services-subform-appt-date-field.png)
 
-![](img/image97.png)
+_Referral information (internal)_ - If another user in Primero will be providing this service, fill out the below fields to start the process of referring your Case to that user.
+- **Implementing Agency** - The Agency which will be providing the service. The dropdown will only display Agencies which are able to provide the type of service you entered in the **Type of Service** field (see above).
+- **Service delivery location** - Location where you would like the service to occur. To find a location in the dropdown, start typing the location's name; Primero will update the options to show all locations which match the name you have entered. Selecting a location here will narrow down which Users appear in the **Service Provider Name** field (see below).
+- **Service Provider Name** - This the Primero User who will perform the service. The options in this dropdown will be all Users who are able to perform the selected **Type of Service**, belong to the selected **Implementing Agency**, and are in the selected **Service delivery location**. When you refer the case for this service, this User will gain temporary access to the Case.
+![](img/v2/services-subform-int-referral.png)
 
-Another important field to fill in is the type of service that will be rendered for this particular response, whether it be medical, legal, or whatever other options have been specified in your implementation's configuration. This field will help service providers properly take care of your case.
+_Referral information (external)_ - If an individual or organization who does not use Primero will be providing the service, fill out the below fields.
+- **Is this a referral to an external system / user?** - Check this box to indicate that this service will be provided by an individual or organization not using Primero. Checking this box also allows you to perform an **External Referral** for this service.
+- **Service Provider** - Name of the individual who will provide the service.
+- **Service Provider** - Agency or organization who will provide the service.
+- **Service Location** - Place where the service will be provided.
+![](img/v2/services-subform-ext-referral.png)
 
-![](img/services-subform-select-service-type.png)
+_Marking a service as implemented_ - The two fields below indicate whether and when the service was implemented.
+- **Service implemented** - This field is disabled. Any service saved to a Case gets a value of "Not Implemented" in this field by default. To change this fields value to "Implemented," fill out the "Service Implemented On" field (see below). Once all services on a case are marked as "Implemented," the Case's Workflow Status will update to "Service Implemented".
+- **Service Implemented On** - When the user fills out a date and time in this field and then saves their Case, the "Service implemented" field (see above) is set to "Implemented."
 
-Choosing a timeframe for the service will help generate reminders in you or your manager's dashboard when the service is coming due or overdue. This timeframe, depending on your configuration, will take one of two forms: the time period after which the service will be due (e.g. three hours, one day); or the actual due date for the service (e.g. November 30, 2017). Both these forms are displayed in the pictures below. For more information on these reminders, check out the Dashboards section.
-
-![](img/image101.png)
-
-![](img/image106.png)
-
-Selecting a service provider in this form will allow you to refer your case to the service provider directly from the form. When selecting a service provider, fill in Implementing Agency and Service delivery location. When you fill in the "Service Provider Name" field you will be shown a list of users filtered by the selected agency, delivery location, and service type. So, for instance, if you specified the "ACTED," "Psychosocial Service," and "Dahuk", you will only see users which are part of ACTED, located within Dahuk, and capable of providing a Psychosocial Service.
-
-![](img/services-subform-filter-users.png)
+![](img/v2/services-subform-referral-field-filtering.png)
 
 ## Referring from **Services** Form
 
-Once you have saved the case with this new service, and have been redirected back to the view page, go to the **Services** form and the service you just added. If you have filled out the the _Response Type_, _Service Type_ and _Service Provider Name_ fields for your service, the "REFER" button will appear in the subform header.
+Once you have saved the case with this new service, go to the **Services** form and the service you just added. A **Refer** button will appear on your service if:
+- You have filled out the the **Type of Response**, **Type of Service** and **Service Provider Name** fields for your service.
+- _Or_, you have selected the **Is this a referral to an external system / user?** checkbox.
 
-![](img/services-subform-refer-button.png)
+Note that, if you have already referred a service, the **Refer** button will allow you to refer the service a second time, and will read **Refer Again**.
 
-Click on this button, and you will see a modal like the one pictured below. Here, you can enter information on your referral just like you normally would. However, if you have already filled out a service provider and a service type for your service, these fields will be pre-entered for you. Remember to ensure that your case has provided consent, or that you choose the override consent option before referring.
+![](img/v2/services-subform-refer-button.png)
 
-![](img/services-subform-referral-modal.png)
+Click on the **Refer** button, and a modal will appear. Note that the information you have already entered about the **Type of Service**, **Implementing Agency**, **Service delivery location** and **Service Provider Name** are already filled in for you. Remember to ensure that your case has provided consent for the referral.
 
-# Workflow Status
+![](img/v2/services-subform-referral-modal-internal.png)
 
-## The Workflow Status Bar
+If you selected the **Is this a referral to an external system / user?** checkbox, the values you entered for **Service Provider**, **Service Provider**, and **Service Location** will appear in the referral modal.
 
-The **Workflow Status** allows the user to quickly understand where in the case management process the current case stands. This value can be seen at the top of the case forms, in the **Workflow Status Bar**. By default, Primero is not set to display this bar, but the system can be configured to change this. (See the **Primero Administration and Configuration Guide**.)
-
-![](img/image107.png)
-
-Above is the default **Workflow Status Bar**. Here you see the following statuses: "New," "Case Plan," "Care plan," "Action plan," "Service provision," "Service Implemented," and "Closed." The first of these statuses, "New," is applied when a case is first created. The second, "Case Plan," is applied after the "New" status, when the field "Date Case Plan Initiated" (or any other field with the id "date_case_plan") is filled out by the user.
-
-The next three statuses, "Care plan," "Action plan," and "Service provision," correspond to the three potential "Response Type" values for a service. A case is given one of these statuses if the case is still open, and still has non-implemented services planned for it. The "Response Type" value for the most-recently-added, non-implemented entry in the **Services** form will be the new workflow status.
-
-![](img/image108.png)
-
-For example, let's suppose I have a case with three services: one created on June 1 with a type of 'Action plan' which is *implemented*; one created on June 20 with a type of 'Care plan' which is *not implemented*; and one created on June 25 with a type of 'Service provision' which is *implemented*. In this situation, the case's workflow status would be 'Care plan', since this is the Response Type of the most-recently-added, non-implemented entry in the **Services** form.
-
-These statuses will vary depending on the options in your configuration for the "Response Type" lookup. So, for instance, if your "Response Type" options are "Remote Contact" and "In-Person," you will see these two as potential workflow statuses, rather than the three that we see here.
-
-The next status, "Service provision," is deprecated, and should be left out of any configuration. The "Service Implemented" status, meanwhile, applies when all of the entries in the **Services** form have been implemented. One of these services is considered implemented if the "Service Implemented" field (or any field with the id "service_implemented") on the service subform is set to "Implemented."
-
-Finally, the "Closed" status applies when a case's case status has been set to "Closed."
-
-Please see the **Primero Administration and Configuration Guide** for more details on how to change which workflow statuses appear for your implementation.
-
+![](img/v2/services-subform-referral-modal-external.png)
 
 # Notification Emails
 
@@ -760,173 +850,121 @@ For more information on how turn welcome and notification emails on or off in th
 
 # Tracing
 
-Using Primero's **Tracing** functionality, users can perform searches on behalf of parents or guardians looking for unaccompanied or separated children.
+Depending on your deployment, you may have access to Primero's **Tracing** records and forms. This functionality enables certain users to record Tracing Requests on behalf of parents or guardians looking for unaccompanied or separated children.
 
 ## Consent for Tracing
 
-**IMPORTANT NOTE**: Cases will only appear as potential matches for tracing request if they have provided consent for tracing. Users can record a case's consent to take part in tracing by filling out the tracing consent field in the "Data Confidentiality" form. This field is pictured below.
+**IMPORTANT NOTE**: Cases will only appear as potential matches for tracing requests if they have provided consent for tracing. Users can record a case's consent to take part in tracing by filling out the tracing consent field in the "Data Confidentiality" form. This field is pictured below.
 
-![](/img/v1-6/image13.png)
+![](/img/v2/tracing-consent.png)
 
 ## Tracing Requests
 
-If your user is configured for tracing activities, you should have access to **Tracing Requests**, and you should see the "Tracing Requests" link in the navigation bar at all times.
+If your user is configured for basic tracing activities, you should have access to *Tracing Requests* in the Navigation Menu. If you click on this link, you will see a list of all the tracing requests you have access to. This is called the Tracing Request List. Click NEW to begin tracing.
 
-![](/img/v1-6/image14.png)
-
-If you click on this link, you will see a list of all the tracing requests you have access to. Click "New Tracing Request" to begin tracing.
-
-![](/img/v1-6/image15.png)
+![](/img/v2/tracing-list.png)
 
 First, you will fill out the "Inquirer" form. This contains information on the parent or guardian who has initiated tracing. Primero will use much of the information in this form to search against information recorded about family members in each case's "Family Details" subform entries. So, for instance, if a child's father, named "Ibrahim," is the inquirer, Primero will search for cases with a family member whose relationship to the child is recorded as "Father", and whose name is "Ibrahim."
 
-![](/img/v1-6/image16.png)
+![](/img/v2/tracing-inquirer.png)
 
 Next, you will fill out information on the child by filling out a subform entry in the "Tracing Request" form. Primero will use the information here to search for cases with similar attributes. So, for instance, if the father mentioned above is looking for a daughter named "Fatima," who is 15 years old, Primero will search for cases with the name "Fatima" and an age of 15.
 
-![](/img/v1-6/image17.png)
+![](/img/v2/tracing-request.png)
 
+![](/img/v2/tracing-request-subform.png)
+
+**IMPORTANT NOTE**: Even if a user has access to the Tracing Request List and/or can add new records, they may not be configured for full tracing functionality (running searches, viewing matches, etc.). If you have questions about which tracing activities are enabled in your configuration, please contact your system administrator.
+
+<!--
 ## Matches
 
-Once you have saved the tracing request, you will see a "Find Match" link at the top of your "Tracing Request" subform.
+If you are configured for searching, you will see a "Find Match" link at the top of your "Tracing Request" subform once you have saved the tracing request.
 
-![](/img/v1-6/image18.png)
-
-If you click on this link, you arrive at a page which displays a number of cases which are potential matches for your tracing request. This list will contain the case's ID, the record owner's user name, the record owner's agency, the approximate likelihood of the case being the right match (either "Possible" or "Likely"), and (depending on your user's configured permissions) a link which displays the *View Details* modal (See "Viewing Record Details" section above).
-
-![](/img/tracing-from-tr-match-list.png)
-
-The records provided as potential matches are based a scoring system that weight many attributes as detailed in the scoring section below. 
-
-### Scoring
-
-Primero gives potential matches a score based on how similar they are to the tracing request *compared to other potential matches Primero has found*. This means that, if scoring were done on a 1-10 scale, the lowest potential match in a list would get a score of 1, the highest would get a 10, and the median match would get a 5. A high scoring match Primero will record as "Likely" and a medium-to-low scoring match, Primero will record as "Possible."
-
-When looking at the potential matches for your tracing request, you can see which case attributes matched your tracing request by clicking on the score label (Likely or Possible). This will reveal a modal which compares a number of case attributes side-by-side with the attributes you gave your tracing request. Attributes which are the same get a '✔', attributes which are different get a red 'X', and attributes which were left blank on both the case and the tracing request get a '-'. 
-
-![](/img/tracing-score.png)
-
-### Adjustable Matching Criteria
-
-On the right side of the screen you will see a dynamic list of fields named "Matchable Case Fields." Each form containing matchable fields is represented by a select box representing a Case or Tracing Request form. For instance, the _Basic Identity_ field contains all attributes used for matching found on the **Basic Identity** form.
-
-![](/img/matching-criteria.png)
-
-By selecting the dark grey 'X' on each attribute you can remove any attribute that you do not wish to use for comparing cases and tracing requests in the current matching search. If you wish to add an atribute to the the searching criteria, simply begin to type the attribute into select box of the form the attribute is found on. Only fields which are included in the global Matching Configuration will be available. (For more information on which fields are included in the global Matching Configuration, contact your Primero Administrator.) After modifying the matching criteria, click **APPLY**.
-
-![](/img/matching-criteria-selection.png)
-
-The matching results will change based on your new criteria. To see more details about a potential match, click the "View" link to the right of the result (this may or may not appear, depending on your configuration).
-
-![](/img/tracing-from-tr-match-list-view-link.png)
-
-You will then see the *View Details* modal, which will display a number of attributes of the case. (For more information on the *View Details* modal, please see the **Viewing Record Details**) section above.
-
-### Linking Tracing Requests with Cases
-
-Once you have identified a match which you think is the correct one, you can link this case to your tracing request, provided your user is configured to be able to see the case record in its entirety. If so, you should be able to click on the case's ID.
-
-![](/img/tracing-from-tr-match-list-select-case.png)
-
-You will now arrive at the case record page. At the top of the page, you should see a button that says "Match." 
-
-![](/img/tracing-from-tr-case-match-button.png)
-
-Click on this button to link the case to your tracing request. You should then see a notification at the top of the screen, indicating that your match succeeded.
-
-![](/img/tracing-from-tr-case-match-notification.png)
-
-Now, if you return to your tracing request's list of matches by hitting the back button, you will see that the entry for the case you just linked to your tracing request is in bold.
-
-![](/img/tracing-from-tr-match-list-matched.png)
-
-Similarly, when the user responsible for the case goes to the case's "Tracing and Separation Details" form, they will see a label marked "Matched tracing request," and to the right of this, a link to the tracing request which you created.
-
-![](/img/tracing-from-tr-case-matched-tr-link.png)
-
-At this stage in the tracing process, the user who initiated the tracing request would manually contact the user and/or agency responsible for the case to initiate the verification and reunification process.
-
-### Initiating Tracing From a Case
-
-Depending on the system's configuration, some users may also be able to search for matching tracing requests from the View Case page. A case must have indicated consent for tracing in order for a user to have access to this feature. This field will be found on the **Consent** / **Data Confidentiality** form.
-
-![](/img/tracing-from-case-consent.png)
-
-Once you indicate that the child has given consent to share information for tracing and save the case, you should see a button marked **FIND TRACING MATCH** at the top of the View Case page.
-
-![](/img/tracing-from-case-button.png)
-
-If you click on this button, you will arrive at a list of potentially matching tracing requests for your case.
-
-![](/img/tracing-from-case-match-list.png)
+If you click on this link, you arrive at a page which displays a number of cases which are potential matches for your tracing request. This list will contain the case's ID, the record owner's user name, the record owner's agency, the approximate likelihood of the case being the right match, and (depending on your user's configured permissions) a link which displays the *View Details* modal.
+-->
 
 # Reports
 
-Reports allow users to see a high-level, aggregate view of data, helping them to understand trends and coming challenges in their work. Only certain roles--and thus certain users--will have the ability to create or view reports. Some users will be able to navigate to the **Reports** section of the application and view existing reports but not edit them or create new ones, while others will have the ability to view, create, edit, and export reports.
+Reports allow users to see a high-level, aggregate view of data, helping them to understand trends and coming challenges in their work. Only certain roles - and thus certain users - will have the ability to create or view reports. Some users will be able to navigate to the **Reports** section of the application and view existing reports but not edit them or create new ones, while others will have the ability to view, create, and edit reports.
+
+![](img/v2/reports-list.png)
 
 ## Creating a Report
 
-To create a report, first click the **Reports** icon in the top toolbar. You will see that there are already a number of pre-built reports which you can view at any time. To start your own, click the **Create Report** button at the top of the screen.
+To create a report, first click on **Reports** in the Navigation Menu. You will see that there are already a number of pre-built reports which you can view at any time. To start your own, click the NEW button at the top of the screen. Complete all of the fields as detailed below, and then click SAVE to generate and view your report. 
 
-![](img/image23.png)
+**Name and Description**: Type in a title for the report, so you can find it on the Reports List later.
 
-When you have reached the new report form, be sure to enter a name and description for your report. You must then specify the module from which to draw the records for your report, as well as the type of records you want to be drawing upon. Here, we have chosen the Child Protection module, and the Case record type.
+**Module and Record Type**: Specify the module and type of records you want to draw the records from for your report. Below, we have chosen the Child Protection module, and the Case record type.
 
-![](img/image54.png)
+![](img/v2/reports-module.png)
 
-Next comes choosing the row and column attributes by which you want your data to be grouped. The first item you choose in each field will be the outer grouping layer, with each successive item acting as a sub-categorization. Taking a look at the example below, we can see that the columns of our report have been first divided by sex, and then sub-divided by permanent district/chiefdom, since these are the first and second “Group by column” attributes, respectively. We can see that the rows of the report follow the same pattern.
+**Rows and Columns**: Group your data by row and by column by selecting one or multiple fields from a dropdown menu. The options in the menu depend on the type of record and module you selected above. For instance, if you selected Case records, you will only see the fields that would appear on a Case record form, as opposed to an Incident record. 
 
-![](img/image59.png)
+It is possible to select more than one attribute per row or column, for further subdivision of data. Then the first item you choose in each field will be the outer grouping layer, with each successive item acting as a sub-categorization.
 
-![](img/arrow-down.png)
+![](img/v2/reports-groupings.png)
 
-![](img/image51.png)
+In the example below, the rows are divided by sex and the columns by marital status. 
 
-The columns of your report will be augmented by a final “Total” column, which shows the aggregate for each row. It is important to note that the numbers in each of your columns may not add up to the number in your total column, since many attributes will go undefined by the workers doing registration. For instance, in the example below, three cases with the “child has been abandoned” protection concern were never assigned a sex, resulting in a report with one female, no males, and four total cases.
-
-![](img/image24.png)
-
-Furthermore, any reports based on fields within certain nested forms will automatically count a field for each saved record, even if a nested form for this field was never filled out. This is because Primero automatically populates an empty subform on the page for form sections such as “Protection Concerns,” so that the user can easily enter information. When a user fails to enter information for that field, however, the field still counts as a single item. For instance, if you were to create a case and fail to enter any information into the blank Protection Concerns subform, a report outlining how many cases had each type of protection concern would still count your case as having a single protection concern type, even though you had never entered any information on the Protection Concerns subform. This would then count into the total, without counting into the column for any single one of the protection concern types. Taking a look at the example below, we can see that, in the Freetown district, one child has been registered as abandoned and one with a protection concern type of “Extreme levels of poverty.” But the total number of protection concerns for this district is three, meaning that one case was registered with a protection concern form where the protection concern type was never filled in.
-
-![](img/image61.png)
-
-After you have defined the row and column attributes for your report, you will choose the fields from which you will receive an aggregate count. This feature obviously only works on numeric fields. To give an example of how it works, imagine we have a report that disaggregates your cases based on number of children in the family and date of birth \(by year\). Three cases end up going into the report: one born in 2004 whose family has three children, one born in 2001 whose family has six children, and another born in 2001 whose family also has six children. Here is what the report would normally look like:
-
-![](img/image49.png)
-
-As you can see, the 2001 column has the number “2” in the “7” row, since there are two cases born in 2001 whose families have seven children. We see this same number in the “Total” column for the “7” row for the same reasons. If we choose to have aggregate counts on the “Number of children” field, however, the report would look like this:
-
-![](img/image06.png)
-
-Now, instead of seeing that there are two cases that meet the criteria for being born in 2001 and having a family with seven children, we instead see the number “14,” representative of fourteen total children. Once again, this field also shows up in the “Total” column.
-
-### Age Range
-
-The next field, specifying age range, helps make reports involving age more manageable by grouping them into a smaller list of ranges. The two images below exemplify the usefulness of this feature. The first shows part of a sprawling report without age ranges enabled. The second shows the same report with age ranges.
-
-![](img/image62.png)
+![](img/v2/reports-age.png)
 
 ![](img/arrow-down.png)
 
-![](img/image66.png)
+![](img/v2/reports-no-graph.png)
 
-### Date Ranges
+**Age and Date Ranges**: Select the tickboxes for age and date ranges to group these large data sets into a smaller, more manageable set of ranges. 
 
-The next field, “Use date ranges,” allows you to do much the same thing, but with date fields instead of ages. Now, instead of having to have a column for every date over a two year period--as would be the case with the default, day-long range--you can disaggregate your records by whether or not they fit into week-, month-, or year-long spans of time.
+![](img/v2/reports-groupings-3.png)
 
-### Filters
+The two images below exemplify the usefulness of this feature. The first image shows part of a sprawling report showing every age. The second shows the same report with age ranges enabled.
 
-Next, you can put filters on the records you are using to eliminate irrelevant data. By default, each report filters to include only those records with a “Case Status” of “Open” and a “Valid Record?” value of “Yes.” You can create a filter on any single-select, multi-select, tick box, check box, radio button, number, tally, or date field, and for each one, you can specify which values are acceptable for records being included into the report.
+![](img/v2/report-no-age-range-2.png)
 
-Finally, you are asked whether you would like to generate an exportable graph of your report.
+![](img/arrow-down.png)
 
-## Viewing your reports
+![](img/v2/report-age-range-2.png)
 
-If you click save on your report, and it saves successfully, you should arrive at the view page for your report. You will first see a table representing your report. Above the table, you should see either one or two tabs. The first, marked “Table,” represents what you currently see. The second, which will only appear if you specified that your report should generate a graph, will be marked “Graph” and will show you just that.
+**Generate a Graph**: Select this tickbox to generate a bar graph of your data in addition to a table report.
 
-![](img/image70.png)
+![](img/v2/reports-groupings-graph.png)
 
-You can also use the **Export** button above the tabs to export either the data \(in CSV form\) or the graph \(as a .png image file\). Below is an example of a graph generated and then exported from a report.
+**Filters**:  Put filters on the records you are using to eliminate irrelevant data. The two default filters are set to ensure that reports include only "Open" and "Valid" records. You can create a filter on any field, as well as specify which values are acceptable for records being included into the report.
 
-![](img/image47.png)
+![](img/v2/reports-filters.png)
+
+![](img/v2/reports-filter-new.png)
+
+
+## Viewing a Report
+
+If you click SAVE on your report, and it saves successfully, you will arrive at the view page for your report. If you did not select the "Generate a graph" tickbox, you will see a data table representing your report. If you specified that your report should generate a graph, you will see the graph followed by the table report.
+
+[](img/v2/reports-groupings-2.png)
+
+![](img/arrow-down.png)
+
+![](img/v2/reports-graph-2.png)
+
+Note that the columns of your report contain a “Total” column, which shows the aggregate for each row. The numbers in each of your columns may not add up to the number in your total column, since many fields will go undefined by the workers doing registration. For instance, in the example above, there were a total of 30 female cases, but only 5 in which the marital status field was filled out. 
+
+If you wish to view only the cases that contain relevant data, you can select EDIT to go back into the case. Then, create a new report filter and select the "Is not blank?" tick box. Once saved again, the report generated with this criteria has a Total column that only calculates based on the completed fields.
+
+![](img/v2/reports-filter-blank.png)
+
+![](img/arrow-down.png)
+
+![](img/v2/reports-filtered-table.png)
+
+# Audit Logs
+
+Some administrative users and team managers may have access to the *Audit Logs*. To access this feature, click the Settings link in the Navigation Menu. Once you are in Settings, click "Audit Logs" in the Settings Navigation Menu.
+
+![](img/v2/audit-logs.png)
+<!-- TODO The above screenshot contains missing translations. Replace these once the missing translations have been fixed. -->
+
+The Audit Logs page shows you a list of all actions which users have committed in the system. Each row represents a different action, including the username of the user, the type of action, the type (and sometimes the ID) of the record on which the action was performed, and the date and time of the action. Using the filters menu to the right of the list, you can limit which audit log entries are displayed. You can filter by date and time or username. To apply a set of filters, click "Apply," and to clear out all filters, click "Clear."
+
+NOTE: The Audit Logs do not contain identifiable information from records. For instance, an audit log entry might tell you that the user "john-case-worker" edited a case with the ID "abcd123" at 10:15 on October 1, 2020. However, it will not tell you what specific information was added to the case.
 
