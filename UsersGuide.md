@@ -17,7 +17,7 @@ Good information management practice emphasizes the importance of making data ac
 
 When logging into Primero, you’ll see Username and Password fields. Click in the Username field and type in the unique user name provided to you by your System Administrator. Then enter your password in the field below and click **LOG IN**.
 
-![](img/v2/login.png)
+![](img/v2/gh/login.png)
 
 # Navigating Primero
 
@@ -847,7 +847,7 @@ Welcome emails will look something like the below message. If the new user click
 ![](img/image117.png)
 
 For more information on how turn welcome and notification emails on or off in the system's configuration, please see the **Primero Administration and Configuration Guide**.
-
+<!-- Ghana not using tracing requests
 # Tracing
 
 Depending on your deployment, you may have access to Primero's **Tracing** records and forms. This functionality enables certain users to record Tracing Requests on behalf of parents or guardians looking for unaccompanied or separated children.
@@ -875,7 +875,7 @@ Next, you will fill out information on the child by filling out a subform entry 
 ![](/img/v2/tracing-request-subform.png)
 
 **IMPORTANT NOTE**: Even if a user has access to the Tracing Request List and/or can add new records, they may not be configured for full tracing functionality (running searches, viewing matches, etc.). If you have questions about which tracing activities are enabled in your configuration, please contact your system administrator.
-
+-->
 <!--
 ## Matches
 
