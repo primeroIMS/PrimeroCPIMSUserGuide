@@ -106,13 +106,13 @@
     *  [*Referring from Services Form*](UsersGuide.md#referring-from-services-form)
 
 *  [*Notification Emails*](UsersGuide.md#notification-emails)
-
+<!--
 *  [*Tracing*](UsersGuide.md#tracing)
 
     *  [*Consent for Tracing*](UsersGuide.md#consent-for-tracing)
 
     *  [*Tracing Requests*](UsersGuide.md#tracing-requests)
-
+-->
 *  [*Reports*](UsersGuide.md#reports)
 
     *  [*Creating a Report*](UsersGuide.md#creating-a-report)
