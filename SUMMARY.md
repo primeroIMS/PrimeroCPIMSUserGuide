@@ -19,8 +19,8 @@
 
     * [*Tasks List*](UsersGuide.md#tasks-list)
 
-    * [*Record Lists*](UsersGuide.md#record-lists)
-
+<!--* [*Record Lists*](UsersGuide.md#record-lists)
+-->
     * [*Language Toggle*](UsersGuide.md#language-toggle)
 
     * [*Support*](UsersGuide.md#support)
@@ -35,8 +35,8 @@
 
         * [*The View Details Modal*](UsersGuide.md#the-view-details-modal)
 
-        * [*Adding a Service Provision to a Case from the Search Results Page*](UsersGuide.md#adding-a-service-provision-to-a-case-from-the-search-results-page)
-
+<!--    * [*Adding a Service Provision to a Case from the Search Results Page*](UsersGuide.md#adding-a-service-provision-to-a-case-from-the-search-results-page)
+-->
     * [*Filtering*](UsersGuide.md#filtering)
 
     * [*Viewing and Editing a Record*](UsersGuide.md#viewing-and-editing-a-record)
@@ -106,8 +106,8 @@
     *  [*Referring from Services Form*](UsersGuide.md#referring-from-services-form)
 
 *  [*Notification Emails*](UsersGuide.md#notification-emails)
-<!--
-*  [*Tracing*](UsersGuide.md#tracing)
+
+<!--*  [*Tracing*](UsersGuide.md#tracing)
 
     *  [*Consent for Tracing*](UsersGuide.md#consent-for-tracing)
 

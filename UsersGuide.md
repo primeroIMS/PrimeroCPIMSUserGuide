@@ -135,11 +135,13 @@ Note that each Primero configuration may have different names for the fields whi
 - Assessment
 	- Due Date: "Date Initial Screening Assessment due" on the "Referral Details" form.
 	- Complete: "Date Assessment Started" on the "Initial Screening Assessment" form.
+
 ![](img/v2/gh/assessment-due.png)
 
 - Case Plan
 	- Due Date: "Date Case Plan Due" on the "Comprehensive Assessment" form.
 	- Complete: "Date Case Plan Initiated" on the "Case Plan" form.
+
 ![](img/v2/gh/case-plan-due.png)
 
 - Service:
@@ -158,11 +160,11 @@ Note that each Primero configuration may have different names for the fields whi
 ![](img/v2/followup-due.png)
 
 ## Record Lists
-
+<!-- Only using cases in SWIMS
 There are three main types of records in Primero: **Cases**, **Incidents**, and **Tracing Requests**. In the Navigation Menu, below the Tasks link are the links to the List pages for each type of record. These are the **Case List**, the **Incident List**, and the **Tracing Request List**. Depending on the work you do for your organization, you may only have access to one or two of these pages. For instance, in most Child Protection contexts case workers only deal with Cases, and so only have access to the Case List. For this reason, we usually use the Case List as an example when discussing record list functionality.
 
 For more information on how record lists work, please see the [Navigating Record Lists](UsersGuide#navigating-record-lists) section.
-
+-->
 ## Language Toggle 
 
 At the bottom of the Navigation Menu, you will see a dropdown with a small globe icon and the your current language. This is the **Language Toggle**. Click this to view Primero in a different language.
@@ -212,14 +214,19 @@ Click the **SAVE** button once you are finished making changes.
 # Navigating Record Lists
 
 ## Searching for Records
-
+<!-- updated below to only show cases
 ![](/img/v2/case-list-view-search-focus.png)
 
 On all of the record list pages, you will find a search bar at the top right of the page. When you perform a search, Primero compares your query against the following fields for each record type:
-- **Cases**: “Long ID,” “Case ID,” “proGres ID,” “Name,” “Nickname,” “Other Name,” “Ration Card Number,” “ICRC Ref No.,” “RC ID No.,” “UNHCR ID,” “UN Number,” “National ID Number,” “Number of Other ID Document,” and “Other Agency ID.”
+- **Cases**: “Long ID,” “Case ID,” “Name,” “Nickname,” “Other Name,” “National ID Number,” and “Number of Other ID Document.” 
 - **Incidents**: "Long ID," "Incident Code," "Account of Incident," "Survivor Code", and "Incident ID IR."
 - **Tracing Requests**: “Long ID,” “Inquirer ID,” “Name of inquirer,” and “Nickname of inquirer.”
+**Note**: You can search and filter the record lists at the same time (example: Search for Cases with the name "Smith" while filtering for only Male Cases with a Risk Level of "High").
+-->
+![](/img/v2/case-list-view-search-focus.png)
 
+On all of the record list pages, you will find a search bar at the top right of the page. When you perform a search, Primero compares your query against the following fields for each record type:
+- **Cases**: “Long ID,” “Case ID,” “Name,” “Nickname,” “Other Name,” “National ID Number,” and “Number of Other ID Document.” 
 **Note**: You can search and filter the record lists at the same time (example: Search for Cases with the name "Smith" while filtering for only Male Cases with a Risk Level of "High").
 
 ### Searching for Cases Managed By Other Users
@@ -258,7 +265,7 @@ A modal will appear. Enter information about the Incident, then click **SAVE**.
 Depending on your user's configuration, you may also see a second button next to the **SAVE** button, marked **SAVE AND ADD SERVICE PROVISION**. Clicking on this will save the Incident details you have entered, then take you directly to the Add Service modal, where you can enter information on a service you have performed for the Case.
 
 ![](/img/v1-6/image12.png)
--->
+
 ### Adding a Service Provision to a Case from the Search Results Page
 
 Depending on your Primero implementation's configuration, some users may be able to add a service provision to a Case managed by another user. To do this, you must first run a search and be on the Search Results page; this action is never available from the Case List page. Then, select the Case's checkbox and click **Add Service Provision** from the Action Menu. A modal will appear. Here, enter information on the service you are adding, and then click **SAVE**.
@@ -270,7 +277,7 @@ Depending on your Primero implementation's configuration, some users may be able
 If another user adds a service to your Case, an alert will appear on the "Services" form in the Form Navigation Menu. An alert message also appears at the top of the form, telling the case worker which user added the service and when. For more information on how alerts are added to a Case, please see the [Alerts](UsersGuide#alerts) section.
 
 ![](/img/v2/alert-services.png)
-
+-->
 ## Filtering
 
 On the right side of all of the Record Lists, you will see the **Filters Panel**. Filtering is an efficient way to find the record or records that need your immediate attention. 
@@ -314,8 +321,8 @@ On the view and edit pages for a Case, the user will see the **Workflow Status B
 While each configuration will have its own specific workflow statuses, the default Primero configuration has the following:
 - **New** - When the case is first created it gets this status by default.
 ![](img/v2/workflow-new.png)
-- **Assessment** - This status is set when the user records a value for the "Assessment requested on" field on the Assessment form.
-- **Case Plan** - This status is set when the user records a value for the "Date Case Plan Initiated" field on the Case Plan form.
+- **Assessment** - This status is set when the user records a value for the "Date Assessment Started" on the "Initial Screening Assessment" form.
+- **Case Plan** - This status is set when the user records a value for the "Date Case Plan Initiated" on the "Case Plan" form.
 - **Service Provision** - If the user adds an entry to the Services subform, this status gets set.
 	- NOTE: In some configurations, services are categorized by "Response Type". In these configurations, the "Service Provision" status is split into multiple statuses - one for each "Response Type" option. The case gets the status which corresponds with the Response Type of the service which the case worker added most recently. For instance, if a case worker refers the case to a service provider for a service with a Response Type of "Immediate Response", the workflow status will also be "Immediate Response."
 ![](img/v2/workflow-update.png)
@@ -848,8 +855,8 @@ Welcome emails will look something like the below message. If the new user click
 ![](img/image117.png)
 
 For more information on how turn welcome and notification emails on or off in the system's configuration, please see the **Primero Administration and Configuration Guide**.
-<!-- Ghana not using tracing requests
-# Tracing
+
+<!--# Tracing
 
 Depending on your deployment, you may have access to Primero's **Tracing** records and forms. This functionality enables certain users to record Tracing Requests on behalf of parents or guardians looking for unaccompanied or separated children.
 
@@ -876,8 +883,8 @@ Next, you will fill out information on the child by filling out a subform entry 
 ![](/img/v2/tracing-request-subform.png)
 
 **IMPORTANT NOTE**: Even if a user has access to the Tracing Request List and/or can add new records, they may not be configured for full tracing functionality (running searches, viewing matches, etc.). If you have questions about which tracing activities are enabled in your configuration, please contact your system administrator.
--->
-<!--
+
+
 ## Matches
 
 If you are configured for searching, you will see a "Find Match" link at the top of your "Tracing Request" subform once you have saved the tracing request.
