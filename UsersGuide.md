@@ -1,9 +1,10 @@
 # Introduction
+<!-- Not needed for SWIMS
+![](img/intro4.png)
 
-![](img/intro4.png)  
 The _Information Management and Innovation to Protect Children in Emergencies_ project has developed a software application that will help partners securely collect, store, manage, and share data for protection-related incident monitoring and case management. The new platform is called _Primero_ \(Protection-related Information Management\). _Primero_ supports multiple modules, including the “next generation” of the field-tested, inter-agency CPIMS and GBVIMS systems, which are currently in use in 20+ countries. These new iterations, called the CPIMS+ and GBVIMS+, can operate separately or be deployed as integrated modules on the _Primero_ platform. The inter-agency Steering Committees that govern the use of each of these modules will continue to support the new system.
-
-![](img/v2/case-list-intro.png)
+-->  
+![](img/v2/gh/case-list-intro.png)
 
 _Primero_ is flexible and adaptable to accommodate a broad range of protection concerns including GBV, unaccompanied and separated children, and monitoring grave violations of children’s rights in situations of armed conflict. To meet operational challenges, the application was designed to function both on- and off-line, with limited or no connectivity, and in multiple deployment configurations. A strong emphasis has been placed on security and confidentiality, with intuitive workflows designed to simplify processes while promoting good practice. Role-based access and granular security ensures that only those who need to see data will have access to it. All system transactions are time stamped, password protected and encrypted. _Primero_ has a user-friendly interface and intuitive tools, facilitating the work of field personnel while decreasing security risks and duplication. Primero functions as a Progressive Web Application (PWA), which means some functionality, such as basic information collection, continues to work even when the user is offline. In addition to exports in a number of formats, Primero has a highly secure application program interface \(JSON API\), which facilitates interoperability with other systems.
 
@@ -128,18 +129,18 @@ Primero automatically generates Tasks based on information you fill out in the C
 Each type of Task action also has a date field in the Case forms which marks the Task as "complete". Once a user enters a date value into this field, the Task is marked as "complete" and disappears from the Tasks list.
 
 To complete a Task, click on that Task in the list. You will arrive at that Task's Case, on the form which corresponds to that Task and contains its "complete" field. (Note: Usually the "complete" field for a Task will have help text to let you know it is used to complete a Task.) For example, if I click on a Case Plan Task, I will arrive at the Case Plan form for that Case. This form contains the field "Case Plan Initiated". If I fill out this field, the Task will be completed and will disappear from the Tasks list.
-
+<!--Contextualized for SWIMS
 Note that each Primero configuration may have different names for the fields which set and complete Tasks. Below is a list of the fields used for each type of Task action in the Primero default configuration.
-
+-->
 - Assessment
-	- Due Date: "Date Assessment Due" on the "Basic Identity" form.
-	- Complete: "Assessment requested on" on the "Assessment" form.
-![](img/v2/assessment-due.png)
+	- Due Date: "Date Initial Screening Assessment due" on the "Referral Details" form.
+	- Complete: "Date Assessment Started" on the "Initial Screening Assessment" form.
+![](img/v2/gh/assessment-due.png)
 
 - Case Plan
-	- Due Date: "Date Case Plan Due" on the "Assessment" form.
+	- Due Date: "Date Case Plan Due" on the "Comprehensive Assessment" form.
 	- Complete: "Date Case Plan Initiated" on the "Case Plan" form.
-![](img/v2/case-plan-due.png)
+![](img/v2/gh/case-plan-due.png)
 
 - Service:
 	- Due Date: "Implementation Timeframe" on the "Services" subform.
