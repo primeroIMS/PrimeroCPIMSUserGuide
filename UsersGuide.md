@@ -34,7 +34,9 @@ On smaller devices, such as tablets or phones, you will need to click or tap on 
 
 ## Dashboard
 
-The Dashboard ("Home") is where you can quickly find information about the records you manage in Primero. The type of information that appears here will depend on the type of work you do for your organization. For instance, social workers, managers, and agency administrators will each see dashboards which are tailored to the needs of their day-to-day work.
+The Dashboard ("Home") is where you can quickly find information about the records you manage in Primero. The type of information that appears here will depend on the type of work you do for your organization. For instance, social workers, managers, and agency administrators will each see dashboards which are tailored to the needs of their day-to-day work. Test edit.
+
+![](/img/v2/test.png)
 
 A few notes about dashboards:
 - You can always get back to the dashboard by clicking on the "Home" link in the Navigation Menu. 
